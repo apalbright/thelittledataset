@@ -1,0 +1,13 @@
+{
+    "path" : "~/Dropbox (Personal)/tldataset/content/post",
+    "sortOrder" : [
+        {
+            "ascending" : false,
+            "columnIndex" : 4
+        },
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

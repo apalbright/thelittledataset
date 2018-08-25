@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Building Visualizations Using City Open Data | The Little Dataset</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Building Visualizations Using City Open Data</span></h1>
+<h2 class="author">Philly School Comparisons</h2>
+<h2 class="date">2016/09/30</h2>
+</div>
+
+<main>
+
+
+<h1 id="intro">Intro</h1>
+
+<p>There is a collection of notes that accompanies me throughout my day, slipped into the deep pockets of my backpack. The collection consists of small notebooks and post-its featuring sentence fragments written in inky Sharpie or scratched down frantically using some pen that was (of course) dying at the time. Ideas, hypotheses, some jokes. Mostly half baked and sometimes completely raw. Despite this surplus of scribbles, I often struggle when it comes acting on the intention of the words that felt so quick and simple to jot down&hellip; In fact, I often feel myself acting within the confines of this all too perfect graphical representation of project development:</p>
+
+<figure>
+<center>
+    <img src="/post/building-visualizations-using-city-open-data-philly-school-comparisons_files/liana.jpg" alt="" width="60%" height="60%"/>
+    <figcaption><i>via wonderful cartoonist Liana Finck</i></figcaption>
+    </center>
+</figure>
+
+<p>One topic of interest &ndash; comparisons of charter and district public schools &ndash; has been on my (self-imposed) plate for over a year now. The topic was inspired by a <a href="http://www.charterwars.org/">documentary webseries</a> that a friend actually just recently completed.<sup class="footnote-ref" id="fnref:Plug-Sivahn-Bars"><a href="#fn:Plug-Sivahn-Bars">1</a></sup> Given that she is currently wrapping up this long-term project, I am doing the same for my related mini-project. In other words, some post-its are officially being upgraded to objects on the internet.</p>
+
+<p>To quote the filmmakers, &ldquo;<em>Charter Wars</em> is an interactive documentary that examines the ideologies and motivations driving the charter school debate in Philadelphia.&rdquo; Ah, yes, charter schools&hellip; a handful of slides glided by me on the topic in my morning Labor Economics class just this past Wednesday.<sup class="footnote-ref" id="fnref:Check-out-the-in"><a href="#fn:Check-out-the-in">2</a></sup> However, despite the mention of these papers, I am not going to use this space in order to critique or praise rigorous academic research on the subject. Instead, I will use this space as a playground for the creation of city open data visualizations. Since Sivahn focuses her Charter Wars project on Philadelphia, I decided to do the same, which turned out to be a great idea since <a href="https://www.opendataphilly.org/">OpenDataPhilly</a> is a joy to navigate, especially in comparison to other city data portals. After collecting data of interest from their site, I used <code>ggplot2</code> in R (praise <a href="http://hadley.nz/">Hadley</a>!) to create two visualizations comparing district and charter schools in the city.</p>
+
+<p>Think of this post as a quasi-tutorial inspired by <em>Charter Wars</em>; I&rsquo;ll present a completed visual and then share the heart of the code in the text with some brief explanation as to the core elements therein.</p>
+
+<h1 id="visualization-1-mapping-out-the-city-and-schools">Visualization #1: Mapping out the city and schools</h1>
+
+<p>First things first, I wanted to map the location of public schools in the city of Philadelphia. Open data provides workable latitude and longitudes for all such schools, so this objective is entirely realizable. The tricky part in mapping the schools is that I also had to work with shape files that yield the city zip code edges and consequently build the overarching map on which points (representing the schools) can be plotted. I color schools based on four categories:<sup class="footnote-ref" id="fnref:Note-from-Si-on"><a href="#fn:Note-from-Si-on">3</a></sup></p>
+
+<ol>
+<li>Charter (Neighborhood)</li>
+<li>Charter (Citywide)</li>
+<li>District (Neighborhood)</li>
+<li>District (Citywide)</li>
+</ol>
+
+<p>I then break the plots up so that we can compare across the school levels (rather than plotting hundreds of points all on one big map):</p>
+
+<ol>
+<li>Elementary School</li>
+<li>Middle School</li>
+<li>High School</li>
+<li>K-8 School</li>
+</ol>
+
+<p>Here is my eventual result generated using R:</p>
+
+<figure>
+<center>
+    <img src="/post/building-visualizations-using-city-open-data-philly-school-comparisons_files/MappingSchools.png" alt="" width="100%" height="100%"/>
+    </center>
+</figure>
+
+<p>The reality is that most of the labor in creating these visuals is in figuring out both how to make functions work and how to get your data in the desired workable form. Once you&rsquo;ve understood how the functions behave and you&rsquo;ve reshaped your data structures, you can focus on your <code>ggplot2</code> command, which is the cool piece of your script that you want to show off at the end of the day:</p>
+
+<pre><code class="language-r">ggplot() + geom_map(data = spr1, aes(map_id = Zip.Code), 
+    map = np_dist, fill=&quot;gray40&quot;, color=&quot;gray60&quot;) + 
+  expand_limits(x = np_dist$long, y = np_dist$lat)+ 
+  my_theme()+
+  geom_point(data=datadistn, aes(x=X, y=Y, col=&quot;District (Neighborhood)&quot;), 
+    size=1.5, alpha=1)+
+  geom_point(data=datachartn, aes(x=X, y=Y, col=&quot;Charter (Neighborhood)&quot;), 
+    size=1.5, alpha=1)+
+  geom_point(data=datadistc, aes(x=X, y=Y, col=&quot;District (Citywide)&quot;), 
+    size=1.5, alpha=1)+
+  geom_point(data=datachartc, aes(x=X, y=Y, col=&quot;Charter (Citywide)&quot;), 
+    size=1.5, alpha=1)+
+  facet_wrap(~Rpt.Type.Long, ncol=2)+
+  ggtitle(expression(atop(bold(&quot;Mapping Philly Schools&quot;), 
+    atop(italic(&quot;Data via OpenDataPhilly; 
+    Visual via Alex Albright  (thelittledataset.com)&quot;),&quot;&quot;))))+
+  scale_colour_manual(values = c(&quot;Charter (Citywide)&quot;=&quot;#b10026&quot;, 
+    &quot;District (Citywide)&quot;=&quot;#807dba&quot;,&quot;Charter (Neighborhood)&quot;=&quot;red&quot;,
+    &quot;District (Neighborhood)&quot;=&quot;blue&quot;), guide_legend(title=&quot;Type of School&quot;))+
+  labs(y=&quot;&quot;, x=&quot;&quot;)
+</code></pre>
+
+<p>This command creates the map I had previously presented. The basic process with all these sorts of <code>ggplot2</code> commands is that you want to start your plot with <code>ggplot()</code> and then add layers with additional commands (after each <code>+</code>). The above code uses a number of functions and geometric objects that I identify and describe below:</p>
+
+<ul>
+<li><code>ggplot()</code>: Start the plot</li>
+<li><code>geom_map()</code>:  Geometric object that maps out Philadelphia with the zip code lines</li>
+<li><code>my_theme()</code>: My customized function that defines style of my visuals (defines plot background, font styles, spacing, etc.)</li>
+<li><code>geom_point()</code>: Geometric object that adds the points onto the base layer of the map (I use it four times since I want to do this for each of the four school types using different colors)</li>
+<li><code>facet_wrap()</code>: Function that says we want four different maps in order to show one for each of the four school levels (Middle School, Elementary School, High School, K-8 School)</li>
+<li><code>ggtitle()</code>: Function that specifies the overarching plot title</li>
+<li><code>scale_colour_manual()</code>: Function that maps values of school types to specific aesthetic values (in our case, colors!)</li>
+<li><code>labs()</code>: Function to change axis labels and legend titles &ndash; I use it to get rid of default axes labels for the overarching graph</li>
+</ul>
+
+<p>Definitely head to the <a href="https://github.com/apalbright/philly_viz/blob/master/points_on_map.R">full R script</a> on Github to understand what the arguments (<code>spr1</code>, <code>np_dist</code>, etc.) are in the different pieces of this large aggregated command.<sup class="footnote-ref" id="fnref:Recommended-reso"><a href="#fn:Recommended-reso">4</a></sup></p>
+
+<h1 id="visualization-2-violin-plots">Visualization #2: Violin Plots</h1>
+
+<p>My second creation illustrates the distribution of school scores across the four aforementioned school types: Charter (Neighborhood), Charter (Citywide), District (Neighborhood), and District (Citywide).<sup class="footnote-ref" id="fnref:Note-that-the-co"><a href="#fn:Note-that-the-co">5</a></sup> To explore this topic, I create <a href="http://eamoncaddigan.net/dataviz/r/psych/2015/09/26/violin-plots/">violin plots</a>, which can be thought of as sideways density plots, which can in turn be thought of as smooth histograms.<sup class="footnote-ref" id="fnref:The-efficacy-or"><a href="#fn:The-efficacy-or">6</a></sup> Alternatively, according to <a href="https://flowingdata.com/2012/05/15/how-to-visualize-and-compare-distributions/">Nathan Yau</a>, you can think of them as the &ldquo;lovechild between a density plot and a box-and-whisker plot.&rdquo; Similar to how in the previous graph I broke the school plotting up into four categories based on level of schooling, I now break the plotting up based on score type: overall, achievement, progress, and climate. See below for the final product:</p>
+
+<p><center>
+    <img src="/post/building-visualizations-using-city-open-data-philly-school-comparisons_files/Scores.png" alt="" width="100%" height="100%"/>
+    </center></p>
+
+<p>The core command that yields this graph is as follows:</p>
+
+<pre><code class="language-r">ggplot(data_new, aes(factor(data_new$Governance0), data_new$Score))+
+  geom_violin(trim=T, adjust=.2, aes(fill=Governance0))+
+  geom_boxplot(width=0.1, aes(fill=Governance0, color=&quot;orange&quot;))+
+  my_theme()+
+  scale_fill_manual(values = pal2, guide_legend(title=&quot;School Type&quot;)) +
+  ylim(0,100)+
+  labs(x=&quot;&quot;, y=&quot;&quot;)+
+  facet_wrap(~Score_type, ncol=2, scales=&quot;free&quot;)+
+  ggtitle(expression(atop(bold(&quot;Comparing Philly School Score Distributions&quot;),
+    atop(italic(&quot;Data via OpenDataPhilly (2014-2015); 
+    Visual via Alex Albright (thelittledataset.com)&quot;),&quot;&quot;))))
+</code></pre>
+
+<p>Similar to before, I will briefly explain the functions and objects that we combine to into this one long command:</p>
+
+<ul>
+<li><code>ggplot()</code>: Begin the plot with aesthetics for score and school type (<code>Governance0</code>)</li>
+<li><code>geom_violin()</code>: Geometric object that specifies that we are going to use a violin plot for the distributions (also decides on the bandwidth parameter)</li>
+<li><code>geom_boxplot()</code>: Geometric object that generates a basic boxplot over the violin plot (so we can get an alternative view of the underlying data points)</li>
+<li><code>my_theme()</code>: My customized function that defines the style of visuals</li>
+<li><code>scale_fill_manual()</code>: Function that fills in the color of the violins by school type</li>
+<li><code>ylim()</code>: Short-hand function to set y-axis to always show 0-100 values</li>
+<li><code>labs()</code>: Function to get rid of default axes labels</li>
+<li><code>facet_wrap()</code>: Function that separates plots out into one for each of the four score types: overall, achievement, progress, climate</li>
+<li><code>ggtitle()</code>: Specifies the overarching plot title</li>
+</ul>
+
+<p>Again, definitely head to the <a href="https://github.com/apalbright/philly_viz/blob/master/violin_plot.R">full R script</a> to understand the full context of this command and the structure of the underlying data.<sup class="footnote-ref" id="fnref:Relevant-resourc"><a href="#fn:Relevant-resourc">7</a></sup></p>
+
+<h1 id="wrapping-up">Wrapping up</h1>
+
+<p>It took me many iterations of code to get to the current builds that you can see on Github, especially since I am not an expert with mapping &ndash; unlike my better half, <a href="http://www.sarahmakesmaps.com/hello/">Sarah Michael Levine</a>. See the below comic for an accurate depiction of <em>current-day-me</em> (the stick figure with ponytail) looking at the code that <em>July-2015-me</em> originally wrote to produce some variant of these visuals (stick figure without ponytail):</p>
+
+<figure>
+<center>
+    <img src="/post/building-visualizations-using-city-open-data-philly-school-comparisons_files/code_quality.png" alt="" width="100%" height="100%"/>
+    <figcaption><i>via XKCD</i></figcaption>
+    </center>
+</figure>
+
+<p>Hopefully current-day-me was able to improve the style to the extent that it is now readable to the general public. Moreover, in intensively editing code created by my past self over the past string of days, I also quickly recalled that the previous graphical representation of my project workflow needed to be updated to more accurately reflect reality:</p>
+
+<figure>
+<center>
+    <img src="/post/building-visualizations-using-city-open-data-philly-school-comparisons_files/manic2.jpg" alt="" width="60%" height="60%"/>
+    <figcaption><i>adapted from Liana Finck with the help of snapchat artistic resources</i></figcaption>
+    </center>
+</figure>
+
+<p>On a more serious note, city open data is an incredible resource for individuals to practice using R (or other software). In rummaging around city variables and values, you can maintain a sense of connection to your community while floating around the confines of a simple two-dimensional command line.</p>
+
+<hr />
+
+<h1 id="code">Code</h1>
+
+<p>If you&rsquo;d like to replicate elements of this project, see <a href="https://github.com/apalbright/philly_viz">my Github repo</a>.</p>
+
+<h1 id="plugs">Plugs</h1>
+
+<ul>
+<li>Thanks to Sivahn for communicating with me about her <em>Charter Wars</em> documentary webseries project&ndash;good luck with the screening and all, Si!</li>
+<li>If you like city open data projects, or you&rsquo;re a New Yorker, or both&hellip; check out <a href="http://iquantny.tumblr.com/">Ben Wellington&rsquo;s blog</a> that focuses on NYC open data.</li>
+</ul>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:Plug-Sivahn-Bars">Plug: Sivahn Barsade will be screening her documentary webseries Charter Wars <a href="https://www.eventbrite.com/e/charter-wars-advanced-screening-tickets-27579051686?aff=efbevent">this weekend in Philadelphia</a>! Check it out if you&rsquo;re around. <a class="footnote-return" href="#fnref:Plug-Sivahn-Bars">↩</a></li>
+<li id="fn:Check-out-the-in">Check out the intertwined and state-of-the-art <a href="/post/building-visualizations-using-city-open-data-philly-school-comparisons_files/df2013.pdf">Dobbie-Fryer (2013)</a> and <a href="/post/building-visualizations-using-city-open-data-philly-school-comparisons_files/fryer2014.pdf">Fryer (2014)</a> if you&rsquo;re interested in charter school best practices and their implementation in other school environments. <em>Yes, that&rsquo;s right; I&rsquo;m linking you to the full pdfs that I downloaded with my university access. Think of me as Robin Hood with the caveat that I dole out journal articles instead of $.</em> <a class="footnote-return" href="#fnref:Check-out-the-in">↩</a></li>
+<li id="fn:Note-from-Si-on">Note from Si on four school categories: <em>While most people, and researchers, divide public schools into charter-run and district-run, this binary is lacking vital information. For some district and charter schools, students have to apply and be selected to attend. It wouldn&rsquo;t be fair to compare a charter school to a district magnet school just like it wouldn&rsquo;t be fair to compare a performing arts charter school to a neighborhood district school (this is not a knock against special admit schools, just their effect on data analysis). The additional categories don’t allow for a perfect apples-apples comparison, but at least inform you’ll know that you’re comparing an apple to an orange.</em> <a class="footnote-return" href="#fnref:Note-from-Si-on">↩</a></li>
+<li id="fn:Recommended-reso">Recommended resources for those interested in using R for visualization purposes: a great <a href="https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf">cheat sheet</a> on building up plots with ggplot2 &amp; the incredible collection of <a href="https://flowingdata.com/category/tutorials/">FlowingData tutorials</a>; Prabhas Pokharel&rsquo;s <a href="http://prabhasp.com/blog/how-to-make-choropleths-in-r/">helpful post</a> on this type of mapping in R <a class="footnote-return" href="#fnref:Recommended-reso">↩</a></li>
+<li id="fn:Note-that-the-co">Note that the colors match those used for the points in the previous maps. <a class="footnote-return" href="#fnref:Note-that-the-co">↩</a></li>
+<li id="fn:The-efficacy-or">The efficacy or legitimacy of this sort of visualization method is potentially contentious in the data visualization community, so I&rsquo;m happy to hear critiques/suggestions &ndash; especially with respect to best practices for determining bandwidth parameters! <a class="footnote-return" href="#fnref:The-efficacy-or">↩</a></li>
+<li id="fn:Relevant-resourc">Relevant resources for looking into violin plots in R can also be found <a href="http://eamoncaddigan.net/dataviz/r/psych/2015/09/26/violin-plots/">here</a> and <a href="https://ggplot2.tidyverse.org/reference/geom_violin.html">here</a>. <a class="footnote-return" href="#fnref:Relevant-resourc">↩</a></li>
+</ol>
+</div>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; Alex Albright 2018 | Built with <a href="https://github.com/rstudio/blogdown">blogdown</a> &amp; <a href="https://gohugo.io/">Hugo</a>
+  
+  </footer>
+  </body>
+</html>
+

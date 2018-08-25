@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Superstition on The Little Dataset</title>
+    <link>/tags/superstition/</link>
+    <description>Recent content in Superstition on The Little Dataset</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Mar 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/superstition/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>(TGI)Friday the 13th</title>
+      <link>/2015/03/11/tgi-friday-the-13th/</link>
+      <pubDate>Wed, 11 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/03/11/tgi-friday-the-13th/</guid>
+      <description>Intro I was born on November 13th, 1992. And, while that might be sufficient information to verify my identity to that pre-recorded human on the other end of my calls to the bank, there is an important detail always excluded in this formal expression of one’s birth date: the day of the week. And what makes this seemingly unremarkable fact about me exciting (or disturbing, depending on your take) is that pesky, frequently ignored detail.</description>
+    </item>
+    
+  </channel>
+</rss>

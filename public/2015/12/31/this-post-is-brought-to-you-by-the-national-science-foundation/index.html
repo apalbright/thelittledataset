@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>This Post is Brought to You by the National Science Foundation | The Little Dataset</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">This Post is Brought to You by the National Science Foundation</span></h1>
+
+<h2 class="date">2015/12/31</h2>
+</div>
+
+<main>
+
+
+<h1 id="intro">Intro</h1>
+
+<p>I have officially finished applying for my PhD. While the application process included many of the same elements that I had previously encountered as a fresh-faced<sup class="footnote-ref" id="fnref:I-had-yet-to-tak"><a href="#fn:I-had-yet-to-tak">1</a></sup> 17-year-old (think standardized testing without the #2 pencils and lots more button clicking), I am no longer applying as a (relatively) blank slate&ndash;a future liberal arts student who will float and skip between disciplines until being neatly slotted into a major. Instead, we PhD applicants have already zeroed in on a particular area of study&ndash;in my case, economics. Consequently, each PhD discipline is unlikely to exhibit the same carefully crafted demographics boasted in the pie charts that plaster undergraduate brochures across the country to provide tangible evidence for optimistic, bolded statements about diversity. In formulating responses to a slew of university-specific prompts about diversity in &ldquo;the sciences,&rdquo; I grew curiouser and curiouser about two particular questions: <strong>What do demographic compositions look like across various PhD disciplines in the sciences? &amp; Have demographic snapshots changed meaningfully over time?</strong></p>
+
+<p>As I continued working to imbue a sense of [academic] self into PDFs composed of tightly structured Times New Roman 12 point font, I repeatedly found myself at the <a href="https://catalog.data.gov/organization/nsf-gov">NSF open data portal</a>, seeking to answer the aforementioned questions. However, I would then remind myself that, despite my organic urge to load rows and columns into R Studio, I should be the responsible adult (who I know I can be) and finish my applications before running out to recess. Now that the last of the fateful buttons have been clicked (and a sizable portion of my disposable income has been devoured by application fees and the testing industrial complex), I&rsquo;m outside and ready to talk <a href="https://www.youtube.com/watch?v=UtVJdPfm0F8">science</a>!<sup class="footnote-ref" id="fnref:The-NSF-divides"><a href="#fn:The-NSF-divides">2</a></sup></p>
+
+<h1 id="nsf-data-and-sizes-of-the-sciences">NSF data and sizes of &ldquo;the sciences&rdquo;</h1>
+
+<p>In this post, I am focusing on the demographics of science PhD degrees awarded as they pertain to citizenship and race/ethnicity, but not gender. In an ideal world, I would be able to discuss the compositions of PhD fields as broken into race/ethnicity-gender combinations, however, the table that includes these types of combinations for US citizens and permanent residents (Table 7-7) only provides the numbers for the broader categories rather than for the desired discipline-level. For instance, social science numbers are provided for 2002-2012 without specific numbers for economics, anthropology, etc. This approach, therefore, would not allow for an investigation into the main topic of interest, which is the demographic differences between the distinct disciplines&ndash;there is too much variety within the larger umbrella categories to discuss the fields&rsquo; compositions in this way. Therefore, I limit this discussion to demographics with respect to citizenship and race/ethnicity and, accordingly, use Table 7-4 &ldquo;Doctoral degrees awarded, by citizenship, field, and race or ethnicity: 2002–12&rdquo; from the <a href="https://www.nsf.gov/statistics/2017/nsf17310/data.cfm">NSF Report on Women, Minorities, and Persons with Disabilities in Science and Engineering</a><sup class="footnote-ref" id="fnref:This-table-expla"><a href="#fn:This-table-expla">3</a></sup> as my data source.</p>
+
+<p>Before getting into the different PhD science fields and their demographics, it&rsquo;s worth noting the relative sizes of these disciplines. The following treemap depicts the relative sizes of the sciences as defined by NSF data on doctoral degrees awarded in 2012:</p>
+
+<p><img src="/post/this-post-is-brought-to-you-by-the-national-science-foundation_files/treemap2.png" alt="" /></p>
+
+<p>The size of each <a href="http://www.win.tue.nl/~vanwijk/stm.pdf">squarified</a> rectangle represents the number of degrees awarded within a given field while the color denotes the field&rsquo;s parent category, as defined by the NSF. (Note that some studies are, in fact, their own parent categories. This is the case for Biological Sciences, Psychology, Computer Sciences, and Agricultural Sciences.) In the upcoming discussion of demographics, we will first discuss raw numbers of degrees earned and the relevant demographic components but will then pivot towards a discussion of percentages, at which point remembering the differences in size will be particularly helpful in piecing together the information into one cohesive idea of the demographics of &ldquo;the sciences.&rdquo;<sup class="footnote-ref" id="fnref:In-particular-th"><a href="#fn:In-particular-th">4</a></sup></p>
+
+<h1 id="a-decade-of-demographic-snapshots-phd-s-in-the-sciences">A decade of demographic snapshots: PhD&rsquo;s in the sciences</h1>
+
+<p>The NSF data specifies two levels of information about the doctoral degrees awarded. The first level identifies the number of degree recipients who are US citizens or permanent residents as well as the number who are temporary residents. Though &ldquo;[t]emporary [r]esident includes all ethnic and racial groups,&rdquo; the former category is further broken down into the following subgroups: American Indian or Alaska Native, Asian or Pacific Islander, Black, Hispanic, Other or unknown, and White. In our first exploration of the data, we specify the raw number of degrees awarded to individuals in the specific ethnic and racial categories for US citizens and permanent residents as well as the number awarded to temporary residents. In particular, we start the investigation with the following series of stacked area charts (using flexible y-axes given the vastly different sizes of the disciplines):</p>
+
+<p><img src="/post/this-post-is-brought-to-you-by-the-national-science-foundation_files/raw_plot.png" alt="" /></p>
+
+<p>In this context and for all following visualizations, the red denotes temporary residents while all other colors (the shades of blue-green and black) are ethnic and racial subsets of the US citizens and permanent residents. By illustrating the raw numbers, this chart allow us to compare the growth of certain PhD&rsquo;s as well as seeing the distinct demographic breakdowns. While overall the number of science PhD&rsquo;s increased by 39% from 2002 to 2012, Astronomy, Computer Science, Atmospheric sciences, and Mathematics and statistics PhD&rsquo;s clearly outpaced other PhD growth rates with increases of 143%, 125% 84%, and 80%, respectively. Meanwhile, the number of Psychology PhD&rsquo;s actually decreased from 2002 to 2012  by 8%. While this was the only science PhD to experience a decline over the relevant 10-year period, a number of other disciplines grew at modest rates. For instance, the number of Anthropology, Sociology, and Agricultural Sciences PhD&rsquo;s experienced increases of 15%, 16%, and 18% between 2002 and 2012, which pale in comparison to the vast increases seen in Astronomy, Computer Science, Atmospheric sciences, and Mathematics and statistics.</p>
+
+<p>While it is tempting to use this chart to delve into the demographics of the different fields of study, the use of raw numbers renders a comprehensive comparison of the relative sizes of groups tricky. For this reason, we shift over to visualizations using percentages to best get into the meat of the discussion&ndash;this also eliminates the need for different y-axes. In presenting the percentage demographic breakdowns, I supply three different visualizations: a series of stacked area graphs, a series of <a href="http://www.uh.edu/engines/epi1712.htm">nightingale</a> graphs (essentially, polar stacked bar charts), and a series of straightforward line graphs, which despite being the least exciting/novel are unambiguous in their interpretation:</p>
+
+<p><img src="/post/this-post-is-brought-to-you-by-the-national-science-foundation_files/percent_area.png" alt="" />
+<img src="/post/this-post-is-brought-to-you-by-the-national-science-foundation_files/perc_nightingale.png" alt="" />
+<img src="/post/this-post-is-brought-to-you-by-the-national-science-foundation_files/perc_line.png" alt="" /></p>
+
+<p>One of my main interests in these graphs is the prominence of temporary residents in various disciplines. In fact, it turns out that Economics is actually quite exceptional in terms of its percentage of temporary residents, which lingers around 60% for the decade at hand and is at 58% for 2012. (In 2012, out of the remaining 42% that are US citizens or permanent residents, 70% are white, 11% are asian or pacific islander, 3% are black, 3% are hispanic, 0% are american indian or alaskan native, and 13% are other or unknown.) Economics stands with Computer science, Mathematics and statistics, and Physics as one of the four subjects in the sciences for which temporary residents made up a higher percentage of the PhD population than white US citizens or permanent residents consistently from 2002 to 2012. Furthermore, Economics is also the science PhD with the lowest percentage of white US citizens and permanent residents&ndash;that is, a mere 30%.  In this sense, the field stands out as wildly different in these graphs from its social science friends (or, more accurately, <a href="http://www.nytimes.com/roomfordebate/2015/02/09/are-economists-overrated">frenemies</a>). On another note, it is also not hard to immediately notice that Psychology, which is not a social science in the NSF&rsquo;s categorization, is so white that its nightingale graph looks like an eye with an immensely overly dilated pupil (though anthropology is not far behind on the dilated pupil front).</p>
+
+<p>Also readily noticeable is the thickness of the blue hues in the case of Area and ethnic studies&ndash;an observation that renders it undeniable that this subject is the science PhD with the highest percentage of non-white US citizens and permanent residents. Following this discipline would be the other social sciences Anthropology, Sociology, and Political science and public administration, as well as the separately categorized Psychology. However, it is worth noting that the ambiguity of the temporary residents&rsquo; racial and ethnic attributes leaves much of our understanding of the prominence of various groups unclear.</p>
+
+<p>Another focal point of this investigation pertains to the time dimension of these visuals. When homing in on the temporal aspect of these demographic snapshots, there is a discouraging pattern&ndash;a lack of much obvious change. This is especially highlighted by the nightingale graphs since the polar coordinates allow the 2012 percentages to loop back next to the 2002 percentages and, thus, facilitate for a simple start-to-end comparison. In most cases, the two points in time look incredibly similar. Of course, this does not necessarily mean there has been no meaningful change. For instance, there have been declines in the percentage of white US citizens and permanent residents in the subjects Area and ethnic studies, Psychology, Sociology, Anthropology, and Political science and public administration, which have then been offset by increases in other groups of individuals. However, the picture is incredibly stagnant for most of the disciplines, especially the hard sciences and the unusually quantitative social science of economics. In pairing the stagnant nature of these demographic snapshots with consistent <a href="https://kristof.blogs.nytimes.com/2015/12/09/what-do-campus-protesters-really-want/">calls for greater faculty diversity</a> in the wake of <a href="https://www.nytimes.com/2015/11/12/us/racial-discrimination-protests-ignite-at-colleges-across-the-us.html">campus protests</a>, it is clear that there is a potential bottleneck since such lagging diversity in PhD disciplines can directly contribute to a lack of diversity at the faculty-level.</p>
+
+<h1 id="endnote">Endnote</h1>
+
+<p>When the public discusses the demographics and diversity of &ldquo;the sciences,&rdquo; 1.5 dozen disciplines are being improperly blended together into generalized statements. To better understand the relevant dynamics, individuals should zero in on the discipline-level rather than refer to larger umbrella categories. As it turns out according to our investigation, the demographic breakdowns of these distinct subjects are as fundamentally different as their academic methodologies&ndash;methodologies which can be illustrated by the following joke that I can only assume is based on a true story:</p>
+
+<blockquote>
+<p>As a psychological experiment, an engineer, a chemist, and a theoretical economist are each locked in separate rooms and told they won&rsquo;t be released until they paint their entire room. They are each given a can of blue paint which holds about half the paint necessary to paint the room and then left alone. A few hours later the psychologist checks up on the three subjects.</p>
+
+<p>(1) The engineer&rsquo;s walls are completely bare. The engineer explains that he had worked out that there wasn&rsquo;t enough paint to cover all the walls so he saw no point in starting.</p>
+
+<p>(2) The chemist&rsquo;s room is painted in faded, streaky blue. &ldquo;There wasn&rsquo;t enough paint, so I diluted it,&rdquo; she explains.</p>
+
+<p>(3) In the economist&rsquo;s room, the floor and the ceiling are completely blue, and there&rsquo;s a full can of paint still sitting on the floor. The experimenter is shocked and asks how the economists managed to paint everything. The economist explains, &ldquo;Oh, I just painted the rational points.&rdquo;</p>
+</blockquote>
+
+<p>And with an unwavering appreciation for that bit, I hope to be one of the ~20-30 (who knows?) % of white US citizens/permanent residents in the next economics PhD cohort.</p>
+
+<p><em>PS: Happy 2016 everyone!</em></p>
+
+<hr />
+
+<h1 id="code-data">Code/Data</h1>
+
+<p>Data and R scripts necessary to replicate visualizations are now up on my github! See the <a href="https://github.com/apalbright/NSF_Demographics">&ldquo;NSF_Demographics&rdquo; repo.</a></p>
+
+<h1 id="further-directions-for-work">Further directions for work</h1>
+
+<ul>
+<li>Create gif of treemap using years 2002-2012 to replace the static version for just 2012
+Or use a slider via some D3 magic</li>
+<li>Follow-up by comparing the gender compositions (Would fit nicely with this <a href="http://www.npr.org/sections/money/2014/10/21/357629765/when-women-stopped-coding">NPR story</a> from last year</li>
+<li>Look into the development and change history of the US Office of Management and Budget for racial and ethnic categories (I&rsquo;m curious as to the timeline of changes and how categorization changes affect our available data)</li>
+</ul>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:I-had-yet-to-tak">I had yet to take a driving test at a DMV. I did this successfully at age 21. But, I will not drive your car. <a class="footnote-return" href="#fnref:I-had-yet-to-tak">↩</a></li>
+<li id="fn:The-NSF-divides">The NSF divides subjects up into S&amp;E (science and engineering) and non-S&amp;E categories. In this context, I am only discussing the subjects that fall under the umbrella of science. It would be simple to extend the approach and concept to the provided numbers for engineering. <a class="footnote-return" href="#fnref:The-NSF-divides">↩</a></li>
+<li id="fn:This-table-expla">This table explains that the exact source for this information is: National Science Foundation, National Center for Science and Engineering Statistics, special tabulations of U.S. Department of Education, National Center for Education Statistics, Integrated Postsecondary Education Data System, Completions Survey, 2002–12. <a class="footnote-return" href="#fnref:This-table-expla">↩</a></li>
+<li id="fn:In-particular-th">In particular, the tiny size of the group of History of Science PhD&rsquo;s allows for much more variability year-to-year in terms of demographics. Only 19-34 degrees were given out on an annual basis from 2002-2012. In this case, size of the program is responsible for the wildly evident changes in demographic composition. <a class="footnote-return" href="#fnref:In-particular-th">↩</a></li>
+</ol>
+</div>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; Alex Albright 2018 | Built with <a href="https://github.com/rstudio/blogdown">blogdown</a> &amp; <a href="https://gohugo.io/">Hugo</a>
+  
+  </footer>
+  </body>
+</html>
+

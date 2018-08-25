@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on The Little Dataset</title>
+    <link>/tags/tech/</link>
+    <description>Recent content in Tech on The Little Dataset</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>You Think, Therefore I Am</title>
+      <link>/2017/09/07/you-think-there-i-am/</link>
+      <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/09/07/you-think-there-i-am/</guid>
+      <description>Intro Hello world, I am now a G2 in economics PhD-land. This means I have moved up in the academic hierarchy; I now reign over my very own cube, and I am taking classes in my fields of interest. For me that means: Social Economics, Behavioral Economics, and Market Design. That also means I am coming across a lot of models, concepts, results that I want to tell you (whoever you are!</description>
+    </item>
+    
+  </channel>
+</rss>

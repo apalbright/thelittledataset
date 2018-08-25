@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demographics on The Little Dataset</title>
+    <link>/tags/demographics/</link>
+    <description>Recent content in Demographics on The Little Dataset</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 May 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/demographics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Where My Girls At? (In The Sciences)</title>
+      <link>/2016/05/24/where-my-girls-at-in-the-sciences/</link>
+      <pubDate>Tue, 24 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/05/24/where-my-girls-at-in-the-sciences/</guid>
+      <description>Intro In the current educational landscape, there is a constant stream of calls to improve female representation in the sciences. However, the call to action is often framed within the aforementioned nebulous realm of “the sciences”—an umbrella term that ignores the distinct environments across the scientific disciplines. To better understand the true state of women in “the sciences,” we must investigate representation at the discipline level in the context of both undergraduate and doctoral education.</description>
+    </item>
+    
+    <item>
+      <title>This Post is Brought to You by the National Science Foundation</title>
+      <link>/2015/12/31/this-post-is-brought-to-you-by-the-national-science-foundation/</link>
+      <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/12/31/this-post-is-brought-to-you-by-the-national-science-foundation/</guid>
+      <description>Intro I have officially finished applying for my PhD. While the application process included many of the same elements that I had previously encountered as a fresh-faced1 17-year-old (think standardized testing without the #2 pencils and lots more button clicking), I am no longer applying as a (relatively) blank slate&amp;ndash;a future liberal arts student who will float and skip between disciplines until being neatly slotted into a major. Instead, we PhD applicants have already zeroed in on a particular area of study&amp;ndash;in my case, economics.</description>
+    </item>
+    
+    <item>
+      <title>The Rise of the New Kind of Cabbie</title>
+      <link>/2015/03/30/the-rise-of-the-new-kind-of-cabbie-a-comparison-of-uber-and-taxi-drivers/</link>
+      <pubDate>Mon, 30 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/03/30/the-rise-of-the-new-kind-of-cabbie-a-comparison-of-uber-and-taxi-drivers/</guid>
+      <description>Intro One day back in the early 2000&amp;rsquo;s, I commandeered one of my mom&amp;rsquo;s many spiral notebooks. I&amp;rsquo;d carry the notebook all around Manhattan, allowing it to accompany me everywhere from pizza parlors to playgrounds, while the notebook waited eagerly for my parents to hail a taxicab so it could fulfill its eventual purpose. Once in a cab, after clicking my seat belt into place (of course!), I&amp;rsquo;d pull out the notebook in order to develop one of my very first spreadsheets.</description>
+    </item>
+    
+  </channel>
+</rss>

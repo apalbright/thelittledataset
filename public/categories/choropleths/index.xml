@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Choropleths on The Little Dataset</title>
+    <link>/categories/choropleths/</link>
+    <description>Recent content in Choropleths on The Little Dataset</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/choropleths/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Testing for Local Continuity in Racial Animus</title>
+      <link>/2018/07/23/testing-for-local-continuity-in-racial-animus/</link>
+      <pubDate>Mon, 23 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/07/23/testing-for-local-continuity-in-racial-animus/</guid>
+      <description>This past spring I was tasked with writing a final paper for my Comparative Historical Economic Development course. In brainstorming, I started a casual fling with one idea that quickly escalated and led to long spring break dates at the library (collecting data, making maps). In a meeting with my professor back at Harvard, I realized that I had been consumed in the honeymoon phase of an idea. Taking off my rose-colored glasses, it became clear I had to end the tryst so I could focus on more promising paths to a paper&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Geography of Humor</title>
+      <link>/2015/05/05/geography-of-humor-the-case-of-the-new-yorker-caption-contest/</link>
+      <pubDate>Tue, 05 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/05/05/geography-of-humor-the-case-of-the-new-yorker-caption-contest/</guid>
+      <description>Update: Published Article [September 2015] An extenstion of this blog post (using data on submissions and aesthetically improved choropleths!) was published in The New Yorker. See here for the article and here for the relevant R Notebook for replicating the visuals.12
+Intro About 10 years ago The New Yorker began a weekly contest. It was not a contest of writing talents in colorful fiction nor of investigative prowess in journalism, instead it was a contest of short and sweet humor.</description>
+    </item>
+    
+  </channel>
+</rss>

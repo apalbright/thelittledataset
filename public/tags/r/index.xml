@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on The Little Dataset</title>
+    <link>/tags/r/</link>
+    <description>Recent content in R on The Little Dataset</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Testing for Local Continuity in Racial Animus</title>
+      <link>/2018/07/23/testing-for-local-continuity-in-racial-animus/</link>
+      <pubDate>Mon, 23 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/07/23/testing-for-local-continuity-in-racial-animus/</guid>
+      <description>This past spring I was tasked with writing a final paper for my Comparative Historical Economic Development course. In brainstorming, I started a casual fling with one idea that quickly escalated and led to long spring break dates at the library (collecting data, making maps). In a meeting with my professor back at Harvard, I realized that I had been consumed in the honeymoon phase of an idea. Taking off my rose-colored glasses, it became clear I had to end the tryst so I could focus on more promising paths to a paper&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Text Me Back</title>
+      <link>/2018/04/27/text-me-back-a-year-of-ldr-communication/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/04/27/text-me-back-a-year-of-ldr-communication/</guid>
+      <description>Motivation I spent some time in February figuring out how to download my iMessage data.1 The idea was that I could then use that data to make Jesse an R Notebook Valentine. And it worked!
+  A slide from my February R-ladies talk   That Valentine was an investigation into word usage (via tf-idf) and emotional tinges in messages (via sentiment dictionaries). I treated all the messages as two aggregated blocks (one from Jesse, one from me) and was not concerned with the time dimension (when messages were sent).</description>
+    </item>
+    
+    <item>
+      <title>The United Nations of Words</title>
+      <link>/2017/09/14/the-united-nations-of-words/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/09/14/the-united-nations-of-words/</guid>
+      <description>Newsletter e-mails are often artifacts of faded interests or ancient online shopping endeavors. They can be nostalgia-inducing &amp;ndash; virtual time capsules set in motion by your past self at $t-2$, and egged on by your past self at $t-1$. Remember that free comedy show, that desk lamp purchase (the one that looks Pixar-esque), that political campaign&amp;hellip; oof, actually let&amp;rsquo;s scratch that last one. But, without careful care, newsletters breed like rabbits and mercilessly crowd inboxes.</description>
+    </item>
+    
+    <item>
+      <title>Senate Votes Visualized</title>
+      <link>/2017/08/01/senate-votes-visualized/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/08/01/senate-votes-visualized/</guid>
+      <description>It has been exactly one week since the Senate voted to start debate on Obamacare. There were three Obamacare repeal proposals that followed in the wake of the original vote. Each one failed, but in a different way. News outlets such as the NYTimes did a great job reporting how each Senator voted for all the proposals. I then used that data to geographically illustrate Senators&amp;rsquo; votes for each Obamacare-related vote.</description>
+    </item>
+    
+    <item>
+      <title>A Rising Tide Lifts All Podcasts</title>
+      <link>/2017/07/26/a-rising-tide-lifts-all-podcasts/</link>
+      <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/07/26/a-rising-tide-lifts-all-podcasts/</guid>
+      <description>A Personal History of Podcast Listening One afternoon of my junior year, I listened to a chunk of a Radiolab episode about &amp;ldquo;Sleep&amp;rdquo; as I myself heavily sank into unconsciousness. It was like guided meditation&amp;hellip; supported, in part, by the Alfred P. Sloan Foundation. Jad and Robert&amp;rsquo;s forays on Radiolab quickly became my new bedtime stories. They helped me transition from days with my nose deep in books and, more accurately, my laptop to dreams that veered away from the geographic markers of one tiny college town in a valley of the Berkshires.</description>
+    </item>
+    
+    <item>
+      <title>The One With All The Quantifiable Friendships, Part 2</title>
+      <link>/2017/06/26/the-one-with-all-the-quantifiable-friendships-part-2/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/06/26/the-one-with-all-the-quantifiable-friendships-part-2/</guid>
+      <description>Since finishing my first year of my PhD, I have been spending some quality time with my computer. Sure, the two of us had been together all throughout the academic year, but we weren&amp;rsquo;t doing much together besides pdf-viewing and type-setting. Around spring break, when I discovered you can in fact freeze your computer by having too many exams/section notes/textbooks simultaneously open, I promised my MacBook that over the summer we would try some new things together.</description>
+    </item>
+    
+    <item>
+      <title>Building Visualizations Using City Open Data</title>
+      <link>/2016/09/30/building-visualizations-using-city-open-data-philly-school-comparisons/</link>
+      <pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/09/30/building-visualizations-using-city-open-data-philly-school-comparisons/</guid>
+      <description>Intro There is a collection of notes that accompanies me throughout my day, slipped into the deep pockets of my backpack. The collection consists of small notebooks and post-its featuring sentence fragments written in inky Sharpie or scratched down frantically using some pen that was (of course) dying at the time. Ideas, hypotheses, some jokes. Mostly half baked and sometimes completely raw. Despite this surplus of scribbles, I often struggle when it comes acting on the intention of the words that felt so quick and simple to jot down&amp;hellip; In fact, I often feel myself acting within the confines of this all too perfect graphical representation of project development:</description>
+    </item>
+    
+    <item>
+      <title>Go East, Young Woman</title>
+      <link>/2016/07/27/go-east-young-woman/</link>
+      <pubDate>Wed, 27 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/07/27/go-east-young-woman/</guid>
+      <description>We&amp;rsquo;ll always have Palo Alto1 It is 9:30pm PST on Friday evening and my seat beat is buckled. The lights are a dim purple as they always are on Virgin America flights. As if we are all headed off to a prom on the opposite side of the country together. My favorite safety video in the industry starts to play&amp;ndash;an accumulation of visuals and beats that usually gives me a giddy feeling that only Beyoncé videos have the power to provoke&amp;ndash;however, in this moment, I begin to tear up despite the image of a shimmying nun displayed in front of me.</description>
+    </item>
+    
+    <item>
+      <title>Where My Girls At? (In The Sciences)</title>
+      <link>/2016/05/24/where-my-girls-at-in-the-sciences/</link>
+      <pubDate>Tue, 24 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/05/24/where-my-girls-at-in-the-sciences/</guid>
+      <description>Intro In the current educational landscape, there is a constant stream of calls to improve female representation in the sciences. However, the call to action is often framed within the aforementioned nebulous realm of “the sciences”—an umbrella term that ignores the distinct environments across the scientific disciplines. To better understand the true state of women in “the sciences,” we must investigate representation at the discipline level in the context of both undergraduate and doctoral education.</description>
+    </item>
+    
+    <item>
+      <title>The Curious Case of The Illinois Trump Delegates</title>
+      <link>/2016/03/18/the-curious-case-of-the-illinois-trump-delegates/</link>
+      <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/03/18/the-curious-case-of-the-illinois-trump-delegates/</guid>
+      <description>Intro This past Wednesday, after watching Hillary Clinton slow-motion strut into the Broad City universe and realizing that this election has successfully seeped into even the most intimate of personal rituals, I planned to go to sleep without thinking any more about the current presidential race. However, somewhere in between Ilana&amp;rsquo;s final &amp;ldquo;yas queen&amp;rdquo; and hitting the pillow, I saw David Wasserman&amp;rsquo;s FiveThirtyEight article &amp;ldquo;Trump Voters’ Aversion To Foreign-Sounding Names Cost Him Delegates.</description>
+    </item>
+    
+    <item>
+      <title>This Post is Brought to You by the National Science Foundation</title>
+      <link>/2015/12/31/this-post-is-brought-to-you-by-the-national-science-foundation/</link>
+      <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/12/31/this-post-is-brought-to-you-by-the-national-science-foundation/</guid>
+      <description>Intro I have officially finished applying for my PhD. While the application process included many of the same elements that I had previously encountered as a fresh-faced1 17-year-old (think standardized testing without the #2 pencils and lots more button clicking), I am no longer applying as a (relatively) blank slate&amp;ndash;a future liberal arts student who will float and skip between disciplines until being neatly slotted into a major. Instead, we PhD applicants have already zeroed in on a particular area of study&amp;ndash;in my case, economics.</description>
+    </item>
+    
+    <item>
+      <title>EduAnalytics 101</title>
+      <link>/2015/07/31/eduanalytics-101/</link>
+      <pubDate>Fri, 31 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/07/31/eduanalytics-101/</guid>
+      <description>Preface This is the first in a series of posts that I am putting together in partnership with Edusalsa, an application based at Stanford that seeks to improve how college students explore and choose their courses. Our goal in these posts is to take advantage of the unique data collected from students&amp;rsquo; use of the application in order to learn more about how to model and discuss the accumulation and organization of knowledge within the Stanford community as well as within the larger, global education space.</description>
+    </item>
+    
+    <item>
+      <title>The Multidimensional Success of Pixar Films Visualized</title>
+      <link>/2015/06/30/the-multidimensional-success-of-pixar-films-visualized/</link>
+      <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/06/30/the-multidimensional-success-of-pixar-films-visualized/</guid>
+      <description>Get the popcorn Last Wednesday, as I watched the letter &amp;ldquo;I&amp;rdquo; flattened by a familiar squeaky little lamp, I found myself, for the first time in half a decade, about to enter a new Pixar universe. I hadn’t seen a Pixar film in theaters since Toy Story 3 &amp;ndash; a movie revolving around a boy’s departure to college that was released the same summer my high school graduate cohort and I were also due to leave behind plush bunnies and Hess trucks in pursuit of profound academic knowledge…and a few beers.</description>
+    </item>
+    
+    <item>
+      <title>Geography of Humor</title>
+      <link>/2015/05/05/geography-of-humor-the-case-of-the-new-yorker-caption-contest/</link>
+      <pubDate>Tue, 05 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/05/05/geography-of-humor-the-case-of-the-new-yorker-caption-contest/</guid>
+      <description>Update: Published Article [September 2015] An extenstion of this blog post (using data on submissions and aesthetically improved choropleths!) was published in The New Yorker. See here for the article and here for the relevant R Notebook for replicating the visuals.12
+Intro About 10 years ago The New Yorker began a weekly contest. It was not a contest of writing talents in colorful fiction nor of investigative prowess in journalism, instead it was a contest of short and sweet humor.</description>
+    </item>
+    
+    <item>
+      <title>The Rise of the New Kind of Cabbie</title>
+      <link>/2015/03/30/the-rise-of-the-new-kind-of-cabbie-a-comparison-of-uber-and-taxi-drivers/</link>
+      <pubDate>Mon, 30 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/03/30/the-rise-of-the-new-kind-of-cabbie-a-comparison-of-uber-and-taxi-drivers/</guid>
+      <description>Intro One day back in the early 2000&amp;rsquo;s, I commandeered one of my mom&amp;rsquo;s many spiral notebooks. I&amp;rsquo;d carry the notebook all around Manhattan, allowing it to accompany me everywhere from pizza parlors to playgrounds, while the notebook waited eagerly for my parents to hail a taxicab so it could fulfill its eventual purpose. Once in a cab, after clicking my seat belt into place (of course!), I&amp;rsquo;d pull out the notebook in order to develop one of my very first spreadsheets.</description>
+    </item>
+    
+    <item>
+      <title>(TGI)Friday the 13th</title>
+      <link>/2015/03/11/tgi-friday-the-13th/</link>
+      <pubDate>Wed, 11 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/03/11/tgi-friday-the-13th/</guid>
+      <description>Intro I was born on November 13th, 1992. And, while that might be sufficient information to verify my identity to that pre-recorded human on the other end of my calls to the bank, there is an important detail always excluded in this formal expression of one’s birth date: the day of the week. And what makes this seemingly unremarkable fact about me exciting (or disturbing, depending on your take) is that pesky, frequently ignored detail.</description>
+    </item>
+    
+    <item>
+      <title>I’d Like to Thank the Academy…</title>
+      <link>/2015/02/19/id-like-to-thank-the-academy-for-making-this-data-available/</link>
+      <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/02/19/id-like-to-thank-the-academy-for-making-this-data-available/</guid>
+      <description>Intro The Oscars, like most award shows, are a mixture of the scripted and the unscripted. While the skeleton of the show rests upon the predetermined quips of the host and award presenters, the flesh of the Oscars rests within the surprise wins that are embodied by acceptance speeches given by excited, nervous, and often emotional award winners. Every year there are dozens of Oscar speeches and this year I began to wonder what one could glean from all that information abstractly balled up into little packages of &amp;ldquo;thank you&amp;rdquo;s and &amp;ldquo;wow&amp;rdquo;s and &amp;ldquo;I love you, mom&amp;rdquo;s that are spilled out onto the stage year after year.</description>
+    </item>
+    
+    <item>
+      <title>The One With All The Quantifiable Friendships</title>
+      <link>/2015/01/20/the-one-with-all-the-quantifiable-friendships/</link>
+      <pubDate>Tue, 20 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/01/20/the-one-with-all-the-quantifiable-friendships/</guid>
+      <description>Disclaimer This post does not refer to actual friendships&amp;ndash;no, I am writing about Friends the television show and the corresponding fictional friendships born out of the 1990&amp;rsquo;s sitcom universe.
+Intro Given Netflix&amp;rsquo;s much anticipated addition of Friends to their online streaming empire, it is no surprise that public attention has refocused on the show. On a whim that was more nostalgic than anything else, I started re-watching episodes in the &amp;ldquo;sweet spot&amp;rdquo; of its 10-season run (seasons 3 &amp;amp; 4, in my opinion).</description>
+    </item>
+    
+    <item>
+      <title>&#39;Serial&#39; and Changes of Heart</title>
+      <link>/2014/12/21/serial-and-changes-of-heart/</link>
+      <pubDate>Sun, 21 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/2014/12/21/serial-and-changes-of-heart/</guid>
+      <description>Intro During this past/last week of the podcast Serial, Sarah Koenig explains (unsurprisingly) that throughout her journalistic investigation of the murder of Hae Min Lee she has changed her opinion many times about Adnan&amp;rsquo;s guilt or innocence:
+ Several times, I have landed on a decision, I’ve made up my mind and stayed there, with relief and then inevitably, I learn something I didn’t know before and I’m up ended.</description>
+    </item>
+    
+  </channel>
+</rss>

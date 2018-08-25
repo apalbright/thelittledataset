@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A Rising Tide Lifts All Podcasts | The Little Dataset</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">A Rising Tide Lifts All Podcasts</span></h1>
+
+<h2 class="date">2017/07/26</h2>
+</div>
+
+<main>
+
+
+<h1 id="a-personal-history-of-podcast-listening">A Personal History of Podcast Listening</h1>
+
+<p>One afternoon of my junior year, I listened to a chunk of a <em>Radiolab</em> episode about <a href="https://www.wnycstudios.org/story/91528-sleep">&ldquo;Sleep&rdquo;</a> as I myself heavily sank into unconsciousness. It was like guided meditation&hellip; supported, in part, by the Alfred P. Sloan Foundation. Jad and Robert&rsquo;s forays on <em>Radiolab</em> quickly became my new bedtime stories. They helped me transition from days with my nose deep in books and, more accurately, my laptop to dreams that veered away from the geographic markers of one tiny college town in a valley of the Berkshires.</p>
+
+<p>The <em>Radiolab</em> archives were a soundtrack to my last years of college and to my transition from &ldquo;student&rdquo; at a college to &ldquo;staff member&rdquo; at a university. A few months into my new place in the world, I found myself discussing Sarah Koenig&rsquo;s <em>Serial</em> with my colleagues in neighboring cubicles. I also wasn&rsquo;t a stranger to the virtual water cooler of <a href="https://www.reddit.com/r/serialpodcast/">/r/serialpodcast</a>. I became so entrenched in the podcast&rsquo;s following that I ended up being inspired to start blogging in order to <a href="https://thelittledataset.com/2014/12/21/serial-and-changes-of-heart/">document reddit opinion</a> trends on the topic.</p>
+
+<p>Faced with regular Caltrain rides from the crickets and <a href="https://shop.suitabletech.com/">&ldquo;beam&rdquo; store</a> of Palo Alto to the ridiculous-elevation-changes of SF, I started listening to <em>Gilmore Guys</em>. You know, the show about two guys who talk about the Gilmore Girls.<sup class="footnote-ref" id="fnref:I-did-not-think"><a href="#fn:I-did-not-think">1</a></sup> The two hosts accompanied me throughout two full years of solo moments. Their banter bounced next to me during mornings biking with a smile caked across my face and palm trees to my left and right as well as days marked by fierce impostor syndrome. <em>GG</em> bits floated next to me in the aftermath of medical visits that frightened me and suburban grocery shopping endeavors (which also sometimes frightened me). Their words, light and harmless, sat with me during evenings of drinking beer on that third-of-a-leather-couch I bought on craigslist and silent moments of self-reflection.</p>
+
+<p>That might sound like pretty heavy lifting for a podcast. But, (silly as it might sound) it was my security blanket throughout a few years of shifting priorities and support networks&ndash;tectonic plates grumbling under the surface of my loosely structured young adult life.</p>
+
+<p>When it came time to move to Cambridge from Palo Alto, I bought a <a href="https://www.leesa.com/">Leesa</a> mattress thanks to Scott Aukerman&rsquo;s 4am mattress store advert bit from <em>Comedy Bang Bang</em>.<sup class="footnote-ref" id="fnref:Sorry-Casper-htt"><a href="#fn:Sorry-Casper-htt">2</a></sup> Throughout my first doctoral academic year, I regularly listened to <em>Two Dope Queens</em> as I showered and made dinner after frisbee practices. Nowadays, like a good little liberal, I listen to the mix of political yammering, gossip, and calls to arms that makes up <em>Pod Save America</em>.</p>
+
+<p>Podcasts seem to be an increasingly important dimension of our alone time. A mosaic of podcast suggestions is consistently part of entertainment recommendations across friends&hellip; which leads me to my question of interest: <strong>How are podcasts growing? Are there more created nowadays, or does it just feel like that since we discuss them more?</strong></p>
+
+<h1 id="methodological-motivation">Methodological Motivation</h1>
+
+<p>In following the growth of the <a href="https://rladies.org/">R-Ladies organization</a> and the exciting work of associated women, I recently spotted <a href="https://livefreeordichotomize.com/2017/02/09/the-prevalence-of-drunk-podcasts/">a blog post</a> by R-lady Lucy McGowan. In this post, Lucy looks at the growth of so-called &lsquo;Drunk&rsquo; Podcasts. She finds a large growth in that &ldquo;genre&rdquo; (if you will) while making <a href="https://livefreeordichotomize.com/post/2017-02-09-the-prevalence-of-drunk-podcasts_files/figure-html/unnamed-chunk-2-1.png">great usage of a beer emoji</a>. Moreover, she expresses that:</p>
+
+<blockquote>
+<p>While it is certainly true that the number of podcasts in general has absolutely increased over this time period, I would be surprised if the increase is as dramatic as the increase in the number of “drunk” podcasts.</p>
+</blockquote>
+
+<p>I was super skeptical about this statement. I figured the increase in many podcast realms would be just as dramatic, if not more dramatic than that in the &lsquo;drunk&rsquo; podcasts universe. So, I took this skepticism as an opportunity to build on Lucy&rsquo;s code and emoji usage and look into release trends in other podcasting categories. Think of this all as one big excuse to try using emojis in my <code>ggplot2</code> creations while talking about podcasts.<sup class="footnote-ref" id="fnref:Thank-you-to-the"><a href="#fn:Thank-you-to-the">3</a></sup></p>
+
+<h1 id="plotting-podcasts">Plotting Podcasts</h1>
+
+<p>I look into podcasting trends in the arenas of &lsquo;sports&rsquo;, &lsquo;politics&rsquo;, &lsquo;comedy&rsquo; and &lsquo;science.&rsquo; I figured these were general umbrella terms that many pods should fall under. However, you can easily adapt the code to look into different genres/search terms if you&rsquo;re curious about other domains.<sup class="footnote-ref" id="fnref:See-my-R-noteboo"><a href="#fn:See-my-R-noteboo">4</a></sup> I, like Lucy, then choose emojis to use in my eventual scatterplot. Expressing a concept as complex as politics with a single emoji was challenging, but a fun exercise in using my millennial skillset.<sup class="footnote-ref" id="fnref:The-fist-emoji-w"><a href="#fn:The-fist-emoji-w">5</a></sup></p>
+
+<p>In the end, I combine the plots for all four podcasting categories into one aggregated piece of evidence showing that <strong>many podcasts genres have seen dramatic increases in 2017</strong>. The growth in number of releases is staggering in all four arenas. (Thus, the title &lsquo;A rising tide lifts all podcasts.&rsquo;) So, this growth doesn&rsquo;t seem to be unique to the &lsquo;drunk&rsquo; podcast. In fact, these more general/conventional categories see much more substantive increases in releases.</p>
+
+<p><center>
+<img src="/post/a-rising-tide-lifts-all-podcasts_files/pods4.png" alt="" width="80%" height="80%"/>
+</center></p>
+
+<p>While the above deals with podcast releases, I would be very curious to see trends in podcast listening visualized. For instance, one could use the <a href="https://www.bls.gov/tus/">American Time Use Survey</a> to break down people&rsquo;s leisure consumption by type during the day.<sup class="footnote-ref" id="fnref:It-seems-that-th"><a href="#fn:It-seems-that-th">6</a></sup> I&rsquo;d love to see some animated graphics on entertainment consumption over the hours reminiscent of Nathan Yau&rsquo;s previous amazing work <a href="https://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/">(&ldquo;A Day in the Life of Americans&rdquo;)</a> with ATUS data.</p>
+
+<h1 id="putting-down-the-headphones">Putting Down the Headphones</h1>
+
+<p>Regardless of the exact nature of the growth in podcasts over the past years, there is no doubt the medium has come to inhabit a unique space. Podcasts feel more steeped in solitude than other forms of entertainment like television or movies, which often are consumed in group settings. Podcasts have helped me re-learn how to <a href="https://i.redd.it/2302x89w2e8y.jpg">be alone</a> (but not without stories, ideas, and my imagination) and enjoy it. And, I am an only-child, so believe me&hellip; I used to be quite good at that.</p>
+
+<p><em>The Little Dataset</em> &ndash; despite this focus on podcasts &ndash; is brought to you by <code>blogdown</code> and Hugo&hellip;  not Squarespace. :)</p>
+
+<hr />
+
+<h1 id="code">Code</h1>
+
+<p>Check out <a href="http://rpubs.com/apalbright/podcast-release-trends">this R Notebook</a> for the code needed to reproduce the graphic. You can also see <a href="https://github.com/apalbright/podcast-trends">the relevant github repo</a>.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:I-did-not-think">I did not think this would take (I mean, there were hundreds of episodes&ndash;who would listen to all that?!) but I was very wrong. <a class="footnote-return" href="#fnref:I-did-not-think">↩</a></li>
+<li id="fn:Sorry-Casper-htt">Sorry, <a href="https://casper.com/">Casper</a>. <a class="footnote-return" href="#fnref:Sorry-Casper-htt">↩</a></li>
+<li id="fn:Thank-you-to-the">Thank you to the author of the <a href="https://github.com/dill/emoGG"><code>emoGG</code> package</a>, a hero who also created <a href="https://github.com/dill/beyonce">Beyoncé color palettes for R</a>. <a class="footnote-return" href="#fnref:Thank-you-to-the">↩</a></li>
+<li id="fn:See-my-R-noteboo">See my <a href="http://rpubs.com/apalbright/podcast-release-trends">R notebook</a> for reproducible work on this subject. <a class="footnote-return" href="#fnref:See-my-R-noteboo">↩</a></li>
+<li id="fn:The-fist-emoji-w">The &lsquo;fist&rsquo; emoji was the best I could come up with for &lsquo;politics&rsquo; though I couldn&rsquo;t figure out how to modify the skin tone. I&rsquo;m open to other suggestions on this front. You can browse through options with unicode <a href="https://apps.timwhitlock.info/emoji/tables/unicode#note5">here</a>. <a class="footnote-return" href="#fnref:The-fist-emoji-w">↩</a></li>
+<li id="fn:It-seems-that-th">It seems that the ATUS added &ldquo;listening to podcast&rdquo; in <a href="https://www.bls.gov/tus/lexiconchanges.pdf">2015</a>. <a class="footnote-return" href="#fnref:It-seems-that-th">↩</a></li>
+</ol>
+</div>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; Alex Albright 2018 | Built with <a href="https://github.com/rstudio/blogdown">blogdown</a> &amp; <a href="https://gohugo.io/">Hugo</a>
+  
+  </footer>
+  </body>
+</html>
+

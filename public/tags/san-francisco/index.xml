@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>San francisco on The Little Dataset</title>
+    <link>/tags/san-francisco/</link>
+    <description>Recent content in San francisco on The Little Dataset</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Jul 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/san-francisco/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Go East, Young Woman</title>
+      <link>/2016/07/27/go-east-young-woman/</link>
+      <pubDate>Wed, 27 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/07/27/go-east-young-woman/</guid>
+      <description>We&amp;rsquo;ll always have Palo Alto1 It is 9:30pm PST on Friday evening and my seat beat is buckled. The lights are a dim purple as they always are on Virgin America flights. As if we are all headed off to a prom on the opposite side of the country together. My favorite safety video in the industry starts to play&amp;ndash;an accumulation of visuals and beats that usually gives me a giddy feeling that only Beyoncé videos have the power to provoke&amp;ndash;however, in this moment, I begin to tear up despite the image of a shimmying nun displayed in front of me.</description>
+    </item>
+    
+  </channel>
+</rss>

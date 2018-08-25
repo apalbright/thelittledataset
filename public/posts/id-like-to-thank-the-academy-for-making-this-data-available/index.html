@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>I’d Like to Thank the Academy…for making this data available | A minimal Hugo website</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">I’d Like to Thank the Academy…for making this data available</span></h1>
+
+<h2 class="date">2015/02/19</h2>
+</div>
+
+<main>
+
+
+<h1 id="intro">Intro</h1>
+
+<p>The Oscars, like most award shows, are a mixture of the scripted and the unscripted. While the skeleton of the show rests upon the predetermined quips of the host and award presenters, the flesh of the Oscars rests within the surprise wins that are embodied by acceptance speeches given by excited, nervous, and often emotional award winners. Every year there are dozens of Oscar speeches and this year I began to wonder what one could glean from all that information abstractly balled up into little packages of &ldquo;thank you&rdquo;s and &ldquo;wow&rdquo;s and &ldquo;I love you, mom&rdquo;s that are spilled out onto the stage year after year.</p>
+
+<p>Previous inquiries into Oscar speeches have investigated <a href="http://www.slate.com/articles/arts/movies/2014/02/oscar_acceptance_speeches_who_thanks_spouses_agents_directors_and_oprah.single.html">whom people thank</a> while on stage as well as the <a href="https://www.theguardian.com/film/filmblog/2013/feb/19/oscars-2013-academy-acceptance-speech">counts associated with certain phrases</a> such as “Wow,” “England,” and even “Oprah.” However, a topic that has not been deeply investigated is how features of acceptance speeches differ across groups of winners. For instance, with respect to word count, it is certain that the most-hyped awards (Director, Best Picture, Best Actor, etc.) have speeches with higher word counts than others since the threat of <a href="https://www.youtube.com/watch?v=0laun_MxqRc">being &ldquo;played off&rdquo;</a> is not as looming for the sparkling celebs as it is for the sincere, but not-Dior-wearing, Documentary Filmmakers. On the other hand, I was less certain about how Best Director speech lengths would compare to Best Picture speech lengths&ndash;they are definitely shorter than Best Picture but longer than Visual Effects, however, the specifics have not been previously documented.</p>
+
+<p>Another element of speeches that I thought would be interesting to investigate is the usage of words that are explicitly self-referential, such as “I” or “me,” as opposed to words that reference one’s part of a larger group, such as “we” or “us.” Comparing the percentages of self-related words to the percentages of team-related words could tell us something about the degree to which certain awards are self-oriented or team-oriented.</p>
+
+<h1 id="approach">Approach</h1>
+
+<p>To address both the element of word count as well as the element of the self vs. the team, I used the Academy <a href="http://aaspeechesdb.oscars.org/">Awards Acceptance Speech Database</a> (yes, that is a thing!) to collect the transcripts of all acceptance speeches given over the past 5 years (that is, speeches given during the Oscars 2010-2014) and looked into four specific statistics by award winner category.</p>
+
+<p>The four statistics are as follows:</p>
+
+<ol>
+<li>Average word count (&ldquo;Word.Count&rdquo;)</li>
+<li>Average percentage of words related to the self (&ldquo;I.Percent&rdquo;)</li>
+<li>Average percentage of words related to the group (&ldquo;We.Percent&rdquo;)</li>
+<li>The ratio of self-words to group-words, which can then function as a quasi-measure of self-involvement (&ldquo;Self.Ratio&rdquo;)</li>
+</ol>
+
+<h1 id="results-by-award-categories">Results by award categories</h1>
+
+<p>See the heat table below (made using the <a href="https://cran.r-project.org/web/packages/ggplot2/ggplot2.pdf">ggplot2</a> package in R) for the averages of these four statistics across all award categories<sup class="footnote-ref" id="fnref:In-2012-Woody-Al"><a href="#fn:In-2012-Woody-Al">1</a></sup><sup class="footnote-ref" id="fnref:Two-teams-were-a"><a href="#fn:Two-teams-were-a">2</a></sup>:</p>
+
+<p><img src="/posts/2015-02-19-i-d-like-to-thank-the-academy-for-making-this-data-available_files/oscarplot.png" alt="" width="80%" height="80%"/></p>
+
+<p>Far from surprising, the speeches with the highest word count are Best Picture, Actress in a Leading Role, and  Actor in a Leading Role. The awards with the highest I.Percent are Actor in a Leading Role, 8.8%, Short Film (Live Action), 8.7%, Writing (Original Screenplay), 8.6%, Cinematography, 8.4%, and Actress in a Leading Role, also 8.4%. However, it is notable that neither Actor in a Leading role nor Actress in a Leading Role are in the group with the highest Self.Ratio, instead, the awards with the highest Self.Ratio are Foreign language Film, 8.8, Short Film (Live Action), 7.9, and Writing (Original Screenplay), 7.3. The fact that Foreign Language Film has the highest Self.Ratio is very surprising since that is the equivalent of the Foreign Best Picture, which should be discussed on stage as an extremely collaborative venture. (It is possible that part of this is due to language barriers since, for non-native speakers, it is more difficult to switch between the subjects &ldquo;we&rdquo; and &ldquo;I&rdquo; than to just stick with &ldquo;I.&rdquo;) On the other end of the spectrum, the most team-oriented award categories (using the Self.Ratio metric) are Documentary (Short Subject), 0.5, Sound Mixing, 1.1, Visual Effects, 1.2, Short Film (Animated), 1.2, and Makeup/Makeup and Hairstyling, 1.2.</p>
+
+<h1 id="results-by-gender-actor">Results by gender/actor</h1>
+
+<p>Though I was originally primarily interested in the averages of these statistics over the award winner categories, I realized I could also investigate these same statistics over four gender-actor categories: Female Actor, Female Non-Actor, Male Actor, Male Non-Actor. Using this breakdown, I was curious to see whether male and female actors as well as male and female non-actors would have similar statistic averages.</p>
+
+<p><img src="/posts/2015-02-19-i-d-like-to-thank-the-academy-for-making-this-data-available_files/genderactor.png" alt="" width="70%" height="70%"/></p>
+
+<p>It is immediately evident from the heat table that both genders of actors possess very similar numbers across all four statistics. Meanwhile, the Male Non-Actors speak almost twice as much as the Female Non-Actors, 136.4 words compared to 76.5 words. Therefore, outside of the actors, if you&rsquo;ve ever thought that women don&rsquo;t speak as much as men during acceptance speeches the Oscars, this is <strong>not just a consequence of fewer female award winners</strong>&ndash;no, this means that even when women do win an award, they, on average, only speak half as much as the men who win. I would hypothesize this is because women rarely speak during the non-acting awards with the longest word counts&ndash;the Best Picture and Directing Oscars (In fact, <a href="https://fivethirtyeight.com/features/directing-is-even-more-of-a-boys-club-than-you-may-realize/">only one woman has ever won the Directing Oscar</a>). The fact that women often don&rsquo;t get to speak in these two large categories probably makes a significant difference in the non-acting word count averages. Furthermore, this gender word count difference could also be due to the fact that, since women often win non-acting awards within a larger team, men on the team speak first and use up some of the team&rsquo;s shared time, leading to a shorter word count for women&rsquo;s speeches.</p>
+
+<p>The heat table also makes evident that Actors possess higher Self.Ratios than Non-Actors and Male Non-Actors have a noticeably higher Self.Ratio than Female Non-Actors, 2.8 compared to 1.6. This implies that women outside the sphere of acting are more likely than their male counterparts to use words that emphasize the greater team effort. Part of this difference could, again, be due to the fact that women are more likely to share awards than men, meaning their acceptance speech lexicon reflects this circumstance.</p>
+
+<h1 id="more-on-gender">More on gender</h1>
+
+<p>Due to the obvious differences between non-actor men and women, I decided to delve deeper into the question of gender in acceptance speeches. Instead of looking into words spoken per speech, I now look at aggregate words spoken during the acceptance speeches of the past five years of award ceremonies. Male and female actors have spoken very similar amounts, with 2,718 words spoken by female actors and 2,752 words spoken by male actors. On the other hand, the distinction between non-actors is striking but unsurprising if you&rsquo;ve paid attention to who you are always listening to when watching the show&ndash;<strong>while 2,065 words have been spoken by female non-actors, 12,416 words have been spoken by male non-actors</strong>. See below for a simple visualization of these differences:</p>
+
+<p><img src="/posts/2015-02-19-i-d-like-to-thank-the-academy-for-making-this-data-available_files/pie.png" alt="" width="80%" height="80%"/></p>
+
+<p>These numbers mean that <strong>outside of the case of the actors, men have spoken more than six times as many words as women in acceptance speeches over the past five years of Oscar ceremonies</strong>. Even more disturbing is that, over the past five years, the total number of words spoken by female actor winners, 2,718, is greater than the number of words spoken by all other women during the rest of the acceptance speeches, 2,065 words. It is clearly troubling that the two awards that necessitate female winners generate more words spoken by women than do all other awards.</p>
+
+<p>It is a well-known fact that more many <a href="https://medium.com/silk-stories/why-oscar-is-a-male-a-data-driven-analysis-of-gender-representation-in-87-years-of-academy-awards-837ddd812d27">more men win awards than women</a>. Specifically, in the past five years, the winners list includes 141 men and 39 women (excluding Best Picture and Foreign Language Film since these are not awards for individuals). When excluding the two male actors and two female actors that win every year, that becomes 131 men and 29 women. However, as I illustrated in the second heat table, even when women win in non-actor categories, they still talk significantly less than the men who win non-actor categories (approximately half as much).</p>
+
+<p>I mentioned previously that I thought this could be because when women win in non-actor categories, a team often accepts the award, which might lead to women being talked over by men. Well, while men tend to speak first, it is not as egregious as one might think&ndash;it turns out that in the past five years there were 16 instances in which at least one man and one woman spoke on the stage in order to accept an award together. In 11 of these 16 instances, a man spoke first to begin accepting the award. As Elinor Burkett exclaimed, after her male co-winner spoke, in her 2009 Documentary (Short Subject) acceptance speech:</p>
+
+<blockquote>
+<p>Don&rsquo;t you like that the man never lets the woman talk. Isn&rsquo;t that just the classic thing?</p>
+</blockquote>
+
+<p>In short, it is worth realizing that women are not just underrepresented in terms of their number of Oscar wins, they are also underrepresented by the number of words they are able to speak on behalf of their own victories.</p>
+
+<h1 id="future-work">Future work</h1>
+
+<ul>
+<li>Add more years into this analysis (so that it spans more than 5 years of data)</li>
+<li>Look into coding race variables on top of gender and actor variables</li>
+<li>Does speech length serve as a type of proxy for how much viewers care about each award?<sup class="footnote-ref" id="fnref:One-could-easily"><a href="#fn:One-could-easily">3</a></sup></li>
+</ul>
+
+<h1 id="notes-for-replication">Notes for replication</h1>
+
+<p>In order to measure &ldquo;I.Percent,&rdquo; my Stata code counted the number of instances of “I ”, “I’”, “me ”, “my ”, “My ”, &ldquo;Me &ldquo;, and “myself” (self-words) in a speech and calculated that number as a percentage of the total speech word count. In order to measure &ldquo;We.Percent,&rdquo; my code followed the same process as that described for &ldquo;I.Percent&rdquo; with respect to instances of “We ”, “we ”, “our ”, &ldquo;Our &ldquo;, “ourselves”, “us ”, &ldquo;we&rsquo;&rdquo;, and &ldquo;We&rsquo;&rdquo; (group-words). The measure &ldquo;Self.Ratio&rdquo; divided the count of self-words by the count of group-words in order to create a quasi-measure of self-involvement. All scripts and data files necessary to recreate the included visualizations are available in my <a href="https://github.com/apalbright/Oscars">&ldquo;Oscars&rdquo; Github repo</a>.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:In-2012-Woody-Al">In 2012, Woody Allen was not present to accept the Writing (Original Screenplay) award. Counting that event as 0 words spoken for the category yields the average shown above while excluding that event from the average yields a modified average of 167.8 words for the category. <a class="footnote-return" href="#fnref:In-2012-Woody-Al">↩</a></li>
+<li id="fn:Two-teams-were-a">Two teams were awarded the Sounding Editing Oscar in 2012. I calculate the average per team speech, thus, these two speeches were treated as though they were in separate years. I did this in order to avoid overestimating words spoken within this category. <a class="footnote-return" href="#fnref:Two-teams-were-a">↩</a></li>
+<li id="fn:One-could-easily">One could easily imagine a model of the Oscars in which over the years past winners have spoken for as long as possible until they are cut off (due to lack of time and more interest in another award). Then, over time the award winners learn their category’s limit to keep the audience interested. However, would word count be a perfect measure of how much we care about awards in comparison to one another? For instance, if the word count of Best Picture acceptance speeches are three times as long as Best Supporting Actress speeches, does that really mean that viewers care three times as much about Best Picture as they do about Best Supporting Actress? <a class="footnote-return" href="#fnref:One-could-easily">↩</a></li>
+</ol>
+</div>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; Alex Albright 2018 | Built with <a href="https://github.com/rstudio/blogdown">blogdown</a> &amp; <a href="https://gohugo.io/">Hugo</a>
+  
+  </footer>
+  </body>
+</html>
+

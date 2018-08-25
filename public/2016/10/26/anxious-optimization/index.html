@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Anxious Optimization | The Little Dataset</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Anxious Optimization</span></h1>
+
+<h2 class="date">2016/10/26</h2>
+</div>
+
+<main>
+
+
+<p>On the morning of my dynamic programming midterm, I tried to calm myself by recalling the golden rules of grad school that have been passed down through the generations<sup class="footnote-ref" id="fnref:Thank-you-to-the"><a href="#fn:Thank-you-to-the">1</a></sup>:</p>
+
+<blockquote>
+<p>grades don&rsquo;t matter&hellip; nothing matters.</p>
+</blockquote>
+
+<p>However, I quickly realized that by adopting this perspective <strong>I was simply subbing out test anxiety for existential anxiety.</strong> And, come to think of it, the latter didn&rsquo;t seem to be helpful, while the former could actually aid in my short-term goals &ndash; namely, jotting down lots of equations into a collection of small blue booklets.</p>
+
+<p>In considering the roles that angst can play in day-to-day life, <strong>I started to become curious about whether I could model optimal choices of anxiety using dynamic programming techniques.</strong> Allow me to channel my inner Ed Glaeser<sup class="footnote-ref" id="fnref:Ed-Glaeser-is-ou"><a href="#fn:Ed-Glaeser-is-ou">2</a></sup> using David Laibson-esque framework<sup class="footnote-ref" id="fnref:David-Laibson-is"><a href="#fn:David-Laibson-is">3</a></sup> and wax poetic on the specifics of something you could call (using very flexible terminology) an &ldquo;economic model.&rdquo;</p>
+
+<h1 id="let-s-assume">Let&rsquo;s Assume&hellip;</h1>
+
+<p>Assume that anxiety has some negative cost (say to my overarching mental health), however, its presence in my life also often gets me to achieve goals that I do genuinely want to achieve. Therefore, anxiety factors into my personal utility function in both positive and negative ways. In other words, it is not some force in my life that I want to erase entirely since it can lead to incredibly positive outcomes.</p>
+
+<p>Let&rsquo;s say, for the sake of model simplicity and for the sake of accuracy since I&rsquo;m in academia now<sup class="footnote-ref" id="fnref:I-kid-I-kid-I-m"><a href="#fn:I-kid-I-kid-I-m">4</a></sup>, that my utility function is simply equated to my academic success. Imagine that academic success is some definable and quantifiable concept&ndash;we could define this as some weighted average of number of papers published in quality journals, number of good relationships with faculty members, etc.</p>
+
+<p>Let&rsquo;s also assume that this type of success that is a function of (and increasing in) two items: idea creation and execution of ideas. This seems reasonable to me. The next piece is where the real controversial and strict assumptions come in with respect to anxiety: I assume that idea creation is a function of (and increasing in) existential anxiety, while execution is a function of (and increasing in) time/test anxiety. Assume that the functions with respect to the anxiety types have positive first derivatives and negative second derivatives&ndash;this is equivalent to assuming concavity.<sup class="footnote-ref" id="fnref:Note-In-reality"><a href="#fn:Note-In-reality">5</a></sup></p>
+
+<p>Then, given these assumptions and the framework of dynamic programming, the optimization problem of interest is equivalent to solving a maximization problem over the lifecycle.</p>
+
+<p><img src="/post/anxious-optimization_files/max_prob.png" alt="" width="90%" height="90%"/></p>
+
+<p>Explicitly solving this optimization problem requires more assumptions about functional forms and the like. (Ed, I&rsquo;m open to your ideas!) Sure, it&rsquo;d be much simpler to somehow make this a one variable maximization problem &ndash; a transformation we are often able to achieve by exploiting some budget constraint and Walras&rsquo; law &ndash; however, I do not believe that anxiety measures should add to some value beyond human choice. Other potential questions: Do we think our state variables follow an Ito process? I.e., I could see the existential anxiety variable following geometric Brownian motion since drift maybe should rise exponentially with time?</p>
+
+<h1 id="back-to-reality">Back to Reality</h1>
+
+<p>An implication of my model build that comes straight out of my assumptions (don&rsquo;t even need first order conditions for this) is that I should not be thinking about how &ldquo;nothing matters&rdquo; when there&rsquo;s an upcoming test. A test falls into the category of execution tasks, rather than the realm of idea creation. The existential anxiety that grows out of repeating the mantra &ldquo;nothing matters&rdquo; to myself over and over would only be helping come up with ideas&hellip; In fact, this whole model idea and post did come from continuing down the path of some existential thought process! So, perhaps the real question should be: is my blogging engrained in weighted average measure for &ldquo;academic success&rdquo;?</p>
+
+<p>If so, I&rsquo;m feeling pretty optimized.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:Thank-you-to-the">Thank you to the G2&rsquo;s (second-year&rsquo;s) for the soothing (yet still terrifying) words in your recent emails. <a class="footnote-return" href="#fnref:Thank-you-to-the">↩</a></li>
+<li id="fn:Ed-Glaeser-is-ou">Ed Glaeser is our Microeconomics professor of &ldquo;verbal problem&rdquo; fame. <a class="footnote-return" href="#fnref:Ed-Glaeser-is-ou">↩</a></li>
+<li id="fn:David-Laibson-is">David Laibson is our Macroeconomics professor for the &ldquo;dynamic programming&rdquo; quarter of our sequence <a class="footnote-return" href="#fnref:David-Laibson-is">↩</a></li>
+<li id="fn:I-kid-I-kid-I-m">I kid, I kid. I&rsquo;m off to a frisbee tournament for this entire weekend, so clearly my utility function must be more complex. <a class="footnote-return" href="#fnref:I-kid-I-kid-I-m">↩</a></li>
+<li id="fn:Note-In-reality">Note: In reality, there is most definitely some level of both angsts that stops being productive&hellip; noting that this is the case calls for more complex assumptions about the functional forms beyond assuming simple concavity&hellip; suggestions are welcome! <a class="footnote-return" href="#fnref:Note-In-reality">↩</a></li>
+</ol>
+</div>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; Alex Albright 2018 | Built with <a href="https://github.com/rstudio/blogdown">blogdown</a> &amp; <a href="https://gohugo.io/">Hugo</a>
+  
+  </footer>
+  </body>
+</html>
+

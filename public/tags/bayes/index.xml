@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bayes on The Little Dataset</title>
+    <link>/tags/bayes/</link>
+    <description>Recent content in Bayes on The Little Dataset</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/bayes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ultimate Game Theory</title>
+      <link>/2017/01/09/ultimate-game-theory/</link>
+      <pubDate>Mon, 09 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/01/09/ultimate-game-theory/</guid>
+      <description>An intro to the melted, gooey mind of a post-finals PhD student In the days preceding my game theory final, I was quarantined in my Cambridge apartment. The heat was on and pages of yellow legal paper decorated with inky matrices and tree diagrams ruled my kitchen counters. Swaddled in some convex combination of polar fleece and section notes, I would only leave my warm fortress to (1) throw $4 at an increasingly hard-to-please chai tea habit, and (2) play and train for my sport of choice&amp;ndash;that is, ultimate frisbee.</description>
+    </item>
+    
+  </channel>
+</rss>

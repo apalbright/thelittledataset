@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Curious Case of The Illinois Trump Delegates | The Little Dataset</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">The Curious Case of The Illinois Trump Delegates</span></h1>
+
+<h2 class="date">2016/03/18</h2>
+</div>
+
+<main>
+
+
+<h1 id="intro">Intro</h1>
+
+<p>This past Wednesday, after watching <a href="https://www.vanityfair.com/hollywood/2016/03/hillary-clinton-broad-city-video">Hillary Clinton slow-motion strut into the Broad City universe</a> and realizing that this election has successfully seeped into even the most intimate of personal rituals, I planned to go to sleep without thinking any more about the current presidential race. However, somewhere in between Ilana&rsquo;s final &ldquo;yas queen&rdquo; and hitting the pillow, I saw David Wasserman&rsquo;s FiveThirtyEight article <a href="https://fivethirtyeight.com/features/trump-voters-aversion-to-foreign-sounding-names-cost-him-delegates/">&ldquo;Trump Voters’ Aversion To Foreign-Sounding Names Cost Him Delegates.&rdquo;</a></p>
+
+<p><strong>Like many readers I was immediately drawn to the piece&rsquo;s fundamentally ironic implication that Trump could have lost delegates in Illinois due to the very racial resentment that he espouses and even encourages among his supporters.</strong> The possibility that this could be more deeply investigated was an energizing idea, which had already <a href="http://evansoltas.com/2016/03/17/trump-and-nonwhite-names/">inspired Evan Soltas to do just that</a> as well as make public his rich-in-applications-and-possibilities dataset. With this dataset in hand, I tried my hand at complementing the ideas from the Wasserman and Soltas articles by building some visual evidence. (Suffice it to say I did not end up going to sleep for a while.)</p>
+
+<p>To contribute to the meaningful work that the two articles have completed, I will first quickly outline their scope and conclusions, and then present the visuals I&rsquo;ve built using Soltas&rsquo; publicly available data. Consider this a politically timely exercise in speedy R scripting!</p>
+
+<h1 id="wasserman-s-fivethirtyeight-piece-soltas-blog-post">Wasserman&rsquo;s FiveThirtyEight piece &amp; Soltas&rsquo; blog post</h1>
+
+<p>In the original <a href="https://fivethirtyeight.com/features/trump-voters-aversion-to-foreign-sounding-names-cost-him-delegates/">article of interest</a>, Wasserman discusses the noteworthy Illinois Republican primary. He explains that,</p>
+
+<blockquote>
+<p>Illinois Republicans hold a convoluted <strong>“loophole” primary</strong>: The statewide primary winner earns 15 delegates, <strong>but the state’s other 54 delegates are elected directly on the ballot</strong>, with three at stake in each of the state’s 18 congressional districts. Each campaign files slates of <strong>relatively unknown supporters</strong> to run for delegate slots, and each would-be delegate’s presidential preference is listed beside his or her name.</p>
+</blockquote>
+
+<p>Given that the delegates are &ldquo;relatively unknown,&rdquo; one would assume that delegates in the same district who list the same presidential preference would earn similar numbers of votes. However, surprisingly, Wasserman found that this did not seem to be the case for Trump delegates. In fact, there is a striking pattern in the Illinois districts with the 12 highest vote differentials: &ldquo;[i]n all 12 cases, the highest vote-getting candidate had a common, Anglo-sounding name&rdquo; while &ldquo;a majority of the trailing candidates had first or last names most commonly associated with Asian, Hispanic or African-American heritages.&rdquo; <strong>These findings, while admittedly informal, strongly suggest that Trump supporters are racially biased in their delegate voting behaviors.</strong></p>
+
+<p>Soltas jumps into this discussion by first creating dataset on all 458 people who ran for Illinois Republican delegate spots. He merges data on the individuals&rsquo; names, districts, and candidate representation with a variable that could be described as a measure of perceived whiteness &ndash; the non-Hispanic white percentage of the individual&rsquo;s last name, as determined from 2000 US Census data. The inclusion of this variable is what makes the dataset so exciting (!!!) since, as Soltas explains, this gives us an &ldquo;objective measure to test the phenomenon Wasserman discovered.&rdquo;</p>
+
+<p>The article goes on to confirm the legitimacy of Wasserman&rsquo;s hypothesis. In short, <strong>&ldquo;Trump delegates won significantly more votes when they had &ldquo;whiter&rdquo; last names relative to other delegates in their district&rdquo;</strong> and this type of effect does not exist for the other Republicans.</p>
+
+<h1 id="visual-evidence-time">Visual evidence time</h1>
+
+<p>I now present a few visuals I generated using the aforementioned dataset to see Soltas&rsquo; conclusions for myself. First things first, it&rsquo;s important to note that some grand underlying mechanism does not jump out at you when you simply look at the association between perceived whiteness and vote percentage for all of Trump&rsquo;s Illinois delegates:</p>
+
+<p><center>
+<img src="/post/the-curious-case-of-the-illinois-trump-delegates_files/fig12.png" alt="" width="70%" height="70%"/>
+</center></p>
+
+<p>The above graph does not suggest any significant relationship between these two numbers attached to each individual delegate. This is because the plot shows delegates across all different districts, which will vote for Trump at different levels, but compares their absolute variable levels. <strong>What we actually care about is comparing voting percentages within the same district, but across different individuals who all represent the same presidential hopeful.</strong> In other words, we need to think about the delegates relative to their district-level context. To do this, I calculate vote percentages and whiteness measures relative to the district: the percentage point difference between a Trump delegate&rsquo;s vote/whiteness percentage and the average Trump delegate vote/whiteness percentage in that district.<sup class="footnote-ref" id="fnref:Suggestions-welc"><a href="#fn:Suggestions-welc">1</a></sup></p>
+
+<p><center>
+<img src="/post/the-curious-case-of-the-illinois-trump-delegates_files/fig23.png" alt="" width="70%" height="70%"/>
+</center></p>
+
+<p>Now that we are measuring these variables (vote percentage and whiteness measure) relative to the district, <strong>there is a statistically significant association beyond even the 0.1% level.</strong><sup class="footnote-ref" id="fnref:The-simple-linea"><a href="#fn:The-simple-linea">2</a></sup> In the end, the interpretation of the simplistic linear regression is that a 10 percentage point increase in a Trump delegate&rsquo;s perceived whiteness relative to the district yields a 0.12 percentage point increase in the delegate&rsquo;s vote percentage relative to the district.<sup class="footnote-ref" id="fnref:I-m-curious-if-p"><a href="#fn:I-m-curious-if-p">3</a></sup></p>
+
+<p>The last dimension of this discussion requires comparing Trump to the other Republican candidates. Given the <a href="https://www.nytimes.com/2016/03/16/upshot/measuring-donald-trumps-mammoth-advantage-in-free-media.html">media&rsquo;s endless coverage of Trump</a>, I would not have been surprised to learn that this effect impacts other campaigns but just was never reported. But, Wasserman and Soltas argue that this is not the case. Their claims are further bolstered by the following visual, which recreates the most recent Trump plot for all 9 candidates who had sufficient data<sup class="footnote-ref" id="fnref:This-excludes-Gi"><a href="#fn:This-excludes-Gi">4</a></sup>:</p>
+
+<p><center>
+<img src="/post/the-curious-case-of-the-illinois-trump-delegates_files/fig32.png" alt="" width="80%" height="80%"/>
+</center></p>
+
+<p>It should be immediately clear that Trump is the only candidate for whom there is a positive statistically significant association between the two relative measures. While Kasich has an upward sloping regression line, the corresponding 95% confidence interval demonstrates that the coefficient on relative perceived whiteness is not statistically significantly different from 0. Employing the whiteness measure in this context allows us to provide quantitative evidence for Wasserman&rsquo;s original intuition that this effect is unique to Trump&ndash;thus, &ldquo;lend[ing] credibility to the theory that racial resentment is commonplace among his supporters.&rdquo;</p>
+
+<h1 id="the-role-of-perceptions-of-whiteness">The role of perceptions of whiteness</h1>
+
+<p>Wasserman&rsquo;s article has incited an outpouring of genuine interest over the past few days. The fascinating nature of the original inquiry combined with Soltas&rsquo; integration of a perceived whiteness measure into the Illinois delegate dataset provides a perfect setting in which to investigate the role racial resentment is playing in these particular voting patterns, and in the election on the whole.</p>
+
+<hr />
+
+<h1 id="code">Code</h1>
+
+<p>My <a href="https://github.com/apalbright/illinois_delegates">&ldquo;illinois_delegates&rdquo;&rdquo; Github repo</a> has the R script and csv file necessary to replicate all three visuals!</p>
+
+<p><strong>We know data, we have the best data.</strong></p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:Suggestions-welc">Suggestions welcome on different ways of doing this for visualization&rsquo;s sake! <a class="footnote-return" href="#fnref:Suggestions-welc">↩</a></li>
+<li id="fn:The-simple-linea">The simple linear regression <code>Y~X</code> in this case yields a t-statistic of 5.4! <a class="footnote-return" href="#fnref:The-simple-linea">↩</a></li>
+<li id="fn:I-m-curious-if-p">I&rsquo;m curious if people think there is a better way to take district levels into account for these visuals &ndash; let me know if you have any thoughts that yield a simpler coefficient interpretation! <a class="footnote-return" href="#fnref:I-m-curious-if-p">↩</a></li>
+<li id="fn:This-excludes-Gi">This excludes Gilmore, Huckabee, and  Santorum. <a class="footnote-return" href="#fnref:This-excludes-Gi">↩</a></li>
+</ol>
+</div>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; Alex Albright 2018 | Built with <a href="https://github.com/rstudio/blogdown">blogdown</a> &amp; <a href="https://gohugo.io/">Hugo</a>
+  
+  </footer>
+  </body>
+</html>
+

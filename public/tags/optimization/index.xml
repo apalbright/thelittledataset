@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Optimization on The Little Dataset</title>
+    <link>/tags/optimization/</link>
+    <description>Recent content in Optimization on The Little Dataset</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Bellman Equation About Nothing</title>
+      <link>/2017/03/21/a-bellman-equation-about-nothing/</link>
+      <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/03/21/a-bellman-equation-about-nothing/</guid>
+      <description>Cold Open A few years ago I came across a short paper that I desperately wanted to understand. The magnificent title was &amp;ldquo;An Option Value Problem from Seinfeld&amp;rdquo; and the author, Professor Avinash Dixit (of Dixit-Stiglitz model fame), therein discussed methods of solving for &amp;ldquo;sponge-worthiness.&amp;rdquo; I don&amp;rsquo;t think I need to explain why I was immediately drawn to an academic article that focuses on Elaine Benes, but for those of you who didn&amp;rsquo;t learn about the realities of birth control from this episode of 1990&amp;rsquo;s television, allow me to briefly explain the relevant Seinfeld-ism.</description>
+    </item>
+    
+    <item>
+      <title>Anxious Optimization</title>
+      <link>/2016/10/26/anxious-optimization/</link>
+      <pubDate>Wed, 26 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/10/26/anxious-optimization/</guid>
+      <description>On the morning of my dynamic programming midterm, I tried to calm myself by recalling the golden rules of grad school that have been passed down through the generations1:
+ grades don&amp;rsquo;t matter&amp;hellip; nothing matters.
+ However, I quickly realized that by adopting this perspective I was simply subbing out test anxiety for existential anxiety. And, come to think of it, the latter didn&amp;rsquo;t seem to be helpful, while the former could actually aid in my short-term goals &amp;ndash; namely, jotting down lots of equations into a collection of small blue booklets.</description>
+    </item>
+    
+  </channel>
+</rss>

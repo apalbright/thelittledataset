@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "baseurl = \"/\"\nlanguageCode = \"en-us\"\ntitle = \"The Little Dataset\"\ntheme = \"hugo-xmin\"\ngoogleAnalytics = \"\"\ndisqusShortname = \"\"\nignoreFiles = [\"\\\\.Rmd$\", \"\\\\.Rmarkdown$\", \"_files$\", \"_cache$\"]\npreserveTaxonomyNames = true\nfootnotereturnlinkcontents = \"↩\"\n\n[permalinks]\n    post = \"/:year/:month/:day/:slug/\"\n\n[[menu.main]]\n    name = \"Home\"\n    url = \"/\"\n    weight = 1\n[[menu.main]]\n    name = \"About\"\n    url = \"/about/\"\n    weight = 2\n\n[params]\n    description = \"The Little Dataset\"\n    footer = \"&copy; Alex Albright 2018 | Built with [blogdown](https://github.com/rstudio/blogdown) & [Hugo](https://gohugo.io/)\"\n",
+    "created" : 1534605584170.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1294065008",
+    "id" : "C7922CF1",
+    "lastKnownWriteTime" : 1534624993,
+    "last_content_update" : 1534624993327,
+    "path" : "~/Dropbox (Personal)/tldataset/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}

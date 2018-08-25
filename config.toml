@@ -1,0 +1,25 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "The Little Dataset"
+theme = "hugo-xmin"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[params]
+    description = "The Little Dataset"
+    footer = "&copy; Alex Albright 2018 | Built with [blogdown](https://github.com/rstudio/blogdown) & [Hugo](https://gohugo.io/)"

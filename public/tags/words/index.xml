@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Words on The Little Dataset</title>
+    <link>/tags/words/</link>
+    <description>Recent content in Words on The Little Dataset</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/words/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The United Nations of Words</title>
+      <link>/2017/09/14/the-united-nations-of-words/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/09/14/the-united-nations-of-words/</guid>
+      <description>Newsletter e-mails are often artifacts of faded interests or ancient online shopping endeavors. They can be nostalgia-inducing &amp;ndash; virtual time capsules set in motion by your past self at $t-2$, and egged on by your past self at $t-1$. Remember that free comedy show, that desk lamp purchase (the one that looks Pixar-esque), that political campaign&amp;hellip; oof, actually let&amp;rsquo;s scratch that last one. But, without careful care, newsletters breed like rabbits and mercilessly crowd inboxes.</description>
+    </item>
+    
+  </channel>
+</rss>

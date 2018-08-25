@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ultimate Game Theory | The Little Dataset</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Ultimate Game Theory</span></h1>
+
+<h2 class="date">2017/01/09</h2>
+</div>
+
+<main>
+
+
+<h1 id="an-intro-to-the-melted-gooey-mind-of-a-post-finals-phd-student">An intro to the melted, gooey mind of a post-finals PhD student</h1>
+
+<p>In the days preceding my game theory final, I was quarantined in my Cambridge apartment. The heat was on and pages of yellow legal paper decorated with inky matrices and tree diagrams ruled my kitchen counters. Swaddled in some convex combination of polar fleece and section notes, I would only leave my warm fortress to (1) throw $4 at an increasingly hard-to-please chai tea habit, and (2) play and train for my sport of choice&ndash;that is, ultimate frisbee.</p>
+
+<p>When I would return from ultimate, residual thoughts about the game lingered at the edges of my legal pads. <strong>The combination of studying for my exam and ultimate exposure in the throes of <a href="https://en.wikipedia.org/wiki/Winter_Madness">winter madness</a> led me to the inevitable: reframing game theory concepts as they apply to aspects of ultimate!</strong> While I didn&rsquo;t have the time to parse out examples of &ldquo;Ultimate&rdquo; Game Theory back in Cambridge, I&rsquo;m on winter break in San Francisco now&hellip; which means I am <em>still</em> wearing lots of fleece, and I have time to tease out all the kitschy alt-sport applications of game theory that my heart desires.</p>
+
+<p>To discuss game theoretic concepts in this context, I build out two games that are based in the ultimate frisbee universe.<sup class="footnote-ref" id="fnref:The-good-news-is"><a href="#fn:The-good-news-is">1</a></sup></p>
+
+<ol>
+<li>First, I use <strong>The &ldquo;call lines&rdquo; Game</strong> to discuss some popular, well-known concepts &ndash; namely, the prisoner&rsquo;s dilemma and pure Nash equilibrium. I also use this framework to talk about repeated games and subgame perfect equilibrium. In adding the concepts of offense and defense, I refine the game so that it is no longer symmetric, and provide an example of how to solve for mixed Nash equilibrium.</li>
+<li>The second game I herein created is <strong>The &ldquo;throw it to the girl&rdquo; Game</strong>. This game is much more complex and interesting than the former &ndash; it is a dynamic signaling game with imperfect information that allows me to illustrate how to solve for perfect bayesian equilibrium. The &ldquo;throw it to the girl&rdquo; Game allows us to model one kind of dynamic that can pop up in the social context of co-ed sports.</li>
+</ol>
+
+<h1 id="game-1-the-call-lines-game">Game 1: The &ldquo;call lines&rdquo; Game</h1>
+
+<h2 id="a-the-game-set-up">a. The Game Set-up</h2>
+
+<p>First things first, I present a simple game based on &ldquo;calling lines&rdquo; during an ultimate frisbee game. Ultimate is played with two teams. Each team needs to put 7 people &ldquo;on the line&rdquo; to play any given point. However, teams themselves consist of more than 7 people since otherwise those 7 people would probably not be super into playing this sport. (People need some rest!) In my set-up, I assume there are two teams, 1 and 2, that are identical and each always has two lines to choose from: a strong line and a weak line. The payoffs are determined by strategies employed rather than the identity of those teams employing them. In effect, the normal form of this game is a 2x2 symmetric matrix. (This is 2x2 since there are two players&ndash;team 1 and team 2&ndash;as well as two choices of lines&ndash;weak and strong.)</p>
+
+<p>In order to determine the payoffs in this matrix, I need to make assumptions about the team outcomes. In expectation (which is how payoffs in a normal form matrix are presented &ndash; as expected Bernoulli utility), weak lines lose to strong lines and the same type of lines win or lose to one another with equal probability. A team gets +3/-3 for winning/losing a point. (If two types of the same type play, they receive 0 in expectation since the probability of a win is 0.5.)</p>
+
+<p>Moreover, I assume that teams do not want to overuse their strong lines. I.e., teams do not want to wear out their best players for fear of fatigue or injury. Therefore, teams also receive payoffs of +1/-1 for playing a weak/strong line. Given these simple and linear assumptions,<sup class="footnote-ref" id="fnref:Comments-on-how"><a href="#fn:Comments-on-how">2</a></sup> the following represents the normal form game for &ldquo;call lines&rdquo;:</p>
+
+<p><img src="/post/ultimate-game-theory_files/tab1.png" alt="" /></p>
+
+<h2 id="b-prisoner-s-dilemma-form-solving-for-pure-nash-equilibrium">b. Prisoner&rsquo;s Dilemma Form &amp; Solving for Pure Nash Equilibrium</h2>
+
+<p>The normal form of the &ldquo;call lines&rdquo; game might look very familiar. While conceptually different, it is mathematically identical to everyone&rsquo;s favorite simple non-cooperative game: the prisoner&rsquo;s dilemma! Note that the prisoner&rsquo;s dilemma has infinite representations with respect to the specific payoffs. The overarching requirement is that the game is symmetric across the two players and that the following strict ranking of payoffs holds:<sup class="footnote-ref" id="fnref:These-requiremen"><a href="#fn:These-requiremen">3</a></sup></p>
+
+<pre><code class="language-r">[the payoff to a player who &quot;defects&quot; (plays a strong line) while the other &quot;cooperates&quot; (plays a weak line)]  &gt; 
+[the payoff to a player who &quot;cooperates&quot; (plays a weak line) while the other &quot;cooperates&quot; (plays a weak line)] &gt;
+[the payoff to a player who &quot;defects&quot; (plays a strong line) while the other &quot;defects&quot; (plays a strong line)] &gt;
+[the payoff to a player who &quot;cooperates&quot; (plays a weak line) while the other &quot;defects&quot; (plays a strong line)]
+</code></pre>
+
+<p>In table 1 we can see this holds since <code>$2&gt;1&gt;-1&gt;-2$</code>. I could replace these payoffs in the normal form matrix with any set that maintains the same strict inequality and the game would remain a prisoner&rsquo;s dilemma.</p>
+
+<p>In the prisoner&rsquo;s dilemma context, the relevant solution concept is the well-known concept of Nash equilibrium. In Nash equilibrium, no agent (team in this case) has an incentive to deviate if the agent knows the other&rsquo;s strategy. In order to solve for Nash equilibrium, I underline the best responses of both teams to each other&rsquo;s strategies:<sup class="footnote-ref" id="fnref:Quick-refresher"><a href="#fn:Quick-refresher">4</a></sup></p>
+
+<p><img src="/post/ultimate-game-theory_files/tab2.png" alt="" /></p>
+
+<p>Since both payoffs in the <code>$(-1,-1)$</code> box of the matrix are underlined, it is evident that neither team has an incentive to deviate from the strong strategy given that the other team is playing strong. Thus, strong-strong is the sole pure Nash equilibrium in the &ldquo;call lines&rdquo; game. However, note that the weak-weak strategy, which yields payoffs <code>$(1,1)$</code>, while not Nash, is pareto optimal (no payoff duo gives both players a higher payoff) and, accordingly, pareto dominates <code>$(-1,-1)$</code>. As Prof Maskin lecture slides wisely say, this &ldquo;illustrates the tension between efficiency and individual maximization.&rdquo;</p>
+
+<h2 id="c-repeated-game-prisoner-s-dilemma-solving-for-subgame-perfect-equilibrium">c. Repeated Game Prisoner&rsquo;s Dilemma &amp; Solving for Subgame Perfect Equilibrium</h2>
+
+<p>While the original set-up of this game was in a static context, I can also render &ldquo;call lines&rdquo; a repeated game and end up with a different solution concept than the traditional Nash equilibrium previously described. Let&rsquo;s assume that the same normal form game shown in Table 1 will be played infinitely &ndash; this generates an &ldquo;iterated prisoner&rsquo;s dilemma.&rdquo; In this context, I use a solution concept known as subgame perfect equilibrium. Given repetition and recall of previous outcomes/actions, teams now have the opportunity to penalize each other for previous decisions. In the &ldquo;call lines&rdquo; context, I investigate the following strategy: play a weak line until someone plays a strong line (play strong from then on). This is also called a &ldquo;grim trigger strategy,&rdquo; which alters the choice of lines if someone chooses to deviate from cooperation (playing weak lines). This strategy, therefore, incentives cooperation since otherwise the players punish one another by forcing reduced payoffs for the rest of the infinitely repeated game.</p>
+
+<p>This strategy yields efficiency in subgame perfect equilibrium &ndash; a point I show below. Imagine teams have discount factors, meaning they discount future utility flows from points played. The following break-down illustrates how the &ldquo;grim trigger strategy&rdquo; is a subgame perfect equilibrium (given some condition on the discount factor):</p>
+
+<p><center>
+<img src="/post/ultimate-game-theory_files/condcoop.png" alt="" width="80%" height="80%"/>
+</center></p>
+
+<p>Thus, if the discount factor is greater than one-third, the grim trigger strategy is a subgame perfect equilibrium for the &ldquo;call lines&rdquo; game. However, note that if the number of repetitions of the game is finite and known to both teams, then (by backwards induction) the two players will play strong lines in every period. Therefore, the solution concept is the same as in the static context if the repetition is finite and known, but can diverge if the repetition is infinite and the discount factor meets some requirement.<sup class="footnote-ref" id="fnref:For-a-more-compl"><a href="#fn:For-a-more-compl">5</a></sup></p>
+
+<h2 id="d-adding-offense-and-defense-solving-for-mixed-nash-equilibrium">d. Adding Offense and Defense &amp; Solving for Mixed Nash Equilibrium</h2>
+
+<p>I now refine the &ldquo;call lines&rdquo; game by adding the concepts of offense and defense. This addition will change the payoffs in the normal form matrix. Assume that team 1 is on offense and team 2 is on defense. When a team starts a point on offense (meaning the other team pulls the disc down field to them &ndash; a kick-off in football), they have an advantage for scoring. Assume accordingly that a weak offense will beat a weak defense and a strong offense will beat a strong defense. Therefore, the only offense that loses in a match-up is a weak offense against a strong defense. Maintaining the same +3/-3 for winning/losing a point and the same +1/-1 for strong/weak lines, the normal form game with player 1 on offense is as follows:</p>
+
+<p><img src="/post/ultimate-game-theory_files/tab3.png" alt="" /></p>
+
+<p>Given this change, the game is no longer symmetric. It is no longer a prisoner&rsquo;s dilemma, and moreover, there is no longer a pure Nash equilibrium. This can be illustrated with the best responses marked below (i.e., there is no box with both payoffs underlined):</p>
+
+<p><img src="/post/ultimate-game-theory_files/tab4.png" alt="" /></p>
+
+<p>While there is no pure Nash equilibrium, we know that all finite games have at least one Nash equilibrium (theorem of existence of Nash equilibrium). Therefore, there must be some mixed Nash equilibrium. Mixed Nash equilibrium is made up of mixed strategies, which are those by which a team plays its available pure strategies (play a weak line, play a strong line) with certain probabilities. In solving for mixed Nash, we consider three possibilities (only team 1 uses a mixed strategy, only team 2 uses a mixed strategy, both use mixed strategies) and make use of the indifference condition as follows:</p>
+
+<p><center>
+<img src="/post/ultimate-game-theory_files/mixed.png" alt="" width="80%" height="80%"/>
+</center></p>
+
+<p>There is therefore one single mixed Nash equilibrium in which team 1 plays a weak line with probability <sup>2</sup>&frasl;<sub>3</sub> (and so a strong line with probability <sup>1</sup>&frasl;<sub>3</sub>) and team 2 plays a weak line with probability <sup>1</sup>&frasl;<sub>3</sub> (and so a strong line with probability <sup>2</sup>&frasl;<sub>3</sub>).</p>
+
+<h2 id="e-recap-of-calling-lines">e. Recap of &ldquo;calling lines&rdquo;</h2>
+
+<p>In sum, we have used the original and refined &ldquo;call lines&rdquo; set-ups and their corresponding <strong>normal forms</strong> in order to discuss the <strong>prisoner&rsquo;s dilemma</strong>, <strong>pure Nash equilibrium</strong>, <strong>repeated games</strong>, <strong>subgame perfect equilibrium</strong>, and <strong>mixed Nash equilibrium</strong>. In moving to a more complex and interesting set-up, I now transition to the &ldquo;throw it to the girl&rdquo; game.</p>
+
+<h1 id="game-2-the-throw-it-to-the-girl-game">Game 2: The &ldquo;throw it to the girl&rdquo; Game</h1>
+
+<h2 id="a-the-game-set-up-1">a. The Game Set-up</h2>
+
+<p>Ultimate is played in a myriad of circumstances. The most casual form of ultimate frisbee is pick-up&ndash;that is, a group of people who get together to play who often don&rsquo;t know each other. Pick-up is often mixed gender, meaning men and women are playing together, which while empowering and fun can often lead to some noticeable gender dynamics. For instance, playing pick-up in a mixed gender setting can lead to women being ``looked off&rdquo; by male players.<sup class="footnote-ref" id="fnref:See-here-https-m"><a href="#fn:See-here-https-m">6</a></sup> In other words, men sometimes do not throw to open women&hellip;which can lead to the classic &ldquo;throw it to the girl!&rdquo; remark from the sideline as a woman appears open upfield but the dude with the disc chooses to holster the throw instead. The reasons for this trend (preference for bigger, more dramatic plays in the form of hucks to big dudes, implicit bias, etc.) is not the focus of this discussion&hellip;rather, it suffices to note that, yeah, this is a dynamic.</p>
+
+<p>In my own personal experience as a female pickup player, I&rsquo;ve found that calling for the disc when open is a solid way to signal that I am more experienced or confident and that men shouldn&rsquo;t hesitate to throw to me. In learning about dynamic signaling games in game theory, I quickly realized that this calling/throwing situation could easily be melded into game theoretic form.</p>
+
+<p>Consider the moment when a male player with a disc is looking upfield for a throw. Assume there is an open female cutter upfield. In this moment, the female cutter (player 1 to us) has a choice: she can (1) call for the disc, signaling that she wants to be thrown to, or (2) remain silent and again not be thrown to.</p>
+
+<p>This set-up is a two-player dynamic signaling game. While conceptually distinct, note that this game is identical to the well-known <a href="https://en.wikipedia.org/wiki/Perfect_Bayesian_equilibrium#Gift_game_1">&ldquo;gift game&rdquo;</a>! Player 1 has two types: she is either (1) dirty, or (2) a scrub.<sup class="footnote-ref" id="fnref:Yeah-frisbee-ver"><a href="#fn:Yeah-frisbee-ver">7</a></sup> In this world, we are assuming that a dirty woman is better than the average male cutter on the pick-up team, while a scrub woman is worse than the average male cutter on the team. We assume that with probability 0.7 nature makes the woman dirty and with probability 0.3 nature makes her a scrub.<sup class="footnote-ref" id="fnref:This-was-an-arbi"><a href="#fn:This-was-an-arbi">8</a></sup></p>
+
+<p>Once the cutter has chosen to yell out or not, the dude with the disc (player 2) has a choice. Player 2 only has one type. He has no choice if the woman is silent since he will unambiguously not throw to her, but if she calls out, he can choose to throw to her or holster (not throw to her).</p>
+
+<ul>
+<li>If the woman is silent, the payoffs to both players are 0 regardless of player 1 type since no one gains from this and both players continue functioning at the status quo.</li>
+<li>If the woman calls out, the payoffs are different depending on her type:
+
+<ul>
+<li>Let&rsquo;s say she is dirty:
+
+<ul>
+<li>If the dude throws to her, she gains 2 since she is happy she was thrown to and she played the disc well; the dude in this case is happy since she played the disc better than the average male cutter would have and gets a payoff of 1.</li>
+<li>If the dude does not throw to her, then she gets a payoff of -1. (This assumes, based on personal and shared experience, that women feel more ignored or disrespected when looked off after being openly vocal than after being silent.) Meanwhile, the dude in this case goes on with the status quo and gets a payoff of 0.</li>
+</ul></li>
+<li>Let&rsquo;s say she is a scrub:
+
+<ul>
+<li>If the dude throws to her, she gains 1 since she is happy she was thrown to. (But she doesn&rsquo;t gain as much as the dirty woman since she&rsquo;s not as dope at frisbee. I am assuming that people gain more utility from playing when they are dirty.) The dude, in this case, is unhappy since she doesn&rsquo;t play the disc as well as the average male cutter so he gets payoff of -1.</li>
+<li>If the dude does not throw to her, she again gets a payoff of -1 and he again gets a payoff of 0. (We are assuming that dirty women and scrubs receive the same payoffs when ignored, but differ in payoffs when they get to play the disc.)
+<br /></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p>Given these above assumptions for payoffs and dynamics, I used the TikZ package in LaTeX <a href="https://github.com/apalbright/ulti_gtheory/blob/master/pbe_solve.tex">to build out</a> an extensive form of this game.<sup class="footnote-ref" id="fnref:Thank-you-to-Dr"><a href="#fn:Thank-you-to-Dr">9</a></sup> See figure 1 for the extensive form of this game:</p>
+
+<p><img src="/post/ultimate-game-theory_files/fig1.png" alt="" /></p>
+
+<h2 id="b-solving-for-perfect-bayesian-equilibrium">b. Solving for Perfect Bayesian Equilibrium</h2>
+
+<p>In the context of such dynamic games with incomplete information, the equilibrium concept of interest is perfect bayesian equilibrium (a refinement of bayesian nash equilibrium and subgame perfect equilibrium).</p>
+
+<p>In order to solve for perfect bayesian equilibrium (PBE from here on), I must investigate all possible strategies for our women in the pick-up game. Since we have two types of women (dirty players/scrubs) as well as two possible actions (call out/be silent), there are four possible strategies. Two of these are what we call &ldquo;separating strategies&rdquo; in which the two types choose different actions:</p>
+
+<ul>
+<li>dirty player is silent/scrub calls (Figure 2)</li>
+<li>dirty player calls/scrub is silent (Figure 3)</li>
+</ul>
+
+<p>The other two are called &ldquo;pooling strategies&rdquo; in which both types choose the same action:</p>
+
+<ul>
+<li>dirty player is silent/scrub is silent (Figure 4)</li>
+<li>dirty player calls/scrub calls (Figure 5)</li>
+</ul>
+
+<p>For each of the woman&rsquo;s four possible strategies, I then determine the beliefs and accordingly the optimal response of the dude with the disc. Given that optimal response, I check to see if either of our types of women would like to deviate. If not, then we have a perfect bayesian equilibrium. I will now go through this systematically for the four strategies.</p>
+
+<p><img src="/post/ultimate-game-theory_files/f2.png" alt="" /></p>
+
+<p>The above illustrates the separating equilibrium strategy in which the dirty player is silent and the scrub calls for the disc. (These actions for the two types of women are illustrated in red.) In a separating equilibrium, the action of player 1 signals the type, meaning that if the dude hears a &ldquo;hey,&rdquo; he knows she a scrub. The dude&rsquo;s strategy (recall he only gets to make a choice when there has been a call for the disc) is then to holster the throw since <code>$0&gt;-1$</code>. (Thus holster being highlighted in red in the left information set.) Note that given that optimal response from the dude, the scrub female player could improve her payoff by remaining silent instead since <code>$0&gt;-1$</code>. In effect, <strong>this is not a PBE</strong>.</p>
+
+<p><img src="/post/ultimate-game-theory_files/f3.png" alt="" /></p>
+
+<p>The next strategy we consider is that in which a dirty player calls for the disc and a scrub remains silent. In this separating case, the dude knows that if he hears a &ldquo;hey,&rdquo; the woman is dirty. So, the dude&rsquo;s strategy is to throw since <code>$1&gt;0$</code>. (Throw is highlighted in red in the left information set.) Given this optimal response from the dude, the scrub female player could improve her payoff by deviating from silence to calling since <code>$1&gt;0$</code>. In effect, <strong>this is not a PBE</strong>.</p>
+
+<p><img src="/post/ultimate-game-theory_files/f4.png" alt="" /></p>
+
+<p>The above figure illustrates the total silence strategy. In such a pooling equilibrium, the dude&rsquo;s beliefs when hearing a disc called for can be arbitrary since hearing a &ldquo;hey!&rdquo; occurs with 0 probability and therefore bayes&rsquo; rule doesn&rsquo;t apply in this context. In effect, if the dude&rsquo;s beliefs as to the woman&rsquo;s type are adequately pessimistic (believes with more than 50% certainty that she&rsquo;s a scrub), then his strategy is to holster the throw (holster highlighted in left information set). (So, diagram is drawn for adequately pessimistic beliefs on the part of the dude.) Regardless of the probabilities determined by nature (0.7 and 0.3), neither player can improve by deviating since <code>$(-1,0)$</code> is inferior to <code>$(0,0)$</code>. Therefore, <strong>this is a PBE</strong>.</p>
+
+<p><img src="/post/ultimate-game-theory_files/f5.png" alt="" /></p>
+
+<p>The last strategy to look into is the all call strategy. In this pooling equilibrium, the dude&rsquo;s beliefs as to the woman&rsquo;s type are based on the nature a priori probabilities. The payoff from throwing is thus <code>$(1)(0.7)+(-1)(0.3)$</code> and the payoff from holstering is <code>$(0)(0.7)+(0)(0.3)$</code>. Since <code>$0.4&gt;0$</code>, the optimal response for the dude is to throw (as marked by the red). Since <code>$2&gt;0$</code> and <code>$1&gt;0$</code>, neither type of woman wants to deviate from the prescribed strategy. In effect, <strong>this is a PBE</strong>.</p>
+
+<h2 id="c-refining-the-set-of-perfect-bayesian-equilibria">c. Refining the Set of Perfect Bayesian Equilibria</h2>
+
+<p>In summary, there are two PBEs for this &ldquo;throw it to the girl&rdquo; game: the total silence and all call strategies.  However, note that the total silence strategy is not Pareto efficient while the all call strategy is. I.e., the expected payoffs of 1.7 for the woman and 0.4 for the dude (all call strategy) are larger than 0 payoffs for both (total silence strategy). Moreover, the total silence strategy fails &ldquo;the intuitive criterion,&rdquo; a refinement of the set of equilibria proposed by Cho and Kreps (1987). The concept of this requirement is to restrict the set of equilibria to those with &ldquo;reasonable&rdquo; off-equilibrium beliefs. This allows me (as the creator of the model) to choose between the multiple PBE&rsquo;s previously outlined. For a PBE to satisfy the intuitive criterion there must exist no deviation for any type of woman such that the best response of the dude leads to the woman strictly preferring a deviation from the originally chosen strategy.</p>
+
+<p>Let&rsquo;s explain why the all silent strategy does not satisfy this requirement. Imagine a deviation for the dirty player to calling. If the woman now calls, the best response for the dude is to throw to her, which yields a payoff of 2 for the woman, which is strictly greater than 0. So, the woman prefers this deviation and the intuitive criterion is not satisfied. However, the all call strategy passes this criterion. Imagine a deviation to silence for the dirty player. Then there is no best response for the dude since the payoffs are automatically 0 and 0. Since <code>$2&gt;0$</code>, the woman doesn&rsquo;t prefer the deviation. Similarly, a deviation to silence for the scrub yields 0 instead of 1, which is not preferred either. Thus, the all call strategy satisfies the intuitive criterion. In effect, when we refine the set of equilibria in this way, we have both types of women calling for the disc and the dude making the throw&hellip; Sounds like a pretty good equilibrium to me!<sup class="footnote-ref" id="fnref:More-generally-t"><a href="#fn:More-generally-t">10</a></sup></p>
+
+<h2 id="d-recap-of-throw-it-to-the-girl">d. Recap of &ldquo;throw it to the girl&rdquo;</h2>
+
+<p>We have used this &ldquo;throw it to the girl&rdquo; set-up and its corresponding <strong>extensive form</strong> in order to discuss <strong>dynamic signaling games</strong>, solving for <strong>perfect bayesian equilibrium</strong>, and refining the set of equilibria using the <strong>intuitive criterion</strong>.</p>
+
+<h1 id="hard-cap-is-on-in-frisbee-parlance-it-s-time-to-wrap-this-all-up">Hard cap is on!<sup class="footnote-ref" id="fnref:In-frisbee-parla"><a href="#fn:In-frisbee-parla">11</a></sup></h1>
+
+<p>There are endless ways to extend or reform these games in the world of game theoretic concepts. My formulations for &ldquo;calling lines&rdquo; and &ldquo;throw it to the girl&rdquo; are simple by design in order that they lend themselves to discussing some subset of useful concepts. However, despite the simplicity of the model builds, I&rsquo;m happy to be able to arrive at conclusions that involve social behaviors as complex as gender dynamics&hellip; For example, next time, <strong>instead of yelling &ldquo;throw it to the girl!&rdquo; from the sideline, you can always shout: &ldquo;assuming a gift-giving game payoff structure, it is a perfect bayesian equilibrium satisfying the intuitive criterion for you to throw to open women when they call for it!&rdquo;</strong> No worries &ndash; if they don&rsquo;t understand, you can always wo<a href="https://en.wikipedia.org/wiki/Mansplaining">mansplain</a> the concept during the next time-out.</p>
+
+<hr />
+
+<h1 id="code">Code</h1>
+
+<p>Check out <a href="https://github.com/apalbright/ulti_gtheory">this Github repo</a> for all tex files necessary for reproducing the tables, tree diagrams, and solution write-ups!</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:The-good-news-is">The good news is that since I&rsquo;m pretty sure some nontrivial percentage of ultimate players have studied math, I don&rsquo;t have to worry too much about this discussion being for some empty intersection of individuals. <a class="footnote-return" href="#fnref:The-good-news-is">↩</a></li>
+<li id="fn:Comments-on-how">Comments on how to improve this are very welcomed. For this introductory context, I feel these payoffs suffice since it allows me to get into the prisoner&rsquo;s dilemma and some useful simple equilibrium concepts. <a class="footnote-return" href="#fnref:Comments-on-how">↩</a></li>
+<li id="fn:These-requiremen">These requirements render the game a non-cooperative one. Prisoner&rsquo;s dilemma terminology is often used for contexts that in fact would be better categorized as cooperative games such as <a href="https://en.wikipedia.org/wiki/Stag_hunt">Stag hunt</a>. In the Stag hunt (or cooperative game) payoff matrix, the inequality relationship would instead be: <code>[the payoff to a player who &quot;cooperates&quot; while the other &quot;cooperates&quot;] &gt; [the payoff to a player who &quot;defects&quot; while the other &quot;cooperates&quot;] &gt;= [the payoff to a player who &quot;defects&quot; while the other &quot;defects&quot;] &gt; [the payoff to a player who &quot;cooperates&quot; while the other &quot;defects&quot;]</code> <a class="footnote-return" href="#fnref:These-requiremen">↩</a></li>
+<li id="fn:Quick-refresher">Quick refresher as to how to find these marked best responses: Imagine team 1 plays a weak line, then the payoffs to team 2 are either 1 (if play weak) or 2 (if play strong). Since <code>$2&gt;1$</code>, team 2 will play strong. Imagine team 1 plays a strong line, then the payoffs to team 2 are either -2 (if plays weak) or -1 (if plays strong). Since <code>$-1&gt;-2$</code>, team 2 will play strong. The same logic then applies to team 1 since the game is symmetric. <a class="footnote-return" href="#fnref:Quick-refresher">↩</a></li>
+<li id="fn:For-a-more-compl">For a more complete discussion of repeated games and cooperation, check out <a href="http://economics.mit.edu/files/4754">these slides</a>. <a class="footnote-return" href="#fnref:For-a-more-compl">↩</a></li>
+<li id="fn:See-here-https-m">See <a href="https://medium.com/@changamanda/on-being-a-woman-at-pickup-ultimate-f2832a39583#.g9yvvzixe">here</a> for an article on this exact subject that a fellow female frisbee friend recently shared! <a class="footnote-return" href="#fnref:See-here-https-m">↩</a></li>
+<li id="fn:Yeah-frisbee-ver">Yeah, frisbee vernacular. Let&rsquo;s go. <a class="footnote-return" href="#fnref:Yeah-frisbee-ver">↩</a></li>
+<li id="fn:This-was-an-arbi">This was an arbitrary choice &ndash; open to edits on this. <a class="footnote-return" href="#fnref:This-was-an-arbi">↩</a></li>
+<li id="fn:Thank-you-to-Dr">Thank you to Dr. Chiu Yu Ko who has an incredible set of TikZ Templates openly available &ndash; <a href="https://sites.google.com/site/kochiuyu/Tikz#TOC-Signalling-Game">Here</a> is the signaling game one that I built off of. <a class="footnote-return" href="#fnref:Thank-you-to-Dr">↩</a></li>
+<li id="fn:More-generally-t">More generally, this will be the case as long as the nature a priori probabilities have the probability of the woman being dirty as 0.5 or greater. <a class="footnote-return" href="#fnref:More-generally-t">↩</a></li>
+<li id="fn:In-frisbee-parla">In frisbee parlance, it&rsquo;s time to wrap this all up <a class="footnote-return" href="#fnref:In-frisbee-parla">↩</a></li>
+</ol>
+</div>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; Alex Albright 2018 | Built with <a href="https://github.com/rstudio/blogdown">blogdown</a> &amp; <a href="https://gohugo.io/">Hugo</a>
+  
+  </footer>
+  </body>
+</html>
+

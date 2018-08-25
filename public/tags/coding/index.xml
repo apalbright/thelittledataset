@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding on The Little Dataset</title>
+    <link>/tags/coding/</link>
+    <description>Recent content in Coding on The Little Dataset</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Sep 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building Visualizations Using City Open Data</title>
+      <link>/2016/09/30/building-visualizations-using-city-open-data-philly-school-comparisons/</link>
+      <pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/09/30/building-visualizations-using-city-open-data-philly-school-comparisons/</guid>
+      <description>Intro There is a collection of notes that accompanies me throughout my day, slipped into the deep pockets of my backpack. The collection consists of small notebooks and post-its featuring sentence fragments written in inky Sharpie or scratched down frantically using some pen that was (of course) dying at the time. Ideas, hypotheses, some jokes. Mostly half baked and sometimes completely raw. Despite this surplus of scribbles, I often struggle when it comes acting on the intention of the words that felt so quick and simple to jot down&amp;hellip; In fact, I often feel myself acting within the confines of this all too perfect graphical representation of project development:</description>
+    </item>
+    
+    <item>
+      <title>Where My Girls At? (In The Sciences)</title>
+      <link>/2016/05/24/where-my-girls-at-in-the-sciences/</link>
+      <pubDate>Tue, 24 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/05/24/where-my-girls-at-in-the-sciences/</guid>
+      <description>Intro In the current educational landscape, there is a constant stream of calls to improve female representation in the sciences. However, the call to action is often framed within the aforementioned nebulous realm of “the sciences”—an umbrella term that ignores the distinct environments across the scientific disciplines. To better understand the true state of women in “the sciences,” we must investigate representation at the discipline level in the context of both undergraduate and doctoral education.</description>
+    </item>
+    
+  </channel>
+</rss>

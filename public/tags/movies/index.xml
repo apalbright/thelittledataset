@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Movies on The Little Dataset</title>
+    <link>/tags/movies/</link>
+    <description>Recent content in Movies on The Little Dataset</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Jun 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/movies/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Multidimensional Success of Pixar Films Visualized</title>
+      <link>/2015/06/30/the-multidimensional-success-of-pixar-films-visualized/</link>
+      <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/06/30/the-multidimensional-success-of-pixar-films-visualized/</guid>
+      <description>Get the popcorn Last Wednesday, as I watched the letter &amp;ldquo;I&amp;rdquo; flattened by a familiar squeaky little lamp, I found myself, for the first time in half a decade, about to enter a new Pixar universe. I hadn’t seen a Pixar film in theaters since Toy Story 3 &amp;ndash; a movie revolving around a boy’s departure to college that was released the same summer my high school graduate cohort and I were also due to leave behind plush bunnies and Hess trucks in pursuit of profound academic knowledge…and a few beers.</description>
+    </item>
+    
+    <item>
+      <title>I’d Like to Thank the Academy…</title>
+      <link>/2015/02/19/id-like-to-thank-the-academy-for-making-this-data-available/</link>
+      <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/2015/02/19/id-like-to-thank-the-academy-for-making-this-data-available/</guid>
+      <description>Intro The Oscars, like most award shows, are a mixture of the scripted and the unscripted. While the skeleton of the show rests upon the predetermined quips of the host and award presenters, the flesh of the Oscars rests within the surprise wins that are embodied by acceptance speeches given by excited, nervous, and often emotional award winners. Every year there are dozens of Oscar speeches and this year I began to wonder what one could glean from all that information abstractly balled up into little packages of &amp;ldquo;thank you&amp;rdquo;s and &amp;ldquo;wow&amp;rdquo;s and &amp;ldquo;I love you, mom&amp;rdquo;s that are spilled out onto the stage year after year.</description>
+    </item>
+    
+  </channel>
+</rss>

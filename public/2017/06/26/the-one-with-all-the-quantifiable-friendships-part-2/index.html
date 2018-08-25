@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The One With All The Quantifiable Friendships, Part 2 | The Little Dataset</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">The One With All The Quantifiable Friendships, Part 2</span></h1>
+
+<h2 class="date">2017/06/26</h2>
+</div>
+
+<main>
+
+
+<p>Since finishing my first year of my PhD, I have been spending some quality time with my computer. Sure, the two of us had been together all throughout the academic year, but we weren&rsquo;t doing much together besides pdf-viewing and type-setting. Around spring break, when I discovered you can in fact freeze your computer by having too many exams/section notes/textbooks simultaneously open, I promised my MacBook that over the summer we would try some new things together. (And that I would take out her trash more.) After that promise and a new sticker addition, she put away the rainbow wheel.</p>
+
+<p>Cut to a few weeks ago. I had a blast from the past in the form of a Twitter notification. <a href="http://giorasimchoni.com/2017/06/04/2017-06-04-the-one-with-friends/">Someone had written a post about using R to analyze the TV show <em>Friends</em></a>, which was was motivated by a similar interest that drove me to write <a href="https://thelittledataset.com/2015/01/20/the-one-with-all-the-quantifiable-friendships/">something about the show using my own dataset back in 2015</a>. In the post, the author, Giora Simchoni, used R to scrape the scripts for all ten seasons of the show and made all that work publicly available <em>(wheeeeee)</em> for all to peruse. In fact, Giora even used some of the data I shared back in 2015 to look into character centrality.<sup class="footnote-ref" id="fnref:He-makes-a-convi"><a href="#fn:He-makes-a-convi">1</a></sup> In reading about his project, I could practically hear my laptop humming to remind me of its freshly updated R software and my recent tinkering with <a href="https://bookdown.org/yihui/rmarkdown/notebook.html">R notebooks</a>.<sup class="footnote-ref" id="fnref:Get-ready-for-ne"><a href="#fn:Get-ready-for-ne">2</a></sup> So, off my Mac and I went, equipped with a new workflow, to explore new data about a familiar TV universe.</p>
+
+<h1 id="who-s-doing-the-talking">Who&rsquo;s Doing The Talking?</h1>
+
+<p>Given line by line data on all ten seasons, I, like Giora, first wanted to look at line totals for all characters. In aggregating all non-&ldquo;friends&rdquo; characters together, we get the following snapshot:</p>
+
+<p><center>
+<img src="/post/the-one-with-all-the-quantifiable-friendships-part-2_files/total.png" alt="" width="90%" height="90%"/>
+</center></p>
+
+<p>First off, why yes, I am using the official <em>Friends</em> font. Second, I am impressed by how close the totals are for all characters though hardly surprised that Phoebe has the least lines. Rachel wouldn&rsquo;t be surprised either&hellip;</p>
+
+<blockquote>
+<p>Rachel: Ugh, it was just a matter of time before someone had to leave the group. I just always assumed Phoebe would be the one to go.</p>
+
+<p>Phoebe: Ehh!!</p>
+
+<p>Rachel: Honey, come on! You live far away! You’re not related. You lift right out.</p>
+</blockquote>
+
+<p>With these aggregates in hand, I then was curious: how would line allocations look <strong>across time</strong>? So, for each episode, I calculate the percentage of lines that each character speaks, and present the results with the following three visuals (again, all non-friends go into the &ldquo;other&rdquo; category):</p>
+
+<p><center>
+<img src="/post/the-one-with-all-the-quantifiable-friendships-part-2_files/lines1.png" alt="" width="80%" height="80%"/>
+<img src="/post/the-one-with-all-the-quantifiable-friendships-part-2_files/lines2.png" alt="" width="100%" height="100%"/>
+<img src="/post/the-one-with-all-the-quantifiable-friendships-part-2_files/lines3.png" alt="" width="80%" height="80%"/>
+</center></p>
+
+<p>Tell me that first graph doesn&rsquo;t look like a callback to <a href="https://www.youtube.com/watch?v=G08pqAaJi5k">Rachel&rsquo;s English Trifle</a>. Anyway, regardless of a possible trifle-like appearance, all the visuals illustrate dynamics of an ensemble cast; while there is noise in the time series, the show consistently provides each character with a role to play. However, the last visual does highlight some standouts in the collection of episodes that uncharacteristically highlight or ignore certain characters. In other words, there are episodes in which one member of the cast receives an unusually high or low percentage of the lines in the episode. The three episodes that boast the highest percentages for a single member of the gang are:</p>
+
+<ol>
+<li>&ldquo;The One with Christmas in Tulsa&rdquo; (41.9% Chandler)</li>
+<li>&ldquo;The One With Joey&rsquo;s Interview&rdquo; (40.3% Joey)</li>
+<li>&ldquo;The One Where Chandler Crosses a Line&rdquo; (36.3% Chandler).</li>
+</ol>
+
+<p>Similarly, the three with the lowest percentages for one of the six are:</p>
+
+<ol>
+<li>&ldquo;The One With The Ring&rdquo; (1.5% Monica)</li>
+<li>&ldquo;The One With The Cuffs&rdquo; (1.6% Ross)</li>
+<li>&ldquo;The One With The Sonogram At The End&rdquo; (3.3% Joey)</li>
+</ol>
+
+<p>The sagging red lines of the last visual identify episodes that have a low percentage of lines spoken by a character outside of the friend group. In effect, those dips in the graph point to extremely six-person-centric episodes, such as &ldquo;The One On The Last Night&rdquo; (0.4% non-friends dialogue &ndash; a single line in this case), &ldquo;The One Where Chandler Gets Caught&rdquo; (1.1% non-friends dialogue), and &ldquo;The One With The Vows&rdquo; (1.2% non-friends dialogue).</p>
+
+<h1 id="the-men-vs-the-women-given-this-title-here-s-https-www-youtube-com-watch-v-zyzql-y1sp4-a-quick-necessary-clip">The Men vs. The Women<sup class="footnote-ref" id="fnref:Given-this-title"><a href="#fn:Given-this-title">3</a></sup></h1>
+
+<p>Now, how do the line allocations look when broken down by gender lines across the main six characters? Well, the split consistently bounces around 50-50 over the course of the 10 seasons. Again, as was the case across the six main characters, the balanced split of lines is pretty impressive.</p>
+
+<p><center>
+<img src="/post/the-one-with-all-the-quantifiable-friendships-part-2_files/gender1.png" alt="" width="90%" height="90%"/>
+<img src="/post/the-one-with-all-the-quantifiable-friendships-part-2_files/gender2.png" alt="" width="90%" height="90%"/>
+</center></p>
+
+<p>Note that the second visual highlights that there are a few episodes that are irregularly man-heavy. The top three are: &ldquo;The One Where Chandler Crosses A Line&rdquo; (77.0% guys), &ldquo;The One With Joey&rsquo;s Interview&rdquo; (75.1% guys), and &ldquo;The One With Mac and C.H.E.E.S.E.&rdquo; (70.2% guys). There are also exactly two episodes that feature a perfect 50-50 split for lines across gender: &ldquo;The One Where Rachel Finds Out&rdquo; and &ldquo;The One With The Thanksgiving Flashbacks.&rdquo;</p>
+
+<h1 id="say-my-name">Say My Name</h1>
+
+<p>How much do the main six characters address or mention one another? Giora addressed this question in his post, and I build off of his work by including nicknames in the calculations, and using a different genre of visualization. With respect to the nicknames &ndash; &ldquo;Mon&rdquo;, &ldquo;Rach&rdquo;, &ldquo;Pheebs&rdquo;, and &ldquo;Joe&rdquo; &ndash; &ldquo;Pheebs&rdquo; is undoubtably the stickiest of the group. Characters say &ldquo;Pheebs&rdquo; 370 times, which has a comfortable cushion over the second-place nickname &ldquo;Mon&rdquo; (used 73 times). Characters also significantly differ in their usage of each others&rsquo; nicknames. For example, while Joey calls Phoebe &ldquo;Pheebs&rdquo; 38.3% of the time, Monica calls her by this nickname only 4.6% of the time.<sup class="footnote-ref" id="fnref:If-you-re-curiou"><a href="#fn:If-you-re-curiou">4</a></sup></p>
+
+<p>Now, after adding in the nicknames, who says whose name? The following graphic addresses that point of curiosity:</p>
+
+<p><center>
+<img src="/post/the-one-with-all-the-quantifiable-friendships-part-2_files/mentions1.png" alt="" width="90%" height="90%"/>
+</center></p>
+
+<p>The answer is clear: Rachel says Ross&rsquo;s name the most! <strong>(789 times! OK, we get it, Rachel, you&rsquo;re in love.)</strong> We can also see that Joey is the most self-referential with 242 usages of his own name &ndash; perhaps not a shock considering his profession in the entertainment biz. Overall, the above visual provides some data-driven evidence of the closeness between certain characters that is clearly evident in watching the show. Namely, the Joey-Chandler, Monica-Chandler, Ross-Rachel relationships that were evident in <a href="/post/the-one-with-all-the-quantifiable-friendships_files/freq_2person.png">my original aggregation of shared plot lines</a> are still at the forefront!</p>
+
+<h1 id="meta">Meta</h1>
+
+<p>Comparing the above work to what I had <a href="https://thelittledataset.com/2015/01/20/the-one-with-all-the-quantifiable-friendships/">originally put together</a> in January 2015 is a real trip. My original graphics back in 2015 were made entirely in Excel and were as such completely unreproducible, as was the data collection process. The difference between the opaqueness of that process and the transparency of <a href="http://rpubs.com/apalbright/friends_project">sharing notebook output</a> is super exciting to me&hellip; and to my loyal MacBook. <em>Yes, yes, I&rsquo;ll give you another sticker soon.</em></p>
+
+<blockquote>
+<p><em>Screen fades to black</em></p>
+
+<p><strong>Executive Producer: Alex Albright</strong></p>
+</blockquote>
+
+<hr />
+
+<h1 id="show-me-the-code">Show Me the Code</h1>
+
+<p><a href="http://rpubs.com/apalbright/friends_project">Here</a> is the R Notebook for this project. <a href="https://github.com/apalbright/Friends_part2">Here</a> is the Github repo.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:He-makes-a-convi">He makes a convincing case using a variety of data sources that Rachel is the most central friend of the six main characters. <a class="footnote-return" href="#fnref:He-makes-a-convi">↩</a></li>
+<li id="fn:Get-ready-for-ne">Get ready for new levels of reproducibility! <a class="footnote-return" href="#fnref:Get-ready-for-ne">↩</a></li>
+<li id="fn:Given-this-title">Given this title, <a href="https://www.youtube.com/watch?v=ZYzql-Y1sP4">here&rsquo;s</a> a quick necessary clip. <a class="footnote-return" href="#fnref:Given-this-title">↩</a></li>
+<li id="fn:If-you-re-curiou">If you&rsquo;re curious about more numbers on the nicknames, check out <a href="http://rpubs.com/apalbright/friends_project">the project notebook</a>. <a class="footnote-return" href="#fnref:If-you-re-curiou">↩</a></li>
+</ol>
+</div>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; Alex Albright 2018 | Built with <a href="https://github.com/rstudio/blogdown">blogdown</a> &amp; <a href="https://gohugo.io/">Hugo</a>
+  
+  </footer>
+  </body>
+</html>
+

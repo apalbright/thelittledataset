@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Social Networks and the Endurance of Economic Injury | The Little Dataset</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Home</a></li>
+      
+      <li><a href="/about/">About</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Social Networks and the Endurance of Economic Injury</span></h1>
+
+<h2 class="date">2018/01/29</h2>
+</div>
+
+<main>
+
+
+<h1 id="killing-two-birds-with-one-paper">Killing Two Birds with One Paper</h1>
+
+<p>My last fall semester exam was for <em>Social Economics</em> class. Reading through packets of model summaries, I set out to determine which model &ndash; besides the obviously lovable <a href="/post/social-networks-and-the-endurance-of-economic-injury_files/cl1993.pdf">Coate and Loury (1993)</a> &ndash; I would most like to understand, remember, and explain. That is, I picked a paper to write about here&hellip; which I could also use in my <a href="https://www.mcsweeneys.net/articles/faq-the-snake-fight-portion-of-your-thesis-defense">intellectual battle</a> with those pesky blue books.</p>
+
+<p>It was in the middle of the lecture packet on &ldquo;Intergenerational Mobility&rdquo; that I found <a href="/post/social-networks-and-the-endurance-of-economic-injury_files/bs06.pdf">Bowles and Sethi (2006)</a>. This paper illustrates how magically ridding the world of discrimination (i.e., saying &ldquo;assume no discrimination&rdquo; as an economist) doesn&rsquo;t necessarily lead to perfect convergence of group economic outcomes. In other words, even with zero discrimination, group differences in economic success can still persist across generations. <em>Why is that?</em> Because social networks matter for economic outcomes, and networks are often segregated by group identity. In the authors&rsquo; words,</p>
+
+<blockquote>
+<p>&ldquo;Group differences in economic success may persist across generations in the absence of discrimination against the less affluent group because racial segregation of friendship networks, mentoring relationships, neighborhoods, workplaces and schools places the less affluent group at a disadvantage in acquiring the things &ndash; contacts, information, cognitive skills, behavioral attributes &ndash; that contribute to economic success.&rdquo;</p>
+</blockquote>
+
+<p>Social networks are undeniably important in determining individuals&rsquo; economic outcomes. As such, building social network structures into models of human capital accumulation improves realism and allows for intriguing intergenerational theoretical results.</p>
+
+<p>Bowles and Sethi (2006) appeals to me because the model formalizes dynamics touched on in many conversations about the long-term impacts of discriminatory practices. In this post I will lay out the model mechanics, explain proofs of the key results, and showcase a graph the authors use to visually illustrate their theoretical results.</p>
+
+<h1 id="model-mechanics">Model Mechanics</h1>
+
+<p>The paper motivates the model with a few words on Brown v. Board and the black-white wage gap:</p>
+
+<blockquote>
+<p>&ldquo;Many hoped that the demise of legally enforced segregation and discrimination against African Americans during the 1950s and 1960s coupled with the apparent reduction in racial prejudice among whites would provide an environment in which significant social and economic racial disparities would not persist.&rdquo;</p>
+</blockquote>
+
+<p>Despite initial convergence from the 1950&rsquo;s to the 1970&rsquo;s, the gap has persisted. There are many reasons why this could be the case, continued practices of discrimination included. Bowles and Sethi use the following model to illustrate how such gaps could endure even absent discrimination.</p>
+
+<p>In said model, a person is born into one of two groups &ndash; black or white &ndash; and lives for two periods. In the first period of life, she makes a decision about whether or not to acquire human capital and become &lsquo;skilled.&rsquo; This is a simple binary choice. (She either becomes educated/trained or she does nothing.) In the second period, she is paid a wage based on her previous choice. If she didn&rsquo;t acquire human capital (and thus isn&rsquo;t skilled), she is paid a wage of <code>$0$</code>. If she did (and thus is skilled), she is paid a wage of <code>$h$</code>. In effect, the marginal benefit of human capital acquisition is h for all agents.</p>
+
+<p>For the sake of simplicity, the model first assumes all people have the same ability. As such, an individual&rsquo;s cost of human capital acquisition is solely dependent on the level of human capital in that person&rsquo;s social network. Define network capital, <code>$q$</code>, as the fraction of agents in the network who chose to acquire human capital and are skilled. The key assumption in the model is that given the cost function <code>$c(q)$</code>, <code>$c'(q)&lt;0$</code>. <strong>In words, the higher the fraction of skilled people in a person&rsquo;s network, the less costly it is for the person to become skilled.</strong> Acquiring training is less costly when your network can connect you with opportunities and provide you with relevant information.</p>
+
+<p>As per usual, agents choose to become skilled if marginal benefit exceeds marginal cost. Assume <code>$c(0)&gt;h&gt;c(1)$</code> &ndash; that is, the cost of becoming skilled when no one in your network is skilled (<code>$q=0$</code>) is higher than the benefit of becoming skilled (<code>$h$</code>), but the cost when everyone is skilled (<code>$q=1$</code>) is lower than the benefit (<code>$h$</code>). In effect, there exists a unique threshold level <code>$q^*$</code> such that <code>$c(q^*)=h$</code>. The agent&rsquo;s decision rule is then:<sup class="footnote-ref" id="fnref:I-ll-ignore-indi"><a href="#fn:I-ll-ignore-indi">1</a></sup></p>
+
+<ul>
+<li><strong>for any <code>$q&gt;q^*$</code>, the agent chooses to becomes skilled</strong></li>
+<li><strong>for any <code>$q&lt;q^*$</code>, the agent does not</strong></li>
+</ul>
+
+<p>While the decision rule is clear, how are social networks (and thus <code>$q$</code>&rsquo;s) formed? We assume the population shares for <code>$B$</code> (black) and <code>$W$</code> (white) groups are <code>$x$</code> and <code>$1-x$</code>, respectively. Moreover, agents born into the model in period <code>$t+1$</code> have a large number of ties to those born in <code>$t$</code>. With probability <code>$p \in [0,1]$</code> an associate is from same group (<code>$B$</code> or <code>$W$</code>), but with probability (<code>$1-p$</code>) an associate is randomly picked from the general population of agents (could be either group). As such, the parameter <code>$p$</code> is the degree of &ldquo;in-group bias&rdquo; or segregation. Assume the parameter is the same for both groups. Therefore, the probability that: a black agent&rsquo;s connection is also black is <code>$p+(1-p)x$</code>, a white agent&rsquo;s connection is also white is <code>$p+(1-p)(1-x)$</code>, a black agent&rsquo;s connection is white is <code>$(1-p)(1-x)$</code>, and a white agent&rsquo;s connection is black is <code>$(1-p)x$</code>.</p>
+
+<p>The network capital in <code>$t+1$</code> depends on the mechanical formation of the agent&rsquo;s group and human capital accumulation decisions made by black and white agents born in time <code>$t$</code> (represented by <code>$s^B_t$</code> and <code>$s^W_t$</code>, respectively):</p>
+
+<p><code>$$q^B_{t+1}=[p+(1-p)x] s^B_t + [(1-p)(1-x)] s^W_t$$</code></p>
+
+<p><code>$$q^W_{t+1}=[(1-p)x] s^B_t + [p+(1-p)(1-x)] s^W_t$$</code></p>
+
+<p>The above equations show that (for both groups) the fraction of connections in an agent&rsquo;s network (born in <code>$t+1$</code>) who are skilled is:</p>
+
+<p><code>(chance of black associate)(fraction of black agents born in t who are skilled) +</code></p>
+
+<p><code>(chance of white associate)(fraction of white agents born in t who are skilled)</code></p>
+
+<p>The network capital of people in the two groups is the same only if: <code>$p=0$</code> (there is no segregation), or <code>$s^W_t=s^B_t$</code> (there is no initial group inequality in human capital).</p>
+
+<p>Given the two above equations, we get a <strong>&ldquo;law of motion&rdquo; for human capital decisions</strong>:</p>
+
+<ol>
+<li>If <code>$q^G_{t+1}&gt;q*, s^G_{t+1}=1$</code> (with <code>$G \in \{B,W\}$</code>)</li>
+<li>If <code>$q^G_{t+1}&lt;q*, s^G_{t+1}=0$</code></li>
+</ol>
+
+<p>In words, if network capital is above the necessary threshold level, all agents of that group become skilled. If network capital is below the necessary threshold level, all agents of that group stay unskilled. Note that in this simplified model all agents make the same decisions within racial groups.</p>
+
+<h1 id="from-parameter-values-to-group-outcomes">From Parameter Values to Group Outcomes</h1>
+
+<p>How do we get real-world implications from this model? We know black people have been historically economically disadvantaged in the United States. But, how do we integrate this fact into the model&rsquo;s framework? Well, we can set the initial state of the world to the extreme <code>$(sB, sW)=(0,1)$</code>, meaning all black agents start of as unskilled and all white agents start of as skilled (perhaps due to separate but unequal hospitals/schools/etc). Based on that initial state, I can then see what the future states of the world will be under the previously derived law of motion.</p>
+
+<ol>
+<li>Let&rsquo;s assume complete integration, <code>$p=0$</code>. Given <code>$(sB, sW)=(0,1)$</code>, then <code>$q^W_{t+1}=q^B_{t+1}=1-x$</code>, and since cost is only dependent on network, cost is then <code>$c(1-x)$</code> for both groups. Thus, all black and white agents will make the same decisions and there will be no asymmetric stable steady state.</li>
+<li>Now, consider complete segregation, <code>$p=1$</code>. Given <code>$(sB, sW)=(0,1)$</code> again, then <code>$q^B=0$</code> and <code>$q^W=1$</code>. So, cost is <code>$c(0)$</code> for black agents and <code>$c(1)$</code> for white agents. Recall <code>$c(0)&lt;h&lt;c(1)$</code>, meaning that there is necessarily an asymmetric stable steady state. (No black agents will become skilled and all white agents will become skilled.)</li>
+</ol>
+
+<p>Given #1 and #2 above, the authors explain,</p>
+
+<blockquote>
+<p>&ldquo;Since there exists an asymmetric stable steady state under complete segregation but none under complete integration, one may conjecture that there is a threshold level of segregation such that persistent group inequality is feasible if and only if the actual segregation level exceeds this threshold.&rdquo;</p>
+</blockquote>
+
+<p>Let&rsquo;s prove this conjecture. (The following is my summary of the appendix proofs for propositions 1 and 2.) First, we find the unique <code>$x''$</code> (black population share) threshold s.t. <code>$c(1-x'')=h$</code>. Then,</p>
+
+<ul>
+<li><p>consider <code>$x'&lt;x''$</code></p>
+
+<ul>
+<li><code>$c(1-x')&lt;h$</code> because cost decreases in its argument</li>
+<li><code>$q^B=(1-p)(1-x')$</code> and <code>$q^W=p+(1-p)(1-x')$</code> (since <code>$(s^B, s^W)=(0,1)$</code>)
+
+<ul>
+<li><code>$c(q^W)$</code> is decreasing in <code>$p$</code> and less than <code>$h$</code> at <code>$p=0$</code> (since <code>$c(1-x')&lt;h$</code>)</li>
+<li><code>$c(q^B)$</code> is increasing in <code>$p$</code> and <code>$c(q^B)=c((1-0)(1-x'))&lt;h$</code> when <code>$p=0$</code> but <code>$c(q^B)=c(0)&gt;h$</code> when <code>$p=1$</code>
+
+<ul>
+<li>there is a unique <code>$p'(x')$</code> such that <code>$c(q^B)=h$</code>
+
+<ul>
+<li>for all <code>$p&gt;p'(x')$</code>, we have <code>$c(q^W)&lt;h&lt;c(q^B)$</code>, meaning <code>$(s^B,s^W)=(0,1)$</code> is a steady state</li>
+<li>for all <code>$p&lt;p'(x')$</code>, we have <code>$c(q^W)&lt;c(q^B)&lt;h$</code>, which makes it optimal for both groups of workers to become skilled and so there is a transition to <code>$(1,1)$</code>
+
+<ul>
+<li>since that lowers both costs, the condition <code>$c(q^W)&lt;c(q^B)&lt;h$</code> continues to hold which makes <code>$(1,1)$</code> the stable steady state instead of <code>$(0,1)$</code>.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+
+<li><p>consider <code>$x'&gt;x''$</code></p>
+
+<ul>
+<li><code>$c(1-x')&gt;h$</code> because cost decreases in its argument</li>
+<li><code>$q^B=(1-p)(1-x')$</code> and <code>$q^W=p+(1-p)(1-x')$</code> (since <code>$(s^B, s^W)=(0,1)$</code>)
+
+<ul>
+<li><code>$c(q^B)$</code> is increasing in <code>$p$</code> and greater than <code>$h$</code> when <code>$p=0$</code> (since <code>$c(q^B)=c(1-x')&gt;h$</code>); <code>$c(q^B)&gt;h$</code> for all <code>$p$</code></li>
+<li><code>$c(q^W)$</code> is decreasing in <code>$p$</code> and <code>$c(q^W)=c((1-0)(1-x'))&gt;h$</code> when <code>$p=0$</code> but <code>$c(q^W)=c(1)&lt;h$</code> when <code>$p=1$</code>
+
+<ul>
+<li>there is a unique <code>$p'(x')$</code> such that <code>$c(qW)=h$</code>
+
+<ul>
+<li>for all <code>$p&gt;p'(x')$</code>, we have <code>$c(q^W)&lt;h&lt;c(q^B)$</code>, meaning <code>$(s^B,s^W)=(0,1)$</code> is a steady state</li>
+<li>for all <code>$p&lt;p'(x')$</code>, we have <code>$h&lt;c(q^W)&lt;c(q^B)$</code>, which makes it optimal for both groups of workers to not become skilled and so transition to <code>$(0,0)$</code>
+
+<ul>
+<li>since that then increases both costs, the condition <code>$h&lt;c(q^W)&lt;c(q^B)$</code> continues to hold which makes <code>$(0,0)$</code> the stable steady state instead of <code>$(0,1)$</code></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p>In sum, given the fraction <code>$x$</code>, there is a threshold level of segregation <code>$p^*$</code> above which <code>$(sB,sW)=(0,1)$</code> is a steady state (persistent group inequality), but below which the model shifts to a symmetric steady state. Whether the eventual steady state means welfare improving equalization &ndash; <code>$(sB,sW)=(1,1)$</code> &ndash; or welfare reducing equalization &ndash; <code>$(sB,sW)=(0,0)$</code> &ndash; depends on the fraction <code>$x$</code>. If the originally skilled group is large enough, all agents will become skilled, otherwise, all agents will become unskilled.</p>
+
+<p><strong>In words, the model shows that group inequality persists if segregation is high enough. If segregation is below the threshold for maintaining inequality, groups inequality disappears, but whether that is through a loss of everyone&rsquo;s skills or a gain of everyone&rsquo;s skills depends on the population shares that define the model world.</strong> The authors use the following graph to depict these conclusions:</p>
+
+<figure>
+<center>
+    <img src="/post/social-networks-and-the-endurance-of-economic-injury_files/bggraph.png" alt="" width="100%" height="100%"/>
+    <figcaption><i>Note that Bowles and Sethi (2006) use different variables than me for the parameters of interest. Also, the authors normalize the benefits of human capital accumulation to 0.</i></figcaption>
+    </center>
+</figure>
+
+<p>This figure sharply summarizes the model&rsquo;s results thus far. It succinctly and clearly shows how two parameters (population share and segregation) determine the eventual state of the world. I usually use graphs to visualize tangible data, but they are just as useful in visualizing concepts or theoretical results, as seen here.<sup class="footnote-ref" id="fnref:The-graph-I-buil"><a href="#fn:The-graph-I-buil">2</a></sup></p>
+
+<h1 id="suspiciously-slick">Suspiciously Slick?</h1>
+
+<p>There are a few issues with the model dynamics that you might have noticed reading the above summary. Namely, everyone is the same within racial groups and convergence occurs in a single period. This feels less interesting than a slower convergence differing by other individual characteristics.</p>
+
+<p>Much of the aforementioned simplicity comes from the assumption that ability is the same for all agents (ability is homogenous). However, the model can be tweaked to make ability heterogenous &ndash; that is exactly what the authors do later in the paper. As such, the cost of human capital investment then varies with ability as well as network capital. So, cost now depends on something that is specific to the individual (ability) as well as common to the group (racial identity).<sup class="footnote-ref" id="fnref:Note-the-model-a"><a href="#fn:Note-the-model-a">3</a></sup></p>
+
+<p>Moreover, the cost function <code>$c(a, q)$</code> is then decreasing in both ability and network capital level. In words, it is easier to become skilled when exposed to more skilled people (due to networks), and easier to become skilled when endowed with higher natural ability. For any given network capital level <code>$q$</code>, there is some threshold ability level <code>$a'(q)$</code> such that those above the cut-off become skilled and those below do not. Similar to the reasoning in the homogenous case, an agent needs <code>$c(a, q)&lt;h$</code> to become skilled. In effect, the relevant threshold is defined as the <code>$a'(q)$</code> s.t. <code>$c(a, q)=h$</code>.<sup class="footnote-ref" id="fnref:Any-ability-abov"><a href="#fn:Any-ability-abov">4</a></sup></p>
+
+<p>An interesting insight on this topic is that: <em>&ldquo;individuals belonging to groups exposed to higher levels of human capital will themselves accumulate human capital at lower ability thresholds relative to individuals in groups with initially lower levels of human capital. This difference will be greater when segregation levels are high.&rdquo;</em> So, <strong>in this more complex build of the model, black people have to boast higher ability levels than their white counterparts to make human capital accumulation cost beneficial&hellip; all due to the historical disadvantages build into their social networks.</strong> And that all came out of a bunch of threshold rules and variables!</p>
+
+<h1 id="recap-behold-the-power-of-models">Recap: Behold the Power of Models</h1>
+
+<p>Bowles and Sethi built this model with an eye towards examples of enduring economic injury. They saw an empirical fact (the persistent black-white wage gap) and then put structure on their intuitive answers to naturally occurring questions: If there was zero discrimination, would the wage gap still endure? How would that work? Through what channels?</p>
+
+<p>At the end of the day, their model hinges on a few items: (1) the inverse relationship between network capital and cost of skill acquisition, and (2) network formation (as influenced by segregation and population share). The first is an assumption based in the reality of human success and failure &ndash; it doesn&rsquo;t always &ldquo;take a village&rdquo; but that definitely helps. The second is a distilled sketch of a complex and idiosyncratic process &ndash; network formation depends on two parameters (segregation and population share) and leads to useful, comprehensible insights. The previously showcased graph is especially important for highlighting the potential difficulty of policy decisions &ndash; what part of the graph are we in?</p>
+
+<h1 id="blue-book-d">Blue Book&rsquo;d</h1>
+
+<p>Bowles and Sethi (2006) illustrates how social networks, population demographics, and decision-making interact to determine the endurance of economic injury. The model also illustrates how writing a blog can sometimes help in your academic life &ndash; as it turns out, I managed to describe and solve out pieces of this model in my <em>Social Economics</em> blue book exam. Two birds, one paper.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:I-ll-ignore-indi">I&rsquo;ll ignore indifference throughout. <a class="footnote-return" href="#fnref:I-ll-ignore-indi">↩</a></li>
+<li id="fn:The-graph-I-buil">The graph I built depicting when to share an idea <a href="/post/social-networks-and-the-endurance-of-economic-injury_files/share.png">à la Koszegi</a> is another example of visualizing how model parameters relate to outcomes. <a class="footnote-return" href="#fnref:The-graph-I-buil">↩</a></li>
+<li id="fn:Note-the-model-a">Note the model assumes no group differences in cost function or ability distributions. <a class="footnote-return" href="#fnref:Note-the-model-a">↩</a></li>
+<li id="fn:Any-ability-abov">Any ability above that, the person becomes skilled. Any ability below that, the person does not. <a class="footnote-return" href="#fnref:Any-ability-abov">↩</a></li>
+</ol>
+</div>
+
+</main>
+
+  <footer>
+  <script src="//yihui.name/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script async src="//yihui.name/js/center-img.js"></script>
+
+  
+  <hr/>
+  &copy; Alex Albright 2018 | Built with <a href="https://github.com/rstudio/blogdown">blogdown</a> &amp; <a href="https://gohugo.io/">Hugo</a>
+  
+  </footer>
+  </body>
+</html>
+

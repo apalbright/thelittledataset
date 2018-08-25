@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on The Little Dataset</title>
+    <link>/tags/research/</link>
+    <description>Recent content in Research on The Little Dataset</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 May 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Alex&#39;s Adventures in Academia-land</title>
+      <link>/2016/05/08/alex-s-adventures-in-academia-land/</link>
+      <pubDate>Sun, 08 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/05/08/alex-s-adventures-in-academia-land/</guid>
+      <description>Intro While I usually use this blog to work on casual pet projects, I wanted to take an opportunity to use the medium to discuss academic research. Writing is an instinctive mechanism for me to process my thoughts on a topic, but it is one that I use sparingly to discuss the meta-narrative of my own decisions and behavior. The impetus for this self-reflection is the following exciting news: I’ll be pursuing my PhD in economics at Harvard starting this fall!</description>
+    </item>
+    
+  </channel>
+</rss>
