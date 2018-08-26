@@ -63,8 +63,8 @@ The network capital of people in the two groups is the same only if: `$p=0$` (th
 
 Given the two above equations, we get a **"law of motion" for human capital decisions**: 
 
-1. If `$q^G_{t+1}>q*, s^G_{t+1}=1$` (with `$G \in \{B,W\}$`)
-2. If `$q^G_{t+1}<q*, s^G_{t+1}=0$`
+1. If `$q^G_{t+1}>q^*, s^G_{t+1}=1$` (with `$G \in \{B,W\}$`)
+2. If `$q^G_{t+1}<q^*, s^G_{t+1}=0$`
 
 In words, if network capital is above the necessary threshold level, all agents of that group become skilled. If network capital is below the necessary threshold level, all agents of that group stay unskilled. Note that in this simplified model all agents make the same decisions within racial groups.
 
