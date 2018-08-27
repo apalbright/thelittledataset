@@ -18,12 +18,6 @@ When she is not busy with R code in the basement of Littauer or amusing side pro
 
 ---
 
-## CV
-
-[Here is my CV.](https://scholar.harvard.edu/files/apalbright/files/alex_albright_cv.pdf)
-
----
-
 ## Contact Info
 
 Email me *(apalbright [at] g.harvard.edu)*, [tweet me](https://twitter.com/AllbriteAllday), if you want to reach me. 
@@ -51,9 +45,3 @@ I am teaching *EC985: Research in Social Economics, Labor Economics, and Applied
 - Predicting Angus Deaton’s Nobel Win (and subsequently winning $15) (2015; [Photo Evidence](/about_files/venmogrant.png))
 - Math Colloqium on Benford's Law (2014; [Video](https://www.youtube.com/watch?v=YIQOvAqFFLo)) 
 - Gold Medal at the NYC Math Fair (2008; I have no proof of this one, but I promise my 15-year-old self was stoked) 
-
----
-
-## Support
-
-If you like my articles and want to show your support financially, you can venmo me @alexpalbright.
