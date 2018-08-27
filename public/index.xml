@@ -6,10 +6,21 @@
     <description>Recent content in Home on The Little Dataset</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Let Me Upgrade You</title>
+      <link>/2018/08/26/let-me-upgrade-you/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/08/26/let-me-upgrade-you/</guid>
+      <description>Goodbye Wordpress, Hello Blogdown Back in December 2014, I wanted to start a blog. Given that the whole process sounded daunting I started with a free Wordpress site. Now that I&amp;rsquo;ve become comfortable with R code and the RStudio IDE, I decided to start blogging in my natural habit too&amp;hellip; so, I rebuilt my website using the blogdown R package!
+Why the switch? Because now I can:
+ have direct access to and control over the website source files  all files that make up my site are edited locally (in my dropbox) and then pushed to this Github repo  never again serve ads to readers anymore!</description>
+    </item>
     
     <item>
       <title>Testing for Local Continuity in Racial Animus</title>
