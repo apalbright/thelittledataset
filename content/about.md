@@ -2,7 +2,7 @@
 title: About
 ---
 
-**The Little Dataset That Could** functions as an outlet for continuously curious researcher, Alex, who loves asking questions and finding answers with data.
+**The Little Dataset That Could** functions as an outlet for a continuously curious researcher, Alex, who loves asking questions and finding answers with data.
 
 ---
 
