@@ -24,7 +24,13 @@ Email me *(apalbright [at] g.harvard.edu)*, [tweet me](https://twitter.com/Allbr
 
 ---
 
-## Code 
+## CV
+
+[Here](https://scholar.harvard.edu/files/apalbright/files/alex_albright_cv.pdf) is my CV.
+
+---
+
+## Datasets & Code
  
 Check out my [Github](https://github.com/apalbright) and [RPubs](http://rpubs.com/apalbright) for data and code.
 
