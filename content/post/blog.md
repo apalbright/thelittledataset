@@ -21,7 +21,7 @@ Why the switch? Because now I can:
 
 - have direct access to and control over the website source files
     - all files that make up my site are edited locally (in my dropbox) and then pushed to [this Github repo](https://github.com/apalbright/thelittledataset)
-- never again serve ads to readers anymore!^[Since I was using the free plan for Wordpress, they would put ads at the bottom of my posts.]
+- never again serve ads to readers!^[Since I was using the free plan for Wordpress, they would put ads at the bottom of my posts.]
 - write my blog content out of the RStudio IDE
     - more efficient since I already write up my R code here for data analysis
     - can work offline^[To edit Wordpress post drafts, you have to be online.]
