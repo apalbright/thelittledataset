@@ -16,6 +16,8 @@ She is a [Stone PhD Scholar](https://inequality.hks.harvard.edu/fellowship-award
 
 When she is not busy with R code in the basement of Littauer or amusing side projects (the scope of this blog), she can be found diving [(i.e., falling slowly)](https://www.youtube.com/watch?v=XKgPbg8epUg&feature=youtu.be&t=13s) for frisbees.
 
+*See her [CV](https://scholar.harvard.edu/files/apalbright/files/alex-albright-cv.pdf) for more academic information.*
+
 ---
 
 ## Contact Info
@@ -24,15 +26,9 @@ Email me *(apalbright [at] g.harvard.edu)*, [tweet me](https://twitter.com/Allbr
 
 ---
 
-## CV
-
-[Here](https://scholar.harvard.edu/files/apalbright/files/alex_albright_cv.pdf) is my CV.
-
----
-
 ## Datasets & Code
  
-Check out my [Github](https://github.com/apalbright) and [RPubs](http://rpubs.com/apalbright) for data and code.
+Check out my [Github](https://github.com/apalbright) and [RPubs](http://rpubs.com/apalbright) for data and code.^[I also link to relevant repositories and notebooks at the bottom of all my blog posts.]
 
 ---
 
