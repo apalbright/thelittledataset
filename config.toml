@@ -20,9 +20,13 @@ footnotereturnlinkcontents = "↩"
     url = "/about/"
     weight = 2
 [[menu.main]]
+    name = "CV"
+    url = "https://scholar.harvard.edu/files/apalbright/files/alex-albright-cv.pdf"
+    weight = 3 
+[[menu.main]]
     name = "Support"
     url = "https://www.patreon.com/allbriteallday"
-    weight = 3
+    weight = 4
 
 [params]
     description = "The Little Dataset"
