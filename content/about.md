@@ -2,7 +2,7 @@
 title: About
 ---
 
-**The Little Dataset That Could** functions as an outlet for a continuously curious researcher, Alex, who loves asking questions and finding answers with data.^[*Acknowledgements: Thanks to [my Patreon](https://www.patreon.com/allbriteallday) supporters: Jesse White, Victor Luo, Annie Kaempfer, Jennifer Reed, and Tom Albright!*]
+**The Little Dataset That Could** functions as an outlet for a continuously curious researcher, Alex, who loves asking questions and finding answers with data.^[*Acknowledgements: Thanks to [my Patreon](https://www.patreon.com/allbriteallday) supporters: Jesse White, Emily White, Victor Luo, Annie Kaempfer, Jennifer Reed, and Tom Albright!*]
 
 ---
 
