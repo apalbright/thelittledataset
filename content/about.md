@@ -50,6 +50,6 @@ I am teaching *EC985: Research in Social Economics, Labor Economics, and Applied
 
 ---
 
-# Acknowledgments
+## Acknowledgments
 
 Thanks to [my Patreon](https://www.patreon.com/allbriteallday) supporters: Jesse White, Emily White, Victor Luo, Annie Kaempfer, Jennifer Reed, and Tom Albright!
