@@ -2,7 +2,7 @@
 title: About
 ---
 
-**The Little Dataset That Could** functions as an outlet for a continuously curious researcher, Alex, who loves asking questions and finding answers with data.^[*Thanks to [my Patreon](https://www.patreon.com/allbriteallday) supporters: Jesse White, Emily White, Victor Luo, Annie Kaempfer, Jennifer Reed, and Tom Albright!*]
+**The Little Dataset That Could** functions as an outlet for a continuously curious researcher, Alex, who loves asking questions and finding answers with data.
 
 ---
 
@@ -16,7 +16,7 @@ She is a [Stone PhD Scholar](https://inequality.hks.harvard.edu/fellowship-award
 
 When she is not busy with R code in the basement of Littauer or amusing side projects (the scope of this blog), she can be found diving [(i.e., falling slowly)](https://www.youtube.com/watch?v=XKgPbg8epUg&feature=youtu.be&t=13s) for frisbees.
 
-*See her [CV](https://scholar.harvard.edu/files/apalbright/files/alex-albright-cv.pdf) for more academic information.*
+*See her [Harvard webpage](https://scholar.harvard.edu/apalbright) and [CV](https://scholar.harvard.edu/files/apalbright/files/alex-albright-cv.pdf) for more academic information.*
 
 ---
 
@@ -47,3 +47,9 @@ I am teaching *EC985: Research in Social Economics, Labor Economics, and Applied
 - Predicting Angus Deaton’s Nobel Win (and subsequently winning $15) (2015; [Photo Evidence](/about_files/venmogrant.png))
 - Math Colloqium on Benford's Law (2014; [Video](https://www.youtube.com/watch?v=YIQOvAqFFLo)) 
 - Gold Medal at the NYC Math Fair (2008; I have no proof of this one, but I promise my 15-year-old self was stoked) 
+
+---
+
+# Acknowledgments
+
+Thanks to [my Patreon](https://www.patreon.com/allbriteallday) supporters: Jesse White, Emily White, Victor Luo, Annie Kaempfer, Jennifer Reed, and Tom Albright!
