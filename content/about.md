@@ -40,8 +40,9 @@ I am teaching *EC985: Research in Social Economics, Labor Economics, and Applied
 
 ## Personal Highlights
 
+- Harvard Econ Holiday Party Host (2018; [Video Clip](https://twitter.com/AllbriteAllday/status/1071169713101778944))
 - [R-Ladies](https://rladies.org/) Boston Talk (2018; [Slides](/about_files/Albright_rladies.pdf))
-- Harvard Econ Holiday Skits (2018, 2017; [G2 Video](https://www.youtube.com/watch?v=xU0NAKqRoY4&t=338s), [G1 Video](https://www.youtube.com/watch?v=SW0vVQQZ0TE))
+- Harvard Econ Holiday Skits (2018, 2017, 2016; [G3 Video](https://www.youtube.com/watch?v=5t-kS3l0Wlo), [G2 Video](https://www.youtube.com/watch?v=xU0NAKqRoY4&t=338s), [G1 Video](https://www.youtube.com/watch?v=SW0vVQQZ0TE))
 - *Data is Plural* Mention (2017; [Newsletter](https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-11-08-edition))
 - Choropleths for *The New Yorker* (2015; [Article](https://www.newyorker.com/culture/culture-desk/which-u-s-state-performs-best-in-the-new-yorker-caption-contest))
 - Predicting Angus Deaton’s Nobel Win (and subsequently winning $15) (2015; [Photo Evidence](/about_files/venmogrant.png))
