@@ -32,12 +32,6 @@ Check out my [Github](https://github.com/apalbright) and [RPubs](http://rpubs.co
 
 ---
 
-## Teaching
-
-I am teaching *EC985: Research in Social Economics, Labor Economics, and Applied Microeconomics* during the 2018-19 academic year.
-
----
-
 ## Personal Highlights
 
 - Harvard Econ Holiday Party Host (2018; [Video Clip](https://twitter.com/AllbriteAllday/status/1071169713101778944))
