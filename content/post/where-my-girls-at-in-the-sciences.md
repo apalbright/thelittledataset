@@ -85,7 +85,7 @@ For instance, in my experience, one nontrivial hurdle that stands between studen
 
 The implications of coding’s expanding role in many strains of scientific research should not be underestimated. **If women are not coding, they are not just missing from computer science—they will increasingly be missing from other disciplines which coding has seeped into.**
 
-# The big picture: present–future
+# The big picture: present `$\rightarrow$` future
 
 In other words, I would argue academia is currently faced with the issue of improving female representation in code-intensive fields.^[On a positive note, atmospheric sciences, which often involves complex climate modeling techniques, has experienced large gains in female representation at the undergraduate level.] As is true with math-intensive fields, the stereotypical beliefs of teachers and parents of younger children [“become part of the self-fulfilling belief systems of the children themselves from a very early age”](http://science.sciencemag.org/content/sci/349/6246/391.2.full.pdf?sid=fbf0dd62-c973-497d-902c-e1a80bfbe0ea) that discourage women from even attempting to enter code-intensive fields. These beliefs when combined with Ellenberg's described "cult of genius" (a mechanism that surrounded mathematics and now also applies to the atmosphere in computer science) are especially dangerous.
 
