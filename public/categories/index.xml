@@ -39,6 +39,24 @@
     </item>
     
     <item>
+      <title>Code</title>
+      <link>/categories/code/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Density plots</title>
+      <link>/categories/density-plots/</link>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/density-plots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Grid maps</title>
       <link>/categories/grid-maps/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
@@ -68,7 +86,7 @@
     <item>
       <title>Line charts</title>
       <link>/categories/line-charts/</link>
-      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/categories/line-charts/</guid>
       <description></description>
@@ -116,6 +134,15 @@
       <pubDate>Mon, 23 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/regressions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ridgeline plots</title>
+      <link>/categories/ridgeline-plots/</link>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/ridgeline-plots/</guid>
       <description></description>
     </item>
     

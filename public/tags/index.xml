@@ -32,7 +32,7 @@
     <item>
       <title>Age</title>
       <link>/tags/age/</link>
-      <pubDate>Mon, 30 Mar 2015 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/age/</guid>
       <description></description>
@@ -75,11 +75,29 @@
     </item>
     
     <item>
+      <title>Australia</title>
+      <link>/tags/australia/</link>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/australia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Awards</title>
       <link>/tags/awards/</link>
       <pubDate>Tue, 24 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>/tags/awards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bail</title>
+      <link>/tags/bail/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bail/</guid>
       <description></description>
     </item>
     
@@ -120,11 +138,38 @@
     </item>
     
     <item>
+      <title>Bella</title>
+      <link>/tags/bella/</link>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bella/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Bias</title>
       <link>/tags/bias/</link>
       <pubDate>Tue, 24 May 2016 00:00:00 +0000</pubDate>
       
       <guid>/tags/bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>/tags/blog/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blogdown</title>
+      <link>/tags/blogdown/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/blogdown/</guid>
       <description></description>
     </item>
     
@@ -179,6 +224,15 @@
       <pubDate>Tue, 05 May 2015 00:00:00 +0000</pubDate>
       
       <guid>/tags/cartoons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cat</title>
+      <link>/tags/cat/</link>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cat/</guid>
       <description></description>
     </item>
     
@@ -282,6 +336,15 @@
     </item>
     
     <item>
+      <title>Connecticut</title>
+      <link>/tags/connecticut/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/connecticut/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Corpus</title>
       <link>/tags/corpus/</link>
       <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
@@ -300,9 +363,18 @@
     </item>
     
     <item>
+      <title>Criminal justice</title>
+      <link>/tags/criminal-justice/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/criminal-justice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data viz</title>
       <link>/tags/data-viz/</link>
-      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/data-viz/</guid>
       <description></description>
@@ -386,6 +458,15 @@
       <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>/tags/doctoral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dog</title>
+      <link>/tags/dog/</link>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dog/</guid>
       <description></description>
     </item>
     
@@ -705,6 +786,15 @@
     </item>
     
     <item>
+      <title>Hugo</title>
+      <link>/tags/hugo/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Humanities</title>
       <link>/tags/humanities/</link>
       <pubDate>Mon, 23 Jul 2018 00:00:00 +0000</pubDate>
@@ -782,6 +872,15 @@
       <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/intergenerational/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jail</title>
+      <link>/tags/jail/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/jail/</guid>
       <description></description>
     </item>
     
@@ -966,6 +1065,15 @@
     </item>
     
     <item>
+      <title>Name</title>
+      <link>/tags/name/</link>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/name/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Nash</title>
       <link>/tags/nash/</link>
       <pubDate>Mon, 09 Jan 2017 00:00:00 +0000</pubDate>
@@ -1022,7 +1130,7 @@
     <item>
       <title>Notebook</title>
       <link>/tags/notebook/</link>
-      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/notebook/</guid>
       <description></description>
@@ -1049,7 +1157,7 @@
     <item>
       <title>Open data</title>
       <link>/tags/open-data/</link>
-      <pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/open-data/</guid>
       <description></description>
@@ -1200,6 +1308,24 @@
     </item>
     
     <item>
+      <title>Pretrial</title>
+      <link>/tags/pretrial/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pretrial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prison</title>
+      <link>/tags/prison/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/prison/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Prisoner’s dilemma</title>
       <link>/tags/prisoners-dilemma/</link>
       <pubDate>Mon, 09 Jan 2017 00:00:00 +0000</pubDate>
@@ -1220,9 +1346,18 @@
     <item>
       <title>R</title>
       <link>/tags/r/</link>
-      <pubDate>Mon, 23 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RStudio</title>
+      <link>/tags/rstudio/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rstudio/</guid>
       <description></description>
     </item>
     
@@ -1670,7 +1805,7 @@
     <item>
       <title>Tf-idf</title>
       <link>/tags/tf-idf/</link>
-      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/tf-idf/</guid>
       <description></description>

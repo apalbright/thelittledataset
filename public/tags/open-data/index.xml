@@ -6,10 +6,28 @@
     <description>Recent content in Open data on The Little Dataset</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Sep 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/open-data/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dynamics of Pretrial Jail Populations</title>
+      <link>/2019/01/14/dynamics-of-pretrial-jail-populations/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/01/14/dynamics-of-pretrial-jail-populations/</guid>
+      <description>A Daily Census of Pretrial Inmates I&amp;rsquo;ve spent a good amount of time this fall learning about pretrial detention and bail setting practices across the country. While much of the empirical research I&amp;rsquo;ve encountered on pretrial detention uses either aggregated1 or restricted access data, it turns out that there is a granular pretrial detention dataset that frollicks freely on the internet. As of 7/1/16, Connecticut has published &amp;ldquo;a daily census of every inmate held in jail while awaiting trial.</description>
+    </item>
+    
+    <item>
+      <title>It&#39;s Raining Cats and Dogs Data</title>
+      <link>/2018/10/30/cats-vs-dogs/</link>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/10/30/cats-vs-dogs/</guid>
+      <description>Meow-tivation1 In my day-to-day, I often work with data on ages and names. Age is an important covariate to include in regressions; its continuous evolution can also lend itself to clever regression discontinuity designs.2 Meanwhile, names can be used to infer often omitted demographic variables such as gender and race.3 I have seen these two variables collected for scores and scores of people&amp;hellip; but, what about when the sample isn&amp;rsquo;t people anymore?</description>
+    </item>
     
     <item>
       <title>Building Visualizations Using City Open Data</title>

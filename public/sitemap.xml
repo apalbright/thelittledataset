@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2019/01/14/dynamics-of-pretrial-jail-populations/</loc>
+    <lastmod>2019-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2018/10/30/cats-vs-dogs/</loc>
+    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2018/08/26/let-me-upgrade-you/</loc>
     <lastmod>2018-08-26T00:00:00+00:00</lastmod>
   </url>
@@ -165,7 +175,7 @@
   
   <url>
     <loc>/tags/age/</loc>
-    <lastmod>2015-03-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -194,8 +204,20 @@
   </url>
   
   <url>
+    <loc>/tags/australia/</loc>
+    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/awards/</loc>
     <lastmod>2015-02-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bail/</loc>
+    <lastmod>2019-01-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -226,6 +248,12 @@
   <url>
     <loc>/tags/belief-based/</loc>
     <lastmod>2017-10-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bella/</loc>
+    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -286,6 +314,12 @@
   <url>
     <loc>/tags/cartoons/</loc>
     <lastmod>2015-05-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cat/</loc>
+    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -374,6 +408,12 @@
   </url>
   
   <url>
+    <loc>/tags/connecticut/</loc>
+    <lastmod>2019-01-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/corpus/</loc>
     <lastmod>2017-09-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -386,8 +426,14 @@
   </url>
   
   <url>
+    <loc>/tags/criminal-justice/</loc>
+    <lastmod>2019-01-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/data-viz/</loc>
-    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -412,6 +458,12 @@
   <url>
     <loc>/tags/demographics/</loc>
     <lastmod>2016-05-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/density-plots/</loc>
+    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -442,6 +494,12 @@
   <url>
     <loc>/tags/doctoral/</loc>
     <lastmod>2015-12-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/dog/</loc>
+    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -675,7 +733,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -739,6 +797,12 @@
   </url>
   
   <url>
+    <loc>/tags/jail/</loc>
+    <lastmod>2019-01-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/joey/</loc>
     <lastmod>2015-01-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -770,7 +834,7 @@
   
   <url>
     <loc>/categories/line-charts/</loc>
-    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -877,6 +941,12 @@
   </url>
   
   <url>
+    <loc>/tags/name/</loc>
+    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/nash/</loc>
     <lastmod>2017-01-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -926,7 +996,7 @@
   
   <url>
     <loc>/tags/notebook/</loc>
-    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -944,7 +1014,7 @@
   
   <url>
     <loc>/tags/open-data/</loc>
-    <lastmod>2016-09-30T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1040,13 +1110,25 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/president/</loc>
     <lastmod>2016-03-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/pretrial/</loc>
+    <lastmod>2019-01-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/prison/</loc>
+    <lastmod>2019-01-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1064,7 +1146,7 @@
   
   <url>
     <loc>/tags/r/</loc>
-    <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1149,6 +1231,12 @@
   <url>
     <loc>/tags/ride-share/</loc>
     <lastmod>2017-10-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/ridgeline-plots/</loc>
+    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1400,7 +1488,7 @@
   
   <url>
     <loc>/tags/tf-idf/</loc>
-    <lastmod>2017-09-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

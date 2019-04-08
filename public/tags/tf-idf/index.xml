@@ -6,10 +6,19 @@
     <description>Recent content in Tf-idf on The Little Dataset</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/tf-idf/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>It&#39;s Raining Cats and Dogs Data</title>
+      <link>/2018/10/30/cats-vs-dogs/</link>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/10/30/cats-vs-dogs/</guid>
+      <description>Meow-tivation1 In my day-to-day, I often work with data on ages and names. Age is an important covariate to include in regressions; its continuous evolution can also lend itself to clever regression discontinuity designs.2 Meanwhile, names can be used to infer often omitted demographic variables such as gender and race.3 I have seen these two variables collected for scores and scores of people&amp;hellip; but, what about when the sample isn&amp;rsquo;t people anymore?</description>
+    </item>
     
     <item>
       <title>The United Nations of Words</title>

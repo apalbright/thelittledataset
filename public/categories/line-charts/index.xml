@@ -6,10 +6,19 @@
     <description>Recent content in Line charts on The Little Dataset</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/line-charts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dynamics of Pretrial Jail Populations</title>
+      <link>/2019/01/14/dynamics-of-pretrial-jail-populations/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/01/14/dynamics-of-pretrial-jail-populations/</guid>
+      <description>A Daily Census of Pretrial Inmates I&amp;rsquo;ve spent a good amount of time this fall learning about pretrial detention and bail setting practices across the country. While much of the empirical research I&amp;rsquo;ve encountered on pretrial detention uses either aggregated1 or restricted access data, it turns out that there is a granular pretrial detention dataset that frollicks freely on the internet. As of 7/1/16, Connecticut has published &amp;ldquo;a daily census of every inmate held in jail while awaiting trial.</description>
+    </item>
     
     <item>
       <title>Text Me Back</title>
