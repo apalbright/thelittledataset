@@ -7,3 +7,4 @@ blogdown
 .DS_Store 
 public/ # if using Netlify
 public
+/public
