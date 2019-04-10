@@ -4,7 +4,7 @@
 .Ruserdata
 # directories to ignore
 blogdown
-.DS_Store 
+.DS_Store
 public/ # if using Netlify
 public
 /public
