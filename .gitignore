@@ -3,5 +3,6 @@
 .RData
 .Ruserdata
 # directories to ignore
-public/
-.Rproj.user/
+blogdown
+.DS_Store 
+public/ # if using Netlify
