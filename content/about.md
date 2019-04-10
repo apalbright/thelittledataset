@@ -10,13 +10,11 @@ title: About
 
 <img src="/./about_files/AlexAlbright.jpg" style="float: left; margin-right: 15px; margin-top: 8px" alt="" width="23%" height="23%" /> 
 
-**Alex Albright** is an economics PhD student at Harvard. (Or, is she a candidate yet? Honestly, she's not sure.) Her research interests are in labor economics, law and economics, social economics, and economic history. Her current research focuses on risk assessment scores as tools and subjects of study in the criminal justice system. 
+**Alex Albright** is an economics PhD student^[soon to be *PhD candidate*!] at Harvard. Her research interests are in labor economics, law and economics, social economics, and economic history. Her current research focuses on risk assessment scores as tools and subjects of study in the criminal justice system. 
 
-She is a [Stone PhD Scholar](https://inequality.hks.harvard.edu/fellowship-awards) in Harvard's Multidisciplinary Program in Inequality & Social Policy and a [Considine Fellow](http://www.law.harvard.edu/programs/olin_center/fellowships.php) in Law and Economics. Alex graduated from Williams College (with a BA in math and economics) in 2014 and worked at Stanford Law School as an [Empirical Research Fellow](https://law.stanford.edu/empirical-research-fellowship/) for John Donohue from 2014-2016. She grew up in New York City and learned most adult concepts from *Seinfeld* re-runs.
+She is a [Stone PhD Scholar](https://inequality.hks.harvard.edu/fellowship-awards) in Harvard's Multidisciplinary Program in Inequality & Social Policy and a [Considine Fellow](http://www.law.harvard.edu/programs/olin_center/fellowships.php) in Law and Economics. Alex graduated from Williams College (with a BA in math and economics) in 2014 and worked at Stanford Law School as an [Empirical Research Fellow](https://law.stanford.edu/empirical-research-fellowship/) for John Donohue from 2014-2016. See her [Harvard webpage](https://scholar.harvard.edu/apalbright) and [CV](https://scholar.harvard.edu/files/apalbright/files/alex-albright-cv.pdf) for more academic information.
 
-When she is not busy with R code in the basement of Littauer or amusing side projects (the scope of this blog), she can be found diving [(i.e., falling slowly)](https://www.youtube.com/watch?v=XKgPbg8epUg&feature=youtu.be&t=13s) for frisbees.
-
-*See her [Harvard webpage](https://scholar.harvard.edu/apalbright) and [CV](https://scholar.harvard.edu/files/apalbright/files/alex-albright-cv.pdf) for more academic information.*
+Alex grew up in New York City and learned most adult concepts from *Seinfeld* re-runs. When she is not busy with R code in the Littauer basement or amusing side projects (the scope of this blog), she can be found diving [(i.e., falling slowly)](https://www.youtube.com/watch?v=XKgPbg8epUg&feature=youtu.be&t=13s) for frisbees.
 
 ---
 
@@ -34,6 +32,7 @@ Check out my [Github](https://github.com/apalbright) and [RPubs](http://rpubs.co
 
 ## Personal Highlights
 
+- Built Harvard Grad Women in Econ website (*to be shared soon...*)
 - Harvard Econ Holiday Party Host (2018; [Video Clip](https://twitter.com/AllbriteAllday/status/1071169713101778944))
 - [R-Ladies](https://rladies.org/) Boston Talk (2018; [Slides](/about_files/Albright_rladies.pdf))
 - Harvard Econ Holiday Skits (2018, 2017, 2016; [G3 Video](https://www.youtube.com/watch?v=5t-kS3l0Wlo), [G2 Video](https://www.youtube.com/watch?v=xU0NAKqRoY4&t=338s), [G1 Video](https://www.youtube.com/watch?v=SW0vVQQZ0TE))
