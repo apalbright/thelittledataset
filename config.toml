@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://thelittledataset.com/"
 languageCode = "en-us"
 title = "The Little Dataset"
 theme = "hugo-xmin"
