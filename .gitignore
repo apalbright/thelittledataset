@@ -3,9 +3,7 @@
 .Rhistory
 .RData
 .Ruserdata
-# directories to ignore
 blogdown
-.DS_Store
-public/ # if using Netlify
-public
+.DS_Store 
+public/ 
 
