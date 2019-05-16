@@ -10,7 +10,7 @@ title: About
 
 <img src="/./about_files/AlexAlbright.jpg" style="float: left; margin-right: 15px; margin-top: 8px" alt="" width="23%" height="23%" /> 
 
-**Alex Albright** is an economics PhD student^[soon to be *PhD candidate*!] at Harvard. Her research interests are in labor economics, law and economics, social economics, and economic history. Her current research focuses on risk assessment scores as tools and subjects of study in the criminal justice system. 
+**Alex Albright** is an economics PhD Candidate at Harvard. Her research interests are in labor economics, law and economics, social economics, and economic history. Her current research focuses on risk assessment scores as tools and subjects of study in the criminal justice system. 
 
 She is a [Stone PhD Scholar](https://inequality.hks.harvard.edu/fellowship-awards) in Harvard's Multidisciplinary Program in Inequality & Social Policy and a [Considine Fellow](http://www.law.harvard.edu/programs/olin_center/fellowships.php) in Law and Economics. Alex graduated from Williams College (with a BA in math and economics) in 2014 and worked at Stanford Law School as an [Empirical Research Fellow](https://law.stanford.edu/empirical-research-fellowship/) for John Donohue from 2014-2016. See her [Harvard webpage](https://scholar.harvard.edu/apalbright) and [CV](https://scholar.harvard.edu/files/apalbright/files/alex-albright-cv.pdf) for more academic information.
 
