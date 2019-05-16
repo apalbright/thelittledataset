@@ -32,7 +32,7 @@ Check out my [Github](https://github.com/apalbright) and [RPubs](http://rpubs.co
 
 ## Personal Highlights
 
-- Built Harvard Grad Women in Econ website (*to be shared soon...*)
+- Built [Harvard Grad Women in Econ website](https://harvardgwe.com/)
 - Harvard Econ Holiday Party Host (2018; [Video Clip](https://twitter.com/AllbriteAllday/status/1071169713101778944))
 - [R-Ladies](https://rladies.org/) Boston Talk (2018; [Slides](/about_files/Albright_rladies.pdf))
 - Harvard Econ Holiday Skits (2018, 2017, 2016; [G3 Video](https://www.youtube.com/watch?v=5t-kS3l0Wlo), [G2 Video](https://www.youtube.com/watch?v=xU0NAKqRoY4&t=338s), [G1 Video](https://www.youtube.com/watch?v=SW0vVQQZ0TE))
