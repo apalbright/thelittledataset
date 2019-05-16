@@ -20,7 +20,7 @@ Alex grew up in New York City and learned most adult concepts from *Seinfeld* re
 
 ## Contact Info
 
-Email me *(apalbright [at] g.harvard.edu)*, [tweet me](https://twitter.com/AllbriteAllday), if you want to reach me. 
+Email: `apalbright [at] g.harvard.edu` / Twitter: [`@allbriteallday`](https://twitter.com/AllbriteAllday)
 
 ---
 
