@@ -6,4 +6,5 @@
 blogdown
 .DS_Store 
 public/ 
+public
 temp/
