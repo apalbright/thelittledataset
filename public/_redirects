@@ -1,2 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-https://thelittledataset.netlify.com/* https://thelittledataset.com/:splat 301!
