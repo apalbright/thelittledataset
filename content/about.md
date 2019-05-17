@@ -24,6 +24,23 @@ Email: `apalbright [at] g.harvard.edu` / Twitter: [`@allbriteallday`](https://tw
 
 ---
 
+## Research
+
+Working Papers:
+
+- "If You Give a Judge a Risk Score: Evidence from Kentucky Bail Decisions"
+- "Uncorking Expert Reviews with Social Media: A Case Study Served with Wine" (with Peter Pedroni and Steve Sheppard)
+
+Ongoing Projects:
+
+- "Examining the Lasting Consequences of the Tulsa Race Riots of 1921” (with Nathan Nunn and James Feigenbaum)
+
+Publications:
+
+- “One Size Does Not Fit All: The Shortcomings of the Mainstream Data Scientist Working for Social Good” (with Sarah Levine). 2015. *Proceedings of the Bloomberg Data for Good Exchange.*
+
+---
+
 ## Datasets & Code
  
 Check out my [Github](https://github.com/apalbright) and [RPubs](http://rpubs.com/apalbright) for data and code.^[I also link to relevant repositories and notebooks at the bottom of all my blog posts.]
