@@ -2,7 +2,7 @@
 title: About
 ---
 
-**The Little Dataset That Could** functions as an outlet for a continuously curious researcher, Alex, who loves asking questions and finding answers with data.
+**The Little Dataset That Could** functions as an outlet for a continuously curious researcher, Alex, who loves asking questions and finding answers with data. 
 
 ---
 
@@ -20,33 +20,29 @@ Alex grew up in New York City and learned most adult concepts from *Seinfeld* re
 
 ## Contact Info
 
-Email: `apalbright [at] g.harvard.edu` / Twitter: [`@allbriteallday`](https://twitter.com/AllbriteAllday)
+### Email: `apalbright [at] g.harvard.edu`
+
+### Twitter: [`@allbriteallday`](https://twitter.com/AllbriteAllday)
 
 ---
 
 ## Research
 
-Working Papers:
+### Working Papers
 
 - "If You Give a Judge a Risk Score: Evidence from Kentucky Bail Decisions"
     - Full text *coming soon*
 - "Uncorking Expert Reviews with Social Media: A Case Study Served with Wine" (with Peter Pedroni and Steve Sheppard). *Williams College Department of Economics Working Paper.*
     - Full text [here](https://web.williams.edu/Economics/wp/UncorkingExpertReviews.pdf)
 
-Ongoing Projects:
+### Ongoing Projects
 
 - "Examining the Lasting Consequences of the Tulsa Race Riots of 1921” (with Nathan Nunn and James Feigenbaum)
 
-Publications:
+### Publications
 
 - “One Size Does Not Fit All: The Shortcomings of the Mainstream Data Scientist Working for Social Good” (with Sarah Levine). 2015. *Proceedings of the Bloomberg Data for Good Exchange.*
     - Full text [here](/about_files/levine_albright.pdf) & Sarah's summary [here](http://www.sarahmakesmaps.com/blog/2016/3/one-size-does-not-fit-all)
-
----
-
-## Datasets & Code
- 
-Check out my [Github](https://github.com/apalbright) and [RPubs](http://rpubs.com/apalbright) for data and code.^[I also link to relevant repositories and notebooks at the bottom of all my blog posts.]
 
 ---
 
