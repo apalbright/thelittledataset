@@ -130,7 +130,7 @@ There is ample room for tools in the education space to help students search acr
 
 # Data/Code
 
-All datasets and R scripts necessary to recreate these visuals are available at my ["edusalsa"" Github repo](https://github.com/apalbright/edusalsa)!
+All datasets and R scripts necessary to recreate these visuals are available at my ["edusalsa" Github repo](https://github.com/apalbright/edusalsa)!
 
 # Update: Code fix [April 2016]
 
