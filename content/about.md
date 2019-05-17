@@ -58,7 +58,7 @@ Check out my [Github](https://github.com/apalbright) and [RPubs](http://rpubs.co
 - Harvard Econ Holiday Skits (2018, 2017, 2016; [G3 Video](https://www.youtube.com/watch?v=5t-kS3l0Wlo), [G2 Video](https://www.youtube.com/watch?v=xU0NAKqRoY4&t=338s), [G1 Video](https://www.youtube.com/watch?v=SW0vVQQZ0TE))
 - *Data is Plural* Mentions (2019, 2017; [2019 Newsletter](https://tinyletter.com/data-is-plural/letters/data-is-plural-2019-02-20-edition), [2017 Newsletter](https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-11-08-edition))
 - Choropleths for *The New Yorker* (2015; [Article](https://www.newyorker.com/culture/culture-desk/which-u-s-state-performs-best-in-the-new-yorker-caption-contest))
-- Predicting Angus Deaton’s Nobel Win (and subsequently winning $15) (2015; [Photo Evidence](/about_files/venmogrant.png))
+- Predicting Angus Deaton’s Nobel Win (and subsequently winning $15) (2015; [Proof](/about_files/venmogrant.png))
 - Math Colloqium on Benford's Law (2014; [Video](https://www.youtube.com/watch?v=YIQOvAqFFLo)) 
 - Gold Medal at the NYC Math Fair (2008; I have no proof of this one, but I promise my 15-year-old self was stoked) 
 
