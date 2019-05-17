@@ -80,4 +80,4 @@ Despite its inevitable end, I did learn a lot from this spring fling. On a quali
 - Seth's racial animus data is [here](http://sethsd.com/research/).
 - VCU data on klaverns is [here](https://scholarscompass.vcu.edu/hist_data/1/).
 - My R notebook for this project is [here](http://rpubs.com/apalbright/local-continuity-racial-animus).
-- My Github repo for this project is [here](https://labs.library.vcu.edu/klan/).
+- My Github repo for this project is [here](https://github.com/apalbright/local-continuity-racial-animus).
