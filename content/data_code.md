@@ -2,7 +2,7 @@
 title: Data & Code
 ---
 
-As a self-taught R user, I am deeply indebted to the R community for making code samples and interesting datasets publicly available. In order to pay it forward, I use this page to (1) provide the data/code behind my content^[*Please don't judge 2015-me too much.*] and (2) list some incredible resources that I frequently use. 
+As a self-taught R user, I am deeply indebted to the R community for making code samples and interesting datasets publicly available. In order to pay it forward, I use this page to [**(1)**](#p1) provide the data/code behind my content^[*Please don't judge 2015-me too much.*] and [**(2)**](#p2) list some incredible resources that I frequently use. 
 
 **I hope all the below helps you to build/write/create stuff!** Remember that with coding, practice makes perf... better.
 
@@ -15,7 +15,7 @@ As a self-taught R user, I am deeply indebted to the R community for making code
 
 ---
 
-# 1. Resources from me to you
+# <a name="p1"></a> (1) Resources from me to you
 
 ## Blog Projects^[I also link to relevant repositories and notebooks at the bottom of all my blog posts.]
 
@@ -89,7 +89,7 @@ As a self-taught R user, I am deeply indebted to the R community for making code
 
 ---
 
-# 2. Resources from others to you
+# <a name="p2"></a> (2) Resources from others to you
 
 ## Finding fun datasets
 
