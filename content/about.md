@@ -29,7 +29,9 @@ Email: `apalbright [at] g.harvard.edu` / Twitter: [`@allbriteallday`](https://tw
 Working Papers:
 
 - "If You Give a Judge a Risk Score: Evidence from Kentucky Bail Decisions"
-- "Uncorking Expert Reviews with Social Media: A Case Study Served with Wine" (with Peter Pedroni and Steve Sheppard)
+    - Full text *coming soon*
+- "Uncorking Expert Reviews with Social Media: A Case Study Served with Wine" (with Peter Pedroni and Steve Sheppard). *Williams College Department of Economics Working Paper.*
+    - Full text [here](https://web.williams.edu/Economics/wp/UncorkingExpertReviews.pdf)
 
 Ongoing Projects:
 
@@ -38,6 +40,7 @@ Ongoing Projects:
 Publications:
 
 - “One Size Does Not Fit All: The Shortcomings of the Mainstream Data Scientist Working for Social Good” (with Sarah Levine). 2015. *Proceedings of the Bloomberg Data for Good Exchange.*
+    - Full text [here](/about_files/levine_albright.pdf) & Sarah's summary [here](http://www.sarahmakesmaps.com/blog/2016/3/one-size-does-not-fit-all)
 
 ---
 
