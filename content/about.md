@@ -42,7 +42,7 @@ Alex grew up in New York City and learned most adult concepts from *Seinfeld* re
 ### Publications
 
 - “One Size Does Not Fit All: The Shortcomings of the Mainstream Data Scientist Working for Social Good” (with Sarah Levine). 2015. *Proceedings of the Bloomberg Data for Good Exchange.*
-    - Full text [here](/about_files/levine_albright.pdf) & Sarah's summary [here](http://www.sarahmakesmaps.com/blog/2016/3/one-size-does-not-fit-all)
+    - Full text [here](/about_files/levine_albright.pdf) & poster [here](/about_files/levine_albright_poster.pdf) & Sarah's summary [here](http://www.sarahmakesmaps.com/blog/2016/3/one-size-does-not-fit-all)
 
 ---
 
@@ -62,4 +62,4 @@ Alex grew up in New York City and learned most adult concepts from *Seinfeld* re
 
 ## Acknowledgments
 
-Thanks to [my Patreon](https://www.patreon.com/allbriteallday) supporters: Jesse White, Emily White, Victor Luo, Annie Kaempfer, Jennifer Reed, and Tom Albright!
+Thanks to [my Patreon](https://www.patreon.com/allbriteallday) supporters: Jeremy Singer-Vine, Jesse White, Emily White, Victor Luo, Annie Kaempfer, Jennifer Reed, and Tom Albright!
