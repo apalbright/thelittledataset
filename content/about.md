@@ -12,9 +12,9 @@ title: About
 
 **Alex Albright** is an economics PhD Candidate at Harvard. Her research interests are in labor economics, law and economics, social economics, and economic history. Her current research focuses on risk assessment scores as tools and subjects of study in the criminal justice system. 
 
-She is a [Stone PhD Scholar](https://inequality.hks.harvard.edu/fellowship-awards) in Harvard's Multidisciplinary Program in Inequality & Social Policy and a [Considine Fellow](http://www.law.harvard.edu/programs/olin_center/fellowships.php) in Law and Economics. Alex graduated from Williams College (with a BA in math and economics) in 2014 and worked at Stanford Law School as an [Empirical Research Fellow](https://law.stanford.edu/empirical-research-fellowship/) for John Donohue from 2014-2016. See her [Harvard webpage](https://scholar.harvard.edu/apalbright) and [CV](https://scholar.harvard.edu/files/apalbright/files/alex-albright-cv.pdf) for more academic information.
+She is a [Stone PhD Scholar](https://inequality.hks.harvard.edu/fellowship-awards) in Harvard's Multidisciplinary Program in Inequality & Social Policy and a [Considine Fellow](http://www.law.harvard.edu/programs/olin_center/fellowships.php) in Law and Economics. Alex graduated from Williams College (with a BA in math and economics) in 2014 and worked at Stanford Law School as an [Empirical Research Fellow](https://law.stanford.edu/empirical-research-fellowship/) for John Donohue from 2014-2016. See her [CV](/about_files/alex-albright-cv.pdf) for more academic information.
 
-Alex grew up in New York City and learned most adult concepts from *Seinfeld* re-runs. When she is not busy with R code in the Littauer basement or amusing side projects (the scope of this blog), she can be found diving [(i.e., falling slowly)](https://www.youtube.com/watch?v=XKgPbg8epUg&feature=youtu.be&t=13s) for frisbees.
+Alex grew up in New York City and learned most adult concepts from *Seinfeld* re-runs. When she is not busy with R notebooks in Littauer basement or amusing side projects (the scope of this blog), she can be found diving [(i.e., falling slowly)](https://www.youtube.com/watch?v=XKgPbg8epUg&feature=youtu.be&t=13s) for frisbees.
 
 ---
 
