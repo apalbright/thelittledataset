@@ -62,4 +62,6 @@ Alex grew up in New York City and learned most adult concepts from *Seinfeld* re
 
 ## Acknowledgments
 
-Thanks to [my Patreon](https://www.patreon.com/allbriteallday) supporters: Jeremy Singer-Vine, Jesse White, Emily White, Victor Luo, Annie Kaempfer, Jennifer Reed, and Tom Albright!
+Thanks to my [Patreon](https://www.patreon.com/allbriteallday) supporters: Jeremy Singer-Vine, Jesse White, Emily White, Victor Luo, Annie Kaempfer, Jennifer Reed, and Tom Albright!
+
+<a href="https://www.patreon.com/bePatron?u=13177541" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
