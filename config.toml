@@ -20,13 +20,13 @@ footnotereturnlinkcontents = "↩"
     url = "/about/"
     weight = 2
 [[menu.main]]
-    name = "CV"
-    url = "/about_files/alex-albright-cv.pdf"
-    weight = 3 
-[[menu.main]]
     name = "Data & Code"
     url = "/data_code/"
-    weight = 4     
+    weight = 3
+[[menu.main]]
+    name = "CV"
+    url = "/about_files/alex-albright-cv.pdf"
+    weight = 4    
 [[menu.main]]
     name = "Support"
     url = "https://www.patreon.com/allbriteallday"
