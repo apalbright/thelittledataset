@@ -17,66 +17,70 @@ As a self-taught R user, I am deeply indebted to the R community for making code
 
 # <a name="p1"></a> (1) Resources from me to you
 
-## Blog Projects^[I also link to relevant repositories and notebooks at the bottom of all my blog posts.]
+In general, my project materials are available as [Github repos](https://github.com/apalbright?tab=repositories). My R notebooks are also published via [my RPubs page](https://rpubs.com/apalbright).^[While my Github repos will include the `.Rmd` files for R notebooks, I also share notebooks as published through RPubs since they are easier to read in that format. Example: [here](https://github.com/apalbright/ct_pretrial1/blob/master/ct_pretrial.Rmd) is a `Rmd` file on Github, [here](http://rpubs.com/apalbright/ct-pretrial) is the same notebook on RPubs.]
+
+## Blog Project Resources^[I also link to relevant repositories and notebooks at the bottom of all my blog posts.]
+
+### Data-driven
 
 - **Connecticut pretrial inmates**
     - data [here](https://data.ct.gov/Public-Safety/Accused-Pre-Trial-Inmates-in-Correctional-Faciliti/b674-jy6w)
     - code [here](https://github.com/apalbright/ct_pretrial1)
-    - nicely rendered R notebook [here](http://rpubs.com/apalbright/ct-pretrial)
+    - R notebook [here](http://rpubs.com/apalbright/ct-pretrial)
 - **Cat/Dog names and ages**
     - data & code [here](https://github.com/apalbright/cats_dogs) 
-    - rendered R notebook [here](http://rpubs.com/apalbright/cats-vs-dogs) 
-- **Geographic links between Google search data and KKK data**
+    - R notebook [here](http://rpubs.com/apalbright/cats-vs-dogs) 
+- **Google searches & historical KKK locations**
     - data & code [here](https://github.com/apalbright/local-continuity-racial-animus)
-    - rendered R notebook [here](http://rpubs.com/apalbright/local-continuity-racial-animus)
-- **Exploring your iMessage data**
+    - R notebook [here](http://rpubs.com/apalbright/local-continuity-racial-animus)
+- **iMessage data**
     - rendered R notebook [here](http://rpubs.com/apalbright/text-me-back)
-- **Imagined ego utility graph**
-    - rendered R notebook [here](http://rpubs.com/apalbright/ego-utility-plot)
 - **U.N. Speeches**
     - data & code [here](https://github.com/apalbright/UNGDC) 
-    - rendered R notebook [here](http://rpubs.com/apalbright/un-words)
+    - R notebook [here](http://rpubs.com/apalbright/un-words)
 - **Senate votes on healthcare**
     - data & code [here](https://github.com/apalbright/senate-votes-viz)
-    - rendered notebook [here](http://rpubs.com/apalbright/senate-votes-visualized)
+    - R notebook [here](http://rpubs.com/apalbright/senate-votes-visualized)
 - **Podcast trends**
     - code [here](https://github.com/apalbright/podcast-trends)
-    - rendered R notebook [here](http://rpubs.com/apalbright/podcast-release-trends)
-- **Dialogue from Friends TV show**
-    - code [here](https://github.com/apalbright/Friends_part2)
-    - rendered R notebook [here](http://rpubs.com/apalbright/friends_project)
-- **Extensive form diagrams for imagined Ultimate Game Theory structure**
-    - code [here](https://github.com/apalbright/ulti_gtheory/blob/master/pbe_solve.tex) 
+    - R notebook [here](http://rpubs.com/apalbright/podcast-release-trends)
 - **Philly Open Data**
     - code & data [here](https://github.com/apalbright/philly_viz)
 - **Boston vs SF temperatures**
     - code [here](https://github.com/apalbright/temp_plots)
-- **Women in the Sciences**
-    - code & data [here](https://thelittledataset.com/2016/05/24/where-my-girls-at-in-the-sciences/)
-- **Illinois Trump Delegates**
+- **Representation in the sciences**    
+    - women in the sciences (undergrad & grad): code & data [here](https://thelittledataset.com/2016/05/24/where-my-girls-at-in-the-sciences/)
+    - demographics (racial & ethnic) in science PhDs: code & data [here](https://github.com/apalbright/NSF_Demographics)
+- **Illinois Trump delegates**
     - code & data [here](https://github.com/apalbright/illinois_delegates)
-- **Demographics in the science PhDs**
-    - code & data [here](https://github.com/apalbright/NSF_Demographics)
-- **Edusalsa data on Stanford classes**
+- **Stanford university classes**
     - aggregated code & data [here](https://github.com/apalbright/edusalsa)
-- **Ratings of Pixar movies**
+- **Pixar movie ratings**
     - code & data [here](https://github.com/apalbright/Pixar)
-- **New Yorker Caption Contest winners**
+- **New Yorker caption contest winners**
     - original aggregated data & code [here](https://github.com/apalbright/NewYorker)
-    - rendered R notebook for New Yorker maps [here](http://rpubs.com/apalbright/280904)
-- **Comparing Uber and Taxi drivers**
+    - R notebook for final New Yorker maps [here](http://rpubs.com/apalbright/280904)
+- **Uber and Taxi drivers**
     - code & data [here](https://github.com/apalbright/uber_taxi_new)
     - R notebook [here](http://rpubs.com/apalbright/uber-v-taxi)
 - **Friday the 13th patterns**
     - code & data [here](https://github.com/apalbright/Fri13)
-- **Characteristics of Sports Illustrated covers 2010-2015**
+- **Sports Illustrated covers 2010-2015**
     - code & data [here](https://github.com/apalbright/SportsIllustrated)
-- **Oscars Speeches 2010-2014**
+- **Oscars speeches 2010-2014**
     - code & data [here](https://github.com/apalbright/Oscars)
-- **Shared plotlines between characters on TV show Friends**
-    - code & data [here](https://github.com/apalbright/Friends)
-- **Opinions on Adnan's guilt in the Serial podcast**
+- **Friends TV show friendships**
+    - based on plotlines: code & data [here](https://github.com/apalbright/Friends)
+    - based on dialogue: code [here](https://github.com/apalbright/Friends_part2) & R notebook [here](http://rpubs.com/apalbright/friends_project)
+- **Serial podcast opinion polls**
     - code & data [here](https://github.com/apalbright/Serial)
+
+### Theory
+
+- **Graphing (ego) utility**
+    - rendered R notebook [here](http://rpubs.com/apalbright/ego-utility-plot)
+- **Extensive form diagrams (for ultimate frisbee-inspired game theory)**
+    - code [here](https://github.com/apalbright/ulti_gtheory/blob/master/pbe_solve.tex) 
 
 ## Websites
 
@@ -93,15 +97,19 @@ As a self-taught R user, I am deeply indebted to the R community for making code
 
 ## Finding fun datasets
 
-- Data is Plural: [newsletter sign-up](https://tinyletter.com/data-is-plural) & [structured archive](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0)
-- FlowingData: [newsletter] (https://flowingdata.us2.list-manage.com/subscribe?u=f538bce868aac1144d248c0bc&id=71ef3cfa3a)
+- Data is Plural newsletter: sign-up [here](https://tinyletter.com/data-is-plural) & structured archive [here](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0)
+- FlowingData newsletter [here] (https://flowingdata.us2.list-manage.com/subscribe?u=f538bce868aac1144d248c0bc&id=71ef3cfa3a)
+- [538](https://fivethirtyeight.com/)'s data & code [here](https://data.fivethirtyeight.com/)
+- [The Pudding](https://pudding.cool/) data & code [here](https://github.com/the-pudding/data)
 
 ## Data visualization methods
 
-- FlowingData: [website](https://flowingdata.com/)
+- FlowingData website [here](https://flowingdata.com/)
+- The Pudding's *How To Make Dope Shit on The Internet* series [here](https://pudding.cool/process/how-to-make-dope-shit-part-2/)
 
 ## R tips and content
 
+- R for Data Science book [here](https://r4ds.had.co.nz/)
 - RStudio Community [here](https://community.rstudio.com/) *(essentially, StackOverflow but all R)*
 - R-Ladies Community
     - content via [`@WeAreRLadies`](https://twitter.com/WeAreRLadies)
