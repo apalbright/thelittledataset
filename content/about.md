@@ -31,7 +31,7 @@ Alex grew up in New York City and learned most adult concepts from *Seinfeld* re
 ### Working Papers
 
 - "If You Give a Judge a Risk Score: Evidence from Kentucky Bail Decisions"
-    - Full text *coming soon*
+    - Full text [here](/about_files/albright_judge_score.pdf)
 - "Uncorking Expert Reviews with Social Media: A Case Study Served with Wine" (with Peter Pedroni and Steve Sheppard). *Williams College Department of Economics Working Paper.*
     - Full text [here](https://web.williams.edu/Economics/wp/UncorkingExpertReviews.pdf)
 
