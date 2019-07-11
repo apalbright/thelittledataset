@@ -1,7 +1,7 @@
 ---
 title: If You Give a Judge a Risk Score
 author: 'Evidence from Kentucky Bail Decisions'
-date: '2019-07-02'
+date: '2019-07-11'
 slug: if-you-give-a-judge-a-risk-score
 categories:
   - line charts
@@ -19,7 +19,7 @@ tags:
 
 # Preface
 
-I am very excited to be heading to [ECINEQ 2019](http://ecineq.org/ecineq_paris19/general.htm) at the Paris School of Economics to present an ongoing project about risk assessment scores in the criminal justice system. Since I'll be discussing this project in the coming days, it feels like the perfect time to practice telling you all about it... in blog form! Sure, you could read [this working paper draft](https://thelittledataset.com/about_files/albright_judge_score.pdf) or click through [these slides](/about_files/slides/ecineq_19.pdf) but the former is long and the latter lacks narration. As such, this feels like the ideal way to succintly communicate my work from afar... this is also solid self-prep for all interactions that involve the question "what is your research about?"
+I just returned from [ECINEQ 2019](http://ecineq.org/ecineq_paris19/general.htm) at the Paris School of Economics, where I was very excited to present an ongoing project about risk assessment scores in the criminal justice system. Since I've been discussing this project for a while in my academic life, it feels like the right time to translate it into blog form! Sure, you could read [this working paper draft](https://thelittledataset.com/about_files/albright_judge_score.pdf) or click through [these slides](/about_files/slides/ecineq_19.pdf) but the former is long and the latter lacks narration. As such, this feels like the ideal way to succintly communicate my work from afar... this is also solid self-prep for all those interactions that involve the question "what is your research about?"
 
 ---
 
@@ -62,7 +62,7 @@ It is true that the KPRA risk assessment level densities look different for blac
 
 ![](/post/if-you-give-a-judge-a-risk-score_files/riskdensity.png)
 
-In conceptualizing HB463 as an upward shock to the weight on risk levels in a judge's bail decision, it would be natural to think this would mechanically shrink racial disparities for low and moderate risk defendants. However, I show empirical evidence to the opposite effect: even within risk levels, there is an uptick in racial disparities. Thus, forces beyond the mechanical scores themselves (i.e., human usage) adding to the increase in racial disparities. 
+In conceptualizing HB463 as an upward shock to the weight on risk levels in a judge's bail decision, it would be natural to think this would mechanically shrink racial disparities for low and moderate risk defendants. However, I show empirical evidence to the opposite effect: even within risk levels, there is a discontinuously jump in racial disparities. Thus, forces beyond the mechanical scores themselves (i.e., human usage) adding to the increase in racial disparities. 
 
 ![](/post/if-you-give-a-judge-a-risk-score_files/mot_risk.png)
 
@@ -76,7 +76,7 @@ What drives these differences in deviations across racial groups? It could be a 
 2. different policy responses across judges 
 3. different treatment of similar defendants within judge and time
 
-*Quick sidebar: Different responses by judge (point 2 above) are important to consider given that judges work within specific counties and there is notable spatial variation in percentage of black defendants across the state. Consider the [this figure](/post/if-you-give-a-judge-a-risk-score_files/frac_counties.png) for a graphical illustration of the geographic variation in black defendant percentages.*
+*Quick sidebar: Different responses by judge (point 2 above) are important to consider given that judges work within specific counties and there is notable spatial variation in percentage of black defendants across the state. Consider [this figure](/post/if-you-give-a-judge-a-risk-score_files/frac_counties.png) for a graphical illustration of the geographic variation in black defendant percentages.*
 
 To test out how much of the deviational disparities are explained by these three factors, I estimate three different specifications for each risk level: 
 
@@ -84,7 +84,7 @@ To test out how much of the deviational disparities are explained by these three
 
 `$$b_{it}= \alpha + \phi_1HB463_t + \phi_2 Black_i + \phi_3 (Black_i \times HB463_t) + \epsilon_{it}$$`
 
-(ii) Specification with judge information set:
+(ii) Specification with judge information set^[The judge information set attempts to approximate for all possible observable information to the judges about a defendant and the offense.]:
 
 `$$b_{ijct}= \alpha + \phi_1HB463_t + \phi_2 Black_i + \phi_3 (Black_i \times HB463_t) + \beta_1 \kappa_c + \beta_2 \delta_i + \omega_{t} + x_t + \epsilon_{ijct}$$`
 
@@ -105,7 +105,11 @@ The basic idea here is to see how the coefficient of interest `$\phi_3$` changes
 
 ![](/post/if-you-give-a-judge-a-risk-score_files/coefs.png)
 
-There are a few key take-aways here. For one, in the post-period white defendants appear to be significantly advantaged even after adjusting for the judge’s information set, meaning differences in cases/individual characteristics weren't the main drivers of the increased disparities. Second, the disparities for low risk defendants become indistinguishable from zero once judges are allowed to vary in their responsiveness. This means the low risk disparities were primarily due to the fact that judges in whiter counties responded more to the new default than judges in blacker counties. Lastly, moderate risk black defendants remain less likely than similar white defendants to receive non-financial bond even after allowing for time-varying judge fixed-effects.
+The full results table with estimates for `$phi_1$`, `$phi_2$`, and `$phi_3$` is below: 
+
+![](/post/if-you-give-a-judge-a-risk-score_files/tab2.png)
+
+There are a few key take-aways here. For one, in the post-period white defendants appear to be significantly advantaged even after adjusting for the judge’s information set, meaning differences in cases/individual characteristics weren't the main drivers of the increased disparities. Second, the changes in disparities for low risk defendants become indistinguishable from zero once judges are allowed to vary in their responsiveness. This means the low risk disparity changes were primarily due to the fact that judges in whiter counties responded more to the new default than judges in blacker counties. Lastly, in the post-period, moderate risk black defendants remain less likely than similar white defendants to receive non-financial bond even after allowing for time-varying judge fixed-effects.
 
 Overall, these results are at odds with the argument that score usage should necessarily equalize outcomes for individuals with the same scores. Policy changes that are subject to judicial discretion may not be equally adopted across geographies.^[If responsiveness is correlated with demographic features of the population, risk score policies which intend to render more similar decisions across races but within risk scores may lead to counterintuitive patterns.] Moreover, even within judge-time, there is suggestive evidence that moderate risk levels may interact with race to produce different judicial decisions.
 
@@ -114,7 +118,7 @@ Overall, these results are at odds with the argument that score usage should nec
 ## On Judges and Geography
 
 There is a striking correlation between a judge’s response to the policy
-and a judge’s defendant population. See below. 
+and a judge’s defendant population. The below graph displays each judge as a dot whose placement indicates the comparison between the judge's pre- and post-HB463 rates of non-financial bond and whose color indicates the fraction of that judge's defendants who are black. Most dots are above the red line, meaning most judges did increase their rates of non-financial bond. However, it is clear that the more yellow dots are closer to the red line than are the more blue dots. In other words, the judges with whiter populations responded more dramatically to the policy change.
 
 ![](/post/if-you-give-a-judge-a-risk-score_files/judge_decisions_pre_post.png)
 
@@ -129,15 +133,15 @@ Given the growing set of bail reform policies, it is important to understand why
 
 ## Remaining Racial Disparities for Moderate Risk Defendants
 
-The moderate risk result could be a product of judges interpreting scores differently by race. Imagine judges have some sense of the underlying continuous risk score distribution and assume that moderate risk black men are still higher risk than moderate risk white men even though they are put in the same larger buckets. This could explain the results and would accord well with recent findings by [Green and Chen](https://scholar.harvard.edu/files/19-fat.pdf) and [Skeem, Scurich, and Monahan](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3316266). Understanding this possible mechanism is broadly relevant to hiring, loan decisions, and other important high-stakes decisions. More work^[E.g., more legitimization of diff-in-diff assumptions.] is needed to pin this result down.
+The moderate risk result could be a product of judges interpreting scores differently by race. Imagine judges have some sense of the underlying continuous risk score distribution and assume that moderate risk black men are still higher risk than moderate risk white men even though they are put in the same larger buckets. This could explain the results and would accord well with recent findings by [Green and Chen](https://scholar.harvard.edu/files/19-fat.pdf) and [Skeem, Scurich, and Monahan](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3316266). Understanding this possible mechanism is broadly relevant to hiring, loan decisions, and other important high-stakes decisions. More work^[E.g., more rigorous legitimization of differences-in-differences assumptions.] is needed to pin this result down.
 
 # Conclusion
 
-As predictive tools continue to be integrated into high-stakes decisions, there is a growing need to understand how they are used by the human decision-makers (e.g., judges, loan officers, and hiring managers). While predictive tools often present recommendations, there is little oversight as to how decision-makers may overrule or follow them. I use this paper to show that, counter to intuition, the introduction of risk score recommendations can increase racial disparities for individuals who share the same predicted risk level. 
+As predictive tools continue to be integrated into high-stakes decisions, there is a growing need to understand how they are used by the human decision-makers (e.g., judges, loan officers, and hiring managers). While predictive tools often present recommendations, there is little oversight as to how decision-makers may overrule or follow them. I use this paper to show that, counter to expectations, **the introduction of risk score recommendations can widen racial disparities for individuals who share the same predicted risk level.**
 
-This result is a consequence of two types of deviations by judges: across-judge and within-judge deviations. On the former, judges varied in their policy responsiveness; judges in whiter counties responded more to the new default (increasing their leniency) than judges in blacker counties. There is a striking correlation between a judge’s response to the policy and a judge’s defendant population. Second, even within judge and time, I show judges are more likely to deviate from the recommended default for moderate risk black defendants than for similar moderate risk white defendants. This result suggests that interaction with the same predictive score may lead to different predictions by race, which warrants further investigation. 
+This result is a consequence of two types of deviations by judges: across-judge and within-judge deviations. On the former, judges varied in their policy responsiveness; judges in whiter counties responded more to the new default (increasing their leniency) than judges in blacker counties. There is a striking correlation between a judge’s response to the policy and a judge’s defendant population. Second, even within judge and time, I show judges are more likely to deviate from the recommended default for moderate risk black defendants than for similar moderate risk white defendants. (Importantly, this is true in the post- but not the pre-period.) This result suggests that interaction with the same predictive score may lead to different predictions by race, which warrants further investigation. 
 
-Part of the public appeal of risk assessments is the movement towards a system that is more "objective" than the status quo. However, if interpretation of the scores itself interacts with defendant race, the very judicial discretion that risk score proponets sought to reduce has simply been shifted to a later stage.
+Part of the public appeal of risk assessments is the movement towards a system that is more "objective" than the status quo. However, if interpretation of the scores themselves interacts with defendant race, the very judicial discretion that risk score proponets sought to reduce has simply been shifted to a later stage.
 
 ---
 
