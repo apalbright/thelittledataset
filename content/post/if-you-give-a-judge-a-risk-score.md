@@ -1,7 +1,7 @@
 ---
 title: If You Give a Judge a Risk Score
 author: 'Evidence from Kentucky Bail Decisions'
-date: '2019-07-11'
+date: '2019-07-15'
 slug: if-you-give-a-judge-a-risk-score
 categories:
   - line charts
@@ -19,7 +19,7 @@ tags:
 
 # Preface
 
-I just returned from [ECINEQ 2019](http://ecineq.org/ecineq_paris19/general.htm) at the Paris School of Economics, where I was very excited to present an ongoing project about risk assessment scores in the criminal justice system. Since I've been discussing this project for a while in my academic life, it feels like the right time to translate it into blog form! Sure, you could read [this working paper draft](https://thelittledataset.com/about_files/albright_judge_score.pdf) or click through [these slides](/about_files/slides/ecineq_19.pdf) but the former is long and the latter lacks narration. As such, this feels like the ideal way to succintly communicate my work from afar... this is also solid self-prep for all those interactions that involve the question "what is your research about?"
+I recently returned from [ECINEQ 2019](http://ecineq.org/ecineq_paris19/general.htm) at the Paris School of Economics, where I was very excited to present an ongoing project about risk assessment scores in the criminal justice system. Since I've been discussing this project for a while in my academic life, it feels like the right time to translate it into blog form! Sure, you could read [this working paper draft](https://thelittledataset.com/about_files/albright_judge_score.pdf) or click through [these slides](/about_files/slides/ecineq_19.pdf) but the former is long and the latter lacks narration. As such, this feels like the ideal way to succintly communicate my work from afar... this is also solid self-prep for all those interactions that involve the question "what is your research about?"
 
 ---
 
@@ -40,33 +40,33 @@ To provide empirical evidence on this topic, I focus on a policy change in the K
 
 As such, HB463 did two major things: (1) it **required pretrial judges to consider risk scores** (that were already in existence and optional) in initial bond decisions, and (2) it **made the default outcome for defendants scored as low or moderate non-financial bond** (judges could deviate from the recommendation but must give a reason for doing so).
 
-In Stevenson's important work on this topic, she shows that racial disparities in non-financial bond increase discontinuously when HB463 goes into effect. My contribution is to get into *why*. Are those disparities purely explained by different risk scores (and recommendations) by race? (That is, force (1) from earlier discussion.) Or are the disparities alleviated/exacerbated by judicial discretion? (Force (2) from earlier.) 
+In Stevenson's prior work on this topic, she shows that racial disparities in non-financial bond increase discontinuously when HB463 goes into effect. My contribution is to get into *why*. **Are those disparities purely explained by different risk scores (and recommendations) by race?** (That is, force (1) from earlier discussion.) **Or are the disparities alleviated/exacerbated by judicial discretion?** (Force (2) from earlier.) 
 
 # Results
 
 ## The Basics
 
-My empirics use case-level data on 383,080 initial bond decisions for male defendants between 7/1/09-6/30/13 from the Kentucky Administrative Office of the Courts.^[While I usually share all data associated with my projects, this one is under a Data Use Agreement so I can't share the underlying raw data. However, I do plan to share my code eventually so people can replicate if they acquire their own Data Agreements.] This data spans 192,758 distinct defendants and 563 distinct judges.^[More descriptive statistics: 79.1% of defendants are white, while 20.6% are black. 79.5% of relevant top charges are misdemeanors. 68.3% receive financial bond, 27.8% receive non-financial bond, and 3.9% receive no bond.] 
+I use case-level data on 383,080 initial bond decisions for male defendants between 7/1/09-6/30/13 from the Kentucky Administrative Office of the Courts.^[While I usually share all data associated with my projects, this one is under a Data Use Agreement so I can't share the underlying raw data. However, I do plan to share my code eventually so people can replicate if they acquire their own Data Agreements.] This data spans 192,758 distinct defendants and 563 distinct judges.^[More descriptive statistics: 79.1% of defendants are white, while 20.6% are black. 79.5% of relevant top charges are misdemeanors. 68.3% receive financial bond, 27.8% receive non-financial bond, and 3.9% receive no bond.] 
 
-The effective date of HB463 leads to a jump up in non-financial bond from around 20-25% to around 35%.^[There is still a surprising amount of deviation considering that the recommendation was non-financial bond in about 90% of cases.] 
+The effective date of HB463 leads to a discontinuous jump up in non-financial bond from around 20-25% to around 35% -- see below.^[There is still a surprising amount of deviation considering that the recommendation was non-financial bond in about 90% of cases.] 
 
 ![](/post/if-you-give-a-judge-a-risk-score_files/trend.png)
 
-I then replicate Stevenson's striking finding that white defendants experiencing markedly higher larger gains. While both groups benefit (in that there are higher non-financial bond rates), racial disparities clearly increase.
+While both black and white defendants benefit (in that there are higher non-financial bond rates), racial disparities clearly increase. See below. This finding was first illustrated by Stevenson (2017).
 
 <img src="/post/if-you-give-a-judge-a-risk-score_files/mot.png" alt="" width="100%" height="100%"/>
 
-The natural next line of questioning is: **Is the jump in racial disparities in non-financial bond a consequence of different risk levels? Or is deviation from the presumptive default more likely for black defendants?**
+My contribution lies in addressing the following questions: **Is the jump in racial disparities in non-financial bond a consequence of different risk levels? Or is deviation from the presumptive default more likely for black defendants?**
 
 It is true that the KPRA risk assessment level densities look different for black and white defendants.^[The distributions are substantially more similar across races than in the case of, say, [COMPAS](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing).] The below figure showes that white defendants are more heavily skewed towards the lower-risk levels, while black defendants are more heavily skewed towards the higher-risk levels. Therefore, it's possible that the different scores (and thus different recommendations) are mechanically responsible for the discontinuous change in racial disparities.
 
 ![](/post/if-you-give-a-judge-a-risk-score_files/riskdensity.png)
 
-In conceptualizing HB463 as an upward shock to the weight on risk levels in a judge's bail decision, it would be natural to think this would mechanically shrink racial disparities for low and moderate risk defendants. However, I show empirical evidence to the opposite effect: even within risk levels, there is a discontinuously jump in racial disparities. Thus, forces beyond the mechanical scores themselves (i.e., human usage) adding to the increase in racial disparities. 
+In conceptualizing HB463 as an upward shock to the weight on risk levels in a judge's bail decision, it would be natural to think this would mechanically shrink racial disparities for low and moderate risk defendants. However, I show empirical evidence to the opposite effect: even within risk levels, there is a discontinuously jump in racial disparities. Thus, forces beyond the scores themselves (i.e., human usage) play a role in the increase in racial disparities.
 
 ![](/post/if-you-give-a-judge-a-risk-score_files/mot_risk.png)
 
-Big take-away: **the presumptive default (of non-financial bond for low and moderate risk defendants) is more likely to be overridden for black defendants than white defendants.**
+Big take-away: after HB463, **the presumptive default (of non-financial bond for low and moderate risk defendants) is more likely to be overridden for black defendants than white defendants.**
 
 ## Why Differences in Deviations?
 
@@ -84,7 +84,7 @@ To test out how much of the deviational disparities are explained by these three
 
 `$$b_{it}= \alpha + \phi_1HB463_t + \phi_2 Black_i + \phi_3 (Black_i \times HB463_t) + \epsilon_{it}$$`
 
-(ii) Specification with judge information set^[The judge information set attempts to approximate for all possible observable information to the judges about a defendant and the offense.]:
+(ii) Specification with judge information set:^[The judge information set attempts to approximate for all possible observable information to the judges about a defendant and the offense.]
 
 `$$b_{ijct}= \alpha + \phi_1HB463_t + \phi_2 Black_i + \phi_3 (Black_i \times HB463_t) + \beta_1 \kappa_c + \beta_2 \delta_i + \omega_{t} + x_t + \epsilon_{ijct}$$`
 
@@ -105,20 +105,20 @@ The basic idea here is to see how the coefficient of interest `$\phi_3$` changes
 
 ![](/post/if-you-give-a-judge-a-risk-score_files/coefs.png)
 
-The full results table with estimates for `$phi_1$`, `$phi_2$`, and `$phi_3$` is below: 
+The full results table with estimates for `$\phi_1$`, `$\phi_2$`, and `$\phi_3$` is below: 
 
 ![](/post/if-you-give-a-judge-a-risk-score_files/tab2.png)
 
-There are a few key take-aways here. For one, in the post-period white defendants appear to be significantly advantaged even after adjusting for the judge’s information set, meaning differences in cases/individual characteristics weren't the main drivers of the increased disparities. Second, the changes in disparities for low risk defendants become indistinguishable from zero once judges are allowed to vary in their responsiveness. This means the low risk disparity changes were primarily due to the fact that judges in whiter counties responded more to the new default than judges in blacker counties. Lastly, in the post-period, moderate risk black defendants remain less likely than similar white defendants to receive non-financial bond even after allowing for time-varying judge fixed-effects.
+There are a few key take-aways here. For one, in the post-period white defendants appear to be significantly advantaged even after adjusting for the judge’s information set, meaning differences in cases/individual characteristics weren't the main drivers of the increased disparities. Second, the changes in disparities for low risk defendants become indistinguishable from zero once judges are allowed to vary in their responsiveness. This means the **low risk disparity changes were primarily due to the fact that judges in whiter counties responded more to the new default than judges in blacker counties.** Lastly, **in the post-period, moderate risk black defendants are less likely than similar white defendants to receive non-financial bond** -- this is true even after allowing for time-varying judge fixed-effects.
 
-Overall, these results are at odds with the argument that score usage should necessarily equalize outcomes for individuals with the same scores. Policy changes that are subject to judicial discretion may not be equally adopted across geographies.^[If responsiveness is correlated with demographic features of the population, risk score policies which intend to render more similar decisions across races but within risk scores may lead to counterintuitive patterns.] Moreover, even within judge-time, there is suggestive evidence that moderate risk levels may interact with race to produce different judicial decisions.
+Overall, these results are at odds with the assumption that score usage should necessarily equalize outcomes for individuals with the same scores. Policy changes that are subject to judicial discretion may not be equally adopted across geographies.^[If responsiveness is correlated with demographic features of the population, risk score policies which intend to render more similar decisions across races but within risk scores may do the opposite.] Moreover, even within judge-time, there is suggestive evidence that moderate risk levels may interact with race to produce different judicial decisions.
 
 # Mechanism Discussion
 
 ## On Judges and Geography
 
 There is a striking correlation between a judge’s response to the policy
-and a judge’s defendant population. The below graph displays each judge as a dot whose placement indicates the comparison between the judge's pre- and post-HB463 rates of non-financial bond and whose color indicates the fraction of that judge's defendants who are black. Most dots are above the red line, meaning most judges did increase their rates of non-financial bond. However, it is clear that the more yellow dots are closer to the red line than are the more blue dots. In other words, the judges with whiter populations responded more dramatically to the policy change.
+and a judge’s defendant population. The below graph displays each judge as a dot whose placement indicates the judge's pre-/post-HB463 rates of non-financial bond and whose color indicates the fraction of that judge's defendants who are black. Most dots are above the 45 degree (red dashed) line, meaning most judges did increase their rates of non-financial bond. However, it is clear that the yellow-er dots are closer to the red line than are the blue-er dots. In other words, the judges with whiter populations responded more dramatically to the policy change.
 
 ![](/post/if-you-give-a-judge-a-risk-score_files/judge_decisions_pre_post.png)
 
@@ -141,7 +141,7 @@ As predictive tools continue to be integrated into high-stakes decisions, there 
 
 This result is a consequence of two types of deviations by judges: across-judge and within-judge deviations. On the former, judges varied in their policy responsiveness; judges in whiter counties responded more to the new default (increasing their leniency) than judges in blacker counties. There is a striking correlation between a judge’s response to the policy and a judge’s defendant population. Second, even within judge and time, I show judges are more likely to deviate from the recommended default for moderate risk black defendants than for similar moderate risk white defendants. (Importantly, this is true in the post- but not the pre-period.) This result suggests that interaction with the same predictive score may lead to different predictions by race, which warrants further investigation. 
 
-Part of the public appeal of risk assessments is the movement towards a system that is more "objective" than the status quo. However, if interpretation of the scores themselves interacts with defendant race, the very judicial discretion that risk score proponets sought to reduce has simply been shifted to a later stage.
+Part of the public appeal of risk assessments is the idea that they are a move towards a system that is more "objective" than the status quo. However, if interpretation of the scores themselves interacts with defendant race, the very judicial discretion that risk score proponets sought to reduce has simply been shifted to a later stage.
 
 ---
 
