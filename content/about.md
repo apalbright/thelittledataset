@@ -8,7 +8,7 @@ title: About
 
 ## Bio
 
-<img src="/./about_files/AlexAlbright.jpg" style="float: left; margin-right: 15px; margin-top: 8px" alt="" width="27.5%" height="27.5%" /> 
+<img src="/./about_files/alex_albright.jpg" style="float: left; margin-right: 15px; margin-top: 8px" alt="" width="27.5%" height="27.5%" /> 
 
 **Alex Albright** is an economics PhD Candidate at Harvard. Her research interests are in labor economics, law and economics, social economics, and economic history. Her current research focuses on risk assessment scores as tools and subjects of study in the criminal justice system. 
 
