@@ -1,6 +1,6 @@
 ---
 title: "Exploring Connecticut's Pretrial Inmate Data"
-date: 2019-08-13
+date: 2019-08-12
 slug: ct-pretrial-descriptives
 categories:
   - stacked bar plots
