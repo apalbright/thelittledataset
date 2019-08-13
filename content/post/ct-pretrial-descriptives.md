@@ -103,7 +103,9 @@ The coloring of the above distribution doesn't make it clear whether pretrial in
     </center>
 </figure>
 
-It's evident that white pretrial inmates have lower bonds on average than black, Asian, or Hispanic pretrial inmates. Again, note that the pretrial inmate population is not the same as the overall pretrial population -- many pretrial defendants are not detained because they are able to pay bail (or were given ROR).
+White pretrial inmates have lower bonds on average than black, Asian, or Hispanic pretrial inmates.^[This statement is not adjusting for offense or other demographic characteristics. Running simple OLS regressions on this data with log(bond) as the dependant variable and race/gender/age controls, being black is associated with a 39.3% higher bond. Once adjusting for offense dummies as well, this drops to 14.5%.] 
+
+However, the pretrial inmate population is not the same as the overall pretrial population -- many pretrial defendants are not detained because they are able to pay bail (or were given ROR). *As such, we do not know the average bond amounts by race for the complete population.*
 
 # 4. How long do people stay in jail pretrial?
 
@@ -148,7 +150,8 @@ These graphs and stats use open data to give some descriptive information on the
 - probation violations are the largest driver of pretrial jail admissions in Connecticut
 - black and Hispanic people (mainly, black and Hispanic men) are over-represented in the Connecticut pretrial inmate population^[This is unsurprising as it mimics the general facts about over-representation in the US criminal justice system.]
 - there are shockingly large ranges of bond amounts and pretrial jail stay durations (so much so I have to use `log10` transformations for visuals)
-- there is not a perfect correlation between bond amount and jail stay for this population, but there is a correlation (0.37) that aligns with basic intuition
+- black and Hispanic pretrial inmates face higher bond amounts and stay in jail pretrial longer than white pretrial inmates
+- there is not a perfect correlation between bond amount and jail stay for this population, but there is a correlation that aligns with basic intuition
 
 Investigating pretrial inmate populations at a more national level (moving beyond Connecticut) requires more high frequency jail data. *(More states, more counties, please.)* When I first drafted this article, I was bummed to end on a call for better jail data since I was unsure when someone (anyone?) would be able to make this a reality. However, on the exact same day I revisited this Connecticut data (7/28/19), NYU's Public Safety Lab announced the launch of their [Jail Data Initiative](https://twitter.com/annalilharvey/status/1155591656500015104). In describing this new project, [they explain](https://publicsafetylab.org/),
 
