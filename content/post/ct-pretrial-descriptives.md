@@ -109,7 +109,7 @@ However, the pretrial inmate population is not the same as the overall pretrial 
 
 # 4. How long do people stay in jail pretrial?
 
-Recall, you can get out of pretrial detention if you pay bond or if your case is disposed -- that is, your case is dismissed, you plead out (~95% of the time), you go to trial, etc. Over the 46,722 observations of jail stay (excluding people who never got out and subsetting to those with stable demographics), the duration of a pretrial jail stay^[I count how many times defendants are in the data for a given admission date.] ranges from 1 to 1,038 days, with a mean of 64 days and a median of 28 days. (That is a median of 4 weeks.) 
+Recall, you can get out of pretrial detention if you pay bond or if your case is disposed -- that is, your case is dismissed, you plead out, you go to trial, etc. Over the 46,722 observations of jail stay (excluding people who never got out and subsetting to those with stable demographics), the duration of a pretrial jail stay^[I count how many times defendants are in the data for a given admission date.] ranges from 1 to 1,038 days, with a mean of 64 days and a median of 28 days. (That is a median of 4 weeks.) 
 
 Let's plot the distribution of length of jail stay. Again, I use a `log10` transformation for the x-axis due to the extreme values present in the data.
 
