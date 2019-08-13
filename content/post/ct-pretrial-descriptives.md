@@ -51,7 +51,7 @@ While there were 54,367 charges for which people were detained pretrial in this 
     </center>
 </figure>
 
-Violation of probation or conditional discharge is far and away the most common reason to end up in jail pretrial. The second most common reason is criminal violation of a protective order, but it pales in a comparison of magnitudes. Failure to appear (in court), which is conceptually more similar to a violation of conditions than a new charge, appears twice on this top 10 list (once for first degree and once for second degree). If we combined both degrees of failure to appear, it would be the second most common charge.
+*Violation of probation or conditional discharge is far and away the most common reason to end up in jail pretrial.*^[These are charges that are based on specific agreements with criminal justice system actors.] The second most common reason is criminal violation of a protective order, but it pales in a comparison of magnitudes. Failure to appear (in court)^[FTA feels conceptually more similar to a violation of conditions than a new charge that is independent of criminal justice system interactions to me.] appears twice on this top 10 list (once for first degree and once for second degree). If we combined both degrees of failure to appear, it would be the second most common charge.
 
 People who work in pretrial services agencies will tell you that violations of probation are a big driver of jail admissions; the above graph puts those conversations into stark quantitative terms. This graph also makes the case that working to decrease failure to appear by implementing [tools like court text reminders](https://www.povertyactionlab.org/evaluation/costs-failure-appear-arraignment) would address another large driver of pretrial jail admissions.
 
@@ -103,7 +103,7 @@ The coloring of the above distribution doesn't make it clear whether pretrial in
     </center>
 </figure>
 
-White pretrial inmates have lower bonds on average than black, Asian, or Hispanic pretrial inmates.^[This statement is not adjusting for offense or other demographic characteristics. Running simple OLS regressions on this data with log(bond) as the dependant variable and race/gender/age controls, being black is associated with a 39.9% higher bond. Once adjusting for offense dummies as well, this drops to 15.1%.] 
+White pretrial inmates have lower bonds on average than black, Asian, or Hispanic pretrial inmates.^[This statement is not adjusting for offense or other demographic characteristics. Running simple OLS regressions on this data with log(bond) as the dependent variable and race/gender/age controls, being black is associated with a 39.9% higher bond. Once adjusting for offense dummies as well, this drops to 15.1%.] 
 
 However, the pretrial inmate population is not the same as the overall pretrial population -- many pretrial defendants are not detained because they are able to pay bail (or were given ROR). *As such, we do not know the average bond amounts by race for the complete population.*
 
