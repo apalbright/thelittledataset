@@ -147,7 +147,7 @@ Looking at the colors of the hexagons, it's readily apparent that the most commo
 
 These graphs and stats use open data to give some descriptive information on the pretrial inmate population in Connecticut. Some big take-aways are (in order of illustration): 
 
-- probation violations are the largest driver of pretrial jail admissions in Connecticut
+- violations of probation/conditional discharge are the largest driver of pretrial jail admissions in Connecticut 
 - black and Hispanic people (mainly, black and Hispanic men) are over-represented in the Connecticut pretrial inmate population^[This is unsurprising as it mimics the general facts about over-representation in the US criminal justice system.]
 - there are shockingly large ranges of bond amounts and pretrial jail stay durations (so much so I have to use `log10` transformations for visuals)
 - black and Hispanic pretrial inmates face higher bond amounts and stay in jail pretrial longer than white pretrial inmates
