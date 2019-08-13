@@ -21,7 +21,7 @@ tags:
 
 # Intro
 
-About 65% of people in jail in the US have not yet been convicted of a crime. Instead, they are in jail awaiting court action on a charge -- they are "pretrial" inmates.^[Given that [97% of federal cases and 94% of state cases are resolved with pleas deals](https://theappeal.org/justice-in-america-episode-2-the-94-plea-deals/), perhaps we should more accurately call them "pre-plea" inmates.] The [most recent BJS numbers](https://www.bjs.gov/content/pub/pdf/ji17.pdf) estimate that, on a given day, about 482,000 people were pretrial inmates in mid-2017. Over the course of a whole year, *millions* of people flow in and out of pretrial detention.^[Previously, I estimated that [~2.5-4.5 million unique people](https://thelittledataset.com/2019/01/14/dynamics-of-pretrial-jail-populations/#fnref:He-assumed-about) flow through pretrial detention in a year.] Given ongoing US [bail reform](https://www.themarshallproject.org/records/1439-bail-reform) efforts, it is extremely policy relevant to better understand descriptive statistics about pretrial populations. As such, I'll dig into the following string of questions (with a publicly available dataset):
+About 65% of people in jail in the US have not yet been convicted of a crime. Instead, they are in jail awaiting court action on a charge -- they are "pretrial" inmates.^[Given that [97% of federal cases and 94% of state cases are resolved with plea deals](https://theappeal.org/justice-in-america-episode-2-the-94-plea-deals/), perhaps we should more accurately call them "pre-plea" inmates.] The [most recent BJS numbers](https://www.bjs.gov/content/pub/pdf/ji17.pdf) estimate that, on a given day, about 482,000 people were pretrial inmates in mid-2017. Over the course of a whole year, *millions* of people flow in and out of pretrial detention.^[Previously, I estimated that [~2.5-4.5 million unique people](https://thelittledataset.com/2019/01/14/dynamics-of-pretrial-jail-populations/#fnref:He-assumed-about) flow through pretrial detention in a year.] Given ongoing US [bail reform](https://www.themarshallproject.org/records/1439-bail-reform) efforts, it is extremely policy relevant to better understand descriptive statistics about pretrial populations. As such, I'll dig into the following string of questions (with a publicly available dataset):
 
 1. Why are people admitted to jail pretrial? (I.e., what charges are responsible for the most pretrial detention admissions?)
 2. What are the demographic characteristics (gender, race, age) of those individuals in jail pretrial? (How does this compare to the general population?)
@@ -31,13 +31,13 @@ About 65% of people in jail in the US have not yet been convicted of a crime. In
 
 ## Connecticut Open Data (again)!^[Note: I also used this data in a January post about the [dynamics of pretrial populations](https://thelittledataset.com/2019/01/14/dynamics-of-pretrial-jail-populations/).]
 
-Our ability to answer the above questions is necessarily limited by data availability. I mean, how often do you find high frequency open data on a pretrial population? Well, that's where [open data provided by the Connecticut Department of Corrections](https://data.ct.gov/Public-Safety/Accused-Pre-Trial-Inmates-in-Correctional-Faciliti/b674-jy6w) comes in. This dataset is, in its own words,
+Our ability to answer the above questions is necessarily limited by data availability. I mean, how often do you find high frequency open data on a pretrial population? Well, that's where [open data provided by the Connecticut Department of Corrections](https://data.ct.gov/Public-Safety/Accused-Pre-Trial-Inmates-in-Correctional-Faciliti/b674-jy6w) comes in. This dataset is, in DOC's own words,
 
 > A listing, updated nightly, of individuals being held in Department of Corrections facilities while awaiting trial. This data is appended on nightly basis reflecting the individual inmates being held in correctional facilities each day beginning July 1, 2016.
 
 The dataset covers all pretrial inmates in DOC facilities from 7/1/16 to present. (I downloaded this on 7/28/19, so I am considering over 3 years of daily data.) The data is deidentified but includes variables such as date, race, gender, age, bond amount, and latest admission date.^[Some technical notes: (1) Since the DOC is a State agency, the data doesn't include those with federal charges or those in the Juvenile Justice system. (2) Defendant characteristics (e.g., race and age) are self-reported by inmates upon intake.] 
 
-During this time period (7/1/16-7/28/19), 34,892 distinct people were recorded as spending time in a DOC facility pretrial. Note that since the data is recorded nightly, this count is an underestimate of the true number who have flowed through such facilities.^[I.e., if you were detained and then released during the same day (before the nightly count), then you would not be recorded.] Some people were detained multiple times -- there were 50,247 unique jail admissions of these 34,892 people. Moreover, (since someone can be in jail pretrial for multiple charges at once) the data covers 54,367 charges.^[Think person-admission-charge.] 
+During this time period (7/1/16-7/28/19), 34,892 distinct people were recorded as spending time in a DOC facility pretrial. Note that since the data is recorded nightly, this count is an underestimate of the true number who have flowed through such facilities.^[I.e., if you were detained and then released during the same day (before the nightly count), then you would not be recorded.] Some people were detained multiple times -- there were 50,247 unique jail admissions of these 34,892 people. Moreover, since someone can be in jail pretrial for multiple charges at once, the data covers 54,367 charges.^[Think person-admission-charge.] 
 
 Armed with over three years of pretrial inmate data from Connecticut, I address (with graphs and stats) the aforementioned questions on charges, demographics, bond, and length of stay.
 
@@ -53,11 +53,11 @@ While there were 54,367 charges for which people were detained pretrial in this 
 
 Violation of probation or conditional discharge is far and away the most common reason to end up in jail pretrial. The second most common reason is criminal violation of a protective order, but it pales in a comparison of magnitudes. Failure to appear (in court), which is conceptually more similar to a violation of conditions than a new charge, appears twice on this top 10 list (once for first degree and once for second degree). If we combined both degrees of failure to appear, it would be the second most common charge.
 
-People who work in pretrial services agencies will tell you that violations of probation are a big driver of jail admissions; the above graph puts those conversations that into stark quantitative terms. This graph also makes the case that working to decrease failure to appear by implementing [tools like court text reminders](https://www.povertyactionlab.org/evaluation/costs-failure-appear-arraignment) would address another large driver of pretrial jail admissions.
+People who work in pretrial services agencies will tell you that violations of probation are a big driver of jail admissions; the above graph puts those conversations into stark quantitative terms. This graph also makes the case that working to decrease failure to appear by implementing [tools like court text reminders](https://www.povertyactionlab.org/evaluation/costs-failure-appear-arraignment) would address another large driver of pretrial jail admissions.
 
 # 2. Who is in jail pretrial?
 
-Not surprisingly, men are majorly over-represented in this pretrial inmate population compared to women. In terms of race, people who self-identified as black or Hispanic are over-represented compared to those who self-identify as white or Asian. 
+Not surprisingly, men are significantly over-represented in this pretrial inmate population compared to women. In terms of race, people who self-identified as black or Hispanic are over-represented compared to those who self-identify as white or Asian. 
 
 <figure>
 <center>
@@ -85,9 +85,9 @@ To get a snapshot of the age distribution, I focus on the most recent day in the
 
 Bond amounts set financial conditions for pretrial release. Bond can be changed during an inmate's jail stay, so, for the sake of clarity, I focus here on the original (first) bond amount in the data.^[I exclude bond amounts of less than $100 because the codebook says that "[i]n some instances, for particularly low (less than $100), this bond amount may be considered a place holder value". There are only 104 observations of first bond under $100.] Excluding those individuals who are coded inconsistently by race or gender yields 49,817 first observations of bond for all unique person-admissions.
 
-The mean bond amount is $85,881 and the median is $25,100. This all seems shockingly high to me, but it is worth noting that this distribution is likely higher than the general bond distribution since this data only covers those who are in jail for at least one night. That is, selection into this sample likely leads to an overestimate of the true bond amount distribution.
+The mean bond amount is $85,881 and the median is $25,100. This all seems shockingly high to me, but it is worth noting that this distribution is likely higher than the general bond distribution since this data covers only those who are in jail for at least one night. That is, selection into this sample likely leads to an overestimate of the true bond amount distribution.
 
-Given the enormous range, I want to visualize the distribution of bond amounts for pretrial inmates. However, without a transformation, it's super difficult (impossible) to see because there are huge values on the right (in the millions) while most of the mass is on the left. To deal with this, I use a `log10` transformation of the axis with bond amount.
+Given the enormous range, I want to visualize the distribution of bond amounts for pretrial inmates. However, without a transformation, it's extremely difficult (impossible) to see because there are huge values on the right (in the millions) while most of the mass is on the left. To deal with this, I use a `log10` transformation of the axis with bond amount.
 
 <figure>
 <center>
@@ -107,7 +107,7 @@ It's evident that white pretrial inmates have lower bonds on average than black,
 
 # 4. How long do people stay in jail pretrial?
 
-Recall, you can get out of pretrial detention if you pay bond or if your case is disposed -- that is, your case is dismissed, you plea out (~95% of the time), you go to trial, etc. Over the 46,722 observations of jail stay (excluding people who never got out and subsetting to those with stable demographics), the duration of a pretrial jail stay^[I count how many times defendants are in the data for a given admission date.] ranges from 1 to 1,038 days, with a mean of 64 days and a median of 28 days. (That is a median of 4 weeks.) 
+Recall, you can get out of pretrial detention if you pay bond or if your case is disposed -- that is, your case is dismissed, you plead out (~95% of the time), you go to trial, etc. Over the 46,722 observations of jail stay (excluding people who never got out and subsetting to those with stable demographics), the duration of a pretrial jail stay^[I count how many times defendants are in the data for a given admission date.] ranges from 1 to 1,038 days, with a mean of 64 days and a median of 28 days. (That is a median of 4 weeks.) 
 
 Let's plot the distribution of length of jail stay. Again, I use a `log10` transformation for the x-axis due to the extreme values present in the data.
 
