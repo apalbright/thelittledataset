@@ -103,7 +103,7 @@ The coloring of the above distribution doesn't make it clear whether pretrial in
     </center>
 </figure>
 
-White pretrial inmates have lower bonds on average than black, Asian, or Hispanic pretrial inmates.^[This statement is not adjusting for offense or other demographic characteristics. Running simple OLS regressions on this data with log(bond) as the dependant variable and race/gender/age controls, being black is associated with a 39.3% higher bond. Once adjusting for offense dummies as well, this drops to 14.5%.] 
+White pretrial inmates have lower bonds on average than black, Asian, or Hispanic pretrial inmates.^[This statement is not adjusting for offense or other demographic characteristics. Running simple OLS regressions on this data with log(bond) as the dependant variable and race/gender/age controls, being black is associated with a 39.9% higher bond. Once adjusting for offense dummies as well, this drops to 15.1%.] 
 
 However, the pretrial inmate population is not the same as the overall pretrial population -- many pretrial defendants are not detained because they are able to pay bail (or were given ROR). *As such, we do not know the average bond amounts by race for the complete population.*
 
