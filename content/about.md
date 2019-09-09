@@ -31,9 +31,7 @@ Alex grew up in New York City and learned most adult concepts from *Seinfeld* re
 ### Working Papers
 
 - "If You Give a Judge a Risk Score: Evidence from Kentucky Bail Decisions"
-    - [Full text](/about_files/albright_judge_score.pdf) 
-    - [Slides](/about_files/slides/ecineq_19.pdf) &
-    - [Blog post](https://thelittledataset.com/2019/07/15/if-you-give-a-judge-a-risk-score/)
+    - [Full text](/about_files/albright_judge_score.pdf) & [Slides](/about_files/slides/ecineq_19.pdf) & [Blog post](https://thelittledataset.com/2019/07/15/if-you-give-a-judge-a-risk-score/)
     - Press: [WIRED](https://www.wired.com/story/algorithms-shouldve-made-courts-more-fair-what-went-wrong/)
 - "Uncorking Expert Reviews with Social Media: A Case Study Served with Wine" (with Peter Pedroni and Steve Sheppard). *Williams College Department of Economics Working Paper.*
     - [Full text](https://web.williams.edu/Economics/wp/UncorkingExpertReviews.pdf)
@@ -45,9 +43,7 @@ Alex grew up in New York City and learned most adult concepts from *Seinfeld* re
 ### Publications
 
 - “One Size Does Not Fit All: The Shortcomings of the Mainstream Data Scientist Working for Social Good” (with Sarah Levine). 2015. *Proceedings of the Bloomberg Data for Good Exchange.*
-    - [Full text](/about_files/levine_albright.pdf)
-    - [Poster](/about_files/levine_albright_poster.pdf)
-    - [Sarah's summary](http://www.sarahmakesmaps.com/blog/2016/3/one-size-does-not-fit-all)
+    - [Full text](/about_files/levine_albright.pdf) & [Poster](/about_files/levine_albright_poster.pdf) & [Sarah's summary](http://www.sarahmakesmaps.com/blog/2016/3/one-size-does-not-fit-all)
 
 ---
 
