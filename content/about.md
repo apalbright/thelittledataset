@@ -31,8 +31,9 @@ Alex grew up in New York City and learned most adult concepts from *Seinfeld* re
 ### Working Papers
 
 - "If You Give a Judge a Risk Score: Evidence from Kentucky Bail Decisions"
-    - [Full text](/about_files/albright_judge_score.pdf) & [Slides](/about_files/slides/ecineq_19.pdf) & [Blog post](https://thelittledataset.com/2019/07/15/if-you-give-a-judge-a-risk-score/)
-    - Press: [WIRED](https://www.wired.com/story/algorithms-shouldve-made-courts-more-fair-what-went-wrong/)
+    - [Full text](/about_files/albright_judge_score.pdf)
+    - Supporting materials: [slides](/about_files/slides/ecineq_19.pdf) & [blog post](https://thelittledataset.com/2019/07/15/if-you-give-a-judge-a-risk-score/)
+    - Press: [WIRED](https://www.wired.com/story/algorithms-shouldve-made-courts-more-fair-what-went-wrong/), [Axios](https://www.axios.com/ai-automation-bias-trust-62ee0445-1fda-4143-b3d8-7d7ee8e328f6.html)
 - "Uncorking Expert Reviews with Social Media: A Case Study Served with Wine" (with Peter Pedroni and Steve Sheppard). *Williams College Department of Economics Working Paper.*
     - [Full text](https://web.williams.edu/Economics/wp/UncorkingExpertReviews.pdf)
 
