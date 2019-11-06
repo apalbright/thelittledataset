@@ -23,7 +23,11 @@ In general, my project materials are available as [Github repos](https://github.
 
 ### Data-driven
 
-- **Connecticut pretrial inmates**
+- **Connecticut pretrial inmates [descriptives]**
+    - data [here](https://data.ct.gov/Public-Safety/Accused-Pre-Trial-Inmates-in-Correctional-Faciliti/b674-jy6w)
+    - code [here](https://github.com/apalbright/ct-pretrial-descriptives)
+    - R notebook [here](http://rpubs.com/apalbright/ct-pretrial-descriptives)
+- **Connecticut pretrial inmates [over time]**
     - data [here](https://data.ct.gov/Public-Safety/Accused-Pre-Trial-Inmates-in-Correctional-Faciliti/b674-jy6w)
     - code [here](https://github.com/apalbright/ct_pretrial1)
     - R notebook [here](http://rpubs.com/apalbright/ct-pretrial)
@@ -101,6 +105,7 @@ In general, my project materials are available as [Github repos](https://github.
 - FlowingData newsletter [here] (https://flowingdata.us2.list-manage.com/subscribe?u=f538bce868aac1144d248c0bc&id=71ef3cfa3a)
 - [538](https://fivethirtyeight.com/)'s data & code [here](https://data.fivethirtyeight.com/)
 - [The Pudding](https://pudding.cool/) data & code [here](https://github.com/the-pudding/data)
+- [`#TidyTuesday`](https://twitter.com/search?q=%23tidytuesday&src=typed_query) datasets [here](https://github.com/rfordatascience/tidytuesday)
 
 ## Data visualization methods
 
