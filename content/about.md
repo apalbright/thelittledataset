@@ -39,8 +39,7 @@ Alex grew up in New York City and learned most adult concepts from *Seinfeld* re
 
 ### Ongoing Projects
 
-- "Examining the Lasting Consequences of the Tulsa Race Riots of 1921” (with Nathan Nunn and James Feigenbaum)
-    - **We are hiring RAs for this project!** [More info here.](https://economics.harvard.edu/files/economics/files/ra_nunn.pdf)
+- "Examining the Lasting Consequences of the Tulsa Race Riots of 1921" (with Nathan Nunn and James Feigenbaum)
 - "Can Judge Bias Training Reduce Racial Disparities in Bail Decisions?"
 - "No Money Bail, No Problems? Evidence from a Pretrial Administrative Release Program"
 
