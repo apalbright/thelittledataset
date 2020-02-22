@@ -25,7 +25,7 @@ footnotereturnlinkcontents = "↩"
     url = "/about_files/alex-albright-cv.pdf"
     weight = 3     
 [[menu.main]]
-    name = "Data & Code"
+    name = "Resources"
     url = "/data_code/"
     weight = 4
 #[[menu.main]]
