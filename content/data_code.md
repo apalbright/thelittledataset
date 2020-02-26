@@ -129,6 +129,7 @@ On styling and color:
 
 - Comprehensive list of R color palettes [here](https://github.com/EmilHvitfeldt/r-color-palettes) via [Emil Hvitfeldt](https://www.hvitfeldt.me/about/)
 - "Glamour of Graphics" talk/tips [here](https://www.williamrchase.com/slides/assets/player/KeynoteDHTMLPlayer.html#18) via [Will Chase](https://www.williamrchase.com/)
+- "Designing `ggplot`s" slides [here](https://designing-ggplots.netlify.com/#1) via [Malcolm Barrett](https://malco.io/)
 
 ### R `blogdown` website help
 
