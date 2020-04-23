@@ -122,6 +122,7 @@ In general, my project materials are available as [Github repos](https://github.
 
 General:
 
+- [Kieran Healy](https://kieranhealy.org/)'s *Data Visualization: A practical introduction* [here](https://socviz.co/) (with lots of `ggplot2` code!)
 - FlowingData website [here](https://flowingdata.com/)
 - The Pudding's *How To Make Dope Shit on The Internet* series [here](https://pudding.cool/process/how-to-make-dope-shit-part-2/)
 
