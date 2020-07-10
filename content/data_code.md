@@ -118,6 +118,10 @@ In general, my project materials are available as [Github repos](https://github.
     - find an R-Ladies meetup [here](https://rladies.org/) 
 - Follow `#rstats` on Twitter
 
+### R Markdown instead of LaTeX
+
+- [Steven Miller](http://svmiller.com/) R Markdown Templates [here](https://github.com/svmiller/svm-r-markdown-templates)
+
 ### Data visualization methods/tips
 
 General:
@@ -163,6 +167,12 @@ I use this section to share some gems that have come across my Twitter feed rece
 - Visualization inspo: specification charts by [Hans Henrik Sievertsen](https://hhsievertsen.net/) [here](https://twitter.com/hhsievertsen/status/1188780383736909825)
 
 ## (iv) Misc Coding/Organizational Resources
+
+### CV Materials
+
+- The `vitae` R package [here](https://github.com/mitchelloharawild/vitae)
+- Nick Strayer's `datadrivenvc` package [here](http://nickstrayer.me/datadrivencv/)
+- My code [here](https://github.com/apalbright/CV), which uses Steven Miller's CV template [here](https://github.com/svmiller/svm-r-markdown-templates)
 
 ### Using version control
 
