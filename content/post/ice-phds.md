@@ -53,7 +53,7 @@ While the two above plots show counts and percenatges for each of years 2006-201
 
 Of course, the fact that less than 10% of doctoral degree earners in psychology are international doesn't mean that ICE's regulation isn't vitally important to the doctoral psychology community. Affronts to the safety and humanity of even small percentage of students are always worth fighting. Nevertheless, I hope pointing out the population compositions by discipline aids our understanding of the **vast scale of the detrimental impacts of this policy for doctoral communities**. I stand in opposition to ICE's announcement with my peers pursuing doctorates, with [HGSU-UAW at the MA State House](https://www.facebook.com/events/727054974760540/?acontext=%7B%22ref%22%3A%2229%22%2C%22ref_notif_type%22%3A%22plan_user_associated%22%2C%22action_history%22%3A%22null%22%7D&notif_id=1594602966382293&notif_t=plan_user_associated&ref=notif), and on the phone for [today's 3pm ET hearing](https://public.mad.uscourts.gov/seating-signup.html).
 
-# `#MeltICE`^[h/t for this phrase: people at the 7-13-20 No #StudentBan Rally & [HGSU-UAW's instagram](https://www.instagram.com/hgsuuaw/?hl=en)]
+# `#MeltICE`^[H/t for this phrase: people at the 7-13-20 No #StudentBan Rally & [HGSU-UAW's instagram](https://www.instagram.com/hgsuuaw/?hl=en)]
 
 - Want to support international students + oppose ICE's regulation? **Check out the action items [here](https://linktr.ee/hgsuuaw)**, put together by the [Harvard Grad Union](http://harvardgradunion.org/)!
 - Important reading: Martin Aragoneses' thread on costs to international students [here](https://twitter.com/m_aragoneses/status/1282424586827595778)
