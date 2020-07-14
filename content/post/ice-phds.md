@@ -18,9 +18,13 @@ tags:
   - ICE
 ---
 
-**Breaking news** as of 7-14-20 ~3:10pm ET via the [*Harvard Crimson*](https://twitter.com/thecrimson/status/1283116935853506560?s=20):^[According to [this](https://twitter.com/gsiskind/status/1283115441825644545) tweet thread, the government rescinded one minute into the hearing.]
+## *Breaking News*
+
+As of 7-14-20 ~3:10pm ET via the [*Harvard Crimson*](https://twitter.com/thecrimson/status/1283116935853506560?s=20):^[According to [this](https://twitter.com/gsiskind/status/1283115441825644545) tweet thread, the government rescinded one minute into the hearing.]
 
 > Breaking: The government has agreed to rescind DHS and ICE rules barring international students attending online universities from staying in the U.S., per a hearing this afternoon in Harvard and MIT's lawsuit against the agencies.
+
+More important info in [this thread](https://twitter.com/ReichlinMelnick/status/1283115985608871944), including this point: "DHS is likely going to try again with some sort of restrictions on "newly enrolling," international students, but keep those already in the US or already enrolled in schools unaffected. So stay tuned."
 
 # New ICE regulation
 
