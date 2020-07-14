@@ -47,7 +47,7 @@ While the above shows the count of doctoral degree earners, another figure of in
 
 ![](/post/ice-phd_files/phd_per_by_citizenship.png)
 
-While the two above plots show counts and percenatges for each of years 2006-2016 separately, the trends over time aren't of great importance to my overarching goal for this post. So, I also simply calculate the percentage of doctoral degree earners that are international across all years 2006-2016. Those stats are represented by a simple bar plot below. I color economics orange for emphasis since that's my academic community. All engineering fields except for aerospace have a majority international doctoral student population. Computer science and economics also have majority international doctoral student populations.
+While the two above plots show counts and percentages for each of years 2006-2016 separately, the trends over time aren't of great importance to my overarching goal for this post. So, I also simply calculate the percentage of doctoral degree earners that are international across all years 2006-2016. Those stats are represented by a simple bar plot below. I color economics orange for emphasis since that's my academic community. All engineering fields except for aerospace have a majority international doctoral student population. Computer science and economics also have majority international doctoral student populations.
 
 ![](/post/ice-phd_files/phd_per_temp.png)
 
