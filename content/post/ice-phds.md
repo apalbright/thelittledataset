@@ -18,6 +18,10 @@ tags:
   - ICE
 ---
 
+**Breaking news** as of 7-14-20 ~3:10pm ET via the [*Harvard Crimson*](https://twitter.com/thecrimson/status/1283116935853506560?s=20):^[According to [this](https://twitter.com/gsiskind/status/1283115441825644545) tweet thread, the government rescinded one minute into the hearing.]
+
+> Breaking: The government has agreed to rescind DHS and ICE rules barring international students attending online universities from staying in the U.S., per a hearing this afternoon in Harvard and MIT's lawsuit against the agencies.
+
 # New ICE regulation
 
 On Monday 7-6-2020, the [U.S. Immigration and Customs Enforcement (ICE) said](https://www.ice.gov/news/releases/sevp-modifies-temporary-exemptions-nonimmigrant-students-taking-online-courses-during) international students will have to **leave the United States** if their schools are not offering in-person classes in the Fall. [Harvard and MIT are suing the Trump administration over this policy.](https://news.harvard.edu/gazette/story/2020/07/higher-ed-leaders-back-harvard-mit-fight-against-ice-rules/) The US District Court will be [considering a preliminary injunction and temporary restraining order](https://www.bostonglobe.com/2020/07/10/metro/big-hearing-set-tuesday-harvard-mit-lawsuit-challenging-ice-rules-international-students/) on enforcing the ICE regulation today (7-14-20) at 3pm ET.^[[The MA AG is suing (as part of a coalition of 18 attorneys) as well.](https://www.mass.gov/news/massachusetts-ags-office-leads-multistate-lawsuit-seeking-nationwide-injunction-against-new)]
@@ -43,7 +47,7 @@ First things first, I show the total number of doctoral degrees awarded 2006-201
 
 ![](/post/ice-phd_files/phd_count_by_citizenship.png)
 
-While the above shows the count of doctoral degree earners, another figure of interest is the percentage of each discipline's population that is international. I show these percentages over 2006-2016 using the below nightingale plot.^[A nightingale plot is really a stacked bar plot that just uses polar coordinates.]
+While the above shows the count of doctoral degree earners, another figure of interest is the percentage of each discipline's population that is international. I show these percentages over 2006-2016 using the below nightingale plot.^[A nightingale plot is really a stacked bar plot that uses just polar coordinates.]
 
 ![](/post/ice-phd_files/phd_per_by_citizenship.png)
 
