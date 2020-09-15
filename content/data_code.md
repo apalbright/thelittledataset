@@ -23,6 +23,14 @@ In general, my project materials are available as [Github repos](https://github.
 
 ### Data-driven
 
+- **Melt ICE**
+    - data [here; table 7-4](https://ncses.nsf.gov/pubs/nsf19304/data)
+    - code [here](https://github.com/apalbright/melt-ice-with-science)
+    - R notebook [here](https://rpubs.com/apalbright/melt-ice-with-science)
+- **Seeing Sleep**
+    - how to export your own fitbit data [here](https://help.fitbit.com/articles/en_US/Help_article/1133.htm)
+    - code [here](https://github.com/apalbright/fitbit-sleep)
+    - R notebook [here](https://rpubs.com/apalbright/fitbit-sleep)
 - **Connecticut pretrial inmates [descriptives]**
     - data [here](https://data.ct.gov/Public-Safety/Accused-Pre-Trial-Inmates-in-Correctional-Faciliti/b674-jy6w)
     - code [here](https://github.com/apalbright/ct-pretrial-descriptives)
@@ -130,11 +138,14 @@ General:
 - FlowingData website [here](https://flowingdata.com/)
 - The Pudding's *How To Make Dope Shit on The Internet* series [here](https://pudding.cool/process/how-to-make-dope-shit-part-2/)
 
-On styling and color:
+On `ggplot`, styling, and color:
 
 - Comprehensive list of R color palettes [here](https://github.com/EmilHvitfeldt/r-color-palettes) via [Emil Hvitfeldt](https://www.hvitfeldt.me/about/)
 - "Glamour of Graphics" talk/tips [here](https://www.williamrchase.com/slides/assets/player/KeynoteDHTMLPlayer.html#18) via [Will Chase](https://www.williamrchase.com/)
 - "Designing `ggplot`s" slides [here](https://designing-ggplots.netlify.com/#1) via [Malcolm Barrett](https://malco.io/)
+- "Graphics in R with ggplot2" article [here](https://www.statsandr.com/blog/graphics-in-r-with-ggplot2/) by [Antoine Soetewey](https://www.antoinesoetewey.com/)
+- "What to consider when choosing colors for data visualization" blog post [here](https://blog.datawrapper.de/colors/) by [Lisa Charlotte Rost](https://lisacharlotterost.de/) 
+    - *really, I like all her articles! -- more of her writing [here](https://lisacharlotterost.de/articles.html)*
 
 ### R `blogdown` website help
 
