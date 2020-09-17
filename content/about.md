@@ -41,7 +41,6 @@ Alex grew up in New York City and learned most adult concepts from *Seinfeld* re
 
 ### Ongoing Projects
 
-- "Can Judge Bias Training Reduce Racial Disparities in Bail Decisions?"
 - "No Money Bail, No Problems? Evidence from a Pretrial Administrative Release Program"
 
 ### Publications
