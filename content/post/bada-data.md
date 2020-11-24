@@ -86,7 +86,7 @@ If you've spent the last few years in economics seminars, audience members will 
 
 The plot again makes the point that there's a dramatic drop after February. The negative values are the largest in May and October, which makes sense because recall in looking at the prior within-year graph that these are the two months (after February) with the largest registration totals normally (in 2017-2019).
 
-This plotting method isn't a data journalism go-to (like the prior two), but you'll have to take my word for it that this is very standard in econ/policy seminars. At the end of the day, this is another way to hone in on the time variation of interest (variation due to COVID-19 timing) by neutralizing other time variation (regular variation by month).
+This plotting method isn't a data journalism go-to (like the prior two), but you'll have to take my word for it that this is very standard in econ/policy seminars. At the end of the day, this is another way to home in on the time variation of interest (variation due to COVID-19 timing) by neutralizing other time variation (regular variation by month).
 
 # BADA back better
 
