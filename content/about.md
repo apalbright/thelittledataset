@@ -36,7 +36,7 @@ Alex grew up in New York City and learned most adult concepts from *Seinfeld* re
     - Press: [WIRED](https://www.wired.com/story/algorithms-shouldve-made-courts-more-fair-what-went-wrong/), [Axios](https://www.axios.com/ai-automation-bias-trust-62ee0445-1fda-4143-b3d8-7d7ee8e328f6.html)
 - "After The Burning: The Economic Effects of the 1921 Tulsa Race Massacre" (with Nathan Nunn and James Feigenbaum)
     - [Full text](https://scholar.harvard.edu/files/nunn/files/tulsa.pdf)
-- "Uncorking Expert Reviews with Social Media: A Case Study Served with Wine" (with Peter Pedroni and Steve Sheppard). *Williams College Department of Economics Working Paper.*
+- "Uncorking Expert Reviews with Social Media: A Case Study Served with Wine" (with Peter Pedroni and Steve Sheppard). 
     - [Full text](https://web.williams.edu/Economics/wp/UncorkingExpertReviews.pdf)
 
 ### Ongoing Projects
@@ -53,7 +53,7 @@ Alex grew up in New York City and learned most adult concepts from *Seinfeld* re
 ## Personal Highlights
 
 - Built [Harvard Grad Women in Econ website](https://harvardgwe.com/)
-- Harvard Econ Holiday Party Host (2018; [Video Clip](https://twitter.com/AllbriteAllday/status/1071169713101778944))
+- Harvard Econ Holiday Party Host (2020, 2018; [A Clip](https://twitter.com/AllbriteAllday/status/1071169713101778944))
 - [R-Ladies](https://rladies.org/) Boston Talk (2018; [Slides](/about_files/slides/Albright_rladies.pdf))
 - Harvard Econ Holiday Skits (2018, 2017, 2016; [G3 Video](https://www.youtube.com/watch?v=5t-kS3l0Wlo), [G2 Video](https://www.youtube.com/watch?v=xU0NAKqRoY4&t=338s), [G1 Video](https://www.youtube.com/watch?v=SW0vVQQZ0TE))
 - *Data is Plural* Mentions (2019, 2017; [2019 Newsletter](https://tinyletter.com/data-is-plural/letters/data-is-plural-2019-02-20-edition), [2017 Newsletter](https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-11-08-edition))
