@@ -110,7 +110,7 @@ In general, my project materials are available as [Github repos](https://github.
 ## (i) Finding fun datasets
 
 - Data is Plural newsletter: sign-up [here](https://tinyletter.com/data-is-plural) & structured archive [here](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0)
-- FlowingData newsletter [here] (https://flowingdata.us2.list-manage.com/subscribe?u=f538bce868aac1144d248c0bc&id=71ef3cfa3a)
+- FlowingData: newsletter [here] (https://flowingdata.us2.list-manage.com/subscribe?u=f538bce868aac1144d248c0bc&id=71ef3cfa3a) & data source list [here](https://flowingdata.com/category/statistics/data-sources/) & guide to finding data [here](https://flowingdata.com/2016/11/10/find-the-data-you-need-2016-edition/)
 - [538](https://fivethirtyeight.com/)'s data & code [here](https://data.fivethirtyeight.com/)
 - [The Pudding](https://pudding.cool/) data & code [here](https://github.com/the-pudding/data)
 - [`#TidyTuesday`](https://twitter.com/search?q=%23tidytuesday&src=typed_query) datasets [here](https://github.com/rfordatascience/tidytuesday)
