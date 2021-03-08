@@ -1,20 +1,24 @@
 ---
-title: About
+title: Who writes this?
 ---
 
-**The Little Dataset That Could** functions as an outlet for a continuously curious researcher, Alex, who loves asking questions and finding answers with data. 
+Hi, I'm **Alex Albright** and I enjoy asking questions and exploring answers with data. **The Little Dataset That Could** functions as an informal outlet for my curiosities and coding (mis)adventures. 
+
+While academic journals have low acceptance rates, it turns out a blog that you run yourself will publish 100% of your data visualizations and/or musings on everything from sleep schedules to Pixar films.
 
 ---
 
-## Bio
+## More about Alex Albright
 
 <img src="/./about_files/headshot2.png" style="float: left; margin-right: 15px; margin-top: 8px" alt="" width="30%" height="30%" /> 
 
-**Alex Albright** is an economics PhD Candidate at Harvard. Her research interests are in labor economics, law and economics, social economics, and economic history. Her current research focuses on risk assessment scores as tools and subjects of study in the criminal justice system. 
+I'm currently an economics PhD Candidate at Harvard. My research focuses on criminal justice system policies *(how do judges use risk assessments? what are the welfare implications of money bail?)* as well as racial inequality in the US *(what are the economic consequences of racial violence?)*.
 
-She is a [Stone PhD Scholar](https://inequality.hks.harvard.edu/fellowship-awards) in Harvard's Multidisciplinary Program in Inequality & Social Policy and a [Considine Fellow](http://www.law.harvard.edu/programs/olin_center/fellowships.php) in Law and Economics. Alex graduated from Williams College (with a BA in math and economics) in 2014 and worked at Stanford Law School as an [Empirical Research Fellow](https://law.stanford.edu/empirical-research-fellowship/) for John Donohue from 2014-2016. See her [CV](/about_files/alex-albright-cv.pdf) for more academic information.
+I'm a [Stone PhD Scholar](https://inequality.hks.harvard.edu/fellowship-awards) in Harvard's Multidisciplinary Program in Inequality & Social Policy and a [Considine Fellow](http://www.law.harvard.edu/programs/olin_center/fellowships.php) in Law and Economics. I graduated from Williams College (with a BA in math and economics) in 2014 and worked at Stanford Law School as an [Empirical Research Fellow](https://law.stanford.edu/empirical-research-fellowship/) for Professor John Donohue from 2014-2016. 
 
-Alex grew up in New York City and learned most adult concepts from *Seinfeld* re-runs. When she is not busy with R notebooks in Littauer basement or amusing side projects (the scope of this blog), she can be found diving [(i.e., falling slowly)](https://www.youtube.com/watch?v=XKgPbg8epUg&feature=youtu.be&t=13s) for frisbees.
+**For more academic info, see my [Harvard Scholar page](https://scholar.harvard.edu/apalbright) or [CV](/about_files/alex-albright-cv.pdf).**
+
+I grew up in New York City and learned most adult concepts from *Seinfeld* re-runs. When I am not busy with research or amusing side projects (the scope of this blog), she can be found diving [(i.e., falling slowly)](https://www.youtube.com/watch?v=XKgPbg8epUg&feature=youtu.be&t=13s) for frisbees. (During the pandemic, I've replaced playing frisbee with learning tennis and [drawing logos for my home bar](https://twitter.com/AllbriteAllday/status/1360361785941925888?s=20).)
 
 ---
 
@@ -26,31 +30,7 @@ Alex grew up in New York City and learned most adult concepts from *Seinfeld* re
 
 ---
 
-## Research
-
-### Working Papers
-
-- "If You Give a Judge a Risk Score: Evidence from Kentucky Bail Decisions"
-    - [Full text](/about_files/albright_judge_score.pdf)
-    - Supporting materials: [slides](/about_files/slides/ecineq_19.pdf) & [blog post](https://thelittledataset.com/2019/07/15/if-you-give-a-judge-a-risk-score/)
-    - Press: [WIRED](https://www.wired.com/story/algorithms-shouldve-made-courts-more-fair-what-went-wrong/), [Axios](https://www.axios.com/ai-automation-bias-trust-62ee0445-1fda-4143-b3d8-7d7ee8e328f6.html)
-- "After The Burning: The Economic Effects of the 1921 Tulsa Race Massacre" (with Nathan Nunn and James Feigenbaum)
-    - [Full text](https://scholar.harvard.edu/files/nunn/files/tulsa.pdf)
-- "Uncorking Expert Reviews with Social Media: A Case Study Served with Wine" (with Peter Pedroni and Steve Sheppard). 
-    - [Full text](https://web.williams.edu/Economics/wp/UncorkingExpertReviews.pdf)
-
-### Ongoing Projects
-
-- "No Money Bail, No Problems? Evidence from a Pretrial Administrative Release Program"
-
-### Publications
-
-- “One Size Does Not Fit All: The Shortcomings of the Mainstream Data Scientist Working for Social Good” (with Sarah Levine). 2015. *Proceedings of the Bloomberg Data for Good Exchange.*
-    - [Full text](/about_files/levine_albright.pdf) & [Poster](/about_files/levine_albright_poster.pdf) & [Sarah's summary](http://www.sarahmakesmaps.com/blog/2016/3/one-size-does-not-fit-all)
-
----
-
-## Personal Highlights
+## Some non-research things I'm proud of
 
 - Built [Harvard Grad Women in Econ website](https://harvardgwe.com/)
 - Harvard Econ Holiday Party Host (2020, 2018; [A Clip](https://twitter.com/AllbriteAllday/status/1071169713101778944))

@@ -21,13 +21,17 @@ footnotereturnlinkcontents = "↩"
     url = "/about/"
     weight = 2
 [[menu.main]]
+    name = "Research"
+    url = "https://scholar.harvard.edu/apalbright/research-1"
+    weight = 3       
+[[menu.main]]
     name = "CV"
     url = "/about_files/alex-albright-cv.pdf"
-    weight = 3     
+    weight = 4
 [[menu.main]]
     name = "Resources"
     url = "/data_code/"
-    weight = 4
+    weight = 5
 #[[menu.main]]
  #   name = "Econ-y Resources"
   #  url = "/ec_resources/"
