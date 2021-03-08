@@ -114,6 +114,7 @@ In general, my project materials are available as [Github repos](https://github.
 - [538](https://fivethirtyeight.com/)'s data & code [here](https://data.fivethirtyeight.com/)
 - [The Pudding](https://pudding.cool/) data & code [here](https://github.com/the-pudding/data)
 - [`#TidyTuesday`](https://twitter.com/search?q=%23tidytuesday&src=typed_query) datasets [here](https://github.com/rfordatascience/tidytuesday)
+- [Sebastian Raschka](https://sebastianraschka.com/)'s [ML datasets listing](https://sebastianraschka.com/blog/2021/ml-dl-datasets.html)
 
 ## (ii) Lots of R stuff
 
@@ -126,7 +127,7 @@ In general, my project materials are available as [Github repos](https://github.
     - find an R-Ladies meetup [here](https://rladies.org/) 
 - Follow `#rstats` on Twitter
 
-### R Markdown instead of LaTeX
+### Using R Markdown instead of LaTeX
 
 - [Steven Miller](http://svmiller.com/) R Markdown Templates [here](https://github.com/svmiller/svm-r-markdown-templates)
 
@@ -168,14 +169,17 @@ I use this section to share some gems that have come across my Twitter feed rece
 
 - Incredible materials from [Grant McDermott](http://grantmcdermott.com/) [here](https://github.com/uo-ec607/lectures)
 
-### Instrumental Variables
+### Concepts
 
+- [Nick Huntington-Klein](https://nickchk.com/)'s causal inference animations [here](https://twitter.com/nickchk/status/1068215492458905600?s=20)
+- [Nick Huntington-Klein](https://nickchk.com/)'s "so you've made a regression model" flowchart [here](https://twitter.com/nickchk/status/1367234550867259392)
 - [Ed Rubin](http://edrub.in/)'s notes on Instrumental Variables [here](https://raw.githack.com/edrubin/EC421W19/master/LectureNotes/11InstrumentalVariables/11_instrumental_variables.html#42)
 - [Ed Rubin](http://edrub.in/)'s notes on Regression Discontinuity [here](https://raw.githack.com/edrubin/EC525S19/master/NotesLecture/09RD/09RD.html#1)
 
-### Robustness to Specifications
+### Visualizations for empirical research
 
-- Visualization inspo: specification charts by [Hans Henrik Sievertsen](https://hhsievertsen.net/) [here](https://twitter.com/hhsievertsen/status/1188780383736909825)
+- Specification charts by [Hans Henrik Sievertsen](https://hhsievertsen.net/) [here](https://twitter.com/hhsievertsen/status/1188780383736909825)
+- Staggered diff-in-diff visualizations by [Andrew Baker](https://andrewcbaker.netlify.app/) [here](https://andrewcbaker.netlify.app/2020/06/13/what-can-we-say-about-medical-marijuana-and-opioid-overdose-mortality/)
 
 ## (iv) Misc Coding/Organizational Resources
 
