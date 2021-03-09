@@ -2,7 +2,7 @@
 title: Who writes this?
 ---
 
-Hi, I'm **Alex Albright** and I enjoy asking questions and exploring answers with data. **The Little Dataset That Could** functions as an informal outlet for my curiosities and coding (mis)adventures. 
+Hi, I'm **Alex Albright** and I enjoy asking questions and exploring answers with data.^[Or, in Florence Nightingale's words, *"whenever I am infuriated, I revenge myself with a new diagram"*.] **The Little Dataset That Could** functions as an informal outlet for my curiosities and coding (mis)adventures. 
 
 While academic journals have low acceptance rates, it turns out a blog that you run yourself will publish 100% of your data visualizations and/or musings on everything from sleep schedules to Pixar films.
 
@@ -14,11 +14,11 @@ While academic journals have low acceptance rates, it turns out a blog that you 
 
 I'm currently an economics PhD Candidate at Harvard. My research focuses on criminal justice system policies *(how do judges use risk assessments? what are the welfare implications of money bail?)* as well as racial inequality in the US *(what are the economic consequences of racial violence?)*.
 
-I'm a [Stone PhD Scholar](https://inequality.hks.harvard.edu/fellowship-awards) in Harvard's Multidisciplinary Program in Inequality & Social Policy and a [Considine Fellow](http://www.law.harvard.edu/programs/olin_center/fellowships.php) in Law and Economics. I graduated from Williams College (with a BA in math and economics) in 2014 and worked at Stanford Law School as an [Empirical Research Fellow](https://law.stanford.edu/empirical-research-fellowship/) for Professor John Donohue from 2014-2016. 
+I'm a [Stone PhD Scholar](https://inequality.hks.harvard.edu/fellowship-awards) in Harvard's Inequality & Social Policy Program and a [Considine Fellow](http://www.law.harvard.edu/programs/olin_center/fellowships.php) in Law and Economics. I graduated from Williams College (with a BA in math and economics) in 2014 and worked at Stanford Law School as an [Empirical Research Fellow](https://law.stanford.edu/empirical-research-fellowship/) for Professor John Donohue from 2014-2016.
 
 **For more academic info, see my [Harvard Scholar page](https://scholar.harvard.edu/apalbright) or [CV](/about_files/alex-albright-cv.pdf).**
 
-I grew up in New York City and learned most adult concepts from *Seinfeld* re-runs. When I am not busy with research or amusing side projects (the scope of this blog), she can be found diving [(i.e., falling slowly)](https://www.youtube.com/watch?v=XKgPbg8epUg&feature=youtu.be&t=13s) for frisbees. (During the pandemic, I've replaced playing frisbee with learning tennis and [drawing logos for my home bar](https://twitter.com/AllbriteAllday/status/1360361785941925888?s=20).)
+When I am not busy with research or amusing side projects (the scope of this blog), I can be found diving [(i.e., falling slowly)](https://www.youtube.com/watch?v=XKgPbg8epUg&feature=youtu.be&t=13s) for frisbees. (During the pandemic, I've replaced playing frisbee with learning tennis and [drawing logos for my home bar](https://twitter.com/AllbriteAllday/status/1360361785941925888?s=20).)
 
 ---
 
