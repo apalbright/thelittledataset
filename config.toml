@@ -40,7 +40,11 @@ footnotereturnlinkcontents = "↩"
     name = "Support"
     url = "https://www.patreon.com/allbriteallday"
     weight = 6
+#[[menu.main]]
+#    name = "Teaching"
+#    url = "/teaching/"
+#    weight = 7    
 
 [params]
     description = "The Little Dataset"
-    footer = "&copy; Alex Albright 2020 | Built with [blogdown](https://github.com/rstudio/blogdown) & [Hugo](https://gohugo.io/)"
+    footer = "&copy; Alex Albright 2021 | Built with [blogdown](https://github.com/rstudio/blogdown) & [Hugo](https://gohugo.io/)"
