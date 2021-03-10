@@ -10,7 +10,7 @@ While academic journals have low acceptance rates, it turns out a blog that you 
 
 ## More about Alex Albright
 
-<img src="/./about_files/headshot2.png" style="float: left; margin-right: 15px; margin-top: 8px" alt="" width="30%" height="30%" /> 
+<img src="/./about_files/headshots/alex-albright.jpg" style="float: left; margin-right: 15px; margin-top: 8px" alt="" width="36%" height="36%" /> 
 
 I'm currently an economics PhD Candidate at Harvard. My research focuses on criminal justice system policies *(how do judges use risk assessments? what are the welfare implications of money bail?)* as well as racial inequality in the US *(what are the economic consequences of racial violence?)*.
 
