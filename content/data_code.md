@@ -105,11 +105,12 @@ R for data visualization:
 - [Designing `ggplot`s](https://designing-ggplots.netlify.com/#1) by [Malcolm Barrett](https://malco.io/)
 - [Graphics in R with `ggplot2`](https://www.statsandr.com/blog/graphics-in-r-with-ggplot2/) by [Antoine Soetewey](https://www.antoinesoetewey.com/)
 
-Using R for projects:
+Using R for projects:^[Not R but [here's](https://julianreif.com/guide/) a great Stata Coding Guide from Julian Reif]
 
 - [R Markdown Templates](https://github.com/svmiller/svm-r-markdown-templates) from [Steven Miller](http://svmiller.com/) 
 - [Thread on organizing projects with R](https://twitter.com/CivicAngela/status/1024469727274565633) by [Angela Li](https://angela-li.github.io/)
 - [Dissertating with R](https://livefreeordichotomize.com/2018/09/14/one-year-to-dissertate/) by [Lucy D'Agostino McGowan](https://www.lucymcgowan.com/)
+- `renv` package resources: [main page](https://rstudio.github.io/renv/articles/renv.html), [combining `renv` and RSPM by Grant McDermott](https://github.com/grantmcdermott/renv-rspm), [`renv` slides by Kevin Ushey ](https://kevinushey-2020-rstudio-conf.netlify.app/slides.html#1)
 
 Making a website with `blogdown`:
 
