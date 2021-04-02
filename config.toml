@@ -36,10 +36,10 @@ footnotereturnlinkcontents = "↩"
  #   name = "Econ-y Resources"
   #  url = "/ec_resources/"
    # weight = 5    
-[[menu.main]]
-    name = "Support"
-    url = "https://www.patreon.com/allbriteallday"
-    weight = 6
+#[[menu.main]]
+#    name = "Support"
+#    url = "https://www.patreon.com/allbriteallday"
+#    weight = 6
 #[[menu.main]]
 #    name = "Teaching"
 #    url = "/teaching/"

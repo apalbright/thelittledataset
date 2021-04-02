@@ -46,6 +46,10 @@ When I am not busy with research or amusing side projects (the scope of this blo
 
 ## Acknowledgments
 
-Thanks to my [Patreon](https://www.patreon.com/allbriteallday) supporters: Jeremy Singer-Vine, Jesse White, Emily White, Victor Luo, Annie Kaempfer, Jennifer Reed, and Tom Albright!
+Thanks to my [Patreon](https://www.patreon.com/allbriteallday) supporters: 
 
-<a href="https://www.patreon.com/bePatron?u=13177541" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+- Jeremy Singer-Vine, Victor Luo, Jesse White, Emily White, Annie Kaempfer, and Tom Albright
+
+Like the blog? Small blog subsidies welcome: 
+
+<a href="https://www.patreon.com/bePatron?u=13177541" data-patreon-widget-type="become-patron-button">Like my website? Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
