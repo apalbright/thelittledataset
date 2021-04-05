@@ -112,6 +112,13 @@ Using R for projects:^[Not R but [here's](https://julianreif.com/guide/) a great
 - [Dissertating with R](https://livefreeordichotomize.com/2018/09/14/one-year-to-dissertate/) by [Lucy D'Agostino McGowan](https://www.lucymcgowan.com/)
 - `renv` package resources: [main page](https://rstudio.github.io/renv/articles/renv.html), [combining `renv` and RSPM by Grant McDermott](https://github.com/grantmcdermott/renv-rspm), [`renv` slides by Kevin Ushey ](https://kevinushey-2020-rstudio-conf.netlify.app/slides.html#1)
 
+Using `xaringan` for slides:
+
+- [Why `xaringan` / remark.js for HTML5 Presentations?](https://yihui.org/en/2017/08/why-xaringan-remark-js/) from creator [Yihui Xie](https://yihui.org/)
+- [Meet `xaringan`](https://arm.rbind.io/slides/xaringan.html#1) from [Alison Hill](https://alison.rbind.io/)
+- [Theme generator](https://pkg.garrickadenbuie.com/xaringanthemer/articles/xaringanthemer.html) & [xaringanExtra](https://pkg.garrickadenbuie.com/xaringanExtra/#/README?id=xaringanextra)
+- Why leave beamer? Some thoughts from [Ross](https://twitter.com/ramattheis/status/1378074278436945934?s=20) + [Andrew](https://twitter.com/Andrew___Baker/status/1378136211244478465?s=20)
+
 Making a website with `blogdown`:
 
 - [Official `blogdown` book](https://bookdown.org/yihui/blogdown/)
@@ -149,3 +156,4 @@ On Economics RA-ing, PhD-ing, etc.:
 
 - [A community guide for research assistants (RAs) in economics](https://raguide.github.io/)
 - [A million resources on all things econ](http://jenniferdoleac.com/resources/) collated by [Jen Doleac](http://jenniferdoleac.com)
+- [Resources for PhD Students](http://li.dyson.cornell.edu/phdRes.php) collated by [Shanjun Li](http://li.dyson.cornell.edu/index.php)
