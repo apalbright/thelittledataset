@@ -143,6 +143,14 @@ Causal inference concepts:
 Visualizations particularly useful to empirical research:
 
 - [Specification charts](https://twitter.com/hhsievertsen/status/1188780383736909825) by [Hans Henrik Sievertsen](https://hhsievertsen.net/) 
+
+
+Staggered differences-in-differences resources:
+
+- [Using the `did` Package for implementing Callaway and Sant'Anna (2020)](https://bcallaway11.github.io/did/articles/did-basics.html#introduction-1) from [Brantly Callaway](https://bcallaway11.github.io/) and [Pedro H.C. Sant'Anna](https://pedrohcgs.github.io/)
+- [Using `fixest` for implementing Abraham and Sun (2020)](https://cran.r-project.org/web/packages/fixest/vignettes/fixest_walkthrough.html#34_The_function_i_for_factors_and_interactions)
+- [LSE Seminar video](https://www.youtube.com/watch?v=l1FLtTcpch0) on Baker, Larker, and Wang (2021)
+  - [code behind BLW (2021) paper](https://github.com/andrewchbaker/DiD_Codes)
 - [Staggered diff-in-diff visualizations](https://andrewcbaker.netlify.app/2020/06/13/what-can-we-say-about-medical-marijuana-and-opioid-overdose-mortality/) by [Andrew Baker](https://andrewcbaker.netlify.app/) 
 
 ## Misc. Resources
