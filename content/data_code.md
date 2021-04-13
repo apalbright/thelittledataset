@@ -144,7 +144,6 @@ Visualizations particularly useful to empirical research:
 
 - [Specification charts](https://twitter.com/hhsievertsen/status/1188780383736909825) by [Hans Henrik Sievertsen](https://hhsievertsen.net/) 
 
-
 Staggered differences-in-differences resources:
 
 - [Using the `did` Package for implementing Callaway and Sant'Anna (2020)](https://bcallaway11.github.io/did/articles/did-basics.html#introduction-1) from [Brantly Callaway](https://bcallaway11.github.io/) and [Pedro H.C. Sant'Anna](https://pedrohcgs.github.io/)
@@ -165,3 +164,4 @@ On Economics RA-ing, PhD-ing, etc.:
 - [A community guide for research assistants (RAs) in economics](https://raguide.github.io/)
 - [A million resources on all things econ](http://jenniferdoleac.com/resources/) collated by [Jen Doleac](http://jenniferdoleac.com)
 - [Resources for PhD Students](http://li.dyson.cornell.edu/phdRes.php) collated by [Shanjun Li](http://li.dyson.cornell.edu/index.php)
+- [Links from Ryan B. Edwards](http://www.ryanbedwards.com/resources)^[Highly rec seminar tips #1, 3, 4, 6]
