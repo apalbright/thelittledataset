@@ -139,6 +139,7 @@ Causal inference concepts:
 - ["So you've made a regression model" flowchart](https://twitter.com/nickchk/status/1367234550867259392) from [Nick Huntington-Klein](https://nickchk.com/) 
 - [Instrumental Variables notes](https://raw.githack.com/edrubin/EC421W19/master/LectureNotes/11InstrumentalVariables/11_instrumental_variables.html#42) by [Ed Rubin](http://edrub.in/)
 - [Regression Discontinuity notes](https://raw.githack.com/edrubin/EC525S19/master/NotesLecture/09RD/09RD.html#1) by [Ed Rubin](http://edrub.in/)
+- ["Econometrics Sandbox" series](https://github.com/worldbank/econometrics-sandbox) from [Florence Kondylis](https://blogs.worldbank.org/team/florence-kondylis) and [John Loeser](https://blogs.worldbank.org/team/john-loeser)
 
 Visualizations particularly useful to empirical research:
 
