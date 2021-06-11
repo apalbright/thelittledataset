@@ -133,6 +133,10 @@ Making a CV:
 
 ## Empirical Economics Resources
 
+[The Library of Statistical Techniques (LOST)](https://lost-stats.github.io/):
+
+> LOST is a publicly-editable website with the goal of making it easy to execute statistical techniques in statistical software.
+
 Causal inference concepts:
 
 - [Causal inference animations](https://twitter.com/nickchk/status/1068215492458905600?s=20) from [Nick Huntington-Klein](https://nickchk.com/)
@@ -143,7 +147,7 @@ Causal inference concepts:
 
 Visualizations particularly useful to empirical research:
 
-- [Specification charts](https://twitter.com/hhsievertsen/status/1188780383736909825) by [Hans Henrik Sievertsen](https://hhsievertsen.net/) 
+- [Specification charts](https://twitter.com/hhsievertsen/status/1188780383736909825) by [Hans Henrik Sievertsen](https://hhsievertsen.net/)
 
 Staggered differences-in-differences resources:
 
