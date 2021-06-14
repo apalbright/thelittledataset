@@ -40,10 +40,10 @@ footnotereturnlinkcontents = "↩"
 #    name = "Support"
 #    url = "https://www.patreon.com/allbriteallday"
 #    weight = 6
-#[[menu.main]]
-#    name = "Teaching"
-#    url = "/teaching/"
-#    weight = 7    
+[[menu.main]]
+    name = "Teaching"
+    url = "/teaching/"
+    weight = 7    
 
 [params]
     description = "The Little Dataset"
