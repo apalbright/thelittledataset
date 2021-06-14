@@ -141,9 +141,14 @@ Causal inference concepts:
 
 - [Causal inference animations](https://twitter.com/nickchk/status/1068215492458905600?s=20) from [Nick Huntington-Klein](https://nickchk.com/)
 - ["So you've made a regression model" flowchart](https://twitter.com/nickchk/status/1367234550867259392) from [Nick Huntington-Klein](https://nickchk.com/) 
-- [Instrumental Variables notes](https://raw.githack.com/edrubin/EC421W19/master/LectureNotes/11InstrumentalVariables/11_instrumental_variables.html#42) by [Ed Rubin](http://edrub.in/)
-- [Regression Discontinuity notes](https://raw.githack.com/edrubin/EC525S19/master/NotesLecture/09RD/09RD.html#1) by [Ed Rubin](http://edrub.in/)
 - ["Econometrics Sandbox" series](https://github.com/worldbank/econometrics-sandbox) from [Florence Kondylis](https://blogs.worldbank.org/team/florence-kondylis) and [John Loeser](https://blogs.worldbank.org/team/john-loeser)
+
+Lecture notes and textbooks on causal inference/metrics:
+
+- [Ed Rubin's "Econometrics III" notes](https://github.com/edrubin/EC607S20)
+- [Paul Goldsmith-Pinkham's "Applied Empirical Methods" notes](https://github.com/paulgp/applied-methods-phd)
+- [Causal Inference: *The Mixtape*](https://mixtape.scunning.com/)
+- [Kline + Walters AEA notes](https://assets.aeaweb.org/asset-server/files/13709.pdf)
 
 Visualizations particularly useful to empirical research:
 
