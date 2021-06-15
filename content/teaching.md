@@ -15,8 +15,15 @@ In the Harvard Economics department, I was a seminar leader for undergraduate th
 - Instructor evaluation score means:
   - 4.86 out of 5 (AY 2020-2021) 
   - 4.90 out of 5 (AY 2018-2019)
-- Some theses I advised that are publicly available so you can read them too!
-  1. ["Effects of Job Displacement on Prescription Opioid Demand"](https://dustinswonder.github.io/displacement_opioids_ds.pdf) by [Dustin Swonder](https://dustinswonder.github.io/)
+
+Below are some theses I advised that are publicly available so you can read them too!
+
+1. ["A Story of Human Capital: Why the Paycheck Protection Program Had Huge Geographic Disparities"](https://www.hks.harvard.edu/sites/default/files/centers/mrcbg/files/AWP_169_final.pdf) 
+  - Author: [Claire Shi '21](https://www.claireshi.com/)
+2. ["Effects of Job Displacement on Prescription Opioid Demand:
+Evidence from the Medical Expenditure Panel Survey"](https://dustinswonder.github.io/displacement_opioids_ds.pdf) 
+  - Author: [Dustin Swonder '19](https://dustinswonder.github.io/)
+3. *...More to come...*
 
 Here's a screencap of our seminar cheers-ing thesis completion in April 2021:
 
