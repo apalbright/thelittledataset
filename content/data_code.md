@@ -68,18 +68,22 @@ In general, my project materials are available as [github repos](https://github.
 
 ## Finding data
 
-- Data is Plural newsletter: [sign-up](https://tinyletter.com/data-is-plural) & [structured archive](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0)
-- FlowingData: [newsletter] (https://flowingdata.us2.list-manage.com/subscribe?u=f538bce868aac1144d248c0bc&id=71ef3cfa3a) & [data source list](https://flowingdata.com/category/statistics/data-sources/) & [guide to finding data](https://flowingdata.com/2016/11/10/find-the-data-you-need-2016-edition/)
+- The fantastic *Data is Plural* newsletter: [sign-up](https://tinyletter.com/data-is-plural) & [structured archive](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0)
+- Resources from *FlowingData*: [newsletter] (https://flowingdata.us2.list-manage.com/subscribe?u=f538bce868aac1144d248c0bc&id=71ef3cfa3a) & [data source list](https://flowingdata.com/category/statistics/data-sources/) & [guide to finding data](https://flowingdata.com/2016/11/10/find-the-data-you-need-2016-edition/)
 - [538](https://fivethirtyeight.com/)'s [data & code](https://data.fivethirtyeight.com/)
-- [The Pudding](https://pudding.cool/) [data & code](https://github.com/the-pudding/data)
+- [The Pudding](https://pudding.cool/)'s [data & code](https://github.com/the-pudding/data)
 - [`#TidyTuesday` datasets](https://github.com/rfordatascience/tidytuesday)
-- [ML datasets listing](https://sebastianraschka.com/blog/2021/ml-dl-datasets.html) by [Sebastian Raschka](https://sebastianraschka.com/)'s 
+- [ML datasets listing](https://sebastianraschka.com/blog/2021/ml-dl-datasets.html) by [Sebastian Raschka](https://sebastianraschka.com/) 
 
 ## Data visualization inspo
 
-- [FlowingData](https://flowingdata.com/) website and newsletters
-- [The Pudding](https://pudding.cool/) and their [*How To Make Dope [Stuff] on The Internet* series](https://pudding.cool/process/how-to-make-dope-shit-part-2/)
-- [`#TidyTuesday`](https://twitter.com/search?q=%23tidytuesday&src=typed_query)
+- On the internet:
+  - [FlowingData](https://flowingdata.com/) website & newsletters
+  - [The Pudding](https://pudding.cool/) essays & their [*How To Make Dope [Stuff] on The Internet* series](https://pudding.cool/process/how-to-make-dope-shit-part-2/)
+  - [`#TidyTuesday` community creations](https://twitter.com/search?q=%23tidytuesday&src=typed_query)
+- Actual books: 
+  - *W. E. B. Du Bois's Data Portraits: Visualizing Black America* [(thread with many related links here)](https://twitter.com/AllbriteAllday/status/1271137172108849152?s=20)
+  2. [*Dear Data*](http://www.dear-data.com/theproject)
 
 ## R resources
 
@@ -131,11 +135,12 @@ Making a CV:
 - [`datadrivenvc` package](http://nickstrayer.me/datadrivencv/) by [Nick Strayer](http://nickstrayer.me/)
 - [My code](https://github.com/apalbright/CV), which uses Steven Miller's [CV template](https://github.com/svmiller/svm-r-markdown-templates)
 
+Predictive Modeling with `Tidymodels`:
+
+- The fantastic `Tidymodels` [website](https://www.tidymodels.org/)
+- For binary classification: (1) [a "getting started" case study](https://www.tidymodels.org/start/case-study/), (2) [Julia classifies penguins](https://www.youtube.com/watch?v=z57i2GVcdww), (3) [Julia predicts water availability](https://www.youtube.com/watch?v=WYaNdxmlYUg)
+
 ## Empirical Economics Resources
-
-[The Library of Statistical Techniques (LOST)](https://lost-stats.github.io/):
-
-> LOST is a publicly-editable website with the goal of making it easy to execute statistical techniques in statistical software.
 
 Causal inference concepts:
 
@@ -153,6 +158,7 @@ Lecture notes and textbooks on causal inference/metrics:
 Visualizations particularly useful to empirical research:
 
 - [Specification charts](https://twitter.com/hhsievertsen/status/1188780383736909825) by [Hans Henrik Sievertsen](https://hhsievertsen.net/)
+- [Staggered diff-in-diff visualizations](https://andrewcbaker.netlify.app/2020/06/13/what-can-we-say-about-medical-marijuana-and-opioid-overdose-mortality/) by [Andrew Baker](https://andrewcbaker.netlify.app/) 
 
 Staggered differences-in-differences resources:
 
@@ -160,9 +166,13 @@ Staggered differences-in-differences resources:
 - [Using `fixest` for implementing Abraham and Sun (2020)](https://cran.r-project.org/web/packages/fixest/vignettes/fixest_walkthrough.html#34_The_function_i_for_factors_and_interactions)
 - [LSE Seminar video](https://www.youtube.com/watch?v=l1FLtTcpch0) on Baker, Larker, and Wang (2021)
   - [code behind BLW (2021) paper](https://github.com/andrewchbaker/DiD_Codes)
-- [Staggered diff-in-diff visualizations](https://andrewcbaker.netlify.app/2020/06/13/what-can-we-say-about-medical-marijuana-and-opioid-overdose-mortality/) by [Andrew Baker](https://andrewcbaker.netlify.app/) 
 
 ## Misc. Resources
+
+Coding as a stats-y person with stats-y software:
+
+- [The Library of Statistical Techniques (LOST)](https://lost-stats.github.io/)
+  - "LOST is a publicly-editable website with the goal of making it easy to execute statistical techniques in statistical software."
 
 Using version control:
 
