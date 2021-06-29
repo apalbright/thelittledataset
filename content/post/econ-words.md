@@ -21,7 +21,7 @@ tags:
 
 # Writing about economics writing: metaplots + metadata
 
-Throughout the last 5 years of my PhD, I've developed a list of questions big and small about economics paper trends and conventions. *Is it just me or do economists love using colons in their titles? Is differences-in-differences bigger than instrumental variables now? Why are economists always talking about how they "exploit" things? What places are economists writing about the most?*
+Throughout the last 5 years of my PhD, I've developed a list of questions big and small about economics paper trends and conventions. *Is it just me or do economists love using colons in their titles? Is differences-in-differences bigger than instrumental variables now? Why do economists like using the verb "exploit"? What places are economists writing about the most?*
 
 As this [string of questions has gotten a little unwiedly](https://playsnake.org/) over time, I've been on the look out for a nice public dataset to use to address these questions. A new convention in the motivational slides of applied econometricians/methods folks gave me hope on this front. Graphs (metaplots) showing growth in phrases like "administrative data", "census linking", and "staggered differences in differences" using journal article data became a familiar sight. 
 
