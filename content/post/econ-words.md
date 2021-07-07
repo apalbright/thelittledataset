@@ -143,3 +143,4 @@ Below I provide the data sources as well as code for generating the above plots.
 - [Here](https://rpubs.com/apalbright/metaplots-metadata) is my R notebook for this post
 - [Here](https://github.com/apalbright/metaplots-metadata) is my Github repo 
 
+**Update (7/7/21):** *[Ben Davies](https://bldavies.com/) is developing an R package `nberwp` which contains data on NBER working papers + their authors. Read more about `nberwp` [here](https://bldavies.com/blog/introducing-nberwp/). Try it out if you're interested in using NBER WP data. Also see his related blog posts on ["Triadic closure at the NBER"](https://bldavies.com/blog/triadic-closure-nber/) and ["Female representation and collaboration at the NBER"](https://bldavies.com/blog/female-representation-collaboration-nber/).*
