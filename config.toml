@@ -21,30 +21,26 @@ footnotereturnlinkcontents = "↩"
     url = "/about/"
     weight = 2
 [[menu.main]]
-    name = "Research"
-    url = "/research/"
-    weight = 3       
-[[menu.main]]
     name = "CV"
     url = "/about_files/alex-albright-cv.pdf"
-    weight = 4
+    weight = 3    
 [[menu.main]]
-    name = "Resources"
-    url = "/data_code/"
-    weight = 5
-#[[menu.main]]
- #   name = "Econ-y Resources"
-  #  url = "/ec_resources/"
-   # weight = 5    
-#[[menu.main]]
-#    name = "Support"
-#    url = "https://www.patreon.com/allbriteallday"
-#    weight = 6
+    name = "Research"
+    url = "/research/"
+    weight = 4       
 [[menu.main]]
     name = "Teaching"
     url = "/teaching/"
-    weight = 7    
-
+    weight = 5
+[[menu.main]]
+    name = "Public Goods"
+    url = "/data_code/"
+    weight = 6
+#[[menu.main]]
+#    name = "Support"
+#    url = "https://www.patreon.com/allbriteallday"
+#    weight = 7
+   
 [params]
     description = "The Little Dataset"
-    footer = "&copy; Alex Albright 2014-2021 | Built with [blogdown](https://github.com/rstudio/blogdown) & [Hugo](https://gohugo.io/)"
+    footer = "&copy; [**Alex Albright**](https://thelittledataset.com/about/) 2014-2021 | Built with [blogdown](https://github.com/rstudio/blogdown) & [Hugo](https://gohugo.io/)"
