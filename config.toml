@@ -22,7 +22,7 @@ footnotereturnlinkcontents = "↩"
     weight = 2
 [[menu.main]]
     name = "Research"
-    url = "https://scholar.harvard.edu/apalbright/research-1"
+    url = "/research/"
     weight = 3       
 [[menu.main]]
     name = "CV"
