@@ -12,7 +12,7 @@ title: Who writes this?
 
 While academic journals have low acceptance rates, it turns out a blog that you run yourself will publish 100% of your data visualizations and/or musings on everything from sleep schedules to Pixar films.
 
-[*Headshot-as-dataviz via {aRty face} shiny app*](https://d-qn.shinyapps.io/rtify/)
+[(*Headshot-as-dataviz via {aRty face} shiny app*)](https://d-qn.shinyapps.io/rtify/)
 
 ---
 
