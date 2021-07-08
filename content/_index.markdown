@@ -5,5 +5,5 @@ title: Home
 
 # The Little Dataset That Could
 
-_**there's a graph for that.**_
+## _~there's a graph for that~_
 
