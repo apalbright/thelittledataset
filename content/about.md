@@ -6,25 +6,27 @@ title: Who writes this?
 
 <img src="/./about_files/headshots/dv/me-data.png" style="float: left; margin-right: 15px; margin-top: 8px" alt="" width="23%" height="23%" />
 
-`Hello World`, I'm **Alex Albright** and I enjoy asking questions and exploring answers with data.^[Or, in Florence Nightingale's words, *"whenever I am infuriated, I revenge myself with a new diagram."*]
+I'm **Alex Albright** and I enjoy asking questions and exploring answers with data.
+
+Or, in Florence Nightingale's words, *"whenever I am infuriated, I revenge myself with a new diagram."*
 
 **The Little Dataset That Could** functions as an informal outlet for my curiosities and coding (mis)adventures. 
 
-While academic journals have low acceptance rates, it turns out a blog that you run yourself will publish 100% of your data visualizations and/or musings on everything from sleep schedules to Pixar films.
-
-[(*Headshot-as-dataviz via {aRty face} shiny app*)](https://d-qn.shinyapps.io/rtify/)
+While academic journals have low paper acceptance rates, it turns out a blog you run yourself will publish 100% of your data visualizations and musings.^[My headshot-as-dataviz is via the [{aRty face} shiny app](https://d-qn.shinyapps.io/rtify/)]
 
 ---
 
 ## More about Alex Albright
 
-I'm an economics PhD Candidate at Harvard. My research focuses on criminal justice system policies *(what are the welfare implications of financial bail conditions? how do judges use algorithms in bail decisions?)* as well as racial inequality in the US *(what are the economic consequences of mass racial violence? how does discretion in the usage of algorithms impact racial inequality?)*.
+I'm an [economics PhD Candidate at Harvard](https://scholar.harvard.edu/apalbright). My research focuses on criminal justice system policies *(what are the welfare implications of financial bail conditions? how do judges use algorithms in bail decisions?)* as well as racial inequality in the US *(what are the economic consequences of mass racial violence? how does discretion in the usage of algorithms impact racial inequality?)*.
 
-I'm a [Stone PhD Scholar](https://inequality.hks.harvard.edu/fellowship-awards) in Harvard's Inequality & Social Policy Program and a [Considine Fellow](http://www.law.harvard.edu/programs/olin_center/fellowships.php) in Law and Economics. I graduated from Williams College (with a BA in math and economics) in 2014 and worked at Stanford Law School as an [Empirical Research Fellow](https://law.stanford.edu/empirical-research-fellowship/) for Professor John Donohue from 2014-2016.
+I'm also a Stone PhD Scholar in [Harvard's Inequality & Social Policy Program](https://inequality.hks.harvard.edu/) and a [Horowitz Foundation Grantee](https://www.horowitz-foundation.org/). I was a Considine Fellow at Harvard Law School from 2018-2021. 
+
+I worked at Stanford Law School as an [Empirical Research Fellow](https://law.stanford.edu/empirical-research-fellowship/) for Professor John Donohue from 2014-2016. I graduated from Williams College (with a BA in math & economics) in 2014.
 
 ### For more academic info, see my [Harvard Scholar page](https://scholar.harvard.edu/apalbright) or [CV](/about_files/alex-albright-cv.pdf).
 
-When I am not busy with research or side projects (the scope of this blog), I can be found diving [(i.e., falling slowly)](https://www.youtube.com/watch?v=XKgPbg8epUg&feature=youtu.be&t=13s) for frisbees. (During the pandemic, I've replaced playing frisbee with learning tennis and [drawing logos for my home bar](https://twitter.com/AllbriteAllday/status/1360361785941925888?s=20).)
+When I am not busy with research or side projects (the scope of this blog), you can find me in a park (playing sports, birdwatching) or [drawing logos for my fictional bar](https://twitter.com/AllbriteAllday/status/1360364187587801089?s=20).
 
 ---
 
@@ -57,8 +59,8 @@ When I am not busy with research or side projects (the scope of this blog), I ca
 
 Like the blog (or the code/resources)? Blog subsidies welcome via Venmo [handle: `@alexpalbright`] & [Patreon](https://www.patreon.com/allbriteallday)!
 
-<a href="https://www.patreon.com/bePatron?u=13177541" data-patreon-widget-type="become-patron-button">Like my website? Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+<a href="https://www.patreon.com/bePatron?u=13177541" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
 
 Thanks to the following folks who support via Patreon:
 
-> Jeremy Singer-Vine, Victor Luo, Jesse White, Emily White, Annie Kaempfer, and Tom Albright
+> Jeremy Singer-Vine, Jesse White, Emily White, Annie Kaempfer, and Tom Albright
