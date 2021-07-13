@@ -11,7 +11,7 @@ title: Research
  
 ### [After The Burning: The Economic Effects of the 1921 Tulsa Race Massacre](https://scholar.harvard.edu/files/nunn/files/tulsa.pdf) *(with Jeremy Cook, James Feigenbaum, Laura Kincaide, Jason Long, and Nathan Nunn)*
 
-- Press: [*The New York Times*](https://www.nytimes.com/2021/05/25/magazine/tulsa-race-massacre-1921-greenwood.html), [*CNN*](https://www.cnn.com/interactive/2021/05/us/whitewashing-of-america-racism/), [*TIME Magazine*](https://time.com/6052246/tulsa-race-massacre-generation-impact/)
+- Press: [The New York Times](https://www.nytimes.com/2021/05/25/magazine/tulsa-race-massacre-1921-greenwood.html), [CNN](https://www.cnn.com/interactive/2021/05/us/whitewashing-of-america-racism/), [TIME Magazine](https://time.com/6052246/tulsa-race-massacre-generation-impact/), [CNBC](https://www.cnbc.com/2021/05/31/black-wall-street-was-shattered-100-years-ago-how-tulsa-race-massacre-was-covered-up.html)
 
 
 ---
