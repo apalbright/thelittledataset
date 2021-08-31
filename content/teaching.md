@@ -11,7 +11,7 @@ In the Harvard Economics department, I was a seminar leader for undergraduate th
 
 - [Here are resources I share with undergrad thesis writers](/undergrad-thesis-resources/)
 - [Here are student comments on my teaching](/student-comments/)
-- [Here's my *Certificate of Distinction in Teaching*](/./teaching_files/teaching-distinction-fall-2020.png) 
+- Here are my *Certificates of Distinction in Teaching*: [Fall 2020](/./teaching_files/teaching-distinction-fall-2020.png) & [Spring 2021](/./teaching_files/teaching-distinction-spring-2021.png) 
 - Instructor evaluation score means:
   - 4.86 out of 5 (AY 2020-2021) 
   - 4.90 out of 5 (AY 2018-2019)
