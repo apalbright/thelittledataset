@@ -22,7 +22,7 @@ footnotereturnlinkcontents = "↩"
     weight = 2
 [[menu.main]]
     name = "CV"
-    url = "/about_files/alex-albright-cv.pdf"
+    url = "https://scholar.harvard.edu/files/apalbright/files/alex_albright_harvard_cv.pdf"
     weight = 3    
 [[menu.main]]
     name = "Research"
@@ -36,6 +36,10 @@ footnotereturnlinkcontents = "↩"
     name = "Public Goods"
     url = "/data_code/"
     weight = 6
+#[[menu.main]]
+#    name = "Job Market Info"
+#    url = "/job-mkt-info/"
+#    weight = 7   
 #[[menu.main]]
 #    name = "Support"
 #    url = "https://www.patreon.com/allbriteallday"
