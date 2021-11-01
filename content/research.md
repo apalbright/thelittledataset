@@ -4,7 +4,7 @@ title: Research
 
 # Job Market Paper 
 
-### No Money Bail, No Problems? Evidence from an Automatic Release Program
+### [No Money Bail, No Problems? Evidence from an Automatic Release Program](https://thelittledataset.com/research_papers/alex_albright_harvard_jmp.pdf)
 
 > <details>
   <summary>Click for abstract</summary>
