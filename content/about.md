@@ -18,13 +18,17 @@ While academic journals have low paper acceptance rates, it turns out a blog you
 
 ## More about Alex Albright
 
-I'm an [economics PhD Candidate at Harvard](https://scholar.harvard.edu/apalbright). My research focuses on criminal justice system policies *(what are the welfare implications of financial bail conditions? how do judges use algorithms in bail decisions?)* as well as racial inequality in the US *(what are the economic consequences of mass racial violence? how does discretion in the usage of algorithms impact racial inequality?)*.
+I'm an economics PhD Candidate at Harvard. **And I'm on the job market this year (AY 2021-2022)!**^[If you know of any opportunities you think I'd be a good fit for, feel free to reach out:<br> `alex.p.albright@gmail.com`]
+
+ 
+
+My research focuses on criminal justice system policies *(what are the welfare implications of financial bail conditions? how do judges use algorithms in bail decisions?)* as well as racial inequality in the US *(what are the economic consequences of mass racial violence? how does discretion in the usage of algorithms impact racial inequality?)*.
 
 I'm also a Stone PhD Scholar in [Harvard's Inequality & Social Policy Program](https://inequality.hks.harvard.edu/) and a [Horowitz Foundation Grantee](https://www.horowitz-foundation.org/). I was a Considine Fellow at Harvard Law School from 2018-2021. 
 
 I worked at Stanford Law School as an [Empirical Research Fellow](https://law.stanford.edu/empirical-research-fellowship/) for Professor John Donohue from 2014-2016. I graduated from Williams College (with a BA in math & economics) in 2014.
 
-### For more academic info, see my [Harvard Scholar page](https://scholar.harvard.edu/apalbright) or [CV](/about_files/alex-albright-cv.pdf).
+### For more academic info, see my [Harvard webpage](https://scholar.harvard.edu/apalbright).
 
 When I am not busy with research or side projects (the scope of this blog), you can find me in a park (playing sports, birdwatching) or [drawing logos for my fictional bar](https://twitter.com/AllbriteAllday/status/1360364187587801089?s=20).
 
