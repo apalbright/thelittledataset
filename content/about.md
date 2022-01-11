@@ -2,9 +2,9 @@
 title: Who writes this?
 ---
 
-<img src="/./about_files/headshots/alex-albright.jpg" style="float: left; margin-right: 15px; margin-top: 8px" alt="" width="23%" height="23%" /> 
+<img src="/./about_files/headshots/alex-albright-headshot.png" style="float: left; margin-right: 15px; margin-top: 8px" alt="" width="23%" height="23%" /> 
 
-<img src="/./about_files/headshots/dv/me-data.png" style="float: left; margin-right: 15px; margin-top: 8px" alt="" width="23%" height="23%" />
+<img src="/./about_files/headshots/dv/headshot-dots.png" style="float: left; margin-right: 15px; margin-top: 8px" alt="" width="23%" height="23%" />
 
 I'm **Alex Albright** and I enjoy asking questions and exploring answers with data.
 
