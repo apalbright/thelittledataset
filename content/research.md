@@ -2,7 +2,7 @@
 title: Research
 ---
 
-# Job Market Paper 
+# Working Papers
 
 ### [No Money Bail, No Problems? Evidence from an Automatic Release Program](https://thelittledataset.com/research_papers/alex_albright_harvard_jmp.pdf)
 
@@ -12,10 +12,6 @@ title: Research
 </details> 
 
 > Press: *[Phenomenal World](https://us16.campaign-archive.com/?u=30638b4a1754ffe5cdc9f22c1&id=000913181e)*
-
----
-
-# Working Papers
 
 ### [If You Give a Judge a Risk Score: Evidence from Kentucky Bail Decisions](https://thelittledataset.com/about_files/albright_judge_score.pdf)
 
@@ -36,6 +32,10 @@ title: Research
   
 > Press: *[The New York Times](https://www.nytimes.com/2021/05/25/magazine/tulsa-race-massacre-1921-greenwood.html), [CNN](https://www.cnn.com/interactive/2021/05/us/whitewashing-of-america-racism/), [TIME Magazine](https://time.com/6052246/tulsa-race-massacre-generation-impact/), [CNBC](https://www.cnbc.com/2021/05/31/black-wall-street-was-shattered-100-years-ago-how-tulsa-race-massacre-was-covered-up.html), [NBER Digest](https://www.nber.org/digest-202109/estimating-long-term-effects-1921-tulsa-race-massacre), [Black Enterprise](https://www.blackenterprise.com/black-homeownership-is-still-being-affected-by-the-tulsa-race-massacre-and-not-just-in-oklahoma/), [The Root](https://www.theroot.com/black-people-in-oklahoma-and-beyond-still-feel-the-effe-1847936074), [Business Insider](https://www.businessinsider.com/tulsa-race-massacre-black-homeownership-wealth-economic-inequality-nber-research-2021-10)*
 
+---
+
+# Works in Progress
+
 ### Does Bias Training Change Bail Decisions?
 
 > <details>
@@ -45,6 +45,6 @@ title: Research
 
 ---
 
-# Older Papers
+# Resting Papers
 
 ### [Uncorking Expert Reviews with Social Media: A Case Study Served with Wine](https://web.williams.edu/Economics/wp/UncorkingExpertReviews.pdf) *(with Peter Pedroni and Stephen Sheppard)*
