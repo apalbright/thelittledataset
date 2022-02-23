@@ -51,4 +51,4 @@ footnotereturnlinkcontents = "↩"
    
 [params]
     description = "The Little Dataset"
-    footer = "&copy; [**Alex Albright**](https://thelittledataset.com/about/) 2014-2022 | Built with [blogdown](https://github.com/rstudio/blogdown) & [Hugo](https://gohugo.io/)"
+    footer = "&copy; [Alex Albright](https://thelittledataset.com/alex-albright/) 2014-2022 | Built with [blogdown](https://github.com/rstudio/blogdown) & [Hugo](https://gohugo.io/)"
