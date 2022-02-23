@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Blog
 ---
 
 <img src="/./about_files/graphs/spiral.png" style="float: right; margin-right: 1px; margin-top: 1px" alt="" width="46%" height="46%" /> 
