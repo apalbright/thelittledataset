@@ -18,7 +18,7 @@ footnotereturnlinkcontents = "↩"
     weight = 1
 [[menu.main]]
     name = "CV"
-    url = "https://thelittledataset.com/about_files/alex_albright_harvard_cv.pdf"
+    url = "https://thelittledataset.com/about_files/alex-albright-cv.pdf"
     weight = 2    
 [[menu.main]]
     name = "Research"
