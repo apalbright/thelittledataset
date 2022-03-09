@@ -20,10 +20,9 @@ My work has been featured in outlets such as The New York Times, The New Yorker,
 
 ---
 
-<img src="/./about_files/graphs/dd-stack.png" style="float: right; margin-right: 1px; margin-top: 1px" alt="" width="64%" height="64%" /> 
+<img src="/./about_files/graphs/dd-stack.png" style="float: right; margin-right: 1px; margin-top: -10px" alt="" width="60%" height="60%" /> 
+**Email:** apalbright<span style="display:none">nospampls</span> [at] g.harvard.edu <br>
+**Twitter:** [@allbriteallday](https://twitter.com/AllbriteAllday) <br>
 <br>
-**Contact me:** <br>
-apalbright<span style="display:none">nospampls</span> [at] g.harvard.edu <br>
-280-character bursts: [@allbriteallday](https://twitter.com/AllbriteAllday) 
-<br>
+(she/her)
 <br>
