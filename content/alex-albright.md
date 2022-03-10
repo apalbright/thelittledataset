@@ -1,5 +1,17 @@
 ---
 title: Alex Albright
+description: "About Alex Albright, Research Economist"
+tags:
+  - alex albright
+  - economics
+  - economist
+  - researcher
+  - harvard
+  - minneapolis 
+  - fed
+  - federal reserve
+  - opportunity
+  - inclusive growth
 ---
 
 <img src="/./about_files/headshots/alex-albright-headshot.png" style="float: left; margin-right: 15px; margin-top: 8px" alt="" width="46%" height="46%" /> 
