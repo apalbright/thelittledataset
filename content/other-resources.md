@@ -121,3 +121,18 @@ On Economics RA-ing, PhD-ing, etc.:
 - [A million resources on all things econ](http://jenniferdoleac.com/resources/) collated by [Jen Doleac](http://jenniferdoleac.com)
 - [Resources for PhD Students](http://li.dyson.cornell.edu/phdRes.php) collated by [Shanjun Li](http://li.dyson.cornell.edu/index.php)
 - [Links from Ryan B. Edwards](http://www.ryanbedwards.com/resources)^[Highly rec seminar tips #1, 3, 4, 6]
+
+On the economics job market [(blog post about this here)](https://thelittledataset.com/2022/03/21/job-mkt/):
+
+- [Claudia Sahm's JMP post](https://macromomblog.com/2019/09/29/we-need-to-talk-more/)
+- Chase Eck, Kelli Marquardt, and Dana Shaat's [Guide on Mentally Preparing for the Job Market](https://sites.google.com/view/ejm-mentalhealth/home?authuser=0)
+  - Their Guide to JM Guides [here](https://sites.google.com/view/ejm-mentalhealth/references-and-links?authuser=0)
+- Graphs re: JOE job postings over time [here](https://twitter.com/andrewlilley_au/status/1451221330842447873) by [Andrew Lilley](https://twitter.com/andrewlilley_au)
+- Twitter bot with JOE job info: [@EconJobsBot](https://twitter.com/EconJobsBot) made by [@TheKeveloper](https://twitter.com/TheKeveloper)
+- [Benjamin Vatter](https://benjaminvatter.com/)'s ["Job Market Application Tracker"](https://github.com/benjaminvatterj/JobMarketTracker)
+- Advice on non-academic cover letters [here](https://economics.harvard.edu/files/econ/files/advice.pdf?m=1619114089)
+- UC Berkeley DEI statement resources [here](https://ofew.berkeley.edu/guidelines-applicants-writing-statements) and [here](https://ofew.berkeley.edu/recruitment/contributions-diversity/rubric-assessing-candidate-contributions-diversity-equity)
+- Google sheet template [here](https://docs.google.com/spreadsheets/d/1l-s65AoQDuBY6DzAunApV4ZV_Aw4Up6kKcsuzFNcdDY/edit#gid=0) for keeping track of reference letter submissions
+- AEA webinar on the job market [here](https://www.aeaweb.org/joe/communications/video/2021/webinar-part-1) (it covers applying, interviews, negotiating, and more)
+- Great twitter threads on [1st round interviews](https://twitter.com/NataliaHEmanuel/status/1468596059375083527?s=20&t=yFRNnsTtRHf0RVKTqS1d_Q), [1st round interview questions](https://twitter.com/NataliaHEmanuel/status/1471932685912313859?s=20&t=yFRNnsTtRHf0RVKTqS1d_Q), and [flyouts](https://twitter.com/NataliaHEmanuel/status/1480008062329143300?s=20&t=yFRNnsTtRHf0RVKTqS1d_Q) from [Natalia Emanuel](https://www.nataliaemanuel.com/)
+- Negotiation advice: [memo/advice from Claudia Goldin and Larry Katz](https://economics.harvard.edu/files/econ/files/jobmarket201617_negotiating_0.pdf?m=1619113830) & [lecture on "How to Negotiate Your Job Offer" by Deepak Malhotra](https://www.youtube.com/watch?v=km2Hd_xgo9Q)
