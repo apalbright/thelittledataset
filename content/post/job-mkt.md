@@ -195,7 +195,7 @@ You might wonder, what happens if you don't get a flyout from a place that inter
 
 2. Offer people random breaks for water and going to the bathroom. Build them into the schedule and encourage interviewers to offer them regardless. (Sometimes candidates might lose breaks because they talked through them and didn't notice the time.) 
 
-3. Us JMCs always thought it was super classy when a place bought us lunch/dinner from afar.^[You can just give candidates a Grubhub gift card, for example.] It simulates the feeling of being "hosted" even when everything is remote. Also, recall that grad students love free food.^[[Flour seminar sandwiches 4ever.](https://flourbakery.com/)]
+3. We JMCs always thought it was super classy when a place bought us lunch/dinner from afar.^[You can just give candidates a Grubhub gift card, for example.] It simulates the feeling of being "hosted" even when everything is remote. Also, recall that grad students love free food.^[[Flour seminar sandwiches 4ever.](https://flourbakery.com/)]
 
 # <a id="offers"></a> (8) Navigate offers + take a job
 
