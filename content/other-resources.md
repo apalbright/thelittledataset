@@ -122,8 +122,9 @@ On Economics RA-ing, PhD-ing, etc.:
 - [Resources for PhD Students](http://li.dyson.cornell.edu/phdRes.php) collated by [Shanjun Li](http://li.dyson.cornell.edu/index.php)
 - [Links from Ryan B. Edwards](http://www.ryanbedwards.com/resources)^[Highly rec seminar tips #1, 3, 4, 6]
 
-On the economics job market [(blog post about this here)](https://thelittledataset.com/2022/03/21/job-mkt/):
+On the economics job market:
 
+- My blog post on the market [here](https://thelittledataset.com/2022/03/21/job-mkt/) (twitter thread version [here](https://twitter.com/AllbriteAllday/status/1506311227563147264))
 - [Claudia Sahm's JMP post](https://macromomblog.com/2019/09/29/we-need-to-talk-more/)
 - Chase Eck, Kelli Marquardt, and Dana Shaat's [Guide on Mentally Preparing for the Job Market](https://sites.google.com/view/ejm-mentalhealth/home?authuser=0)
   - Their Guide to JM Guides [here](https://sites.google.com/view/ejm-mentalhealth/references-and-links?authuser=0)
