@@ -12,41 +12,41 @@ footnotereturnlinkcontents = "↩"
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
+#[[menu.main]]
+#    name = "About Alex"
+#    url = "/alex-albright/"
+#    weight = 3
 [[menu.main]]
-    name = "Alex Albright"
-    url = "/alex-albright/"
-    weight = 1
+    name = "Who writes this?"
+    url = "/about/"
+    weight = 2
+#[[menu.main]]
+#    name = "CV"
+#    url = "https://thelittledataset.com/about_files/alex-albright-cv.pdf"
+#    weight = 2    
+#[[menu.main]]
+#    name = "Research"
+#    url = "/research/"
+#    weight = 3  
 [[menu.main]]
-    name = "CV"
-    url = "https://thelittledataset.com/about_files/alex-albright-cv.pdf"
-    weight = 2    
-[[menu.main]]
-    name = "Research"
-    url = "/research/"
-    weight = 3  
-[[menu.main]]
-    name = "Blog"
+    name = "Home"
     url = "/"
-    weight = 4    
+    weight = 1  
 [[menu.main]]
-    name = "Public Goods"
-    url = "/data_code/"
-    weight = 5
-[[menu.main]]
-    name = "Teaching"
-    url = "/teaching/"
-    weight = 6    
-[[menu.main]]
-    name = "Misc."
-    url = "/misc/"
-    weight = 7
+    name = "Data & Code"
+    url = "/my-resources/"
+    weight = 3    
 #[[menu.main]]
-#    name = "Job Market Info"
-#    url = "/job-mkt-info/"
-#    weight = 7   
+#    name = "Public Goods"
+#    url = "/data_code/"
+#    weight = 5
 #[[menu.main]]
-#    name = "Support"
-#    url = "https://www.patreon.com/allbriteallday"
+#    name = "Teaching"
+#    url = "/teaching/"
+#    weight = 6    
+#[[menu.main]]
+#    name = "Misc."
+#    url = "/misc/"
 #    weight = 7
    
 [params]
