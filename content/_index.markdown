@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: The Little Dataset
 ---
 
 # The Little Dataset That Could
