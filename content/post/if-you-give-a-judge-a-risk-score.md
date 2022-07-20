@@ -142,11 +142,3 @@ As predictive tools continue to be integrated into high-stakes decisions, there 
 This result is a consequence of two types of deviations by judges: across-judge and within-judge deviations. On the former, judges varied in their policy responsiveness; judges in whiter counties responded more to the new default (increasing their leniency) than judges in blacker counties. There is a striking correlation between a judge’s response to the policy and a judge’s defendant population. Second, even within judge and time, I show judges are more likely to deviate from the recommended default for moderate risk black defendants than for similar moderate risk white defendants. (Importantly, this is true in the post- but not the pre-period.) This result suggests that interaction with the same predictive score may lead to different predictions by race, which warrants further investigation. 
 
 Part of the public appeal of risk assessments is the idea that they are a move towards a system that is more "objective" than the status quo. However, if interpretation of the scores themselves interacts with defendant race, the very judicial discretion that risk score proponents sought to reduce has simply been shifted to a later stage.
-
----
-
-# The End
-
-Thanks very much for reading! If you have any questions or comments, feel free to ping me: 
-
-`alex.p.albright [at] gmail.com`. 
