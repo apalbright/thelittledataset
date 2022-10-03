@@ -12,6 +12,7 @@ This blog, **The Little Dataset**, functions as an informal outlet for my curios
 Want some toy data or code? I catalog the data and code used for blog projects [here](https://thelittledataset.com/my-resources/).
 
 I always enjoy connecting with people about random datasets, pretty graphs, R, etc. Feel free to get in touch via email or Twitter: 
+
 - Email: `alex.pillette.albright@gmail.com`
 - Twitter: [@allbriteallday](https://twitter.com/AllbriteAllday)
 
