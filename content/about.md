@@ -9,10 +9,12 @@ I'm **Alex Albright** and I'm an economist who enjoys asking questions and explo
 
 This blog, **The Little Dataset**, functions as an informal outlet for my curiosities and coding (mis)adventures. While academic journals have low paper acceptance rates, it turns out a blog you run yourself will publish 100% of your data visualizations and musings.
 
-Want some toy data or code? I catalog the data and code used for my projects [here](https://thelittledataset.com/my-resources/).
+Want some toy data or code? I catalog the data and code used for blog projects [here](https://thelittledataset.com/my-resources/).
 
-I always enjoy connecting with people about random datasets, pretty graphs, R, etc. Feel free to email me (alexalbright.tld@gmail.com) or DM me on Twitter ([@allbriteallday](https://twitter.com/AllbriteAllday)) to get in touch.
+I always enjoy connecting with people about random datasets, pretty graphs, R, etc. Feel free to get in touch via email or Twitter: 
+- Email: `alex.pillette.albright@gmail.com`
+- Twitter: [@allbriteallday](https://twitter.com/AllbriteAllday)
 
-If you want to learn about my professional research portfolio <br>please visit **[albrightalex.com](https://www.albrightalex.com/)**. 
+You can learn about my academic research here: **[albrightalex.com](https://www.albrightalex.com/)**
 
 <br>
