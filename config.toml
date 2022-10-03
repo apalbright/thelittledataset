@@ -17,7 +17,7 @@ footnotereturnlinkcontents = "↩"
 #    url = "/alex-albright/"
 #    weight = 3
 [[menu.main]]
-    name = "Who writes this?"
+    name = "About"
     url = "/about/"
     weight = 2
 #[[menu.main]]

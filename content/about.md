@@ -1,5 +1,5 @@
 ---
-title: Who writes this?
+title: About
 ---
 
 <img src="/./about_files/headshots/alex-albright-headshot.png" style="float: left; margin-right: 15px; margin-top: 8px" alt="" width="37%" height="37%" /> 
