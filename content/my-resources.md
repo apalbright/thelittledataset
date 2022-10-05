@@ -13,9 +13,7 @@ Remember that with coding, practice makes perf... better.
     </center>
 </figure>
 
-# Blog Projects 
-
-In general, my project materials are available as [github repos](https://github.com/apalbright?tab=repositories). I also publish R notebooks as [RPubs](https://rpubs.com/apalbright).^[(While my Github repos will include the `.Rmd` files for R notebooks, I also share notebooks as published through RPubs since they are easier to read in that format. Example: [here](https://github.com/apalbright/ct_pretrial1/blob/master/ct_pretrial.Rmd) is a `Rmd` file on Github, [here](http://rpubs.com/apalbright/ct-pretrial) is the same notebook on RPubs.)] I link to relevant repos/notebooks at the bottom of all blog posts.
+In general, my blog project materials are available as [github repos](https://github.com/apalbright?tab=repositories). I also publish R notebooks as [RPubs](https://rpubs.com/apalbright).^[(While my Github repos will include the `.Rmd` files for R notebooks, I also share notebooks as published through RPubs since they are easier to read in that format. Example: [here](https://github.com/apalbright/ct_pretrial1/blob/master/ct_pretrial.Rmd) is a `Rmd` file on Github, [here](http://rpubs.com/apalbright/ct-pretrial) is the same notebook on RPubs.)] I link to relevant repos/notebooks at the bottom of all blog posts.
 
 ### Data visualization projects 
 
@@ -53,8 +51,6 @@ In general, my project materials are available as [github repos](https://github.
 - Graphing (ego) utility: [RPubs notebook](http://rpubs.com/apalbright/ego-utility-plot)
 - Extensive form diagrams (for ultimate frisbee-inspired game theory): [github repo](https://github.com/apalbright/ulti_gtheory/blob/master/pbe_solve.tex) 
 
-# Website & CV Code
+### Web development projects
 
 - Code for my website *(the one you're on right now)* is [here](https://github.com/apalbright/thelittledataset)
-- Code for the [Harvard GWE website](https://harvardgwe.com/) is [here](https://github.com/apalbright/gwe)
-- Code for [my CV](https://thelittledataset.com/about_files/alex-albright-cv.pdf) is [here](https://github.com/apalbright/CV)
