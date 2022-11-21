@@ -13,7 +13,7 @@ Want some toy data or code? I catalog the data and code used for blog projects [
 
 I always enjoy connecting with people about random datasets, pretty graphs, R, etc. Feel free to get in touch via email or Twitter: 
 
-- Email: `alex.pillette.albright@gmail.com`
+- Email: `alex@albrightalex.com`
 - Twitter: [@allbriteallday](https://twitter.com/AllbriteAllday)
 
 You can learn about my academic research here: **[albrightalex.com](https://www.albrightalex.com/)**
