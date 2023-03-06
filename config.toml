@@ -12,13 +12,14 @@ footnotereturnlinkcontents = "↩"
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
-    name = "About"
-    url = "/about/"
-    weight = 2
 [[menu.main]]
     name = "Home"
     url = "/"
-    weight = 1  
+    weight = 1 
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2    
 [[menu.main]]
     name = "Data & Code"
     url = "/my-resources/"
