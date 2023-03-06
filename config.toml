@@ -2,7 +2,7 @@ baseurl = "https://thelittledataset.com/"
 languageCode = "en-us"
 title = "The Little Dataset"
 theme = "hugo-xmin"
-googleAnalytics = "UA-148934943-1"
+googleAnalytics = "G-862CF4YPP6"
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 preserveTaxonomyNames = true
@@ -12,22 +12,9 @@ footnotereturnlinkcontents = "↩"
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
-#[[menu.main]]
-#    name = "About Alex"
-#    url = "/alex-albright/"
-#    weight = 3
-[[menu.main]]
     name = "About"
     url = "/about/"
     weight = 2
-#[[menu.main]]
-#    name = "CV"
-#    url = "https://thelittledataset.com/about_files/alex-albright-cv.pdf"
-#    weight = 2    
-#[[menu.main]]
-#    name = "Research"
-#    url = "/research/"
-#    weight = 3  
 [[menu.main]]
     name = "Home"
     url = "/"
@@ -36,19 +23,7 @@ footnotereturnlinkcontents = "↩"
     name = "Data & Code"
     url = "/my-resources/"
     weight = 3    
-#[[menu.main]]
-#    name = "Public Goods"
-#    url = "/data_code/"
-#    weight = 5
-#[[menu.main]]
-#    name = "Teaching"
-#    url = "/teaching/"
-#    weight = 6    
-#[[menu.main]]
-#    name = "Misc."
-#    url = "/misc/"
-#    weight = 7
    
 [params]
     description = "The Little Dataset"
-    footer = "&copy; [Alex Albright](https://thelittledataset.com/about/) 2014-2022 | Built with [blogdown](https://github.com/rstudio/blogdown) & [Hugo](https://gohugo.io/)"
+    footer = "&copy; [Alex Albright](https://thelittledataset.com/about/) 2014-2023 | Built with [blogdown](https://github.com/rstudio/blogdown) & [Hugo](https://gohugo.io/)"
