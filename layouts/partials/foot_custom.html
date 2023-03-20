@@ -3,4 +3,14 @@
 
 <script async src="//yihui.name/js/center-img.js"></script>
 
-{{ template "_internal/google_analytics.html" . }}
+<!-- originally added this based on blogdown book {{ template "_internal/google_analytics.html" . }} -->
+
+<!-- now trying something else based on this issue https://github.com/adityatelange/hugo-PaperMod/discussions/248 -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-862CF4YPP6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-862CF4YPP6');
+</script>
