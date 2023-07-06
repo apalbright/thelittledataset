@@ -1,0 +1,36 @@
+baseurl = "https://thelittledataset.com/"
+languageCode = "en-us"
+title = "The Little Dataset"
+theme = "hugo-xmin"
+googleAnalytics = "G-862CF4YPP6"
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+preserveTaxonomyNames = true
+enableEmoji = true
+footnotereturnlinkcontents = "↩"
+
+permalinks:
+  post: "/post/:year/:month/:day/:slug/"
+
+menu:
+  main:
+    - name: Home
+      url: ""
+      weight: 1
+    - name: About
+      url: "about/"
+      weight: 2
+    - name: Data and Code
+      url: "my-resources/"
+      weight: 3
+
+params:
+  description: "The Little Dataset"
+  footer: "&copy; [Alex Albright](https://thelittledataset.com/about/) 2014 -- {Year} | Built with [blogdown](https://github.com/rstudio/blogdown) & [Hugo](https://gohugo.io/)"
+
+markup:
+  highlight:
+    codeFences: false
+  goldmark:
+    renderer:
+      unsafe: true
