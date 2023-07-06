@@ -120,9 +120,9 @@ The most common types of documents you need for job applications are as follows:
 2. The employer requires an email submission-- this requires you tell your faculty or staff the emailing instructions for each unique place (and then confirming with them that they submitted) *(agh)* 
 3. The employer has a specific online portal that will trigger a request to that person for them to submit a letter *(agh also)*
 
-If you're applying to 100+ places, this will be overwhelming. I found it helpful to maintain a spreadsheet with letter status by place (or portal). ([Here is my google sheet example for you all.](https://docs.google.com/spreadsheets/d/1l-s65AoQDuBY6DzAunApV4ZV_Aw4Up6kKcsuzFNcdDY/edit?usp=sharing)) Stark color coding made it clear to me and to people submitting letters when and where letters were missing. See the below screencap for a way to organize this--there are general portals, email submissions, and then place-specific portals. There are distinct columns for each reference (ref 1, ref 2, and ref 3). References mark the dates they submit. I then made cells red for missing references and highlighted incomplete institution/portal names in red as well.
+If you're applying to 100+ places, this will be overwhelming. I found it helpful to maintain a spreadsheet with letter status by place (or portal). Stark color coding made it clear to me and to people submitting letters when and where letters were missing. See the below screencap for a way to organize this--there are general portals, email submissions, and then place-specific portals. There are distinct columns for each reference (ref 1, ref 2, and ref 3). References mark the dates they submit. I then made cells red for missing references and highlighted incomplete institution/portal names in red as well.
 
-![Users to my harvard scholar page over time](/post/jm_files/rec-letter-status.png)
+![Screencap of my recommendation letter spreadsheet format](/post/jm_files/rec-letter-status.png)
 
 Sure, it'd be great if everyone just used a mainstream portal, but conditional on the current mishmash of options, being organized in some way makes the process easier for you, the candidate, and your support network of faculty or staff.
 
