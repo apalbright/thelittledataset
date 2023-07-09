@@ -1,5 +1,5 @@
 ---
-title: Who's Talking about their COVID-19 Research? Gender and Research During a Pandemic 
+title: Who's Talking about their COVID-19 Research? 
 author: 'By: Alex Albright, Steph Kestelman, Kristen McCormack, and Isabel Harbaugh Macdonald'
 date: '2020-06-17'
 slug: research-and-gender-during-a-pandemic
