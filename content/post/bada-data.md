@@ -14,9 +14,9 @@ tags:
   - frisbee
 ---
 
-My partner Jesse runs programs for an org called [Bay Area Disc Association (BADA)](https://bayareadisc.org/). This means that in normal times his job is organizing large *(very large)* groups of people to play ultimate frisbee in leagues and tournaments. Those events mean hard breathing, high-fives, huddles, everyone touching the same frisbee -- you know, things that were regular in January that now sound (how do I put this...) horrifying in the content context of COVID-19. So, unsurprisingly and responsibly, BADA has not been running frisbee programs for 8 months now.^[For more on this decision, you can read [Dr. Harris Masket's blog post](https://bayareadisc.org/p/covid-timeout-with-dr-harris) about being safe and not playing ultimate.]
+My partner Jesse runs programs for an org called [Bay Area Disc Association (BADA)](https://bayareadisc.org/). This means that in normal times his job is organizing large *(very large)* groups of people to play ultimate frisbee in leagues and tournaments. Those events mean hard breathing, high-fives, huddles, everyone touching the same frisbee -- you know, things that were regular in January that now sound (how do I put this...) horrifying in the content context of COVID-19. So, unsurprisingly and responsibly, BADA has not been running frisbee programs for 8 months now.[^1]
 
-Back in June, Jesse -- suddenly *quite* interested in talking to me about [graphs](https://covidtracking.com/data/charts/us-all-key-metrics) now that they often convey information about a deadly pandemic^[Seriously this boy is looking at way more graphs than before. In all seriousness, this is a thing beyond just Jesse. Check out how Datawrapper visualization views went up with COVID [here](https://blog.datawrapper.de/coronavirus-data-visualization-effect-datawrapper/).] -- asked if I could make a graph showing the drop in BADA's registration numbers in March.^[While I made the original version of these graphs in June for [this BADA blog post](https://bayareadisc.org/p/thanks-for-supporting-your-team), I didn't get to writing this up until now. The good news on the delay is that now there are many more months of data to visualize.] Here's an approximate transcript of the conversation:
+Back in June, Jesse -- suddenly *quite* interested in talking to me about [graphs](https://covidtracking.com/data/charts/us-all-key-metrics) now that they often convey information about a deadly pandemic[^2] -- asked if I could make a graph showing the drop in BADA's registration numbers in March.[^3] Here's an approximate transcript of the conversation:
 
 > **Jesse**: What do you think? Could you spend some spare time making graphs for us?
 
@@ -56,7 +56,7 @@ Instead of plotting the full range of time on the x-axis, let's compare registra
 
 What's cool (in my opinion) about this visual is that it's actually exactly the same data points as in the first graph but with years separated and then overlaid on top of each other.
 
-### **Example of this method in the news:** [This *Science* article](https://www.sciencemag.org/careers/2020/10/amid-pandemic-us-faculty-job-openings-plummet) explains that faculty job openings are down 70% compared to last year and plots job posting by month across years.^[They even use a similar color palette across years! I mean, it definitely makes sense to group the non-2020 years together as colors and highlight 2020 with a distinct color (orange-red for both of us).]
+### **Example of this method in the news:** [This *Science* article](https://www.sciencemag.org/careers/2020/10/amid-pandemic-us-faculty-job-openings-plummet) explains that faculty job openings are down 70% compared to last year and plots job posting by month across years.[^4]
 
 # 2. Percent changes
 
@@ -68,9 +68,9 @@ This is the plot type that Jesse ended up picking for the [original BADA blog po
 
 ![](/post/bada-data_files/bada-yoy.png)
 
-While BADA was overperforming in January and February, registrations were cut in half in March and then down almost 100% from April until today. What's nice about this method is that it gives us the ability to give concise descriptives like "Y [quantity of interest] in M [month] is down X% relative to prior years".^[Unsurprisingly, during COVID-19, many those X's have often been pretty strikingly large.]
+While BADA was overperforming in January and February, registrations were cut in half in March and then down almost 100% from April until today. What's nice about this method is that it gives us the ability to give concise descriptives like "Y [quantity of interest] in M [month] is down X% relative to prior years".[^5]
 
-### **Example of this method in the news:** [This *NYTimes* article](https://www.nytimes.com/interactive/2020/08/18/business/economy/coronavirus-economic-recovery-states.html) shows visits to businesses in 2020 vs. visits to businesses in 2019 with a YOY plot (for March-August).^[As you scroll down, they later break this out by state for a "spaghetti" style plot.]
+### **Example of this method in the news:** [This *NYTimes* article](https://www.nytimes.com/interactive/2020/08/18/business/economy/coronavirus-economic-recovery-states.html) shows visits to businesses in 2020 vs. visits to businesses in 2019 with a YOY plot (for March-August).[^6]
 
 # 3. Residualizing (with month fixed-effects)
 
@@ -78,7 +78,7 @@ This method is more familiar to the economics/policy/quant crowd, but it's prett
 
 `$$registrations_{m,y}=\overline{registrations_m} + \epsilon_{m,y}$$`
 
-In [Gelman, Hill, Vehtari](https://avehtari.github.io/ROS-Examples/) lingo, this allows us to "compare within groups (months) using varying intercept models."^[They don't like the fixed effects lingo. Fair -- it is used imprecisely sometimes no doubt.] By setting a different intercept for each month (different fixed effects), we then plot all the still unexplained variation (residuals) for each month-year. This is equivalent to de-meaning the data (subtracting out the monthly averages).
+In [Gelman, Hill, Vehtari](https://avehtari.github.io/ROS-Examples/) lingo, this allows us to "compare within groups (months) using varying intercept models."[^7] By setting a different intercept for each month (different fixed effects), we then plot all the still unexplained variation (residuals) for each month-year. This is equivalent to de-meaning the data (subtracting out the monthly averages).
 
 If you've spent the last few years in economics seminars, audience members will often want to see time series data without all that seasonal messiness. Here's what I get for the BADA data:
 
@@ -109,3 +109,17 @@ Or in Joe Biden's words, "BADA back better"(?)
 - Since BADA's internal data is not public, I'm not sharing the raw data online. Hopefully the code is useful even without the raw data it calls!
 - [Here](https://rpubs.com/apalbright/covid-time-series-bada) is my R notebook for this post, which shows different ways of visualizing the same drop in registrations (same story, different method of summarizing the data).
 - [Here](https://github.com/apalbright/bada-time-series) is my Github repo for this project. 
+
+[^1]: For more on this decision, you can read [Dr. Harris Masket's blog post](https://bayareadisc.org/p/covid-timeout-with-dr-harris) about being safe and not playing ultimate.
+
+[^2]: Seriously this boy is looking at way more graphs than before. In all seriousness, this is a thing beyond just Jesse. Check out how Datawrapper visualization views went up with COVID [here](https://blog.datawrapper.de/coronavirus-data-visualization-effect-datawrapper/).
+
+[^3]: While I made the original version of these graphs in June for [this BADA blog post](https://bayareadisc.org/p/thanks-for-supporting-your-team), I didn't get to writing this up until now. The good news on the delay is that now there are many more months of data to visualize.
+
+[^4]: They even use a similar color palette across years! I mean, it definitely makes sense to group the non-2020 years together as colors and highlight 2020 with a distinct color (orange-red for both of us).
+
+[^5]: Unsurprisingly, during COVID-19, many those X's have often been pretty strikingly large.
+
+[^6]: As you scroll down, they later break this out by state for a "spaghetti" style plot.
+
+[^7]: They don't like the fixed effects lingo. Fair -- it is used imprecisely sometimes no doubt.
