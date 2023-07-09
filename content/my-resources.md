@@ -13,7 +13,9 @@ Remember that with coding, practice makes perf... better.
     </center>
 </figure>
 
-In general, my blog project materials are available as [github repos](https://github.com/apalbright?tab=repositories). I also publish R notebooks as [RPubs](https://rpubs.com/apalbright).^[(While my Github repos will include the `.Rmd` files for R notebooks, I also share notebooks as published through RPubs since they are easier to read in that format. Example: [here](https://github.com/apalbright/ct_pretrial1/blob/master/ct_pretrial.Rmd) is a `Rmd` file on Github, [here](http://rpubs.com/apalbright/ct-pretrial) is the same notebook on RPubs.)] I link to relevant repos/notebooks at the bottom of all blog posts.
+In general, my blog project materials are available as [github repos](https://github.com/apalbright?tab=repositories). I also publish R notebooks as [RPubs](https://rpubs.com/apalbright).[^1] I link to relevant repos/notebooks at the bottom of all blog posts.
+
+[^1]: While my Github repos will include the `.Rmd` files for R notebooks, I also share notebooks as published through RPubs since they are easier to read in that format. Example: [here](https://github.com/apalbright/ct_pretrial1/blob/master/ct_pretrial.Rmd) is a `Rmd` file on Github, [here](http://rpubs.com/apalbright/ct-pretrial) is the same notebook on RPubs.
 
 ### Data visualization projects 
 
