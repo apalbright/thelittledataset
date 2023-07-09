@@ -27,7 +27,7 @@ As this [string of questions has gotten a little unwiedly](https://playsnake.org
 
 [The paper "Technology and Big Data Are Changing Economics: Mining Text to Track Methods" by Currie, Kleven, and Zwiers (CKZ 2020)](https://www.aeaweb.org/articles?id=10.1257/pandp.20201058) serves as a prominent example. CKZ (2020) create dozens of metaplots to describe the landscape of changes in applied microeconomics methods from 1980 to present. Using data from the "top five" economics journals and the NBER working papers series, they empirically illustrate the credibility revolution (more empirics!), [graphical revolution (more graphs!)](https://twitter.com/AllbriteAllday/status/1392531753835794433), and a few other coming revolutions in the academic economics universe (ML, text mining).
 
-CKZ (2020) use data on the full text of "top five" and NBER papers, meaning the data includes the body of the paper itself. Due to access restrictions to full text data like this, they are not able to share the raw data. However, metadata is not similarly restricted. **The NBER working paper series metadata is public** and includes information on titles, abtracts, author names, dates, and more. (See [here](https://data.nber.org/nber-wp-logs/working_papers.tab) and [here](https://www2.nber.org/wp_metadata/txt/) for the raw NBER metadata.)^[For information on how to extract metadata for a custom bundle of journal articles, check out this recent and developing [Twitter thread by Damon Jones.](https://twitter.com/nomadj1s/status/1409629607955927046?s=20)]
+CKZ (2020) use data on the full text of "top five" and NBER papers, meaning the data includes the body of the paper itself. Due to access restrictions to full text data like this, they are not able to share the raw data. However, metadata is not similarly restricted. **The NBER working paper series metadata is public** and includes information on titles, abtracts, author names, dates, and more. (See [here](https://data.nber.org/nber-wp-logs/working_papers.tab) and [here](https://www2.nber.org/wp_metadata/txt/) for the raw NBER metadata.)[^1]
  
 Equipped with this metadata, I can make my own figures to answer some of these questions I've squirreled away over the last few years... or, to translate into academic economist speak, *"I exploit unique large-scale text data from a corpus of economics papers to provide descriptive evidence on, well, a bunch of things."*
 
@@ -41,13 +41,13 @@ Two of the most common words used in the NBER abstracts are, unsurprisingly, "da
 
 ![data overtakes models](/post/econ-words_files/modelvdata1.png)
 
-One fascinating and intriguing element of CKZ (2020) is the different trends in quasi-experimental techniques.^[See Figure 4 and a few of the appendix tables too.] While they show diff-in-diff (DD) at 23% and IV at 30% in 2020, the picture looks different if I perform a similar exercise with the abstracts data. I plot the % of abstracts the feature words related to diff-in-diff (DD), regression discontinuity (RD), or instrumental variables (IV).^[The relevant plot uses a Wes Anderson-inspired color palette, [which is color vision deficiency friendly](https://twitter.com/moriah_taylor58/status/1395431021051629573?s=20).]
+One fascinating and intriguing element of CKZ (2020) is the different trends in quasi-experimental techniques.[^2] While they show diff-in-diff (DD) at 23% and IV at 30% in 2020, the picture looks different if I perform a similar exercise with the abstracts data. I plot the % of abstracts the feature words related to diff-in-diff (DD), regression discontinuity (RD), or instrumental variables (IV).[^3]
 
 ![DD overtakes IV](/post/econ-words_files/quasi-exp-methods1.png)
 
 It wasn't until the mid-1990's that DD or RD made their premiere on the scene of NBER abstracts. IV remained queen until 2016, when DD jumped ahead for the first time. Step aside [IV guys](https://twitter.com/rachdele/status/1392566114618589185). 
 
-Of course, the percentages here are much smaller than in the CKZ (2020) context since I can only observe abstract text rather than full text. The low percentages here are unsurprising given the common convention in applied micro abstracts to discuss what "variation" you'll "exploit" rather than exacly which quasi-experimental method you'll use. (More on "exploit" up next.) I know I use DD in my job market paper but don't mention DD anywhere in my abstract.^[With the CKS (2020) data, [it looks like over 50%](https://twitter.com/AllbriteAllday/status/1392534499477450752?s=20) of papers that use quasi-experimental methods use DD methods.]
+Of course, the percentages here are much smaller than in the CKZ (2020) context since I can only observe abstract text rather than full text. The low percentages here are unsurprising given the common convention in applied micro abstracts to discuss what "variation" you'll "exploit" rather than exacly which quasi-experimental method you'll use. (More on "exploit" up next.) I know I use DD in my job market paper but don't mention DD anywhere in my abstract.[^4]
 
 Regardless of whether we are using full text or just abstracts, both approaches demonstrate a plateau-ing of IV relative to an increasingly dominant DD.
 
@@ -57,7 +57,7 @@ Regardless of whether we are using full text or just abstracts, both approaches 
 
 ## "Exploit"
 
-One surprising word that I see a lot in economics papers is "exploit". Economists seem to love to write that they exploited something for the sake of their paper. I find this strange since... doesn't "exploit" have pretty negative connotations? Of course, it's worth explaining how the term is generally used in economics papers. The below plot on common word pairings^[Check out [Text Mining with R](https://www.tidytextmining.com/ngrams.html) for materials on text mining.] demonstrates that economists are usually exploiting:
+One surprising word that I see a lot in economics papers is "exploit". Economists seem to love to write that they exploited something for the sake of their paper. I find this strange since... doesn't "exploit" have pretty negative connotations? Of course, it's worth explaining how the term is generally used in economics papers. The below plot on common word pairings[^5] demonstrates that economists are usually exploiting:
 
 - variation (often, plausibly exogenous variation)/random (assignment)/quasi(-experiments)/natural (experiments)/changes (in policy)
 - new/large/unique (data)
@@ -72,7 +72,7 @@ The union member in me is thinking that maybe I should switch over to "employ[in
 
 ## Titles
 
-One of the most joked about conventions in academic (economics) papers is the *"[Catchy title]: [More detailed info]"* title.^[Is this a thing across all social science disciplines? Sure, sure, I guess that's answerable with more data, but not the subject of this current investigation.] You can use the first part to get in something catchy or cutesy and the second part to remind everyone you are still a serious researcher.
+One of the most joked about conventions in academic (economics) papers is the *"[Catchy title]: [More detailed info]"* title.[^6] You can use the first part to get in something catchy or cutesy and the second part to remind everyone you are still a serious researcher.
 
 Another title convention is just making it your research question. (The [`@SayWhaYouFound` title school](https://twitter.com/SayWhatYouFound) does not like these question or "cliffhanger" titles.) A few authors have even been [so bold as to use one-word titles.](https://twitter.com/JustinSandefur/status/1408526421560025091) 
 
@@ -117,7 +117,7 @@ White men are the clear [overrepesented majority (ORM)](https://www.selfdefined.
 
 It's worth breaking down how the descriptive statistics from the plot align with prior research on representation in economics.
 
-According to the name-based predictions, in 2020, ~6% of NBER authors were Black or Hispanic or Native scholars while ~28% of NBER authors were women. These percentages are close to overall faculty percentages from [(Doleac, Hengel, and Pancotti, 2021)](https://pubs.aeaweb.org/doi/pdfplus/10.1257/pandp.20211084) -- "[t]he best data available suggest that 7.3 percent of full-time faculty are URM scholars (Hoover and Washington 2020)" and "[i]n 2019, 21.2 percent of all tenure-track faculty were women, and 24.3 percent of all faculty were women (Levenstein 2020)".^[Relatedly, [Kleemans and Thornton (2021)](https://pubs.aeaweb.org/doi/pdfplus/10.1257/pandp.20211123) explain that "NBER membership as a share of full-time faculty is similar for men and women". Another closely related project is [Chari and Goldsmith-Pinkham (2018)](https://paulgp.github.io/papers/cgp_nbergender.pdf); they document representation of female economists at NBER SI 2001-2018.]
+According to the name-based predictions, in 2020, ~6% of NBER authors were Black or Hispanic or Native scholars while ~28% of NBER authors were women. These percentages are close to overall faculty percentages from [(Doleac, Hengel, and Pancotti, 2021)](https://pubs.aeaweb.org/doi/pdfplus/10.1257/pandp.20211084) -- "[t]he best data available suggest that 7.3 percent of full-time faculty are URM scholars (Hoover and Washington 2020)" and "[i]n 2019, 21.2 percent of all tenure-track faculty were women, and 24.3 percent of all faculty were women (Levenstein 2020)".[^7]
 
 The area plot style here is similar to a recent investigation into race and gender of [Fed directors]((https://www.brookings.edu/research/diversity-within-the-federal-reserve-system/)). In terms of summary stats, eyeballing their graphs, it looks like ~30/110 (27%) directors are non-white while ~40/110 (36%) are women. The corresponding stats for NBER authors are 30% and 28%, respectively.
 
@@ -144,3 +144,17 @@ Below I provide the data sources as well as code for generating the above plots.
 - [Here](https://github.com/apalbright/metaplots-metadata) is my Github repo 
 
 **Update (7/7/21):** *[Ben Davies](https://bldavies.com/) is developing an R package `nberwp` which contains data on NBER working papers + their authors. Read more about `nberwp` [here](https://bldavies.com/blog/introducing-nberwp/). Try it out if you're interested in using NBER WP data. Also see his related blog posts on ["Triadic closure at the NBER"](https://bldavies.com/blog/triadic-closure-nber/) and ["Female representation and collaboration at the NBER"](https://bldavies.com/blog/female-representation-collaboration-nber/).*
+
+[^1]: For information on how to extract metadata for a custom bundle of journal articles, check out this recent and developing [Twitter thread by Damon Jones](https://twitter.com/nomadj1s/status/1409629607955927046?s=20).
+
+[^2]: See Figure 4 and a few of the appendix tables too.
+
+[^3]: The relevant plot uses a Wes Anderson-inspired color palette, [which is color vision deficiency friendly.](https://twitter.com/moriah_taylor58/status/1395431021051629573?s=20)
+
+[^4]: With the CKS (2020) data, [it looks like over 50%](https://twitter.com/AllbriteAllday/status/1392534499477450752?s=20) of papers that use quasi-experimental methods use DD methods.
+
+[^5]: Check out [Text Mining with R](https://www.tidytextmining.com/ngrams.html) for materials on text mining.
+
+[^6]: Is this a thing across all social science disciplines? Sure, sure, I guess that's answerable with more data, but not the subject of this current investigation.
+
+[^7]: Relatedly, [Kleemans and Thornton (2021)](https://pubs.aeaweb.org/doi/pdfplus/10.1257/pandp.20211123) explain that "NBER membership as a share of full-time faculty is similar for men and women". Another closely related project is [Chari and Goldsmith-Pinkham (2018)](https://paulgp.github.io/papers/cgp_nbergender.pdf); they document representation of female economists at NBER SI 2001-2018.
