@@ -31,7 +31,7 @@ Another element of speeches that I thought would be interesting to investigate i
 
 To address both the element of word count as well as the element of the self vs. the team, I used the Academy [Awards Acceptance Speech Database](http://aaspeechesdb.oscars.org/) (yes, that is a thing!) to collect the transcripts of all acceptance speeches given over the past 5 years (that is, speeches given during the Oscars 2010-2014) and looked into four specific statistics by award winner category.
 
-The four statistics^[In order to measure "I.Percent," my Stata code counted the number of instances of “I ”, “I’”, “me ”, “my ”, “My ”, "Me ", and “myself” (self-words) in a speech and calculated that number as a percentage of the total speech word count. In order to measure "We.Percent," my code followed the same process as that described for "I.Percent" with respect to instances of “We ”, “we ”, “our ”, "Our ", “ourselves”, “us ”, "we'", and "We'" (group-words). The measure "Self.Ratio" divided the count of self-words by the count of group-words in order to create a quasi-measure of self-involvement.] are as follows:
+The four statistics[^1] are as follows:
 
 1. Average word count ("Word.Count")
 2. Average percentage of words related to the self ("I.Percent")
@@ -40,7 +40,7 @@ The four statistics^[In order to measure "I.Percent," my Stata code counted the 
 
 # Results by award categories
 
-See the heat table below (made using the [ggplot2](https://cran.r-project.org/web/packages/ggplot2/ggplot2.pdf) package in R) for the averages of these four statistics across all award categories^[In 2012, Woody Allen was not present to accept the Writing (Original Screenplay) award. Counting that event as 0 words spoken for the category yields the average shown above while excluding that event from the average yields a modified average of 167.8 words for the category.]^[Two teams were awarded the Sounding Editing Oscar in 2012. I calculate the average per team speech, thus, these two speeches were treated as though they were in separate years. I did this in order to avoid overestimating words spoken within this category.]:
+See the heat table below (made using the [ggplot2](https://cran.r-project.org/web/packages/ggplot2/ggplot2.pdf) package in R) for the averages of these four statistics across all award categories[^2][^3]:
 
 <img src="/post/id-like-to-thank-the-academy-for-making-this-data-available_files/oscarplot.png" alt="" width="80%" height="80%"/>
 
@@ -82,4 +82,12 @@ All scripts and data files necessary to recreate the included visualizations are
 
 - Add more years into this analysis (so that it spans more than 5 years of data)
 - Look into coding race variables on top of gender and actor variables
-- Does speech length serve as a type of proxy for how much viewers care about each award?^[One could easily imagine a model of the Oscars in which over the years past winners have spoken for as long as possible until they are cut off (due to lack of time and more interest in another award). Then, over time the award winners learn their category’s limit to keep the audience interested. However, would word count be a perfect measure of how much we care about awards in comparison to one another? For instance, if the word count of Best Picture acceptance speeches are three times as long as Best Supporting Actress speeches, does that really mean that viewers care three times as much about Best Picture as they do about Best Supporting Actress?]
+- Does speech length serve as a type of proxy for how much viewers care about each award?[^4]
+
+[^1]: In order to measure "I.Percent," my Stata code counted the number of instances of “I ”, “I’”, “me ”, “my ”, “My ”, "Me ", and “myself” (self-words) in a speech and calculated that number as a percentage of the total speech word count. In order to measure "We.Percent," my code followed the same process as that described for "I.Percent" with respect to instances of “We ”, “we ”, “our ”, "Our ", “ourselves”, “us ”, "we'", and "We'" (group-words). The measure "Self.Ratio" divided the count of self-words by the count of group-words in order to create a quasi-measure of self-involvement.
+
+[^2]: In 2012, Woody Allen was not present to accept the Writing (Original Screenplay) award. Counting that event as 0 words spoken for the category yields the average shown above while excluding that event from the average yields a modified average of 167.8 words for the category.
+
+[^3]: Two teams were awarded the Sounding Editing Oscar in 2012. I calculate the average per team speech, thus, these two speeches were treated as though they were in separate years. I did this in order to avoid overestimating words spoken within this category.
+
+[^4]: One could easily imagine a model of the Oscars in which over the years past winners have spoken for as long as possible until they are cut off (due to lack of time and more interest in another award). Then, over time the award winners learn their category’s limit to keep the audience interested. However, would word count be a perfect measure of how much we care about awards in comparison to one another? For instance, if the word count of Best Picture acceptance speeches are three times as long as Best Supporting Actress speeches, does that really mean that viewers care three times as much about Best Picture as they do about Best Supporting Actress?
