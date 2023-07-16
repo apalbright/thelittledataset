@@ -27,7 +27,7 @@ Yes, Friday the 13th, the universally proclaimed day of bad luck. Black cats, th
 
 # 1985-2015
 
-In response to the former, in the long run, Friday is actually the day of the week mostly likely to fall on the 13th! Just by a tiny bit...the probability of a Friday being on the 13th is 0.1433 while the probabilities of other days falling on the 13th are 0.1425 (Thursday & Saturday), 0.1427 (Monday & Tuesday), and 0.1431 (Wednesday & Sunday).^[See [here](http://scienceworld.wolfram.com/astronomy/FridaytheThirteenth.html) for more.] Over the past thirty years, the average number of Friday the 13th's in a year was approximately 1.74. This is slightly higher than expected if one assumed there was exactly a `$\frac{1}{7}$`th chance of a Friday the 13th every month of every year, as `$\frac{1}{7} \times 12=1.714$`. 
+In response to the former, in the long run, Friday is actually the day of the week mostly likely to fall on the 13th! Just by a tiny bit...the probability of a Friday being on the 13th is 0.1433 while the probabilities of other days falling on the 13th are 0.1425 (Thursday & Saturday), 0.1427 (Monday & Tuesday), and 0.1431 (Wednesday & Sunday).[^1] Over the past thirty years, the average number of Friday the 13th's in a year was approximately 1.74. This is slightly higher than expected if one assumed there was exactly a `$\frac{1}{7}$`th chance of a Friday the 13th every month of every year, as `$\frac{1}{7} \times 12=1.714$`. 
 
 See below for a visualization of Friday the 13th (F13 from now on) frequencies over the past three decades:
 
@@ -59,7 +59,7 @@ While the February-March-November combination is the most frequent trio in the p
 </figure>
 
 
-This network breaks down into four smaller graphs of sizes 1, 1, 5, and 7 (size in a graph is defined as the number of edges).^[There are no weights for the edges in this network. Instead, an edge between two vertices, `$a$` and `$b$`, is determined by the binary response to: in a given year, have months a and b ever both included a Friday the 13th? If no, no edge exists between `$a$` and `$b$`. If yes, an edge exists between a and b. However, one could easily extend this work by weighting the edges to depict frequencies of various month combinations.] From this network, one can see clearly that May is the only month in the past thirty years to have never shared a F13 with another month in the same year. Also, over this time periods, September had a F13 if and only if December did as well. Lastly, January, February, and April are the months that have shared a F13s with the most other months.
+This network breaks down into four smaller graphs of sizes 1, 1, 5, and 7 (size in a graph is defined as the number of edges).[^2] From this network, one can see clearly that May is the only month in the past thirty years to have never shared a F13 with another month in the same year. Also, over this time periods, September had a F13 if and only if December did as well. Lastly, January, February, and April are the months that have shared a F13s with the most other months.
 
 Despite the fact that there is nothing mathematically extraordinary about occurrences of November Friday the 13th's, I still hold tight to my personal connection to the date. While November Friday the 13th is not incredibly rare, it did turn out that 1992 was the only year in the past thirty to have a November Friday the 13th without both February and March Friday the 13th's preceding it. (See the heat map!) And if that's a fact I can use to infuse some sort of mathematical significance into my birthday then I am using it. After all, it is this very date that has given me an affinity for a number usually considered substandard as well as the birthright to scoff, personally offended, when an apartment building elevator disrespectfully skips from the 12th to the 14th floor.
 
@@ -72,4 +72,10 @@ All data and R scriptsneeded to recreate these visualizations are available on m
 # Future work
 
 - Add weights to edges to depict frequencies of various month combinations
-- Use network centrality methods paired with edge weights to determine the months that are the most central^[At this moment, using simple degree centrality measures, the most central months would be January, February, and April--with June included if you count loops towards degree measures.]
+- Use network centrality methods paired with edge weights to determine the months that are the most central[^3]
+
+[^1]: See [here](http://scienceworld.wolfram.com/astronomy/FridaytheThirteenth.html) for more.
+
+[^2]: There are no weights for the edges in this network. Instead, an edge between two vertices, `$a$` and `$b$`, is determined by the binary response to: in a given year, have months a and b ever both included a Friday the 13th? If no, no edge exists between `$a$` and `$b$`. If yes, an edge exists between a and b. However, one could easily extend this work by weighting the edges to depict frequencies of various month combinations.
+
+[^3]: At this moment, using simple degree centrality measures, the most central months would be January, February, and April--with June included if you count loops towards degree measures.
