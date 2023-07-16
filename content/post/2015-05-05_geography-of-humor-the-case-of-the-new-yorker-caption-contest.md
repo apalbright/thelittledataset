@@ -28,7 +28,7 @@ tags:
 
 <img src="/post/geography-of-humor-the-case-of-the-new-yorker-caption-contest_files/article.png" alt="" width="60%" height="60%"/>
 
-An extenstion of this blog post (using data on submissions and aesthetically improved choropleths!) was published in *The New Yorker*. See [here](https://www.newyorker.com/culture/culture-desk/which-u-s-state-performs-best-in-the-new-yorker-caption-contest) for the article and [here](http://rpubs.com/apalbright/280904) for the relevant R Notebook for replicating the visuals.^[Many, many thanks to [Bob Mankoff](https://www.newyorker.com/contributors/robert-mankoff) for giving me access to troves of data and humoring *(literally)* my data visualization pitch.]^[Thanks to [Sarah Michael Levine](http://www.sarahmakesmaps.com/hello/) for using her QGIS knowledge to help me tame maps of the US.]
+An extenstion of this blog post (using data on submissions and aesthetically improved choropleths!) was published in *The New Yorker*. See [here](https://www.newyorker.com/culture/culture-desk/which-u-s-state-performs-best-in-the-new-yorker-caption-contest) for the article and [here](http://rpubs.com/apalbright/280904) for the relevant R Notebook for replicating the visuals.[^1][^2]
 
 ---
 
@@ -65,7 +65,7 @@ Moving to the city-level of geography, it is unsurprising that *The New Yorker* 
 
 While both the country- and city-level results are dominated by the obvious contenders (the United States and New York City respectively), the state-level analysis is much more compelling.
 
-In this vein, the first question to address is: **which states win the most contests?** To answer this, I present the following chrolopeth^[I use the choroplethr package in R for all choropleths in this post.] in which the states are divided into five categories of equal size (each category contains 10 states) based on the number of contests won.^[This method uses quantiles to classify the data into ranges, however, there are other methods one could use as well.] Visualizing the data in this way allows us to quickly perceive areas of the country that are caption-winner-rich as well as caption-winner-sparse:
+In this vein, the first question to address is: **which states win the most contests?** To answer this, I present the following chrolopeth[^3] in which the states are divided into five categories of equal size (each category contains 10 states) based on the number of contests won.[^4] Visualizing the data in this way allows us to quickly perceive areas of the country that are caption-winner-rich as well as caption-winner-sparse:
 
 ![](/post/geography-of-humor-the-case-of-the-new-yorker-caption-contest_files/totalwins.png)
 
@@ -98,7 +98,7 @@ Once we have normalized caption contest wins by population, we still have not co
 Source: New Yorker Caption Contest Archive; Tool: ggplot2 package in R.
 The above is a scatterplot in which each point is a state (see the small state abbreviation labels) and the blue line is a linear regression line (the shaded area is the 95% confidence region) fit to the data. The conclusion is unmistakable; states that are more liberal tend to win more contests per million residents. Specifically, the equation for the linear regression line is `$winspermillion = -3.13 + 0.22(pctliberal)$`.
 
-This means that a 1 percentage point increase in the liberal percentage is associated with an increase of 0.22 captions per million. The `$R^2$`^[In this case, the `$R^2$` is the same as the basic correlation coefficient `$r^2$` between `$winspermillion$` and `$pctliberal$` since there is just one explanatory variable in the regression.] is 0.364, meaning that 36.4% of response variable variation is explained by this simple model. (The standard error on the coefficient attached to pct_liberal is only 0.04, meaning the coefficient is easily statistically significant at the 0.1% level).
+This means that a 1 percentage point increase in the liberal percentage is associated with an increase of 0.22 captions per million. The `$R^2$`[^5] is 0.364, meaning that 36.4% of response variable variation is explained by this simple model. (The standard error on the coefficient attached to pct_liberal is only 0.04, meaning the coefficient is easily statistically significant at the 0.1% level).
 
 Also strong is the association between nonreligious percentages and wins per million, presented in the graph below:
 
@@ -120,7 +120,7 @@ The caption contest is broken chronologically into three phases:
 
 It seems most likely that the mechanism behind the success of liberal, nonreligious states lies in the first phase. In other words, liberal, nonreligious people are more likely to read The New Yorker and/or follow the caption contest. (Its humor is unlikely to resonate with the intensely religious or socially conservative.) Therefore, the tendency towards wins for liberal, nonreligious states is mostly a question of who chooses to participate.
 
-It could also be the case that at least a part of the mechanism behind these states' successes lies in phases (2) or (3). If a piece of this mechanism was snuggled up in phase 2, that would mean *The New Yorker* staff is inclined due to an innate sense of liberal humor to pick captions from specific states.^[Yet, since most submissions are probably already from liberals, this seems unlikely--though maybe the reverse happens as the magazine attempts to foster geographic diversity by selecting captions from a broader range of locations? I don't think that's part of the caption selection process, but it could be relevant to the aforementioned mechanism if it were.] If the mechanism were instead hidden within the third phase, this would mean voters tend to vote for captions created by people from more nonreligious and liberal states in the country. One interesting element to note is that voters can see the place of residence of a caption creator--though I highly doubt this influences peoples' voting choices, it is possible that regional favoritism is a factor (e.g., New Yorkers like to see other New Yorkers win and, therefore, the large number of New Yorker voters pushes the New Yorker caption submissions to win).
+It could also be the case that at least a part of the mechanism behind these states' successes lies in phases (2) or (3). If a piece of this mechanism was snuggled up in phase 2, that would mean *The New Yorker* staff is inclined due to an innate sense of liberal humor to pick captions from specific states.[^6] If the mechanism were instead hidden within the third phase, this would mean voters tend to vote for captions created by people from more nonreligious and liberal states in the country. One interesting element to note is that voters can see the place of residence of a caption creator--though I highly doubt this influences peoples' voting choices, it is possible that regional favoritism is a factor (e.g., New Yorkers like to see other New Yorkers win and, therefore, the large number of New Yorker voters pushes the New Yorker caption submissions to win).
 
 In order to better investigate the mechanism behind the success of nonreligious, liberal states, one needs access to the geographic data of all submissions...or, at least the data on the number of subscribers per state. Though one can submit to the contest without a subscription, the latter measure could still be used as a credible proxy for the former since the number of people who submit to the contest in a state is likely proportional to the number of subscribers in the state.
 
@@ -133,3 +133,15 @@ Thanks to my family for giving me a subscription to *The New Yorker* this past h
 # Code
 
 All data and R scripts needed to recreate all types of visualizations in this article (choropleths, bar charts, and scatterplots with linear regression lines) are available on my ["NewYorker" Github repo](https://github.com/apalbright/NewYorker)).
+
+[^1]: Many, many thanks to [Bob Mankoff](https://www.newyorker.com/contributors/robert-mankoff) for giving me access to troves of data and humoring *(literally)* my data visualization pitch.
+
+[^2]: Thanks to [Sarah Michael Levine](http://www.sarahmakesmaps.com/hello/) for using her QGIS knowledge to help me tame maps of the US.
+
+[^3]: I use the choroplethr package in R for all choropleths in this post.
+
+[^4]: This method uses quantiles to classify the data into ranges, however, there are other methods one could use as well.
+
+[^5]: In this case, the `$R^2$` is the same as the basic correlation coefficient `$r^2$` between `$winspermillion$` and `$pctliberal$` since there is just one explanatory variable in the regression.
+
+[^6]: Yet, since most submissions are probably already from liberals, this seems unlikely--though maybe the reverse happens as the magazine attempts to foster geographic diversity by selecting captions from a broader range of locations? I don't think that's part of the caption selection process, but it could be relevant to the aforementioned mechanism if it were.
