@@ -40,7 +40,7 @@ In said model, a person is born into one of two groups -- black or white -- and 
 
 For the sake of simplicity, the model first assumes all people have the same ability. As such, an individual's cost of human capital acquisition is solely dependent on the level of human capital in that person's social network. Define network capital, `$q$`, as the fraction of agents in the network who chose to acquire human capital and are skilled. The key assumption in the model is that given the cost function `$c(q)$`, `$c'(q)<0$`. **In words, the higher the fraction of skilled people in a person's network, the less costly it is for the person to become skilled.** Acquiring training is less costly when your network can connect you with opportunities and provide you with relevant information.
 
-As per usual, agents choose to become skilled if marginal benefit exceeds marginal cost. Assume `$c(0)>h>c(1)$` -- that is, the cost of becoming skilled when no one in your network is skilled (`$q=0$`) is higher than the benefit of becoming skilled (`$h$`), but the cost when everyone is skilled (`$q=1$`) is lower than the benefit (`$h$`). In effect, there exists a unique threshold level `$q^*$` such that `$c(q^*)=h$`. The agent's decision rule is then:^[I'll ignore indifference throughout.] 
+As per usual, agents choose to become skilled if marginal benefit exceeds marginal cost. Assume `$c(0)>h>c(1)$` -- that is, the cost of becoming skilled when no one in your network is skilled (`$q=0$`) is higher than the benefit of becoming skilled (`$h$`), but the cost when everyone is skilled (`$q=1$`) is lower than the benefit (`$h$`). In effect, there exists a unique threshold level `$q^*$` such that `$c(q^*)=h$`. The agent's decision rule is then:[^1] 
 
 - **for any `$q>q^*$`, the agent chooses to becomes skilled**
 - **for any `$q<q^*$`, the agent does not**
@@ -112,15 +112,15 @@ In sum, given the fraction `$x$`, there is a threshold level of segregation `$p^
     </center>
 </figure>
 
-This figure sharply summarizes the model's results thus far. It succinctly and clearly shows how two parameters (population share and segregation) determine the eventual state of the world. I usually use graphs to visualize tangible data, but they are just as useful in visualizing concepts or theoretical results, as seen here.^[The graph I built depicting when to share an idea [à la Koszegi](/post/social-networks-and-the-endurance-of-economic-injury_files/share.png) is another example of visualizing how model parameters relate to outcomes.]
+This figure sharply summarizes the model's results thus far. It succinctly and clearly shows how two parameters (population share and segregation) determine the eventual state of the world. I usually use graphs to visualize tangible data, but they are just as useful in visualizing concepts or theoretical results, as seen here.[^2]
 
 # Suspiciously Slick?
 
 There are a few issues with the model dynamics that you might have noticed reading the above summary. Namely, everyone is the same within racial groups and convergence occurs in a single period. This feels less interesting than a slower convergence differing by other individual characteristics.
 
-Much of the aforementioned simplicity comes from the assumption that ability is the same for all agents (ability is homogenous). However, the model can be tweaked to make ability heterogenous -- that is exactly what the authors do later in the paper. As such, the cost of human capital investment then varies with ability as well as network capital. So, cost now depends on something that is specific to the individual (ability) as well as common to the group (racial identity).^[Note the model assumes no group differences in cost function or ability distributions.]
+Much of the aforementioned simplicity comes from the assumption that ability is the same for all agents (ability is homogenous). However, the model can be tweaked to make ability heterogenous -- that is exactly what the authors do later in the paper. As such, the cost of human capital investment then varies with ability as well as network capital. So, cost now depends on something that is specific to the individual (ability) as well as common to the group (racial identity).[^3]
 
-Moreover, the cost function `$c(a, q)$` is then decreasing in both ability and network capital level. In words, it is easier to become skilled when exposed to more skilled people (due to networks), and easier to become skilled when endowed with higher natural ability. For any given network capital level `$q$`, there is some threshold ability level `$a'(q)$` such that those above the cut-off become skilled and those below do not. Similar to the reasoning in the homogenous case, an agent needs `$c(a, q)<h$` to become skilled. In effect, the relevant threshold is defined as the `$a'(q)$` s.t. `$c(a, q)=h$`.^[Any ability above that, the person becomes skilled. Any ability below that, the person does not.]
+Moreover, the cost function `$c(a, q)$` is then decreasing in both ability and network capital level. In words, it is easier to become skilled when exposed to more skilled people (due to networks), and easier to become skilled when endowed with higher natural ability. For any given network capital level `$q$`, there is some threshold ability level `$a'(q)$` such that those above the cut-off become skilled and those below do not. Similar to the reasoning in the homogenous case, an agent needs `$c(a, q)<h$` to become skilled. In effect, the relevant threshold is defined as the `$a'(q)$` s.t. `$c(a, q)=h$`.[^4]
 
 An interesting insight on this topic is that: *"individuals belonging to groups exposed to higher levels of human capital will themselves accumulate human capital at lower ability thresholds relative to individuals in groups with initially lower levels of human capital. This difference will be greater when segregation levels are high."* So, **in this more complex build of the model, black people have to boast higher ability levels than their white counterparts to make human capital accumulation cost beneficial... all due to the historical disadvantages build into their social networks.** And that all came out of a bunch of threshold rules and variables!
 
@@ -133,3 +133,11 @@ At the end of the day, their model hinges on a few items: (1) the inverse relati
 # Blue Book'd
 
 Bowles and Sethi (2006) illustrates how social networks, population demographics, and decision-making interact to determine the endurance of economic injury. The model also illustrates how writing a blog can sometimes help in your academic life -- as it turns out, I managed to describe and solve out pieces of this model in my *Social Economics* blue book exam. Two birds, one paper.
+
+[^1]: I'll ignore indifference throughout.
+
+[^2]: The graph I built depicting when to share an idea [à la Koszegi](/post/social-networks-and-the-endurance-of-economic-injury_files/share.png) is another example of visualizing how model parameters relate to outcomes.
+
+[^3]: Note the model assumes no group differences in cost function or ability distributions.
+
+[^4]: Any ability above that, the person becomes skilled. Any ability below that, the person does not.
