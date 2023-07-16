@@ -47,15 +47,15 @@ I now present a few visuals I generated using the aforementioned dataset to see 
 <img src="/post/the-curious-case-of-the-illinois-trump-delegates_files/fig12.png" alt="" width="70%" height="70%"/>
 </center>
 
-The above graph does not suggest any significant relationship between these two numbers attached to each individual delegate. This is because the plot shows delegates across all different districts, which will vote for Trump at different levels, but compares their absolute variable levels. **What we actually care about is comparing voting percentages within the same district, but across different individuals who all represent the same presidential hopeful.** In other words, we need to think about the delegates relative to their district-level context. To do this, I calculate vote percentages and whiteness measures relative to the district: the percentage point difference between a Trump delegate's vote/whiteness percentage and the average Trump delegate vote/whiteness percentage in that district.^[Suggestions welcome on different ways of doing this for visualization's sake!]
+The above graph does not suggest any significant relationship between these two numbers attached to each individual delegate. This is because the plot shows delegates across all different districts, which will vote for Trump at different levels, but compares their absolute variable levels. **What we actually care about is comparing voting percentages within the same district, but across different individuals who all represent the same presidential hopeful.** In other words, we need to think about the delegates relative to their district-level context. To do this, I calculate vote percentages and whiteness measures relative to the district: the percentage point difference between a Trump delegate's vote/whiteness percentage and the average Trump delegate vote/whiteness percentage in that district.[^1]
 
 <center>
 <img src="/post/the-curious-case-of-the-illinois-trump-delegates_files/fig23.png" alt="" width="70%" height="70%"/>
 </center>
 
-Now that we are measuring these variables (vote percentage and whiteness measure) relative to the district, **there is a statistically significant association beyond even the 0.1% level.**^[The simple linear regression `Y~X` in this case yields a t-statistic of 5.4!] In the end, the interpretation of the simplistic linear regression is that a 10 percentage point increase in a Trump delegate's perceived whiteness relative to the district yields a 0.12 percentage point increase in the delegate's vote percentage relative to the district.^[I'm curious if people think there is a better way to take district levels into account for these visuals -- let me know if you have any thoughts that yield a simpler coefficient interpretation!]
+Now that we are measuring these variables (vote percentage and whiteness measure) relative to the district, **there is a statistically significant association beyond even the 0.1% level.**[^2] In the end, the interpretation of the simplistic linear regression is that a 10 percentage point increase in a Trump delegate's perceived whiteness relative to the district yields a 0.12 percentage point increase in the delegate's vote percentage relative to the district.[^3]
 
-The last dimension of this discussion requires comparing Trump to the other Republican candidates. Given the [media's endless coverage of Trump](https://www.nytimes.com/2016/03/16/upshot/measuring-donald-trumps-mammoth-advantage-in-free-media.html), I would not have been surprised to learn that this effect impacts other campaigns but just was never reported. But, Wasserman and Soltas argue that this is not the case. Their claims are further bolstered by the following visual, which recreates the most recent Trump plot for all 9 candidates who had sufficient data^[This excludes Gilmore, Huckabee, and  Santorum.]:
+The last dimension of this discussion requires comparing Trump to the other Republican candidates. Given the [media's endless coverage of Trump](https://www.nytimes.com/2016/03/16/upshot/measuring-donald-trumps-mammoth-advantage-in-free-media.html), I would not have been surprised to learn that this effect impacts other campaigns but just was never reported. But, Wasserman and Soltas argue that this is not the case. Their claims are further bolstered by the following visual, which recreates the most recent Trump plot for all 9 candidates who had sufficient data[^4]:
 
 <center>
 <img src="/post/the-curious-case-of-the-illinois-trump-delegates_files/fig32.png" alt="" width="80%" height="80%"/>
@@ -74,3 +74,11 @@ Wasserman's article has incited an outpouring of genuine interest over the past 
 My ["illinois_delegates"" Github repo](https://github.com/apalbright/illinois_delegates) has the R script and csv file necessary to replicate all three visuals! 
 
 **We know data, we have the best data.**
+
+[^1]: Suggestions welcome on different ways of doing this for visualization's sake!
+
+[^2]: The simple linear regression `Y~X` in this case yields a t-statistic of 5.4!
+
+[^3]: I'm curious if people think there is a better way to take district levels into account for these visuals -- let me know if you have any thoughts that yield a simpler coefficient interpretation!
+
+[^4]: This excludes Gilmore, Huckabee, and  Santorum.
