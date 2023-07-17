@@ -24,7 +24,7 @@ tags:
 
 Since finishing my first year of my PhD, I have been spending some quality time with my computer. Sure, the two of us had been together all throughout the academic year, but we weren't doing much together besides pdf-viewing and type-setting. Around spring break, when I discovered you can in fact freeze your computer by having too many exams/section notes/textbooks simultaneously open, I promised my MacBook that over the summer we would try some new things together. (And that I would take out her trash more.) After that promise and a new sticker addition, she put away the rainbow wheel.
 
-Cut to a few weeks ago. I had a blast from the past in the form of a Twitter notification. [Someone had written a post about using R to analyze the TV show *Friends*](http://giorasimchoni.com/2017/06/04/2017-06-04-the-one-with-friends/), which was was motivated by a similar interest that drove me to write [something about the show using my own dataset back in 2015](https://thelittledataset.com/2015/01/20/the-one-with-all-the-quantifiable-friendships/). In the post, the author, Giora Simchoni, used R to scrape the scripts for all ten seasons of the show and made all that work publicly available *(wheeeeee)* for all to peruse. In fact, Giora even used some of the data I shared back in 2015 to look into character centrality.^[He makes a convincing case using a variety of data sources that Rachel is the most central friend of the six main characters.] In reading about his project, I could practically hear my laptop humming to remind me of its freshly updated R software and my recent tinkering with [R notebooks](https://bookdown.org/yihui/rmarkdown/notebook.html).^[Get ready for new levels of reproducibility!] So, off my Mac and I went, equipped with a new workflow, to explore new data about a familiar TV universe.
+Cut to a few weeks ago. I had a blast from the past in the form of a Twitter notification. [Someone had written a post about using R to analyze the TV show *Friends*](http://giorasimchoni.com/2017/06/04/2017-06-04-the-one-with-friends/), which was was motivated by a similar interest that drove me to write [something about the show using my own dataset back in 2015](https://thelittledataset.com/2015/01/20/the-one-with-all-the-quantifiable-friendships/). In the post, the author, Giora Simchoni, used R to scrape the scripts for all ten seasons of the show and made all that work publicly available *(wheeeeee)* for all to peruse. In fact, Giora even used some of the data I shared back in 2015 to look into character centrality.[^1] In reading about his project, I could practically hear my laptop humming to remind me of its freshly updated R software and my recent tinkering with [R notebooks](https://bookdown.org/yihui/rmarkdown/notebook.html).[^2] So, off my Mac and I went, equipped with a new workflow, to explore new data about a familiar TV universe.
 
 # Who's Doing The Talking?
 
@@ -64,7 +64,7 @@ Similarly, the three with the lowest percentages for one of the six are:
 
 The sagging red lines of the last visual identify episodes that have a low percentage of lines spoken by a character outside of the friend group. In effect, those dips in the graph point to extremely six-person-centric episodes, such as "The One On The Last Night" (0.4% non-friends dialogue -- a single line in this case), "The One Where Chandler Gets Caught" (1.1% non-friends dialogue), and "The One With The Vows" (1.2% non-friends dialogue).
 
-# The Men vs. The Women^[Given this title, [here's](https://www.youtube.com/watch?v=ZYzql-Y1sP4) a quick necessary clip.] 
+# The Men vs. The Women[^3] 
 
 Now, how do the line allocations look when broken down by gender lines across the main six characters? Well, the split consistently bounces around 50-50 over the course of the 10 seasons. Again, as was the case across the six main characters, the balanced split of lines is pretty impressive.
 
@@ -77,7 +77,7 @@ Note that the second visual highlights that there are a few episodes that are ir
 
 # Say My Name
 
-How much do the main six characters address or mention one another? Giora addressed this question in his post, and I build off of his work by including nicknames in the calculations, and using a different genre of visualization. With respect to the nicknames -- "Mon", "Rach", "Pheebs", and "Joe" -- "Pheebs" is undoubtably the stickiest of the group. Characters say "Pheebs" 370 times, which has a comfortable cushion over the second-place nickname "Mon" (used 73 times). Characters also significantly differ in their usage of each others' nicknames. For example, while Joey calls Phoebe "Pheebs" 38.3% of the time, Monica calls her by this nickname only 4.6% of the time.^[If you're curious about more numbers on the nicknames, check out [the project notebook](http://rpubs.com/apalbright/friends_project).]
+How much do the main six characters address or mention one another? Giora addressed this question in his post, and I build off of his work by including nicknames in the calculations, and using a different genre of visualization. With respect to the nicknames -- "Mon", "Rach", "Pheebs", and "Joe" -- "Pheebs" is undoubtably the stickiest of the group. Characters say "Pheebs" 370 times, which has a comfortable cushion over the second-place nickname "Mon" (used 73 times). Characters also significantly differ in their usage of each others' nicknames. For example, while Joey calls Phoebe "Pheebs" 38.3% of the time, Monica calls her by this nickname only 4.6% of the time.[^4]
 
 Now, after adding in the nicknames, who says whose name? The following graphic addresses that point of curiosity:
 
@@ -101,3 +101,11 @@ Comparing the above work to what I had [originally put together](https://thelitt
 
 [Here](http://rpubs.com/apalbright/friends_project) is the R Notebook for this project. [Here](https://github.com/apalbright/Friends_part2) is the Github repo.
 
+
+[^1]: He makes a convincing case using a variety of data sources that Rachel is the most central friend of the six main characters.
+
+[^2]: Get ready for new levels of reproducibility!
+
+[^3]: Given this title, [here's](https://www.youtube.com/watch?v=ZYzql-Y1sP4) a quick necessary clip.
+
+[^4]: If you're curious about more numbers on the nicknames, check out [the project notebook](http://rpubs.com/apalbright/friends_project).

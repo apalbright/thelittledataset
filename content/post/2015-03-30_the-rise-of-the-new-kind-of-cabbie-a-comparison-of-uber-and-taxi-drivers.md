@@ -25,7 +25,7 @@ tags:
 
 One day back in the early 2000's, I commandeered one of my mom's many spiral notebooks. I'd carry the notebook all around Manhattan, allowing it to accompany me everywhere from pizza parlors to playgrounds, while the notebook waited eagerly for my parents to hail a taxicab so it could fulfill its eventual purpose. Once in a cab, after clicking my seat belt into place (of course!), I'd pull out the notebook in order to develop one of my very first spreadsheets. [Not the electronic kind, the paper kind.](https://www.npr.org/sections/money/2015/02/25/389027988/episode-606-spreadsheets) I made one column for the date of the cab ride, another for the driver's medallion number (5J31, 3A37, 7P89, etc.) and one last one for the driver's full name--both the name and number were always readily visible, pressed between two slabs of Plexiglas that intentionally separate the back from the front seat. Taxi drivers always seemed a little nervous when they noticed I was taking down their information--unsure of whether this 8-year-old was planning on calling in a complaint about them to the Taxi and Limousine Commission. I wasn't planning on it.
 
-Instead, I collected this information in order to discover if I would ever ride in the same cab twice...which I eventually did! On the day that I collected duplicate entries in the second and third columns, I felt an emotional connection to this notebook as it contained a time series of yellow cab rides that ran in parallel with my own development as a tiny human.^[Or maybe I just felt emotional because only children can be desperate for friendship, even when it’s friendship with a notebook.] After pages and pages of observations, collected over the years using writing implements ranging from dull pencils to thick Sharpies, I never would have thought that one day yellow cabs would be eclipsed by something else...
+Instead, I collected this information in order to discover if I would ever ride in the same cab twice...which I eventually did! On the day that I collected duplicate entries in the second and third columns, I felt an emotional connection to this notebook as it contained a time series of yellow cab rides that ran in parallel with my own development as a tiny human.[^1] After pages and pages of observations, collected over the years using writing implements ranging from dull pencils to thick Sharpies, I never would have thought that one day yellow cabs would be eclipsed by something else...
 
 # Something else
 
@@ -33,7 +33,7 @@ However, today in 2015, according to Taxi and Limousine Commission data, there a
 
 # The rise of the younger cabbie
 
-The figure below illustrates that Uber drivers are noticeably younger than their taxi counterparts.^[From here on, when I discuss taxis I am also implicitly including chauffeurs. If you'd like to learn more about the source of the data and the collection methodology, refer directly to the [paper](https://irs.princeton.edu/sites/irs/files/An%20Analysis%20of%20the%20Labor%20Market%20for%20Uber%E2%80%99s%20Driver-Partners%20in%20the%20United%20States%20587.pdf).] 
+The figure below illustrates that Uber drivers are noticeably younger than their taxi counterparts.[^2] 
 
 ![](/post/the-rise-of-the-new-kind-of-cabbie-a-comparison-of-uber-and-taxi-drivers_files/age2.png)
 
@@ -53,7 +53,7 @@ On the topic of race, conventional taxis boast higher percentages of all non-whi
 
 ![](/post/the-rise-of-the-new-kind-of-cabbie-a-comparison-of-uber-and-taxi-drivers_files/race2.png)
 
-The most represented race among taxi drivers is black, while the most represented race among Uber drivers is white. 19.5% of Uber drivers are black while 31.6% of taxi drivers are black, and 40.3% of Uber drivers are white while 26.2% of taxi drivers are white.^[I would be curious to compare the racial breakdown of Uber's drivers to that of Lyft and Sidecar's drivers as I suspect the other two might not have populations that are as white (simply based on my own small and insufficient sample size).]
+The most represented race among taxi drivers is black, while the most represented race among Uber drivers is white. 19.5% of Uber drivers are black while 31.6% of taxi drivers are black, and 40.3% of Uber drivers are white while 26.2% of taxi drivers are white.[^3]
 
 # The rise of the female cabbie
 
@@ -77,7 +77,7 @@ As a bonus, beyond profiling the demographic and behavioral differences between 
 
 ![](/post/the-rise-of-the-new-kind-of-cabbie-a-comparison-of-uber-and-taxi-drivers_files/city.png)
 
-New York is the city that possesses the least part-time uberX drivers.^[This data is only looking at hours worked for uberX drivers in October 2014.] Only 42% work 1-15 hours while the percentage for the other cities ranges from 53-59%. Similarly, 23% of NYC Uber drivers work 35+ hours while the percentage for other cities ranges from 12-16%. Though these breakdowns are different for each of the six cities, the figure illustrates that Uber driving is treated pretty uniformly as a part-time gig throughout the country.
+New York is the city that possesses the least part-time uberX drivers.[^4] Only 42% work 1-15 hours while the percentage for the other cities ranges from 53-59%. Similarly, 23% of NYC Uber drivers work 35+ hours while the percentage for other cities ranges from 12-16%. Though these breakdowns are different for each of the six cities, the figure illustrates that Uber driving is treated pretty uniformly as a part-time gig throughout the country.
 
 ## Uber by the cities: earnings
 
@@ -95,7 +95,7 @@ There is no doubt that the modern taxi experience is different from the one that
 
 # Code
 
-The R notebook for replicating all visuals is available [here](http://rpubs.com/apalbright/uber-v-taxi). See full [github repo](https://github.com/apalbright/uber_taxi_new) for the data as well.^[Both updated 7-27-17.]
+The R notebook for replicating all visuals is available [here](http://rpubs.com/apalbright/uber-v-taxi). See full [github repo](https://github.com/apalbright/uber_taxi_new) for the data as well.[^5]
 
 # Future work (all of which requires access to more data)
 
@@ -104,3 +104,13 @@ The R notebook for replicating all visuals is available [here](http://rpubs.com/
 - Looking at the racial breakdowns for NYC would be particularly interesting since the NYC breakdown is likely very different from that of cabbies throughout the rest of the country (this data is not available in the Taxicab Fact Book)
 - Compare characteristics by ride-sharing service: Uber, Lyft, and Sidecar
 - Investigate distribution of types of cars driven by Uber, Lyft, and Sidecar (Toyota, Honda, etc.)
+
+[^1]: Or maybe I just felt emotional because only children can be desperate for friendship, even when it’s friendship with a notebook.
+
+[^2]: From here on, when I discuss taxis I am also implicitly including chauffeurs. If you'd like to learn more about the source of the data and the collection methodology, refer directly to the [paper](https://irs.princeton.edu/sites/irs/files/An%20Analysis%20of%20the%20Labor%20Market%20for%20Uber%E2%80%99s%20Driver-Partners%20in%20the%20United%20States%20587.pdf).
+
+[^3]: I would be curious to compare the racial breakdown of Uber's drivers to that of Lyft and Sidecar's drivers as I suspect the other two might not have populations that are as white (simply based on my own small and insufficient sample size).
+
+[^4]: This data is only looking at hours worked for uberX drivers in October 2014.
+
+[^5]: Both updated 7-27-17.
