@@ -8,3 +8,4 @@ blogdown
 public/ 
 public
 temp/
+.hugo_build.lock
