@@ -54,7 +54,9 @@ The effective date of HB463 leads to a discontinuous jump up in non-financial bo
 
 While both black and white defendants benefit (in that there are higher non-financial bond rates), racial disparities clearly increase. See below. This finding was first illustrated by Stevenson (2017).
 
+<center>
 <img src="/post/if-you-give-a-judge-a-risk-score_files/mot.png" alt="" width="100%" height="100%"/>
+</center>
 
 My contribution lies in addressing the following questions: **Is the jump in racial disparities in non-financial bond a consequence of different risk levels? Or is deviation from the presumptive default more likely for black defendants?**
 

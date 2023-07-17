@@ -59,7 +59,7 @@ First things first. Let's map both `$klaverns/million$` and racially charged sea
 
 While I interpreted the two metrics as proxies of racial animus at different times in history, they don't obviously track through time and space visually. The possible story (that one meaningfully predicts the other) isn't very convincing at this stage. But, it's worth seeing the output from a simple regression.[^6]
 
-<img src="/post/testing-for-local-continuity-in-racial-animus_files/reg1.png" alt="" width="90%" height="90%"/>
+<img src="/post/testing-for-local-continuity-in-racial-animus_files/reg1.png" alt="" width="100%" height="100%"/>
 
 While the independent variable is statistically significant (star, star, star), the variation in `$log(klaverns/million)$` explains only 3-4% of the variation in racially charged Google search rates. In terms of magnitude, a 1% increase in klaverns/million is associated with a 0.02645 unit increase in racially charged google search rate. That is economically meaningless considering that the rates range from 25-155. This is also without controlling for any of the analogs of V&V covariates that would need to be included to make a convincing case for the robustness of any supposed relationship.
 

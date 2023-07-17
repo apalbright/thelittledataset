@@ -26,7 +26,11 @@ tags:
 
 # Update: Published Article [September 2015]
 
+<figure>
+<center>
 <img src="/post/geography-of-humor-the-case-of-the-new-yorker-caption-contest_files/article.png" alt="" width="60%" height="60%"/>
+</center>
+</figure>
 
 An extenstion of this blog post (using data on submissions and aesthetically improved choropleths!) was published in *The New Yorker*. See [here](https://www.newyorker.com/culture/culture-desk/which-u-s-state-performs-best-in-the-new-yorker-caption-contest) for the article and [here](http://rpubs.com/apalbright/280904) for the relevant R Notebook for replicating the visuals.[^1][^2]
 
@@ -73,7 +77,11 @@ This visualization illustrates that the most successful caption contest states a
 
 While using quantiles to classify the data into ranges is helpful, it gives us an overly broad last category--the darkest blue class contains states with win totals ranging from 14 to 85. If we want to zoom in and compare the states within this one category, we can pivot to a simple bar chart for precision's sake. The following graph presents the number of contests won among the top ten states:
 
+<figure>
+<center>
 <img src="/post/geography-of-humor-the-case-of-the-new-yorker-caption-contest_files/top103.png" alt="" width="60%" height="60%"/>
+</center>
+</figure>
 
 New York and California are clearly the most dominant states with 85 and 75 wins respectively, which is to be expected considering how populous the two are. If we were to take into account the population size of a given state that would most definitely yield a superior metric in terms of how well each state does in winning the contest. (It would also be interesting to take into account the number of *New Yorker* subscribers by state, but I haven't been able to get a hold on that data yet, so I am putting a pin in that idea for now.)
 
@@ -83,7 +91,11 @@ Therefore, I normalize these counts by creating a new metric: **number of captio
 
 Again, the last category is the one with the broadest range (2.425 to 7.991 wins per million residents). So, once more, it is worth moving away from cool, colorful chropleths and towards the classical bar chart. In comparing the below bar graph with the previous one, one can quickly see the difference made in normalizing by population:
 
+<figure>
+<center>
 <img src="/post/geography-of-humor-the-case-of-the-new-yorker-caption-contest_files/top10cap.png" alt="" width="60%" height="60%"/>
+</center>
+</figure>
 
 For one, the once dominant New York falls behind new-arrivals Vermont and Rhode Island while the similarly previously dominant California is no where to be seen! Other states that also lose their place among the top ten are: Illinois, New Jersey, and Pennsylvania. Meanwhile, the four new states in this updated top ten are: Alaska and New Hampshire as well as the previously mentioned Rhode Island and Vermont. Among these four new arrivals, Vermont stands clearly ahead of the pack with approximately 8 caption contest wins per million residents.
 
@@ -93,7 +105,11 @@ The high counts per million for states like Vermont and Rhode Island suggest a r
 
 Once we have normalized caption contest wins by population, we still have not completely normalized states by their likeliness to win the contest. This is due to the fact that there is a distinct relationship between wins per million residents and evident political markers of *The-New-Yorker*-types. In particular, consider [Gallup's State of the States](https://news.gallup.com/poll/125066/State-States.aspx) measures of **"% liberal"** and **"% nonreligious."** First, I present the strong association between liberal percentages and wins per million:
 
-<img src="/post/geography-of-humor-the-case-of-the-new-yorker-caption-contest_files/libs.png" alt="" width="60%" height="60%"/>
+<figure>
+<center>
+<img src="/post/geography-of-humor-the-case-of-the-new-yorker-caption-contest_files/libs.png" alt="" width="80%" height="80%"/>
+</center>
+</figure>
 
 Source: New Yorker Caption Contest Archive; Tool: ggplot2 package in R.
 The above is a scatterplot in which each point is a state (see the small state abbreviation labels) and the blue line is a linear regression line (the shaded area is the 95% confidence region) fit to the data. The conclusion is unmistakable; states that are more liberal tend to win more contests per million residents. Specifically, the equation for the linear regression line is `$winspermillion = -3.13 + 0.22(pctliberal)$`.
@@ -102,7 +118,11 @@ This means that a 1 percentage point increase in the liberal percentage is assoc
 
 Also strong is the association between nonreligious percentages and wins per million, presented in the graph below:
 
-<img src="/post/geography-of-humor-the-case-of-the-new-yorker-caption-contest_files/nonreg.png" alt="" width="60%" height="60%"/>
+<figure>
+<center>
+<img src="/post/geography-of-humor-the-case-of-the-new-yorker-caption-contest_files/nonreg.png" alt="" width="80%" height="80%"/>
+</center>
+</figure>
 
 This plot is very similar to the previous one, most definitely because states with high liberal percentages are likely to have high nonreligious percentages as well. The linear regression line that is fit for this data is `$winspermillion = -1.37 + 0.09(pctnonreligious)$`.
 

@@ -49,7 +49,11 @@ After coding, I looked into the independence of the six main characters as well 
 
 Before getting into the measurements of two-person dynamics, I present a visualization of the total number of independent plotlines for each character. (Independent plotlines include those ranging from Chandler dealing with his butt-slapping boss to Phoebe dating her sister's stalker.) One can consider this frequency count as a measurement of each character's independence.
 
+<figure>
+<center>
 <img src="/post/the-one-with-all-the-quantifiable-friendships_files/indep.png" alt="" width="80%" height="80%"/>
+</center>
+</figure>
 
 Unsurprisingly, the most independent character is Phoebe, a free spirit who doesn't possess as many ties (familial, romantic, or roommate-related) to the group as do the other five. To quote Rachel in ["The One With The Kips"](http://friends.wikia.com/wiki/The_One_With_The_Kips/Transcript):
 
@@ -65,7 +69,11 @@ Now, we move to the crux of my original question--**is the emotional closeness t
 
 I first approach this question by calculating a basic frequency measure *(Frequency Original)*, the frequency of a given two-person plotline for all the 15 duos over all episodes. The *Frequency Adjusted* measure differs from the former in that it also takes into account plotlines that are not exclusive to the two individuals of interest--in other words, plotlines that include other characters on top of the two characters of interest also add to the duo's count. For instance, the Rachel/Ross/Phoebe Unagi dynamic would add one count to all of the three following dynamics: Rachel/Ross, Phoebe/Rachel, and Phoebe/Ross. Given this simple methodology, I then plot each duo's two frequency measures as follows:
 
+<figure>
+<center>
 <img src="/post/the-one-with-all-the-quantifiable-friendships_files/freq_2person.png" alt="" width="80%" height="80%"/>
+</center>
+</figure>
 
 Regardless of frequency measure used, the most frequent two-person dynamics (marked in green) are obviously Chandler/Monica, Chandler/Joey, and Rachel/Ross (as expected by any occasional viewer of *Friends*). Interestingly enough, Rachel and Ross share more exclusively 2-person plots than do Monica and Chandler (70 to 63) despite the fact that latter duo shares more plots overall than the former (94 to 81). This is most likely due to the fact that Rachel and Ross, an on-again-off-again couple, had a complicated romantic history that could have inhibited them from regularly interacting in larger group plots while Monica and Chandler were friends consistently until dating and then marriage.
 
@@ -75,9 +83,13 @@ Following the top three, using the adjusted frequency measure, are the Joey/Rach
 
 In order to continue exploring the original question of interest, I try presenting the same dataset in a different way. While the previous graph makes evident which relationships are the most featured on the show, it does not clarify the *relative importance* of the other five characters to each of the six friends. That is what the following visualization (using the adjusted frequency measure and constructed using the TikZ package in LaTeX) is for:
 
+<figure>
+<center>
 <img src="/post/the-one-with-all-the-quantifiable-friendships_files/friendsviz1.png" style="center" alt="" width="75%" height="75%"/>
 
 <img src="/post/the-one-with-all-the-quantifiable-friendships_files/friendsviz2.png" style="center" alt="" width="75%" height="75%"/>
+</center>
+</figure>
 
 *This visualization features a figure for each of the six main characters (each character's rectangular and oval-shaped labels use a particular color for ease of viewing). Below the character's rectangular label are the other five characters in descending order of closeness (assuming that closeness is measured by number of shared plot dynamics using the adjusted count method). The dashed arrow between each set of names is the adjusted number of shared plot dynamics, ranging from a low of 12 to a high of 94.*
 
@@ -93,7 +105,12 @@ Lastly, part of me had hoped that Joey's closest relationship would be with Phoe
 
 Thanks to feedback from the people on [/r/DataIsBeautiful](https://www.reddit.com/r/dataisbeautiful/) I decided to try visualizing one single network that includes all the characters rather than illustrating six separate networks:
 
+<figure>
+<center>
 <img src="/post/the-one-with-all-the-quantifiable-friendships_files/friendsplot2.png" style="center" alt="" width="70%" height="70%"/>
+</center>
+</figure>
+
 
 *Most recent visualization of the 'Friends' network using the 'network' package in R.*
 

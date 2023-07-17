@@ -34,13 +34,21 @@ In attempting to illustrate Pixar's evolution over time, I am inclined to use "s
 
 In order to map out Pixar’s trajectory, we plot all 15 movies released by Pixar using differing colors and sizes of data points in order to represent all three aforementioned dimensions of success. In this graph, the main focus of interest is the % Fresh Rotten Tomatoes rating, which specifies what percentage of critic reviews' were positive.[^2] This metric accurately separates out those regularly cited as subpar Pixar movies: Cars, Cars 2, Brave, and Monsters University. We use locally weighted scatterplot smoothing ("loess") to fit a curve to the dataset, thus charting the movement of % Fresh over time. The loess curve shows us that Pixar took a dip in critical acclaim between 2010 and 2015--what with the release of Cars 2, Brave, and Monsters University--however, **Inside Out's release has tugged the loess curve back up to pre-2011 levels!**
 
+<figure>
+<center>
 <img src="/post/the-multidimensional-success-of-pixar-films-visualized_files/pix11.png" alt="" width="85%" height="85%"/>
+</center>
+</figure>
 
 In this sense, *Inside Out* marks a return to the Pixar of emotive toys and robots—not to mention the [most sob-inducing 4 minutes](https://www.youtube.com/watch?v=F2bk_9T482g) in all of animated film history. The above plot also illustrates Pixar's success at the Oscars, with films depicted by blue points as Best Animated Film Academy Award winners. Lastly, in terms of opening weekend gross, we can see that despite being on the lower end of quality ratings, the disappointing movie grouping of *Cars*, *Cars 2*, *Brave*, and *Monsters University* did not make less money during opening weekend than other films. In fact, in comparing these four films to the other 5 films released since 2005, the average opening weekend gross is actually larger -- $79.46 million rather than $75.78 million.
 
 Pivoting from a measure of critical acclaim to a measure of public acclaim in the quality realm, we now plot the same dimensions of success as defined before but we substitute IMDb scores for the Rotten Tomatoes % Fresh metric. This set of scores also suggests mediocrity in *Cars*, *Cars 2*, *Brave*, and *Monsters University* -- however, it also puts *A Bug’s Life* in the same subpar quality category. Again, we use a loess regression line to exhibit the movement in quality ratings of Pixar movies over time. As was the case before, this line also provides evidence of a return to the old Pixar.
 
+<figure>
+<center>
 <img src="/post/the-multidimensional-success-of-pixar-films-visualized_files/pix21.png" alt="" width="85%" height="85%"/>
+</center>
+</figure>
 
 However, there is one element to note about the nature of IMDb scores--that is, [they are often higher when a film is just out](https://www.quora.com/Are-the-IMDB-ratings-accurate). This is because the first people to see and rate films are the hardcore fans, which therefore contributes to a "hype effect," superficially inflating the aggregate rating. This could potentially be an issue in currently measuring the public acclaim of *Inside Out*, as its rating will likely fall to *WALL-E* / *Up* levels as months pass.
 
@@ -68,13 +76,21 @@ In order to address these genuine issues, I made two quick changes to the previo
 
 See the new graphs below.
 
+<figure>
+<center>
 <img src="/post/the-multidimensional-success-of-pixar-films-visualized_files/pix1-11.png" alt="" width="85%" height="85%"/>
 
 <img src="/post/the-multidimensional-success-of-pixar-films-visualized_files/pix1-21.png" alt="" width="85%" height="85%"/>
+</center>
+</figure>
 
 Lastly, I also present a similarly constructed graph with a y-axis corresponding to [Metacritic](http://www.metacritic.com/) scores (to add another quality metric into the mix):
 
+<figure>
+<center>
 <img src="/post/the-multidimensional-success-of-pixar-films-visualized_files/pix1-31.png" alt="" width="85%" height="85%"/>
+</center>
+</figure>
 
 ---
 

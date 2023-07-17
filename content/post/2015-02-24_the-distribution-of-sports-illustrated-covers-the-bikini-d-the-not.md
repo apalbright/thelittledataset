@@ -31,7 +31,11 @@ In order to better comprehend what this means for women in sports, imagine that 
 
 See the following visualization to get more of a feeling for the aforementioned statistics and note the proximity between the frequency of female athlete covers and that of female swimsuit model covers.[^2]
 
+<figure>
+<center>
 <img src="/post/the-distribution-of-sports-illustrated-covers-the-bikini-d-the-not_files/si1.png" alt=""/>
+</center>
+</figure>
 
 It is also interesting to note that if *SI* were to have required the same ratio of athletes/coaches to swimsuit models for men that held for women over this five year time period (7 swimsuit models for every 13 athlete/coach covers) there would have been **241** SI issues with male swimsuit models on the cover from 2010-2014. That is approximately 48 issues with male swimsuit models on the cover per year!
 
@@ -51,7 +55,11 @@ Make of that what you will... I'm off to eat a cheeseburger in a bikini.
 
 This surge in female athlete representation majorly affects the graphs that I had previously made on this subject, so I decided to make a new visual to communicate the remarkable nature of the year of 2015 for "The *Sports Illustrated* Female Athlete." See below:
 
+<figure>
+<center>
 <img src="/post/the-distribution-of-sports-illustrated-covers-the-bikini-d-the-not_files/si2.png" alt=""/>
+</center>
+</figure>
 
 ---
 

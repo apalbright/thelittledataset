@@ -31,7 +31,11 @@ In response to the former, in the long run, Friday is actually the day of the we
 
 See below for a visualization of Friday the 13th (F13 from now on) frequencies over the past three decades:
 
+<figure>
+<center>
 <img src="/post/tgi-friday-the-13th_files/fri13bar.png" alt="" width="70%" height="70%"/>
+</center>
+</figure>
 
 It is obvious from this graph that each of the past thirty years contain at least one F13. This is because it is actually impossible to have a year without any F13's. In fact, this fact is pretty quickly mathematically proven. (See proof [here](https://math.stackexchange.com/questions/59135/prove-that-every-year-has-at-least-one-friday-the-13th)!)
 

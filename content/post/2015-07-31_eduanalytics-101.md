@@ -112,7 +112,9 @@ The histograms for the three schools present incredibly similar distributions--t
 
 Since we have discussed views and other metrics both across classes and departments, it is worth mentioning what the Edusalsa metrics look like over individual users. Specifically, we are curious how many times unique users view courses through Edusalsa. In examining this, we are inherently examining the level of "stickiness" of the site and the aggregated view of how users interact with new course tools. In this case, the stickiness level is low, as illustrated below by both (i) a quickly plunging number of unique individuals as the number of course views grows, and (ii) a linear decline of number of unique individuals as the number of course views grows when using a log-log plot.[^6]
 
+<center>
 <img src="/post/eduanalytics-101_files/stick1.png" alt="" width="60%" height="60%"/>
+</center>
 
 The negative linear relationship between the log transformed variables in the second panel (evidenced by the good fit of the above blue line) is indicative of the negative exponential form of the relationship between number of course views and number of unique individuals.[^7]  This simply indicates that, as is the case with most new applications, so-called stickiness is low. It will be interesting to see whether this changes given the new addition of the ability to create an account.
 
