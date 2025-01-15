@@ -8,7 +8,7 @@ This blog, **The Little Dataset That Could**, functions as an informal outlet fo
 
 Looking for toy data or code snippets? I catalog the data and code for my blog projects [here](https://thelittledataset.com/my-resources/).
 
-I always enjoy connecting with people about random datasets, pretty graphs, R, etc. Feel free to get in touch via email (`alex@albrightalex.com`) or bird app ([@allbriteallday](https://twitter.com/AllbriteAllday)).
+I always enjoy connecting with people about random datasets, pretty graphs, R, etc. Feel free to get in touch via email (`alex@albrightalex.com`) or bluesky ([@allbriteallday](https://bsky.app/profile/allbriteallday.bsky.social)).
 
 You can learn about my academic research projects on my professional website [here](https://www.albrightalex.com/).
 
